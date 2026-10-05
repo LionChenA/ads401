@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Evaluating AI Integration at XJTLU — ADS401 Group A</title>
+  <meta name="description" content="ADS401 Group A group project: an empirical HCI evaluation of AI integration at XJTLU. Plan, method, findings and recommendations." />
+  <style>
+    :root {
+      --text: #1a202c; --muted: #4a5568; --line: #e2e8f0;
+      --accent: #2b6cb0; --bg: #ffffff; --chip-bg: #ebf8ff; --chip-text: #2c5282;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0; background: var(--bg); color: var(--text);
+      font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    main, header, footer { max-width: 52rem; margin: 0 auto; padding: 0 1.25rem; }
+    header { padding-top: 3rem; }
+    h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 .5rem; }
+    .subtitle { color: var(--muted); margin: 0 0 1.5rem; }
+    nav[aria-label="Sections"] {
+      position: sticky; top: 0; background: var(--bg); z-index: 1;
+      border-bottom: 1px solid var(--line); padding: .6rem 0; margin-bottom: 2rem;
+      display: flex; flex-wrap: wrap; gap: .35rem 1rem;
+    }
+    nav a { color: var(--accent); text-decoration: none; font-size: .92rem; }
+    nav a:hover { text-decoration: underline; }
+    section { scroll-margin-top: 3.5rem; margin-bottom: 2.5rem; }
+    h2 { font-size: 1.35rem; border-bottom: 2px solid var(--line); padding-bottom: .3rem; }
+    h3 { font-size: 1.05rem; margin-bottom: .3rem; }
+    .status {
+      display: inline-block; font-size: .78rem; font-weight: 600;
+      background: var(--chip-bg); color: var(--chip-text);
+      border-radius: 999px; padding: .1rem .65rem; vertical-align: middle; margin-left: .5rem;
+    }
+    table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+    th, td { border: 1px solid var(--line); padding: .45rem .7rem; text-align: left; vertical-align: top; }
+    th { background: #f7fafc; }
+    ul { padding-left: 1.3rem; }
+    li + li { margin-top: .25rem; }
+    a { color: var(--accent); }
+    footer { color: var(--muted); font-size: .88rem; border-top: 1px solid var(--line); padding: 1.25rem; margin: 3rem auto 2rem; }
+    .draft-note { color: var(--muted); font-style: italic; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Evaluating AI Integration at XJTLU</h1>
+    <p class="subtitle">ADS401 Evaluation Methods and Statistics · Group A · XJTLU · 2026–27 Semester 1<br />
+      Hongcheng TANG · Mingjian TAO · Liyuan CHEN · Haode SHEN</p>
+  </header>
+
+  <nav aria-label="Sections">
+    <a href="#glance">At a glance</a>
+    <a href="#problem">Problem &amp; RQs</a>
+    <a href="#background">Background</a>
+    <a href="#design">Evaluation design</a>
+    <a href="#analysis">Analysis</a>
+    <a href="#findings">Findings</a>
+    <a href="#discussion">Discussion</a>
+    <a href="#transparency">Transparency</a>
+  </nav>
+
+  <main>
+    <section id="glance">
+      <h2>1 · Project at a glance</h2>
+      <p><strong>Working title (draft):</strong> Awareness, adoption and barriers of campus AI services among 2026-cohort ADS401 students at XJTLU.</p>
+      <p><strong>Summary (draft):</strong> An empirical HCI evaluation of how first-year ADS401 students (cohort ≈ 50) encounter and use XJTLU's campus AI services — and, just as importantly, why many do not. We aim for a coherent evidence chain from research questions through mixed-methods evidence to practical recommendations.</p>
+      <p><strong>System under evaluation:</strong> <span class="draft-note">candidate: XJTLU AI Agent Platform — pending group confirmation and module-team approval</span> (link to be added once confirmed).</p>
+
+      <h3>Status &amp; timeline</h3>
+      <table>
+        <thead><tr><th>Date</th><th>Milestone</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>5 Oct 2026</td><td>Project plan published on this page</td><td><strong>Today</strong></td></tr>
+          <tr><td>by 12 Oct</td><td>System + research questions frozen; survey &amp; interview scripts, information sheet, consent form drafted</td><td>Planned</td></tr>
+          <tr><td>19 Oct</td><td>Presentation 2 — evaluation design + pilot data</td><td>Planned</td></tr>
+          <tr><td>by 2 Nov</td><td>Full data collection complete</td><td>Planned</td></tr>
+          <tr><td>9 Nov</td><td>Presentation 3 — statistical analysis &amp; results</td><td>Planned</td></tr>
+          <tr><td>30 Nov / 1 Dec</td><td>Poster exhibition + final web report submission</td><td>Planned</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="problem">
+      <h2>2 · Problem, motivation and research questions <span class="status">Draft — pending group confirmation</span></h2>
+      <p><strong>Context and users.</strong> AI is being integrated into everyday university life at XJTLU. Our target population is the 2026-intake ADS401 cohort (≈ 50 students) — a group that lives inside this integration and to whom we have direct access.</p>
+      <p><strong>The evaluation problem.</strong> University AI services are built on an assumption of use, but adoption is not guaranteed. Rather than asking whether an AI system is "good", we investigate the gap between availability and actual use.</p>
+      <ul>
+        <li><strong>RQ1 (Awareness):</strong> Are 2026-cohort ADS401 students aware of the campus AI services available to them?</li>
+        <li><strong>RQ2 (Adoption &amp; use):</strong> Which services do they use, for which academic tasks, and how?</li>
+        <li><strong>RQ3 (Barriers):</strong> What barriers explain non-use or abandonment?</li>
+      </ul>
+      <p><strong>Scope of claims.</strong> Findings will be bounded to the 2026 ADS401 cohort; with a ≈ 50-person population and a census-adjacent sample, we can make strong descriptive claims about this cohort but no general claims about XJTLU as a whole.</p>
+    </section>
+
+    <section id="background">
+      <h2>3 · Background and related work <span class="status">In progress</span></h2>
+      <p class="draft-note">To be developed alongside Week 4–6 course materials (surveys, interviews): technology-adoption literature, chatbot/agent evaluation in education contexts, and the gap this study addresses.</p>
+    </section>
+
+    <section id="design">
+      <h2>4 · System and evaluation design <span class="status">Draft sketch</span></h2>
+      <ul>
+        <li><strong>Method (planned):</strong> anonymous online survey across the ≈ 50-student cohort (target ≥ 20 responses, census-adjacent) + 6–8 semi-structured interviews; mixed-methods.</li>
+        <li><strong>Design constraint:</strong> cohort is too small for powered between-group comparisons — descriptive statistics, correlations and qualitative themes instead.</li>
+        <li><strong>Sampling:</strong> sampling frame = the full cohort; non-response will be analysed and reported.</li>
+        <li><strong>Ethics (planned):</strong> information sheet + informed consent, anonymity, minimal data collection; <strong>no raw participant data will appear on this site or in this repository</strong>, per module policy.</li>
+      </ul>
+      <p class="draft-note">Full procedure, measures, materials (survey script, interview guide, consent form) to be added before Presentation 2 (19 Oct).</p>
+    </section>
+
+    <section id="analysis">
+      <h2>5 · Data preparation and analysis <span class="status">Upcoming</span></h2>
+      <p class="draft-note">Analysis plan (software, cleaning, tests, effect sizes) will be documented before Presentation 3 (9 Nov).</p>
+    </section>
+
+    <section id="findings">
+      <h2>6 · Findings <span class="status">Upcoming</span></h2>
+      <p class="draft-note">Direct answers to RQ1–RQ3, with figures, statistics and anonymised quotes — added after data collection.</p>
+    </section>
+
+    <section id="discussion">
+      <h2>7 · Discussion, limitations and recommendations <span class="status">Upcoming</span></h2>
+      <p class="draft-note">Interpretation, alternative explanations, limitations, and evidence-based recommendations for AI integration at XJTLU.</p>
+    </section>
+
+    <section id="transparency">
+      <h2>8 · Transparency and references <span class="status">Upcoming</span></h2>
+      <ul>
+        <li><strong>Contribution statement:</strong> per-member contributions documented at final submission.</li>
+        <li><strong>AI-use statement:</strong> any AI assistance is non-substantive per module policy; tools, versions and purposes will be cited in the final reference list.</li>
+        <li><strong>References:</strong> IEEE numbered, added as cited.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    Last updated: 5 October 2026 ·
+    <a href="https://github.com/LionChenA/ads401">github.com/LionChenA/ads401</a> ·
+    ADS401 Group A
+  </footer>
+</body>
+</html>
