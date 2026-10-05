@@ -9,7 +9,7 @@ ADS401 Evaluation Methods and Statistics · XJTLU · 2026–27 Sem1
 
 | Now | Blocked on | Next |
 |---|---|---|
-| Pres2 materials: topic freeze, survey/interview scripts, info sheet + consent form | **D-04: evaluation object (group vote)** | Confirm decision rule (Agreement §2); freeze topic by 12 Oct |
+| Survey instrument design — question backlog open ([QUESTIONS.md](QUESTIONS.md), 16 questions) | D-04 评估对象 + Q3 scope fork (campus vs general AI) | Answer Q3 + Q4, then scale research (Q1) |
 
 ## Working agreements
 
