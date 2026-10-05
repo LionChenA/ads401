@@ -19,7 +19,7 @@ poster session are assessed on this).
 ## 2. Decisions
 
 Consensus; no objection within 24h = passed; deadlock → deliverable owner decides. Only entries
-in `DECISIONS.md` bind. **[clause pending group confirmation — Q-C]**
+in `DECISIONS.md` bind. *(Ratified at first standup: ______)*
 
 ## 3. Rhythm
 

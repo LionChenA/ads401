@@ -15,17 +15,14 @@
 
 ## B. Scope & constructs
 
-- **Q3. [BLOCKING]** Scope of "AI" in the survey: **campus services only** (links to D-04) or
-  **students' general AI use** (ChatGPT etc.)? This single fork rewrites items, sampling and the
-  findings chapter. Our RQ draft assumed campus services; the census ambition says "AI usage"
-  broadly. Must be settled first.
+- **Q3. [ANSWERED 2026-10-05: hybrid]** Scope: **campus AI services as the core construct block** (system per D-04) **+ 2–3 items on general AI use (ChatGPT etc.) as context/explanatory variables** — general use helps explain campus non-use while keeping the brief's "one specific XJTLU context".
 - **Q4.** Which constructs map to which RQ — awareness / adoption / barriers, plus attitude or
   trust? Which can we defensibly drop?
 
 ## C. Sampling & reach
 
-- **Q5.** Census ambition: invite all ~50? What response-rate floor keeps claims
-  census-adjacent (≥20? ≥30?)?
+- **Q5.** Census ambition confirmed (2026-10-05): invite **all ~50**. Remaining: what response-rate
+  floor keeps claims census-adjacent (≥20? ≥30?) — settles once reach channels are known.
 - **Q6.** Reach channels: cohort group chat, seminar slot, paper fallback — and what
   permissions each channel needs.
 - **Q7.** How do we capture non-response (who didn't answer, why) — the robust-sampling marks
@@ -59,6 +56,7 @@
 
 ## Sequencing
 
-- Before drafting items: **Q1–Q4** (literature research + group decision on Q3).
+- Before drafting items: **Q1–Q2 (scale research — now the first research task), Q4** (construct
+  mapping), and **D-04** (which campus system is the core).
 - Before fielding: Q5–Q13 + ethics flow (Q8).
 - Hard clock: pilot by **~15 Oct**; fielding window **19 Oct – 2 Nov**; Pres3 **9 Nov**.

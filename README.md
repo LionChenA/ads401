@@ -9,7 +9,7 @@ ADS401 Evaluation Methods and Statistics · XJTLU · 2026–27 Sem1
 
 | Now | Blocked on | Next |
 |---|---|---|
-| Survey instrument design — question backlog open ([QUESTIONS.md](QUESTIONS.md), 16 questions) | D-04 评估对象 + Q3 scope fork (campus vs general AI) | Answer Q3 + Q4, then scale research (Q1) |
+| Survey item drafting prep | **D-04: which campus system** (vote) + **Q1–Q2 scale research** | Say "研 Q1" → literature pass; construct map (Q4); pilot by ~15 Oct |
 
 ## Working agreements
 
