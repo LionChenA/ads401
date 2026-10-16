@@ -11,8 +11,8 @@ cd site && npm install      # Astro (web report)
 cd ../slides && npm install # Slidev (presentation deck)
 ```
 
-Requirements: Node 20+. First `astro build`/`slidev export` downloads a
-Chromium for rendering.
+Requirements: Node 20+. First `slidev export` downloads a Chromium for PDF
+rendering.
 
 ## Everyday flow
 

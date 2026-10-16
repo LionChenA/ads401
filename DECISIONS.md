@@ -78,7 +78,8 @@
 
 ## R-7 · Slide visual spec as a project skill
 - **Status**: Accepted (2026-10-17, user-approved)
-- **Decision**: The teammate's `slides-promt.md` is abstracted into the
+- **Decision**: The teammate's `slides-promt.md` (sic — original filename) is
+  abstracted into the
   project skill [`.agents/skills/slides-style/SKILL.md`](.agents/skills/slides-style/SKILL.md)
   (seven-region layout, palette tokens, research-integrity rules; PPTX-output
   noise removed, repo paths bound). Skill = design spec; executable tokens

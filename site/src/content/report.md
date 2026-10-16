@@ -213,7 +213,8 @@ Hongcheng TANG. (Final wording to be confirmed at submission.)
 Permitted non-substantive AI use only. Claude (Anthropic), via the omp coding
 agent, was used for drafting-support and formatting of this page and the
 presentation slides; all research questions, design decisions, instruments
-and interpretations are the authors' own. Full log: group AI_LOG.
+and interpretations are the authors' own. Full disclosure log kept in the
+group's working repository.
 
 ### Data and materials availability
 
