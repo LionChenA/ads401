@@ -27,14 +27,17 @@
 - **Rationale**: Coursework sheet rule and ethics; public repo makes the
   constraint self-enforcing.
 
-## R-3 · Single-page SPA, deploy on merge
-- **Status**: Accepted (2026-10-17, user-approved)
-- **Decision**: The web report is **one page** (`index.html` at repo root,
-  sticky anchor navigation, no sub-pages), hosted by **branch Pages from
-  `main`**: merging to `main` publishes. No extra deployment gate, no preview
-  environment — review happens at the PR.
-- **Rationale**: Coursework sheet mandates a single hosted page and encourages
-  anchor navigation; code quality is unmarked, so the simplest pipeline wins.
+## R-3 · Single-page report, deploy on merge
+- **Status**: Accepted (2026-10-17, user-approved; deployment reworked same day)
+- **Decision**: The web report is **one static page** (no sub-pages, sticky
+  anchor navigation). Pushing to `main` triggers the **official Astro GitHub
+  Pages workflow**, which builds the site and deploys it: merge = deploy. No
+  extra deployment gates or preview environments — review happens at the PR.
+  Build output is never committed to the repository.
+- **Rationale**: The coursework sheet mandates a single hosted page and
+  encourages anchor navigation; code quality is unmarked. CI deploy is the
+  official Astro path and eliminates the stale-artifact failure mode of
+  committing build output by hand.
 
 ## R-4 · Three-layer content sources (CORE maintenance contract)
 - **Status**: Accepted (2026-10-17, user-approved)
@@ -54,10 +57,11 @@
 - **Decision**: The page is built with **Astro**, initialised per official
   docs (`npm create astro@latest`, minimal template) into `site/` — no
   hand-rolled scaffolding. Config: `output: 'static'`, zero client JS,
-  `build.inlineStylesheets: 'always'`. The rendered `index.html` is committed
-  at the repo root (deploy mechanism unchanged). Evaluated alternatives:
-  Pandoc (fewer deps, no dev server) and Eleventy; Astro won on content/layout
-  separation, dev-server iteration, and agent-ecosystem maturity.
+  `build.inlineStylesheets: 'always'`. Deployment runs via the official
+  Astro GitHub Pages workflow (R-3); build output stays out of git. Evaluated
+  alternatives: Pandoc (fewer deps, no dev server) and Eleventy; Astro won on
+  content/layout separation, dev-server iteration, and agent-ecosystem
+  maturity.
 - **Rationale**: The repository owner maintains the toolchain long-term and
   wants content/style separation with fast style iteration.
 

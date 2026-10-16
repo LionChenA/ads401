@@ -10,8 +10,8 @@ Orientation: [README.md](README.md).
   generic suggestions), cited in the report.
 - Findings say **pending** until data exists. No invented numbers, no causal
   claims from this cross-sectional design.
-- **`main` is deploy-on-merge** (branch Pages) and takes **PRs only** — owner
-  included. Never push directly.
+- **`main` is deploy-on-merge** (official Astro GitHub Pages workflow) and
+  takes **PRs only** — owner included. Never push directly.
 - Artifact naming per coursework sheet: `ADS401_GroupA_*`.
 
 ## Content architecture (three layers)
@@ -30,8 +30,9 @@ Orientation: [README.md](README.md).
   with **atomic commits**: `type(scope): subject`
   (docs|feat|fix|chore|refactor|ci × site|slides|infra|decisions|skills),
   one logical change each, stage by name — never `git add .` / `-A`.
-- Build via `package.json` scripts (root = page, `slides/` = deck). Commit the
-  rendered `index.html`; never `node_modules/`, `dist/`, `.astro/`, PDFs.
+- Build via `package.json` scripts (root = page, `slides/` = deck). The repo
+  holds **source only**: never commit `node_modules/`, `dist/`, `.astro/`,
+  build output, or PDFs.
 
 ## Skills
 
