@@ -38,3 +38,8 @@ Orientation: [README.md](README.md).
 
 - `.agents/skills/slides-style/` — load before touching deck layout or style
   (spec lives there; tokens in `slides/styles/index.css`).
+- `agent-browser` CLI — rendered-output feedback loop:
+  `open` → `eval`/`snapshot`/`read --outline` → `errors`/`console` →
+  `screenshot --if-changed`. Usage is **not vendored** — get version-matched
+  instructions with `agent-browser skills get`. Install: `npm install -g
+  agent-browser` (R-13).

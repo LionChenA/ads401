@@ -9,6 +9,7 @@ in [DECISIONS.md](DECISIONS.md). This file is the practical how-to.
 git clone git@github.com:LionChenA/ads401.git && cd ads401
 cd site && npm install      # Astro (web report)
 cd ../slides && npm install # Slidev (presentation deck)
+npm install -g agent-browser && agent-browser install  # optional: rendered-output feedback loop for agents
 ```
 
 Requirements: Node 20+. First `slidev export` downloads a Chromium for PDF

@@ -134,3 +134,20 @@
   Chinese glosses are allowed in speaker notes and internal working docs only.
 - **Rationale**: The assessed artifacts are presented and marked in English;
   bilingual slide text would overcrowd the seven-region layout.
+
+## R-13 · Rendered-output feedback loop: agent-browser
+- **Status**: Accepted (2026-10-17, user-selected)
+- **Decision**: Agents verify rendered output through
+  [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser)
+  (install: `npm install -g agent-browser`), not by hand-editing and eyeballing.
+  Loop: `npm run dev` → `agent-browser open <url>` → `snapshot` / `eval` /
+  `read --outline` (structure assertions) → `errors` + `console` (runtime) →
+  `screenshot --if-changed` (visual). Usage instructions are **not vendored**:
+  run `agent-browser skills get` — the CLI serves version-matched skill content.
+  Evaluated alternatives: chrome-devtools-mcp (official Google), playwright-mcp
+  (official Microsoft), built-in harness tools (harness-private, not shareable).
+- **Rationale**: Bash-native CLI (no resident MCP server/context overhead),
+  first-class console/error capture, token-thrifty change-aware screenshots,
+  official skill channel that never goes stale, Apache-2.0, Vercel Labs.
+  Performance tracing was the only advantage of chrome-devtools-mcp and is
+  irrelevant to a zero-JS static site.
