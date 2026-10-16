@@ -1,0 +1,16 @@
+{
+  "name": "ads401-slides",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export --output ADS401_GroupA_Presentation2Slides.pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "^51.4.0",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "playwright-chromium": "^1.49.0"
+  }
+}

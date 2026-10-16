@@ -1,18 +1,36 @@
-# Local drafts and temporary assets
+# Adapted from github/gitignore Node.gitignore for this repo:
+# root = Astro web report · slides/ = Slidev deck (source tracked, artifacts not)
+
+# Dependencies
+node_modules/
+
+# Build outputs — deployed by GitHub Actions, never committed
+dist/
+.astro/
+.output/
+
+# Exported artifacts (rebuilt from source; LMS submissions)
+slides/*.pdf
+slides/supplementary.html
+slides/flow.svg
+
+# Local drafts and temporary files
 *.tmp
 *.local
 *.draft
 *.bundle
 
-# Slidev & build outputs
-slides/
-dist/
-node_modules/
-.output/
+# Environment & secrets
+.env
+.env.*
+!.env.example
 
-# OS & editor metadata
+# Logs
+*.log
+npm-debug.log*
+
+# OS & editors
 .DS_Store
 Thumbs.db
-*.log
 .vscode/
 .idea/

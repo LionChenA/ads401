@@ -1,0 +1,99 @@
+/* Seven-region academic style — spec: .agents/skills/slides-style (R-7).
+   Selectors are scoped under .slidev-layout so global styles do not leak
+   into the Slidev presenter UI. */
+
+.slidev-layout {
+  --ink: #172327;
+  --teal: #183f46;
+  --muted: #687780;
+  --line: #ced5d7;
+  --accent: #1683a5;
+  background: #ffffff;
+}
+
+/* Region 1: section label (top-left) */
+.slidev-layout .section-label {
+  position: absolute;
+  top: 0.35rem;
+  left: 1.1rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--teal);
+  text-transform: uppercase;
+}
+
+/* Region 2: slide title */
+.slidev-layout .deck-title {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+/* Top divider under the title */
+.slidev-layout .top-divider {
+  border: none;
+  border-top: 1.5px solid var(--line);
+  margin: 0.45rem 0 0.9rem;
+}
+
+/* Region 3: content headings */
+.slidev-layout .content-h {
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  text-transform: uppercase;
+  margin-bottom: 0.3rem;
+}
+
+/* Region 5: key takeaway */
+.slidev-layout .takeaway {
+  position: absolute;
+  left: 1.1rem;
+  right: 1.1rem;
+  bottom: 1.55rem;
+  font-size: 1.12rem;
+  font-weight: 700;
+  color: var(--teal);
+}
+
+/* Bottom divider */
+.slidev-layout .bottom-divider {
+  position: absolute;
+  left: 1.1rem;
+  right: 1.1rem;
+  bottom: 1.35rem;
+  border: none;
+  border-top: 1px solid var(--line);
+}
+
+/* Region 6: references (bottom-left) */
+.slidev-layout .slide-refs {
+  position: absolute;
+  left: 1.1rem;
+  bottom: 0.45rem;
+  right: 4rem;
+  font-size: 0.62rem;
+  color: var(--muted);
+}
+
+/* Region 7: page number (bottom-right) */
+.slidev-layout .page-no {
+  position: absolute;
+  right: 1.1rem;
+  bottom: 0.45rem;
+  font-size: 0.68rem;
+  color: var(--muted);
+}
+
+/* RQ / content cards */
+.slidev-layout .rcard {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.55rem 0.7rem;
+  text-align: left;
+}
+
+.slidev-layout .rcard b {
+  color: var(--accent);
+}
