@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import { unified } from '@astrojs/markdown-remark';
 import rehypeSlug from 'rehype-slug';
 
 // https://astro.build/config
@@ -11,6 +12,8 @@ export default defineConfig({
     inlineStylesheets: 'always',
   },
   markdown: {
-    rehypePlugins: [rehypeSlug],
+    processor: unified({
+      rehypePlugins: [rehypeSlug],
+    }),
   },
 });
