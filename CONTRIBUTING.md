@@ -7,8 +7,8 @@ in [DECISIONS.md](DECISIONS.md). This file is the practical how-to.
 
 ```bash
 git clone git@github.com:LionChenA/ads401.git && cd ads401
-npm install                 # root: Astro (web report)
-cd slides && npm install    # Slidev (presentation deck)
+cd site && npm install      # Astro (web report)
+cd ../slides && npm install # Slidev (presentation deck)
 ```
 
 Requirements: Node 20+. First `astro build`/`slidev export` downloads a
@@ -23,7 +23,7 @@ Chromium for rendering.
    prints). **This includes the repository owner** — `main` takes PRs only.
 4. Review the PR diff; merging to `main` deploys (GitHub Actions builds the
    site). Nothing else to operate.
-5. Preview before pushing: `npm run dev` at root (page) and in `slides/`
+5. Preview before pushing: `npm run dev` in `site/` (page) and in `slides/`
    (deck).
 
 ## Content updates

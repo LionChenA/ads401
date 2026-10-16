@@ -30,9 +30,9 @@ Orientation: [README.md](README.md).
   with **atomic commits**: `type(scope): subject`
   (docs|feat|fix|chore|refactor|ci × site|slides|infra|decisions|skills),
   one logical change each, stage by name — never `git add .` / `-A`.
-- Build via `package.json` scripts (root = page, `slides/` = deck). The repo
-  holds **source only**: never commit `node_modules/`, `dist/`, `.astro/`,
-  build output, or PDFs.
+- Build via `package.json` scripts (`site/` = page, `slides/` = deck). The
+  repo holds **source only**: never commit `node_modules/`, `dist/`,
+  `.astro/`, build output, or PDFs.
 
 ## Skills
 

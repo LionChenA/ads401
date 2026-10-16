@@ -28,7 +28,7 @@ here after collection (November 2026).
 ## Quick start
 
 ```bash
-npm install && npm run dev        # web report preview (root)
+cd site && npm install && npm run dev     # web report preview
 cd slides && npm install && npm run dev   # deck preview
 ```
 
