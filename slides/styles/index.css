@@ -2,7 +2,7 @@
    unified with web report R-14). slides.md carries CONTENT ONLY; every visual
    decision lives here as a semantic class. Scoped under .slidev-layout so
    nothing leaks into the Slidev presenter UI.
-   Legibility floor: no text below 14px (0.875rem) on the 980x540 canvas. */
+   Legibility floor: no text below 20px (1.25rem) on the 980x540 canvas. */
 
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,500&family=Inter:wght@400;500;600;700&display=swap');
 
@@ -31,7 +31,7 @@
 /* ---------- shared: title zone ---------- */
 
 .slidev-layout .deck-title {
-  font-size: 1.55rem;
+  font-size: 1.75rem;
   margin-top: 1.2rem;
   font-weight: 700;
   color: var(--ink);
@@ -39,8 +39,8 @@
 }
 
 .slidev-layout .deck-title--outline {
-  font-size: 1.65rem;
-  margin-top: 1.5rem;
+  font-size: 1.85rem;
+  margin-top: 1.2rem;
 }
 
 .slidev-layout .top-divider {
@@ -52,9 +52,9 @@
 /* ---------- shared: kicker + column scaffolding ---------- */
 
 .slidev-layout .kicker {
-  font-size: 0.875rem;
+  font-size: 1.25rem;
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   color: var(--muted);
   text-transform: uppercase;
 }
@@ -88,17 +88,17 @@
 
 .slidev-layout .card-title {
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: 1.35rem;
   color: var(--ink);
   margin-top: 0.15rem;
 }
 
 .slidev-layout .lead-title {
   font-weight: 700;
-  font-size: 1.05rem;
+  font-size: 1.5rem;
   color: var(--ink);
   margin-top: 0.35rem;
-  line-height: 1.35;
+  line-height: 1.3;
 }
 
 .slidev-layout .lead-title--teal   { color: var(--teal); }
@@ -106,9 +106,9 @@
 
 .slidev-layout .body-text {
   margin-top: 0.8rem;
-  font-size: 0.875rem;
+  font-size: 1.25rem;
   color: var(--ink);
-  line-height: 1.6;
+  line-height: 1.55;
 }
 
 .slidev-layout .body-text p {
@@ -120,25 +120,22 @@
 }
 
 .slidev-layout .note-text {
-  font-size: 0.875rem;
+  font-size: 1.25rem;
   color: var(--muted);
-  line-height: 1.6;
+  line-height: 1.5;
   margin-top: 0.6rem;
 }
 
 .slidev-layout .dense-list {
   padding-left: 1.1rem;
   margin: 0;
-  font-size: 0.875rem;
+  font-size: 1.25rem;
   color: var(--ink);
-  line-height: 1.55;
+  line-height: 1.5;
 }
 
-.slidev-layout .flow-note {
-  color: var(--accent);
-  font-weight: 700;
-  font-size: 0.875rem;
-  margin: 0.35rem 0;
+.slidev-layout .dense-list li {
+  margin-bottom: 0.35rem;
 }
 
 .slidev-layout .t-accent { color: var(--accent); }
@@ -146,26 +143,26 @@
 /* ---------- Slide 1 · cover ---------- */
 
 .slidev-layout .cover-frame {
-  margin-top: 3.5rem;
-  padding: 2.2rem 2.6rem 1.8rem;
+  margin-top: 3rem;
+  padding: 2rem 2.4rem 1.6rem;
   border: 1px solid var(--line);
   outline: 1px solid var(--line);
   outline-offset: 3px;
-  max-width: 90%;
+  max-width: 92%;
   background: #fff;
 }
 
 .slidev-layout .cover-kicker {
-  font-size: 0.875rem;
+  font-size: 1.25rem;
   font-weight: 600;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.14em;
   color: var(--accent);
 }
 
 .slidev-layout .cover-title {
-  font-size: 2.35rem;
+  font-size: 2.6rem;
   margin-top: 0.9rem;
-  line-height: 1.25;
+  line-height: 1.22;
   font-weight: 700;
   color: var(--ink);
 }
@@ -174,36 +171,21 @@
   color: var(--teal);
   font-family: Newsreader, Georgia, serif;
   font-style: italic;
-  font-size: 1.08rem;
+  font-size: 1.35rem;
   margin-top: 0.7rem;
 }
 
 .slidev-layout .cover-meta {
-  margin-top: 2.6rem;
-  font-size: 1rem;
+  margin-top: 2.2rem;
+  font-size: 1.35rem;
   color: var(--ink);
 }
 
 .slidev-layout .cover-date {
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: 1.25rem;
   margin-top: 0.35rem;
   display: inline-block;
-}
-
-/* ---------- Slide 3 · research-aim strip ---------- */
-
-.slidev-layout .strip-label {
-  font-weight: 700;
-  color: var(--teal);
-  font-size: 0.95rem;
-}
-
-.slidev-layout .strip-text {
-  font-size: 0.875rem;
-  color: var(--ink);
-  margin-left: 0.5rem;
-  line-height: 1.5;
 }
 
 /* ---------- Slide 4 · RQ rows ---------- */
@@ -215,7 +197,7 @@
 .slidev-layout .rq-name {
   display: block;
   font-weight: 800;
-  font-size: 0.95rem;
+  font-size: 1.35rem;
   color: var(--teal);
 }
 
@@ -225,31 +207,16 @@
 .slidev-layout .rq-q {
   display: block;
   margin-top: 0.15rem;
-  font-size: 0.95rem;
+  font-size: 1.35rem;
   font-weight: 600;
   color: var(--ink);
   text-align: left;
 }
 
-.slidev-layout .rq-desc {
-  font-size: 0.875rem;
-  color: var(--muted);
-  margin: 0.35rem 0 0;
-  line-height: 1.5;
-}
-
-/* ---------- Slide 8 · next-steps emphasis ---------- */
-
-.slidev-layout .next-steps {
-  margin: 0.2rem 0;
-  color: var(--teal);
-  font-weight: 600;
-}
-
 /* ---------- Slide 9 · Q&A ---------- */
 
 .slidev-layout .qa-wrap {
-  margin-top: 3.2rem;
+  margin-top: 2.6rem;
   text-align: center;
 }
 
@@ -263,14 +230,14 @@
 .slidev-layout .qa-sub {
   font-family: Newsreader, Georgia, serif;
   font-style: italic;
-  font-size: 1.25rem;
+  font-size: 1.45rem;
   color: var(--muted);
   margin-top: 0.8rem;
 }
 
 .slidev-layout .qa-card {
-  margin: 2rem auto 0;
-  max-width: 28rem;
+  margin: 1.8rem auto 0;
+  max-width: 32rem;
   padding: 1.1rem 1.4rem;
   border: 1px solid var(--line);
   border-radius: 6px;
@@ -279,30 +246,30 @@
 }
 
 .slidev-layout .qa-card-title {
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   font-weight: 700;
   color: var(--teal);
   margin-bottom: 0.4rem;
 }
 
 .slidev-layout .qa-links {
-  font-size: 0.875rem;
+  font-size: 1.25rem;
   color: var(--ink);
-  line-height: 1.7;
+  line-height: 1.65;
 }
 
-/* ---------- Slide 11 · full reference list ---------- */
+/* ---------- Slide 10 · full reference list ---------- */
 
 .slidev-layout .ref-list {
   margin: 0.4rem 0 0;
   padding-left: 1.5rem;
-  font-size: 0.875rem;
+  font-size: 1.25rem;
   color: var(--ink);
-  line-height: 1.38;
+  line-height: 1.28;
 }
 
 .slidev-layout .ref-list li {
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.25rem;
 }
 
 .slidev-layout .ref-list li a {
@@ -314,14 +281,14 @@
 /* ---------- AI-use disclosure strip ---------- */
 
 .slidev-layout .disclosure {
-  margin-top: 2.2rem;
+  margin-top: 1.2rem;
   border: 1px solid var(--line);
   border-radius: 6px;
   background: var(--paper);
   padding: 0.55rem 0.9rem;
-  font-size: 0.875rem;
+  font-size: 1.25rem;
   color: var(--muted);
-  line-height: 1.5;
+  line-height: 1.45;
   text-align: left;
 }
 

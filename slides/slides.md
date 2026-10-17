@@ -42,119 +42,45 @@ Notes [15s] · 开场问候与破题 (演讲者: 申昊德)
 -->
 
 ---
-title: Outline
+title: Background & Motivation
 ---
 
-<!-- Slide 2: Outline (Scheme A) -->
-<div class="deck-title deck-title--outline">
-  Presentation Outline
-</div>
-<hr class="top-divider">
-
-<div class="grid grid-cols-2 gap-x-8 gap-y-3 mt-6 text-left">
-  <div class="card">
-    <div class="kicker">01 · CONTEXT &amp; MOTIVATION</div>
-    <div class="card-title">Awareness, Adoption &amp; Use of XJTLU AI</div>
-  </div>
-
-  <div class="card card--accent">
-    <div class="kicker">02 · RESEARCH QUESTIONS</div>
-    <div class="card-title">Three Core Questions: Awareness, Tasks &amp; Factors</div>
-  </div>
-
-  <div class="card card--green">
-    <div class="kicker">03 · METHODOLOGY &amp; SAMPLING</div>
-    <div class="card-title">Explanatory Sequential Mixed-Methods Design</div>
-  </div>
-
-  <div class="card card--slate">
-    <div class="kicker">04 · SURVEY INSTRUMENT</div>
-    <div class="card-title">Adaptive Routing Across Four Observed Groups</div>
-  </div>
-
-  <div class="card">
-    <div class="kicker">05 · PLANNED INTERVIEWS</div>
-    <div class="card-title">Purposive Sampling &amp; Artifact Walkthroughs</div>
-  </div>
-
-  <div class="card card--accent">
-    <div class="kicker">06 · STUDY BOUNDARIES</div>
-    <div class="card-title">Pre-Registered Limitations &amp; Milestone Roadmap</div>
-  </div>
-</div>
-
-<!--
-Notes [10s] · 大纲导引
-【英文演讲词】:
-"Our presentation covers six core topics: // our research context and motivation, // three focused research questions, // methodology and census sampling, // survey routing across four usage groups, // and finally our planned interviews and pre-registered boundaries."
-
-【中文要义】:
-我们的汇报主要覆盖六个核心部分：背景与动机、三个研究问题、方法与近普查抽样、问卷四组自适应路由，以及最后的后续访谈和诚实局限性。
--->
-
----
-title: Context & Motivation
----
-
-<!-- Slide 3: Context & Motivation -->
+<!-- Slide 2: Background & Motivation -->
 <div class="deck-title">
-  Institutional AI Exists — But Are Students Actually Using It?
+  Background &amp; Motivation
 </div>
 <hr class="top-divider">
 
-<div class="grid grid-cols-3 gap-6 mt-6">
-  <div class="pr-2">
-    <div class="kicker">01 · Campus Deployment</div>
-    <div class="lead-title">Official University AI Services</div>
-    <p class="note-text">
-      XJTLU provides official AI agent services, including the <b>Junmou AI Agent Platform</b> and <b>Learning Mall chatbots</b>, to support learning and coursework.
-    </p>
-  </div>
-
-  <div class="col-rule">
-    <div class="kicker">02 · Student Reality</div>
-    <div class="lead-title">External AI in Daily Coursework</div>
-    <p class="note-text">
-      Many of us reach for external commercial AI (ChatGPT, DeepSeek, Kimi) in daily coursework — for programming, academic writing, and concept debugging. How far this reaches into ADS401 work is exactly what we set out to measure.
-    </p>
-  </div>
-
-  <div class="col-rule">
-    <div class="kicker kicker--accent">03 · The Empirical Gap</div>
-    <div class="lead-title lead-title--accent">Adoption &amp; Non-Use Unexamined</div>
-    <p class="note-text">
-      Do students know campus AI exists? How is it used, and why do many choose external tools instead? This remains an empirical black box.
-    </p>
-  </div>
+<div class="card mt-5">
+  <div class="kicker">01 · Research Background</div>
+  <p class="note-text mt-3">
+    XJTLU provides AI services such as Junmou AI to support learning. However, ADS401 students' awareness, adoption, and use remain unclear.
+  </p>
 </div>
 
-<div class="card card--roomy mt-8">
-  <span class="strip-label">Research Aim:</span>
-  <span class="strip-text">
-    Explore ADS401 students' use or non-use of XJTLU AI and the reasons behind their choices, to inform future improvements to university AI services.
-  </span>
+<div class="card card--accent mt-5">
+  <div class="kicker kicker--accent">02 · Motivation &amp; Aim</div>
+  <p class="note-text mt-3">
+    This study explores ADS401 students' use or non-use of XJTLU AI and the reasons behind their choices, to inform future improvements to these tools.
+  </p>
 </div>
 
 <!--
-Notes [18s] · 背景与现实矛盾 (对齐 Speech1.0 Para 2)
+Notes [18s] · 背景与研究动机 (对齐 scripts.md Background 节)
 【英文演讲词】:
-"To begin, // we will explain why this topic matters. // Although XJTLU provides services such as Junmou AI to support learning, // students' awareness, usage, and reasons for using or not using these tools // remain unclear."
+"To begin, // XJTLU provides AI services such as Junmou AI to support learning. // However, students' awareness, adoption, and use of these services remain unclear. // This study explores ADS401 students' use or non-use of XJTLU AI, // and the reasons behind their choices, // to inform future improvements to these tools."
 
 【中文要义】:
-首先，我们说明为什么关注这个问题。虽然学校提供了君谋 AI 等服务来支持学习，但学生究竟是否了解这些工具、具体如何使用，以及为什么选择使用或不使用，目前还不清楚。
-
-【发音指南】:
-- Junmou AI [dʒuːn-moʊ eɪ-aɪ]
-- awareness [ə-ˈwɛər-nəs]
+首先，西浦提供君谋 AI 等服务支持学习，但学生的认知、采纳与使用情况仍不明确。本研究探索 ADS401 学生使用或不使用校内 AI 的现状与原因，为工具改进提供参考。
 -->
 
 ---
 title: Research Questions
 ---
 
-<!-- Slide 4: Research Questions (3 Horizontal Rows) -->
+<!-- Slide 3: Research Questions -->
 <div class="deck-title">
-  Three Core Research Questions
+  Three Research Questions
 </div>
 <hr class="top-divider">
 
@@ -175,14 +101,14 @@ title: Research Questions
 
   <div class="card card--green">
     <div class="rq-head">
-      <span class="rq-name">RQ3 · Factors &amp; Comparison</span>
-      <span class="rq-q">What perceived benefits, barriers, and tool differences are associated with adoption choices and future intentions?</span>
+      <span class="rq-name">RQ3 · Adoption Factors &amp; Perceived Comparison</span>
+      <span class="rq-q">What perceived benefits, barriers, and differences between XJTLU AI and external AI services are associated with students' adoption and intentions to continue, try, or resume using XJTLU AI?</span>
     </div>
   </div>
 </div>
 
 <!--
-Notes [22s] · 三大核心研究问题 (对齐 Speech1.0 Para 3)
+Notes [22s] · 三大核心研究问题 (对齐 scripts.md Research Questions 节)
 【英文演讲词】:
 "Based on this background, // we developed three research questions: // How aware of and willing to adopt university-provided AI are students? // How do they use it for ADS401 learning? // And what perceived benefits, barriers, and differences between tools // are associated with their choices and future intentions?"
 
@@ -191,229 +117,198 @@ Notes [22s] · 三大核心研究问题 (对齐 Speech1.0 Para 3)
 -->
 
 ---
-title: Methodology & Sampling
+title: Research Methodology
 ---
 
-<!-- Slide 5: Methodology & Census Sampling -->
+<!-- Slide 4: Research Methodology -->
 <div class="deck-title">
-  Explanatory Sequential Design with a 46-Invitee Cohort Census
+  Research Methodology
+</div>
+<hr class="top-divider">
+
+<div class="card mt-5">
+  <div class="kicker">01 · Design</div>
+  <div class="lead-title lead-title--teal mt-3">
+    Explanatory Sequential Mixed-Methods Design
+  </div>
+</div>
+
+<div class="card card--accent mt-5">
+  <div class="kicker">02 · Target Participants</div>
+  <p class="note-text mt-3">
+    50 enrolled → 4 researchers excluded → 46 potentially eligible invitees → voluntary survey participation → achieved sample to be reported after collection.
+  </p>
+</div>
+
+<!--
+Notes [22s] · 研究方法与对象 (对齐 scripts.md Research Methodology 节)
+【英文演讲词】:
+"To answer these questions, // we use an explanatory sequential mixed-methods design. // Our target population is all ADS401 students. // There are 50 students in the module; // after excluding four student researchers, // we have 46 potentially eligible invitees, // and participation is voluntary."
+
+【中文要义】:
+为回答研究问题，我们采用解释性顺序混合方法设计。研究对象为 ADS401 全体学生：50 名在读，排除 4 名研究者后共 46 名潜在受邀者，参与遵循自愿原则。
+-->
+
+---
+title: Survey Design
+---
+
+<!-- Slide 5: Survey Design -->
+<div class="deck-title">
+  Survey Design
 </div>
 <hr class="top-divider">
 
 <div class="grid grid-cols-2 gap-8 mt-5">
   <div>
-    <div class="kicker">01 · Mixed-Methods Sequence</div>
-    <div class="lead-title lead-title--teal">
-      Explanatory Sequential Design
-    </div>
-    <div class="body-text">
-      <p>
-        <b>Phase 1 · Quantitative Survey:</b> Cross-sectional online survey to map cohort-wide awareness, usage patterns, and user perceptions (<i>What &amp; How many</i>).
-      </p>
-      <div class="flow-note">↓ Survey patterns inform interview sampling</div>
-      <p>
-        <b>Phase 2 · Qualitative Interviews:</b> Semi-structured follow-up interviews to explain the motivations, barriers, and reasons behind observed choices (<i>Why &amp; How</i>).
-      </p>
-    </div>
+    <div class="kicker">01 · Instrument &amp; Measures</div>
+    <ul class="dense-list mt-3">
+      <li><b>Cross-sectional online questionnaire</b> targeting ADS401 students.</li>
+      <li><b>Measures:</b> awareness, ever-use, recent academic usage, perceived usefulness, ease of use, trust, barriers, and future-use intentions.</li>
+      <li>Usefulness and ease-of-use items are <b>exploratory, context-specific measures</b> — not the complete validated TAM scales.</li>
+    </ul>
   </div>
 
   <div class="col-rule">
-    <div class="kicker">02 · Cohort Census &amp; Paired Comparison</div>
-    <div class="lead-title lead-title--teal">
-      Targeting the Module Population (N=50)
+    <div class="kicker">02 · Four Groups by Reported Use</div>
+    <div class="grid grid-cols-2 gap-3 mt-3">
+      <div class="card">
+        <div class="card-title">G1 · Both AI</div>
+      </div>
+      <div class="card card--accent">
+        <div class="card-title">G2 · Other AI Only</div>
+      </div>
+      <div class="card card--slate">
+        <div class="card-title">G3 · No AI</div>
+      </div>
+      <div class="card card--green">
+        <div class="card-title">G4 · XJTLU AI Only</div>
+      </div>
     </div>
-    <ul class="dense-list mt-3">
-      <li><b>Census-adjacent reach:</b> 50 enrolled students → 4 researchers excluded → <b>46 eligible invitees</b> (voluntary participation).</li>
-      <li><b>Descriptive boundaries:</b> Given cohort size (N≈50), analysis relies strictly on <b>descriptive statistics and cross-tabulations</b>; no causal claims.</li>
-      <li><b>Paired tool comparison:</b> Evaluated via <b>paired activity ratings among dual users</b> across identical task categories, directly controlling for individual differences.</li>
-    </ul>
+    <p class="note-text mt-3">
+      Grouped by reported AI use for ADS401 learning in the past four weeks. Various academic activity categories are used for consistent comparison.
+    </p>
   </div>
 </div>
 
 <!--
-Notes [22s] · 混合方法与抽样 (对齐 Speech1.0 Para 4)
+Notes [20s] · 问卷设计 (对齐 scripts.md Survey Design 节)
 【英文演讲词】:
-"To answer these questions, // we use an explanatory sequential mixed-methods design: // first a cross-sectional online survey, // followed by interviews informed by the survey findings. // Our target population is all ADS401 students. // There are 50 students in the module; // after excluding four student researchers, // we plan to invite 46 students."
+"The survey is a cross-sectional online questionnaire. // Students are grouped by reported AI use for ADS401 learning in the past four weeks: // both AI, other AI only, no AI, or XJTLU AI only. // We measure awareness, ever-use, recent academic usage, // perceived usefulness, ease of use, trust, barriers, and future-use intentions. // These usefulness and ease-of-use items are exploratory, // not the complete validated TAM scales."
 
 【中文要义】:
-为回答这些问题，我们采用解释性顺序混合方法：先开展横断面在线问卷，再根据问卷结果进行访谈。研究对象是 ADS401 全体学生。目前课程有 50 名学生，排除 4 名研究者后，计划邀请 46 名学生参与。
+问卷为横断面在线调查，按过去四周 ADS401 学习中的 AI 使用情况分为四组。测量维度包括认知、是否曾经使用、近期学术使用、感知有用性、易用性、信任、障碍与未来使用意愿。有用性与易用性条目为探索性测量，不等同完整 TAM 量表。
 -->
 
 ---
-title: Survey Routing
+title: Data Analysis
 ---
 
-<!-- Slide 6: Survey Routing & Four Usage Groups -->
+<!-- Slide 6: Data Analysis -->
 <div class="deck-title">
-  21-Item Survey with Four-Group Adaptive Routing
+  Data Analysis
 </div>
 <hr class="top-divider">
 
-```mermaid
-flowchart TB
-    S1["`**STEP 1 · Entry Gate — Eligibility Check & Informed Consent (PIS)**
-Recall window: past 4 weeks · Est. completion 5–7 min · Non-consent exits study`"]
-    G1["`**G1 · Both AI**
-Used Campus & External AI
-─────────────────
-• Campus UX & TAM
-• External AI Usage
-• **Paired Tool Comparison**`"]
-    G2["`**G2 · Other AI Only**
-External AI Only
-─────────────────
-• External AI Habits
-• Non-Adoption Reasons
-• Willingness to Try`"]
-    G3["`**G3 · Neither / No AI**
-No AI Used (Past 4 Weeks)
-─────────────────
-• Non-Adoption Reasons
-• Willingness to Try
-*(Skips all usage blocks)*`"]
-    G4["`**G4 · XJTLU AI Only**
-Campus AI Exclusive
-─────────────────
-• Campus UX & TAM
-• Future Continuance
-*(Skips external AI questions)*`"]
-    S2["`**STEP 3 · All Groups Converge — Common Modules**
-Tool Choice Decision Factors → XJTLU AI Improvement Priorities → Follow-up Interview Opt-in`"]
-
-    S1 --> G1
-    S1 --> G2
-    S1 --> G3
-    S1 --> G4
-    G1 --> S2
-    G2 --> S2
-    G3 --> S2
-    G4 --> S2
-
-    classDef step fill:#F8FAFC,stroke:#CED5D7,stroke-width:1.5px,color:#183F46
-    classDef g1 fill:#FFFFFF,stroke:#183F46,stroke-width:1.5px,color:#172327
-    classDef g2 fill:#FFFFFF,stroke:#1683A5,stroke-width:1.5px,color:#172327
-    classDef g3 fill:#FFFFFF,stroke:#64748B,stroke-width:1.5px,color:#172327
-    classDef g4 fill:#FFFFFF,stroke:#0D9488,stroke-width:1.5px,color:#172327
-    class S1,S2 step
-    class G1 g1
-    class G2 g2
-    class G3 g3
-    class G4 g4
-```
+<ul class="dense-list mt-5">
+  <li><b>Descriptive statistics:</b> report counts and percentages for awareness, ever-use, and past-four-week usage, with the relevant response denominator for each item.</li>
+  <li><b>Cross-tabulation:</b> compare usage patterns across the four groups.</li>
+  <li><b>Rating analysis:</b> summarise activity-specific usefulness, usefulness / ease-of-use / trust items, and future-use intentions descriptively; exclude N/A from rating summaries.</li>
+  <li><b>Perceived comparison:</b> examine paired activity ratings only where dual users rated both tools for the same category; report direct comparison responses separately, including "Unable to compare".</li>
+</ul>
 
 <!--
-Notes [28s] · 问卷架构与四组路由 (演讲者: 申昊德 · 对齐 Speech1.0 Para 5)
+Notes [20s] · 数据分析 (对齐 scripts.md Data Analysis 节)
 【英文演讲词】:
-"The pilot questionnaire takes about five to seven minutes // and asks mainly about learning in the past four weeks. // As shown in this flowchart, // we screen for eligibility and consent first, // then adaptively route students into four groups based on recent use. // Dual users compare both tools directly, // while non-users share reasons for non-adoption without rating unexperienced features. // Finally, all groups converge to answer decision factors and improvement priorities."
+"For the analysis, // we report descriptive statistics — counts and percentages — // with the relevant response denominator for each item. // We compare usage patterns across the four groups using cross-tabulations. // Activity-specific ratings are summarised descriptively, // and paired ratings are examined only where dual users rated both tools // for the same category."
 
 【中文要义】:
-预测试问卷预计需要 5–7 分钟，主要询问过去四周的学习经历。正如流程图所示，我们首先进行资格与知情同意门禁，然后根据近四周实际使用情况将学生自适应分流为四组。双工具用户开展配对比较，而未使用者只回答未采纳原因，避免对未体验过的功能虚假打分。最后，全员汇合回答工具选择因素与改进优先级。
+分析以描述统计为主，报告各题有效回答的人数与比例；用交叉分析比较四组使用模式；活动评分与感知条目做描述性汇总（N/A 不计入）；配对比较仅在双工具用户对同一活动均有评分时进行。
 -->
 
 ---
-title: Planned Interviews
+title: Interviews & Integration
 ---
 
-<!-- Slide 7: Planned Follow-up Interviews -->
+<!-- Slide 7: Follow-up Interviews & Integrated Analysis -->
 <div class="deck-title">
-  Planned Follow-up Interviews to Explain Survey Patterns
+  Follow-up Interviews &amp; Integrated Analysis
 </div>
 <hr class="top-divider">
 
 <div class="grid grid-cols-2 gap-8 mt-5">
   <div>
-    <div class="kicker">01 · Purposive Interview Sampling</div>
-    <div class="lead-title lead-title--teal">
-      4–6 Students with Contrasting Experiences
-    </div>
+    <div class="kicker">01 · Semi-Structured Interviews</div>
     <ul class="dense-list mt-3">
-      <li><b>Timing &amp; status:</b> Planned Phase 2 follow-up; scheduled after initial survey analysis.</li>
-      <li><b>Recruitment:</b> Sampled from survey respondents who voluntarily opt into follow-up contact.</li>
-      <li><b>Quota Priority:</b> Prioritising <b>Both AI (G1)</b> and <b>Other AI Only (G2)</b> to understand why students substitute external tools for campus AI.</li>
-      <li><b>Format &amp; Duration:</b> 15–20 minutes semi-structured interviews.</li>
+      <li><b>Sampling:</b> purposive, among survey respondents who opt into follow-up contact, informed by initial survey analysis.</li>
+      <li><b>Participants:</b> about 4–6 students, prioritising Both AI and Other AI Only.</li>
+      <li><b>Duration:</b> 15–20 minutes per interview.</li>
+      <li><b>Focus:</b> tool-choice motivations, adoption barriers, and learning experiences.</li>
     </ul>
   </div>
 
   <div class="col-rule">
-    <div class="kicker">02 · Qualitative Triangulation</div>
-    <div class="lead-title lead-title--teal">
-      Contextual Walkthroughs &amp; Theme Integration
-    </div>
+    <div class="kicker">02 · Qualitative &amp; Integrated Analysis</div>
     <ul class="dense-list mt-3">
-      <li><b>Artifact walkthrough:</b> Grounded in specific coursework experiences, prompt workflows, and perceived obstacles.</li>
-      <li><b>Thematic coding:</b> Code transcripts and develop recurring themes following Braun &amp; Clarke (2006).</li>
-      <li><b>Integration:</b> Connect qualitative themes directly with survey distributions (Fetters et al., 2013) to explain adoption mechanisms.</li>
+      <li><b>Thematic analysis:</b> code interviews and identify recurring themes.</li>
+      <li><b>Integration:</b> connect interview themes with survey patterns.</li>
+      <li><b>Outcome:</b> explain adoption decisions and identify potential XJTLU AI improvements.</li>
     </ul>
   </div>
 </div>
 
+<p class="note-text mt-4">
+  The survey identifies <b>how</b> students use different AI services, while follow-up interviews explore <b>why</b> they make those choices.
+</p>
+
 <!--
-Notes [20s] · 追踪访谈与定性整合 (对齐 Speech1.0 Para 6)
+Notes [20s] · 追踪访谈与整合分析 (对齐 scripts.md Follow-up Interviews 节)
 【英文演讲词】:
-"After collecting the survey data, // we will use interviews to explore the reasons behind the patterns. // We plan to select four to six students // with different levels of perceived usefulness. // Starting from specific experiences, // the interviews will explore the reasons behind their ratings and tool choices, // and we will connect these themes with the survey findings."
+"After the survey, // we will conduct semi-structured follow-up interviews — // about four to six students, prioritising Both AI and Other AI Only groups. // Each interview lasts fifteen to twenty minutes, // focusing on tool-choice motivations, adoption barriers, and learning experiences. // We will code the interviews and identify recurring themes, // and connect these themes with survey patterns // to explain adoption decisions."
 
 【中文要义】:
-问卷收集之后，研究将进一步通过访谈解释数据背后的原因。我们计划选择 4–6 名学生，尽量覆盖不同的有用性感知；访谈从具体经历出发，探讨评分和工具选择的原因，再将访谈主题与问卷结果对照。
-
-【防问提示】:
-考官若追问，明确说明：访谈是问卷初步分析后的解释性后续计划（Planned Follow-up），目前尚未开展，我们重点在问卷严密性。
+问卷之后开展半结构化追踪访谈：约 4–6 名学生，重点关注 Both AI 与 Other AI Only 两组，每人 15–20 分钟，聚焦工具选择动机、采纳障碍与学习体验。访谈编码归纳主题，并与问卷结果相互对照，解释采纳决策。
 -->
 
 ---
-title: Limitations & Next Steps
+title: Materials & Limitations
 ---
 
-<!-- Slide 8: Limitations, Materials & Next Steps -->
+<!-- Slide 8: Materials & Limitations -->
 <div class="deck-title">
-  Pre-Registered Limitations &amp; Implementation Roadmap
+  Materials &amp; Limitations
 </div>
 <hr class="top-divider">
 
-<div class="grid grid-cols-2 gap-8 mt-4">
-  <div>
-    <div class="kicker">01 · Five Pre-Registered Limitations</div>
-    <div class="lead-title lead-title--teal">
-      Honest Scope of Claims
-    </div>
-    <ul class="dense-list mt-3">
-      <li><b>Single-module sample:</b> Focuses on ADS401 students; findings describe participants and do not generalise across XJTLU.</li>
-      <li><b>Self-reported data:</b> Relies on subjective student recall, not telemetry system logs.</li>
-      <li><b>Interview coverage:</b> Prioritising G1/G2 may under-represent non-user perspectives.</li>
-      <li><b>Cross-sectional design:</b> Captures recent use and future intentions, not longitudinal causality.</li>
-      <li><b>Perception-based comparison:</b> Reflects user experience, not objective model benchmarks.</li>
-    </ul>
-  </div>
+<div class="card mt-4">
+  <span class="kicker">01 · MATERIALS</span><span class="card-title">&nbsp;&nbsp;Survey material: questionnaire_v1.md (pilot version)</span>
+</div>
 
-  <div class="col-rule">
-    <div class="kicker">02 · Materials &amp; Next Milestones</div>
-    <div class="lead-title lead-title--teal">
-      Ready for Data Collection
-    </div>
-    <div class="body-text">
-      <b>Completed Materials:</b>
-      <p class="note-text">
-        • Survey instrument v1 (pilot) with Participant Information Sheet (PIS) &amp; informed-consent gate<br>
-        • Semi-structured interview protocol &amp; recruitment flow
-      </p>
-      <b>Next Steps:</b>
-      <p class="next-steps">
-        Internal 4-researcher check → Survey fielding (19 Oct – 02 Nov) → Preliminary analysis → Follow-up interviews → Presentation 3 (09 Nov).
-      </p>
-    </div>
-  </div>
+<style scoped>
+.deck-title { margin-top: 0.7rem; }
+.kicker { display: inline; }
+.card-title { display: inline; }
+.dense-list li { margin-bottom: 0.25rem; }
+</style>
+
+<div class="mt-5">
+  <div class="kicker">02 · Limitations</div>
+  <ul class="dense-list mt-3">
+    <li><b>Single-module sample:</b> findings describe ADS401 participants; not generalisable across XJTLU.</li>
+    <li><b>Self-reported data:</b> relies on reported behaviours and perceptions, not telemetry logs.</li>
+    <li><b>Interview coverage:</b> G1/G2 focus may underrepresent No AI and XJTLU AI Only views.</li>
+    <li><b>Cross-sectional design:</b> captures recent use/intentions; no causal or longitudinal claims.</li>
+    <li><b>Perception-based comparison:</b> reflects student experience, not objective model benchmarks.</li>
+  </ul>
 </div>
 
 <!--
-Notes [22s] · 局限性反思与下一步 (对齐 Speech1.0 Para 7)
+Notes [22s] · 材料与局限 (对齐 scripts.md Materials / Limitations 节)
 【英文演讲词】:
-"Finally, // this study focuses on one module and relies on self-reported data, // so the findings may not represent students in other courses. // A cross-sectional survey also cannot establish causality or long-term use. // Even so, // the study can help us understand ADS401 students' AI choices // and identify possible improvements to university AI services."
+"Our survey material is questionnaire version one, labelled for pilot testing. // Finally, five limitations: // the findings describe participating ADS401 students and should not be generalised; // the data are self-reported; // interview coverage may under-represent some groups; // the cross-sectional design cannot establish causality; // and comparisons reflect perceived, not objective, differences."
 
 【中文要义】:
-最后，本研究聚焦单一课程并依赖自我报告数据，因此结果不一定代表其他课程学生的情况。横断面调查也不能证明因果关系或长期使用情况。尽管如此，研究仍能帮助我们理解 ADS401 学生的 AI 使用选择，并为改进校内 AI 服务提供参考。
-
-【发音指南】:
-- causality [kɔː-ˈzæl-ə-ti] 因果性
-- cross-sectional [krɒs ˈsɛk-ʃə-nəl]
+问卷材料为 pilot 版 questionnaire_v1。最后是五条局限：单一样本不可外推、自我报告数据、访谈覆盖可能不足、横断面设计无法确立因果、比较基于感知而非客观差异。
 -->
 
 ---
@@ -439,35 +334,43 @@ title: Q & A
       • <b>Group A:</b> Hongcheng TANG · Mingjian TAO · Liyuan CHEN · Haode SHEN
     </div>
   </div>
+
+  <div class="disclosure mt-5">
+    <p><b>AI-Use Disclosure (non-substantive use only):</b> [1] GLM-5.3 Flash (Zhipu AI) &amp; Gemini 3.8 Flash (Google), via the omp agent harness — used for slide layout, formatting, language proofreading, and reference formatting.</p>
+  </div>
 </div>
+
+<style scoped>
+.qa-wrap { margin-top: 0.5rem; }
+.qa-title { font-size: 3rem; }
+.qa-sub { font-size: 1.25rem; margin-top: 0.5rem; }
+.qa-card { margin-top: 1rem; padding: 0.8rem 1.1rem; }
+.disclosure { margin-top: 0.6rem; }
+</style>
 
 <!--
 Notes · 现场答辩常驻页面 (3分钟 Q&A 期间全程停留在此页)
 【收尾致谢英文】:
 "Thank you very much. // We now welcome any questions or suggestions from Dr. Li and our fellow classmates."
 
-【中文答辩速记备忘 (高频四大质询理由)】:
-1. 问：为什么只选 46 个人？
-   -> 答：“我们是全班近普查（N=50，排除我们 4 个研究者后全量邀请 46 人），不是朋友圈便利抽样。”
-2. 问：样本量小为什么不做独立样本 t 检验？
-   -> 答：“根据横断面调研规范，小样本做组间推断检验极易产生统计假象。为严谨自守，我们恪守描述统计与交叉分析。”
-3. 问：怎么保证没用过校内 AI 的人不在问卷里胡乱打分？
-   -> 答：“看我们 Slide 6 的路由设计：Q5 设立了强制自适应跳题，从未使用过的人直接跳过效用打分，直达未采纳原因模块。”
-4. 问：关于试测（Pilot Test），你们到底做了没有？
-   -> 答：“我们已在组内 4 位研究员中完成了内部走查测试（Internal Walkthrough），校准了问卷填答时间约 5–7 分钟，排除了无关的 VPN 题，重构了频次选项与跳题分流。全员正式发卷定于今天启动，完整数据将在 11 月 Pres 3 汇报。”
-5. 问：双用户的配对比较，数据收回来后跑什么具体检验？
-   -> 答：“在同一活动类别下对双用户的配对评分，计划跑非参数的 Wilcoxon 符号秩检验（Wilcoxon signed-rank test），非常适合小样本有序变量的配对比较。”
-6. 问：为什么你们反复强调非态度偏差（Non-attitude Bias）？
-   -> 答：“这是 W4 讲义原则：从未使用过校内 AI 的人缺乏真实体验，强行打分只会产生伪数据噪音，因此我们在 Q5 设立强制跳题将其分流。”
+【中文答辩速记备忘 (高频质询应答)】:
+1. 问：为什么只邀请 46 个人？
+   -> 答：“50 名在读排除我们 4 名研究者后，46 名均为潜在受邀者，属于近全量邀请，不是便利抽样。”
+2. 问：样本量小为什么不做推断检验？
+   -> 答：“描述性统计与交叉分析；不对小组间做推断。”
+3. 问：怎么保证没用过校内 AI 的人不乱打分？
+   -> 答：“未使用者直接跳过使用体验模块，只回答未采纳原因与意愿。”
+4. 问：双用户的配对比较怎么处理？
+   -> 答：“仅在同一活动类别下双工具均有评分时比较；直接比较题单独汇总，保留‘无法比较’。”
 -->
 
 ---
-title: References & AI Disclosure
+title: References
 ---
 
-<!-- Slide 11: References & AI-Use Disclosure (Q&A 收尾停留页) -->
+<!-- Slide 10: References (Q&A 收尾停留页) -->
 <div class="deck-title">
-  References &amp; AI-Use Disclosure
+  References
 </div>
 <hr class="top-divider">
 
@@ -480,18 +383,12 @@ title: References & AI Disclosure
   <li>Ivankova, N. V., Creswell, J. W., &amp; Stick, S. L. (2006). Using mixed-methods sequential explanatory design: From theory to practice. <i>Field Methods, 18</i>(1), 3–20. <a href="https://doi.org/10.1177/1525822X05282260">https://doi.org/10.1177/1525822X05282260</a></li>
 </ol>
 
-<div class="disclosure mt-5">
-  <p><b>AI-Use Disclosure (non-substantive use only):</b> [1] GLM-5.3 Flash (Zhipu AI) &amp; Gemini 3.8 Flash (Google), via the omp agent harness — used for slide layout, formatting, language proofreading, and reference formatting.</p>
-</div>
-
 <style scoped>
 .deck-title { margin-top: 0.7rem; }
 .top-divider { margin-bottom: 0.5rem; }
-.ref-list { margin-top: 0.2rem; line-height: 1.3; }
-.ref-list li:last-child { margin-bottom: 0; }
-.disclosure { margin-top: 0.6rem; }
+.ref-list { margin-top: 0.3rem; font-size: 1rem; line-height: 1.4; }
+.ref-list li { margin-bottom: 0.45rem; }
 </style>
-
 <!--
 Notes · Q&A 收尾停留页 (无需演讲; 若被问及 AI 政策或文献来源, 指向本页)
 -->
