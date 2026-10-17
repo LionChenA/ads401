@@ -14,8 +14,10 @@ in one commit. Facts come from `assets/pre2/scripts.md` — never from memory.
 
 ## Canvas & palette
 
-- 16:9, white background, widely available sans-serif only (no decorative
-  fonts).
+- 16:9, white background.
+- Typography (R-14, Direction A): **Newsreader serif** for titles,
+  `.deck-title` and `.takeaway`; **Inter** for section labels, body and
+  pills. Two families only — no decorative fonts.
 - Tokens (defined on `.slidev-layout` in `styles/index.css`):
   `--ink #172327` primary text · `--teal #183F46` labels/takeaway ·
   `--muted #687780` secondary text · `--line #CED5D7` dividers ·
