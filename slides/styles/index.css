@@ -151,3 +151,24 @@
   color: #946200;
   border: 1px solid #ead9a8;
 }
+
+/* Modern clean slide footer (leaves 80% vertical space for content) */
+.slidev-layout .slide-footer {
+  position: absolute;
+  left: 1.1rem;
+  right: 1.1rem;
+  bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.65rem;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+  padding-top: 0.35rem;
+}
+
+.slidev-layout .slide-footer .page-no {
+  position: static;
+  font-size: 0.68rem;
+  color: var(--muted);
+}
