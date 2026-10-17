@@ -325,27 +325,22 @@ title: Q & A
   </div>
 
   <div class="qa-card">
-    <div class="qa-card-title">
-      Project Resources &amp; Documentation
-    </div>
     <div class="qa-links">
-      • <b>Live Web Report:</b> <span class="t-accent">https://lionchena.github.io/ads401/</span><br>
-      • <b>Interactive Web Slides:</b> <span class="t-accent">https://lionchena.github.io/ads401/slides/</span><br>
-      • <b>Group A:</b> Hongcheng TANG · Mingjian TAO · Liyuan CHEN · Haode SHEN
+      <b>Live Web Report:</b> <span class="t-accent">https://lionchena.github.io/ads401/</span><br>
+      <b>Group A:</b> Hongcheng TANG · Mingjian TAO · Liyuan CHEN · Haode SHEN
     </div>
-  </div>
-
-  <div class="disclosure mt-5">
-    <p><b>AI-Use Disclosure (non-substantive use only):</b> [1] GLM-5.3 Flash (Zhipu AI) &amp; Gemini 3.8 Flash (Google), via the omp agent harness — used for slide layout, formatting, language proofreading, and reference formatting.</p>
+    <div class="qa-disclosure">
+      <b>AI-Use Disclosure (non-substantive use only):</b> [1] GLM-5.3 Flash (Zhipu AI) &amp; Gemini 3.8 Flash (Google), via the omp agent harness — used for slide layout, formatting, language proofreading, and reference formatting.
+    </div>
   </div>
 </div>
 
 <style scoped>
-.qa-wrap { margin-top: 0.5rem; }
-.qa-title { font-size: 3rem; }
-.qa-sub { font-size: 1.25rem; margin-top: 0.5rem; }
-.qa-card { margin-top: 1rem; padding: 0.8rem 1.1rem; }
-.disclosure { margin-top: 0.6rem; }
+.qa-wrap { margin-top: 2rem; }
+.qa-title { font-size: 3.5rem; }
+.qa-sub { font-size: 1.35rem; margin-top: 0.6rem; }
+.qa-card { margin: 2rem auto 0; max-width: 44rem; }
+.qa-disclosure { margin-top: 1rem; padding-top: 0.8rem; border-top: 1px solid var(--line); font-size: 1.05rem; color: var(--muted); line-height: 1.5; }
 </style>
 
 <!--
