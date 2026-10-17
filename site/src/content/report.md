@@ -3,8 +3,7 @@ title: "ADS401 Students' Perspective on AI Agents at XJTLU"
 ---
 
 <p>
-  <span class="chip stage">Design stage</span>
-  <span class="chip pending">Findings pending</span>
+  <span class="chip stage">Phase 2/6 · Pilot &amp; check</span>
 </p>
 
 *This page reports the evaluation design; findings will be added after
@@ -180,9 +179,7 @@ non-identifying otherwise.
 
 ## 6. Findings
 
-<span class="chip pending">Pending — survey not yet fielded</span>
-
-*Data collection starts after Presentation
+*Pending — survey not yet fielded.* Data collection starts after Presentation
 2 feedback and the instrument pilot. This section will present, per research
 question: awareness and adoption rates (RQ1), usage-pattern cross-tabulations
 by group (RQ2), and barrier/intention/comparison summaries with interview

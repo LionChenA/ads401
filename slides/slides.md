@@ -20,9 +20,8 @@ mdc: true
   <div style="color: var(--teal); font-family: Newsreader, Georgia, serif; font-style: italic; font-size: 1.02rem; margin-top: 0.5rem;">
     An empirical HCI evaluation of awareness, adoption and use of XJTLU AI
   </div>
-  <div style="margin-top: 1rem; display: flex; gap: 0.45rem;">
-    <span class="pill stage">DESIGN STAGE</span>
-    <span class="pill pending">FINDINGS PENDING</span>
+  <div style="margin-top: 1rem;">
+    <span class="pill stage">PHASE 2/6 · PILOT &amp; CHECK</span>
   </div>
 </div>
 

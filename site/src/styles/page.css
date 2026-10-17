@@ -139,6 +139,43 @@ aside a.ext:hover {
   border: 1px solid var(--amber-line);
 }
 
+/* Phase tracker (research pipeline; states: done · current · pending).
+   Update rows as the project advances — later aligned to teacher's task
+   breakdown (see DECISIONS.md R-14 note). */
+aside .tr {
+  display: flex;
+  gap: 0.45rem;
+  align-items: baseline;
+  font-size: 0.72rem;
+  line-height: 1.4;
+  padding: 0.13rem 0;
+  color: var(--muted);
+}
+
+aside .tr .d {
+  flex: none;
+  width: 0.48rem;
+  height: 0.48rem;
+  border-radius: 50%;
+  border: 1px solid var(--muted);
+  align-self: center;
+}
+
+aside .tr.done .d {
+  background: var(--teal);
+  border-color: var(--teal);
+}
+
+aside .tr.cur {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+aside .tr.cur .d {
+  border-color: var(--accent);
+  background: var(--accent);
+}
+
 /* ── Scroll-driven current-section highlight (pure CSS, zero JS) ──
    Each h2 owns a named view-timeline (--sec-1 .. --sec-8, see nth rules);
    each sidebar link's § numeral fades to accent while its section is in view.
@@ -161,28 +198,32 @@ aside a.ext:hover {
   main h2:nth-of-type(8) { view-timeline-name: --sec-8; }
 
   @keyframes sec-active {
+    /* 0% = unread (ink) → mid = current (accent + tint) → 100% = read (muted) */
     0%,
     12% {
-      color: var(--muted);
+      color: var(--ink);
+      background-color: transparent;
     }
     42%,
     62% {
       color: var(--accent);
+      background-color: var(--tint);
     }
     88%,
     100% {
       color: var(--muted);
+      background-color: transparent;
     }
   }
 
-  aside a:nth-of-type(1) { animation: sec-active linear both; animation-timeline: --sec-1; }
-  aside a:nth-of-type(2) { animation: sec-active linear both; animation-timeline: --sec-2; }
-  aside a:nth-of-type(3) { animation: sec-active linear both; animation-timeline: --sec-3; }
-  aside a:nth-of-type(4) { animation: sec-active linear both; animation-timeline: --sec-4; }
-  aside a:nth-of-type(5) { animation: sec-active linear both; animation-timeline: --sec-5; }
-  aside a:nth-of-type(6) { animation: sec-active linear both; animation-timeline: --sec-6; }
-  aside a:nth-of-type(7) { animation: sec-active linear both; animation-timeline: --sec-7; }
-  aside a:nth-of-type(8) { animation: sec-active linear both; animation-timeline: --sec-8; }
+  aside a:nth-of-type(1) { animation: sec-active linear both; animation-timeline: --sec-1; border-left: 2px solid transparent; }
+  aside a:nth-of-type(2) { animation: sec-active linear both; animation-timeline: --sec-2; border-left: 2px solid transparent; }
+  aside a:nth-of-type(3) { animation: sec-active linear both; animation-timeline: --sec-3; border-left: 2px solid transparent; }
+  aside a:nth-of-type(4) { animation: sec-active linear both; animation-timeline: --sec-4; border-left: 2px solid transparent; }
+  aside a:nth-of-type(5) { animation: sec-active linear both; animation-timeline: --sec-5; border-left: 2px solid transparent; }
+  aside a:nth-of-type(6) { animation: sec-active linear both; animation-timeline: --sec-6; border-left: 2px solid transparent; }
+  aside a:nth-of-type(7) { animation: sec-active linear both; animation-timeline: --sec-7; border-left: 2px solid transparent; }
+  aside a:nth-of-type(8) { animation: sec-active linear both; animation-timeline: --sec-8; border-left: 2px solid transparent; }
 }
 
 /* ── Main column (journal) ───────────────────── */
