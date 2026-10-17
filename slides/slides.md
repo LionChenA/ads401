@@ -12,21 +12,19 @@ mdc: true
 ---
 
 <!-- Slide 1: Cover -->
-<div class="cover-frame" style="margin-top: 3.5rem; padding: 2.2rem 2.6rem 1.8rem; border: 1px solid var(--line); outline: 1px solid var(--line); outline-offset: 3px; max-width: 90%; background: #ffffff;">
-  <div class="cover-kicker" style="font-size: 0.72rem; font-weight: 600; letter-spacing: 0.18em; color: var(--accent);">
+<div class="cover-frame">
+  <div class="cover-kicker">
     ADS401 · PRESENTATION 2 · EVALUATION DESIGN
   </div>
-  <div class="deck-title" style="font-size: 2.35rem; margin-top: 0.9rem; line-height: 1.25; color: var(--ink);">
-    ADS401 Students' Perspective<br>on AI Agents at XJTLU
-  </div>
-  <div style="color: var(--teal); font-family: Newsreader, Georgia, serif; font-style: italic; font-size: 1.08rem; margin-top: 0.7rem;">
+  <div class="cover-title">ADS401 Students' Perspective<br>on AI Agents at XJTLU</div>
+  <div class="cover-sub">
     An empirical HCI evaluation of awareness, adoption, and use of campus AI services
   </div>
 </div>
 
-<div style="margin-top: 2.6rem; font-size: 0.95rem; color: var(--ink);">
+<div class="cover-meta">
   <b>Group A</b> · Hongcheng TANG · Mingjian TAO · Liyuan CHEN · <b>Haode SHEN</b> <i>(Presenter)</i><br>
-  <span style="color: var(--muted); font-size: 0.85rem; margin-top: 0.35rem; display: inline-block;">19 October 2026</span>
+  <span class="cover-date">19 October 2026</span>
 </div>
 
 <!--
@@ -46,40 +44,40 @@ Notes [15s] · 开场问候与破题 (演讲者: 申昊德)
 ---
 
 <!-- Slide 2: Outline (Scheme A) -->
-<div class="deck-title" style="font-size: 1.65rem; margin-top: 1.5rem;">
+<div class="deck-title deck-title--outline">
   Presentation Outline
 </div>
 <hr class="top-divider">
 
-<div class="grid grid-cols-2 gap-x-8 gap-y-3 mt-6" style="text-align: left;">
-  <div style="border-left: 3px solid var(--teal); padding: 0.5rem 0.85rem; background: var(--paper); border-radius: 0 4px 4px 0;">
-    <div style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; color: var(--muted);">01 · CONTEXT &amp; MOTIVATION</div>
-    <div style="font-weight: 700; font-size: 0.92rem; color: var(--ink); margin-top: 0.15rem;">Official AI Deployment vs. External AI Habits</div>
+<div class="grid grid-cols-2 gap-x-8 gap-y-3 mt-6 text-left">
+  <div class="card">
+    <div class="kicker">01 · CONTEXT &amp; MOTIVATION</div>
+    <div class="card-title">Official AI Deployment vs. External AI Habits</div>
   </div>
 
-  <div style="border-left: 3px solid var(--accent); padding: 0.5rem 0.85rem; background: var(--paper); border-radius: 0 4px 4px 0;">
-    <div style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; color: var(--muted);">02 · RESEARCH QUESTIONS</div>
-    <div style="font-weight: 700; font-size: 0.92rem; color: var(--ink); margin-top: 0.15rem;">Three Core Questions: Awareness, Tasks &amp; Factors</div>
+  <div class="card card--accent">
+    <div class="kicker">02 · RESEARCH QUESTIONS</div>
+    <div class="card-title">Three Core Questions: Awareness, Tasks &amp; Factors</div>
   </div>
 
-  <div style="border-left: 3px solid #0d9488; padding: 0.5rem 0.85rem; background: var(--paper); border-radius: 0 4px 4px 0;">
-    <div style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; color: var(--muted);">03 · METHODOLOGY &amp; SAMPLING</div>
-    <div style="font-weight: 700; font-size: 0.92rem; color: var(--ink); margin-top: 0.15rem;">Sequential Mixed Methods &amp; 46-Student Census</div>
+  <div class="card card--green">
+    <div class="kicker">03 · METHODOLOGY &amp; SAMPLING</div>
+    <div class="card-title">Sequential Mixed Methods &amp; 46-Student Census</div>
   </div>
 
-  <div style="border-left: 3px solid #64748b; padding: 0.5rem 0.85rem; background: var(--paper); border-radius: 0 4px 4px 0;">
-    <div style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; color: var(--muted);">04 · SURVEY INSTRUMENT</div>
-    <div style="font-weight: 700; font-size: 0.92rem; color: var(--ink); margin-top: 0.15rem;">Adaptive Routing Across Four Observed Groups</div>
+  <div class="card card--slate">
+    <div class="kicker">04 · SURVEY INSTRUMENT</div>
+    <div class="card-title">Adaptive Routing Across Four Observed Groups</div>
   </div>
 
-  <div style="border-left: 3px solid var(--teal); padding: 0.5rem 0.85rem; background: var(--paper); border-radius: 0 4px 4px 0;">
-    <div style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; color: var(--muted);">05 · PLANNED INTERVIEWS</div>
-    <div style="font-weight: 700; font-size: 0.92rem; color: var(--ink); margin-top: 0.15rem;">Purposive Sampling &amp; Artifact Walkthroughs</div>
+  <div class="card">
+    <div class="kicker">05 · PLANNED INTERVIEWS</div>
+    <div class="card-title">Purposive Sampling &amp; Artifact Walkthroughs</div>
   </div>
 
-  <div style="border-left: 3px solid var(--accent); padding: 0.5rem 0.85rem; background: var(--paper); border-radius: 0 4px 4px 0;">
-    <div style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; color: var(--muted);">06 · STUDY BOUNDARIES</div>
-    <div style="font-weight: 700; font-size: 0.92rem; color: var(--ink); margin-top: 0.15rem;">Pre-Registered Limitations &amp; Milestone Roadmap</div>
+  <div class="card card--accent">
+    <div class="kicker">06 · STUDY BOUNDARIES</div>
+    <div class="card-title">Pre-Registered Limitations &amp; Milestone Roadmap</div>
   </div>
 </div>
 
@@ -95,46 +93,40 @@ Notes [10s] · 大纲导引
 ---
 
 <!-- Slide 3: Context & Motivation -->
-<div class="deck-title" style="font-size: 1.55rem; margin-top: 1.2rem;">
+<div class="deck-title">
   Institutional AI Exists — But Are Students Actually Using It?
 </div>
 <hr class="top-divider">
 
 <div class="grid grid-cols-3 gap-6 mt-6">
-  <div style="padding-right: 0.5rem;">
-    <div style="font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase;">01 · Campus Deployment</div>
-    <div style="font-weight: 700; font-size: 0.96rem; color: var(--ink); margin-top: 0.4rem; line-height: 1.35;">
-      Official University AI Services
-    </div>
-    <p style="font-size: 0.78rem; color: var(--muted); line-height: 1.6; margin-top: 0.6rem;">
+  <div class="pr-2">
+    <div class="kicker">01 · Campus Deployment</div>
+    <div class="lead-title">Official University AI Services</div>
+    <p class="note-text">
       XJTLU provides official AI agent services, including the <b>Junmou AI Agent Platform</b> and <b>Learning Mall chatbots</b>, to support learning and coursework.
     </p>
   </div>
 
-  <div style="padding-right: 0.5rem; border-left: 1px solid var(--line); padding-left: 1rem;">
-    <div style="font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase;">02 · Student Reality</div>
-    <div style="font-weight: 700; font-size: 0.96rem; color: var(--ink); margin-top: 0.4rem; line-height: 1.35;">
-      Heavy External Commercial AI Use
-    </div>
-    <p style="font-size: 0.78rem; color: var(--muted); line-height: 1.6; margin-top: 0.6rem;">
+  <div class="col-rule">
+    <div class="kicker">02 · Student Reality</div>
+    <div class="lead-title">Heavy External Commercial AI Use</div>
+    <p class="note-text">
       ADS401 students actively rely on external commercial AI (ChatGPT, DeepSeek, Kimi) for daily programming, academic writing, and concept debugging.
     </p>
   </div>
 
-  <div style="border-left: 1px solid var(--line); padding-left: 1rem;">
-    <div style="font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; color: var(--accent); text-transform: uppercase;">03 · The Empirical Gap</div>
-    <div style="font-weight: 700; font-size: 0.96rem; color: var(--accent); margin-top: 0.4rem; line-height: 1.35;">
-      Adoption &amp; Non-Use Unexamined
-    </div>
-    <p style="font-size: 0.78rem; color: var(--muted); line-height: 1.6; margin-top: 0.6rem;">
+  <div class="col-rule">
+    <div class="kicker kicker--accent">03 · The Empirical Gap</div>
+    <div class="lead-title lead-title--accent">Adoption &amp; Non-Use Unexamined</div>
+    <p class="note-text">
       Do students know campus AI exists? How is it used, and why do many choose external tools instead? This remains an empirical black box.
     </p>
   </div>
 </div>
 
-<div style="margin-top: 2.2rem; background: var(--paper); border-left: 3px solid var(--teal); padding: 0.75rem 1.2rem; border-radius: 0 4px 4px 0; text-align: left;">
-  <span style="font-weight: 700; color: var(--teal); font-size: 0.85rem;">Research Aim:</span>
-  <span style="font-size: 0.82rem; color: var(--ink); margin-left: 0.5rem; line-height: 1.5;">
+<div class="card card--roomy mt-8">
+  <span class="strip-label">Research Aim:</span>
+  <span class="strip-text">
     Explore ADS401 students' use or non-use of XJTLU AI and the reasons behind their choices, to inform future improvements to university AI services.
   </span>
 </div>
@@ -155,38 +147,38 @@ Notes [18s] · 背景与现实矛盾 (对齐 Speech1.0 Para 2)
 ---
 
 <!-- Slide 4: Research Questions (3 Horizontal Rows) -->
-<div class="deck-title" style="font-size: 1.55rem; margin-top: 1.2rem;">
+<div class="deck-title">
   Three Core Research Questions
 </div>
 <hr class="top-divider">
 
-<div style="margin-top: 1.2rem; display: flex; flex-direction: column; gap: 0.9rem;">
-  <div style="border-left: 3px solid var(--teal); padding: 0.65rem 1.1rem; background: var(--paper); border-radius: 0 4px 4px 0; text-align: left;">
-    <div style="display: flex; align-items: baseline; gap: 0.6rem;">
-      <span style="font-weight: 800; font-size: 0.9rem; color: var(--teal);">RQ1 · Awareness &amp; Adoption</span>
-      <span style="font-size: 0.88rem; font-weight: 600; color: var(--ink);">To what extent are students in our ADS401 module aware of and adopting XJTLU AI?</span>
+<div class="flex flex-col gap-4 mt-5">
+  <div class="card">
+    <div class="rq-head">
+      <span class="rq-name">RQ1 · Awareness &amp; Adoption</span>
+      <span class="rq-q">To what extent are students in our ADS401 module aware of and adopting XJTLU AI?</span>
     </div>
-    <p style="font-size: 0.76rem; color: var(--muted); margin: 0.35rem 0 0; line-height: 1.5;">
+    <p class="rq-desc">
       Investigates baseline familiarity with campus AI services, lifetime ever-use, and actual module-specific adoption in ADS401 learning over the past four weeks.
     </p>
   </div>
 
-  <div style="border-left: 3px solid var(--accent); padding: 0.65rem 1.1rem; background: var(--paper); border-radius: 0 4px 4px 0; text-align: left;">
-    <div style="display: flex; align-items: baseline; gap: 0.6rem;">
-      <span style="font-weight: 800; font-size: 0.9rem; color: var(--accent);">RQ2 · Usage Patterns</span>
-      <span style="font-size: 0.88rem; font-weight: 600; color: var(--ink);">How do students in ADS401 use XJTLU AI for their academic tasks?</span>
+  <div class="card card--accent">
+    <div class="rq-head">
+      <span class="rq-name">RQ2 · Usage Patterns</span>
+      <span class="rq-q">How do students in ADS401 use XJTLU AI for their academic tasks?</span>
     </div>
-    <p style="font-size: 0.76rem; color: var(--muted); margin: 0.35rem 0 0; line-height: 1.5;">
+    <p class="rq-desc">
       Examines usage frequency, distribution across coursework task categories (course materials, research planning, data analysis, writing), and verification habits.
     </p>
   </div>
 
-  <div style="border-left: 3px solid #0d9488; padding: 0.65rem 1.1rem; background: var(--paper); border-radius: 0 4px 4px 0; text-align: left;">
-    <div style="display: flex; align-items: baseline; gap: 0.6rem;">
-      <span style="font-weight: 800; font-size: 0.9rem; color: #0d9488;">RQ3 · Factors &amp; Comparison</span>
-      <span style="font-size: 0.88rem; font-weight: 600; color: var(--ink);">What perceived benefits, barriers, and tool differences are associated with adoption choices and future intentions?</span>
+  <div class="card card--green">
+    <div class="rq-head">
+      <span class="rq-name">RQ3 · Factors &amp; Comparison</span>
+      <span class="rq-q">What perceived benefits, barriers, and tool differences are associated with adoption choices and future intentions?</span>
     </div>
-    <p style="font-size: 0.76rem; color: var(--muted); margin: 0.35rem 0 0; line-height: 1.5;">
+    <p class="rq-desc">
       Explores perceived usefulness, ease of use, trust, reported obstacles, perceived trade-offs against external commercial AI, and future continuance intentions.
     </p>
   </div>
@@ -204,44 +196,38 @@ Notes [22s] · 三大核心研究问题 (对齐 Speech1.0 Para 3)
 ---
 
 <!-- Slide 5: Methodology & Census Sampling -->
-<div class="deck-title" style="font-size: 1.55rem; margin-top: 1.2rem;">
+<div class="deck-title">
   Explanatory Sequential Design with a 46-Invitee Cohort Census
 </div>
 <hr class="top-divider">
 
 <div class="grid grid-cols-2 gap-8 mt-5">
   <div>
-    <div style="font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase;">
-      01 · Mixed-Methods Sequence
-    </div>
-    <div style="font-weight: 700; font-size: 1rem; color: var(--teal); margin-top: 0.3rem;">
+    <div class="kicker">01 · Mixed-Methods Sequence</div>
+    <div class="lead-title lead-title--teal">
       Explanatory Sequential Design
     </div>
-    <div style="margin-top: 0.8rem; font-size: 0.78rem; color: var(--ink); line-height: 1.6;">
-      <p style="margin: 0 0 0.5rem;">
+    <div class="body-text">
+      <p>
         <b>Phase 1 · Quantitative Survey:</b> Cross-sectional online survey to map cohort-wide awareness, usage patterns, and user perceptions (<i>What &amp; How many</i>).
       </p>
-      <div style="color: var(--accent); font-weight: 700; font-size: 0.76rem; margin: 0.35rem 0;">↓ Survey patterns inform interview sampling</div>
-      <p style="margin: 0;">
+      <div class="flow-note">↓ Survey patterns inform interview sampling</div>
+      <p>
         <b>Phase 2 · Qualitative Interviews:</b> Semi-structured follow-up interviews to explain the motivations, barriers, and reasons behind observed choices (<i>Why &amp; How</i>).
       </p>
     </div>
   </div>
 
-  <div style="border-left: 1px solid var(--line); padding-left: 1.2rem;">
-    <div style="font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase;">
-      02 · Cohort Census &amp; Paired Comparison
-    </div>
-    <div style="font-weight: 700; font-size: 1rem; color: var(--teal); margin-top: 0.3rem;">
+  <div class="col-rule">
+    <div class="kicker">02 · Cohort Census &amp; Paired Comparison</div>
+    <div class="lead-title lead-title--teal">
       Targeting the Module Population (N=50)
     </div>
-    <div style="margin-top: 0.8rem; font-size: 0.78rem; color: var(--ink); line-height: 1.6;">
-      <ul style="padding-left: 1.1rem; margin: 0;">
-        <li><b>Census-adjacent reach:</b> 50 enrolled students → 4 researchers excluded → <b>46 eligible invitees</b> (voluntary participation).</li>
-        <li><b>Descriptive boundaries:</b> Given cohort size (N≈50), analysis relies strictly on <b>descriptive statistics and cross-tabulations</b>; no causal claims.</li>
-        <li><b>Paired tool comparison:</b> Evaluated via <b>paired activity ratings among dual users</b> across identical task categories, directly controlling for individual differences.</li>
-      </ul>
-    </div>
+    <ul class="dense-list mt-3">
+      <li><b>Census-adjacent reach:</b> 50 enrolled students → 4 researchers excluded → <b>46 eligible invitees</b> (voluntary participation).</li>
+      <li><b>Descriptive boundaries:</b> Given cohort size (N≈50), analysis relies strictly on <b>descriptive statistics and cross-tabulations</b>; no causal claims.</li>
+      <li><b>Paired tool comparison:</b> Evaluated via <b>paired activity ratings among dual users</b> across identical task categories, directly controlling for individual differences.</li>
+    </ul>
   </div>
 </div>
 
@@ -257,89 +243,62 @@ Notes [22s] · 混合方法与抽样 (对齐 Speech1.0 Para 4)
 ---
 
 <!-- Slide 6: Survey Routing & Four Usage Groups -->
-<div class="deck-title" style="font-size: 1.55rem; margin-top: 1.2rem;">
+<div class="deck-title">
   21-Item Survey with Four-Group Adaptive Routing
 </div>
 <hr class="top-divider">
 
-<div style="margin-top: 1rem; display: flex; justify-content: center;">
-<svg viewBox="0 0 920 320" style="width: 100%; max-width: 900px; height: auto; font-family: Inter, sans-serif;">
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M 0 1 L 10 5 L 0 9 z" fill="#64748b" />
-    </marker>
-  </defs>
+```mermaid
+flowchart TB
+    S1["`**STEP 1 · Entry Gate — Eligibility Check & Informed Consent (PIS)**
+Recall window: past 4 weeks · Est. completion 5–7 min · Non-consent exits study`"]
+    G1["`**G1 · Both AI**
+Used Campus & External AI
+─────────────────
+• Campus UX & TAM
+• External AI Usage
+• **Paired Tool Comparison**`"]
+    G2["`**G2 · Other AI Only**
+External AI Only
+─────────────────
+• External AI Habits
+• Non-Adoption Reasons
+• Willingness to Try`"]
+    G3["`**G3 · Neither / No AI**
+No AI Used (Past 4 Weeks)
+─────────────────
+• Non-Adoption Reasons
+• Willingness to Try
+*(Skips all usage blocks)*`"]
+    G4["`**G4 · XJTLU AI Only**
+Campus AI Exclusive
+─────────────────
+• Campus UX & TAM
+• Future Continuance
+*(Skips external AI questions)*`"]
+    S2["`**STEP 3 · All Groups Converge — Common Modules**
+Tool Choice Decision Factors → XJTLU AI Improvement Priorities → Follow-up Interview Opt-in`"]
 
-  <!-- Step 1: Entry Gate -->
-  <rect x="180" y="8" width="560" height="48" rx="6" fill="#f8fafc" stroke="#ced5d7" stroke-width="1.5" />
-  <text x="460" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#183F46">Step 1 · Entry Gate: Eligibility Check &amp; Informed Consent (PIS)</text>
-  <text x="460" y="44" text-anchor="middle" font-size="11" fill="#687780">Recall Window: Past 4 Weeks · Estimated Completion: 5–7 min · Non-consent exits study</text>
+    S1 --> G1
+    S1 --> G2
+    S1 --> G3
+    S1 --> G4
+    G1 --> S2
+    G2 --> S2
+    G3 --> S2
+    G4 --> S2
 
-  <!-- Feeder line from Step 1 down -->
-  <line x1="460" y1="56" x2="460" y2="76" stroke="#64748b" stroke-width="1.5" />
-  <!-- Horizontal splitter bar -->
-  <line x1="120" y1="76" x2="800" y2="76" stroke="#64748b" stroke-width="1.5" />
-  <!-- 4 vertical drop arrows into cards -->
-  <line x1="120" y1="76" x2="120" y2="94" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)" />
-  <line x1="345" y1="76" x2="345" y2="94" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)" />
-  <line x1="575" y1="76" x2="575" y2="94" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)" />
-  <line x1="800" y1="76" x2="800" y2="94" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)" />
-
-  <!-- Step 2: 4 Group Cards -->
-  <!-- G1 -->
-  <rect x="20" y="98" width="200" height="110" rx="5" fill="#ffffff" stroke="#ced5d7" stroke-width="1" />
-  <rect x="20" y="98" width="200" height="4" fill="#183F46" />
-  <text x="32" y="120" font-size="12" font-weight="700" fill="#183F46">G1 · Both AI</text>
-  <text x="32" y="134" font-size="10" fill="#687780">Used Campus &amp; External AI</text>
-  <line x1="32" y1="142" x2="208" y2="142" stroke="#e2e8f0" stroke-width="1" />
-  <text x="32" y="158" font-size="10.5" fill="#172327">• Campus UX &amp; TAM</text>
-  <text x="32" y="174" font-size="10.5" fill="#172327">• External AI Usage</text>
-  <text x="32" y="190" font-size="10.5" fill="#1683A5" font-weight="600">• Paired Tool Comparison</text>
-
-  <!-- G2 -->
-  <rect x="245" y="98" width="200" height="110" rx="5" fill="#ffffff" stroke="#ced5d7" stroke-width="1" />
-  <rect x="245" y="98" width="200" height="4" fill="#1683A5" />
-  <text x="257" y="120" font-size="12" font-weight="700" fill="#1683A5">G2 · Other AI Only</text>
-  <text x="257" y="134" font-size="10" fill="#687780">External AI Only</text>
-  <line x1="257" y1="142" x2="433" y2="142" stroke="#e2e8f0" stroke-width="1" />
-  <text x="257" y="158" font-size="10.5" fill="#172327">• External AI Habits</text>
-  <text x="257" y="174" font-size="10.5" fill="#172327">• Non-Adoption Reasons</text>
-  <text x="257" y="190" font-size="10.5" fill="#172327">• Willingness to Try</text>
-
-  <!-- G3 -->
-  <rect x="475" y="98" width="200" height="110" rx="5" fill="#ffffff" stroke="#ced5d7" stroke-width="1" />
-  <rect x="475" y="98" width="200" height="4" fill="#64748b" />
-  <text x="487" y="120" font-size="12" font-weight="700" fill="#64748b">G3 · Neither / No AI</text>
-  <text x="487" y="134" font-size="10" fill="#687780">No AI Used (Past 4 Weeks)</text>
-  <line x1="487" y1="142" x2="663" y2="142" stroke="#e2e8f0" stroke-width="1" />
-  <text x="487" y="158" font-size="10.5" fill="#172327">• Non-Adoption Reasons</text>
-  <text x="487" y="174" font-size="10.5" fill="#172327">• Willingness to Try</text>
-  <text x="487" y="190" font-size="10" fill="#94a3b8" font-style="italic">(Skips all usage blocks)</text>
-
-  <!-- G4 -->
-  <rect x="700" y="98" width="200" height="110" rx="5" fill="#ffffff" stroke="#ced5d7" stroke-width="1" />
-  <rect x="700" y="98" width="200" height="4" fill="#0d9488" />
-  <text x="712" y="120" font-size="12" font-weight="700" fill="#0d9488">G4 · XJTLU AI Only</text>
-  <text x="712" y="134" font-size="10" fill="#687780">Campus AI Exclusive</text>
-  <line x1="712" y1="142" x2="888" y2="142" stroke="#e2e8f0" stroke-width="1" />
-  <text x="712" y="158" font-size="10.5" fill="#172327">• Campus UX &amp; TAM</text>
-  <text x="712" y="174" font-size="10.5" fill="#172327">• Future Continuance</text>
-  <text x="712" y="190" font-size="10" fill="#94a3b8" font-style="italic">(Skips external AI questions)</text>
-
-  <!-- Convergence lines down to Step 3 -->
-  <line x1="120" y1="208" x2="120" y2="228" stroke="#64748b" stroke-width="1.5" />
-  <line x1="345" y1="208" x2="345" y2="228" stroke="#64748b" stroke-width="1.5" />
-  <line x1="575" y1="208" x2="575" y2="228" stroke="#64748b" stroke-width="1.5" />
-  <line x1="800" y1="208" x2="800" y2="228" stroke="#64748b" stroke-width="1.5" />
-  <line x1="120" y1="228" x2="800" y2="228" stroke="#64748b" stroke-width="1.5" />
-  <line x1="460" y1="228" x2="460" y2="246" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)" />
-
-  <!-- Step 3: Convergence Box -->
-  <rect x="90" y="250" width="740" height="46" rx="6" fill="#f8fafc" stroke="#ced5d7" stroke-width="1.5" />
-  <text x="460" y="269" text-anchor="middle" font-size="12" font-weight="700" fill="#183F46">Step 3 · All Groups Converge (Common Modules)</text>
-  <text x="460" y="284" text-anchor="middle" font-size="10.5" fill="#172327">Tool Choice Decision Factors  ──►  XJTLU AI Improvement Priorities  ──►  Follow-up Interview Opt-in</text>
-</svg>
-</div>
+    classDef step fill:#F8FAFC,stroke:#CED5D7,stroke-width:1.5px,color:#183F46
+    classDef g1 fill:#FFFFFF,stroke:#183F46,stroke-width:1.5px,color:#172327
+    classDef g2 fill:#FFFFFF,stroke:#1683A5,stroke-width:1.5px,color:#172327
+    classDef g3 fill:#FFFFFF,stroke:#64748B,stroke-width:1.5px,color:#172327
+    classDef g4 fill:#FFFFFF,stroke:#0D9488,stroke-width:1.5px,color:#172327
+    class S1,S2 step
+    class G1 g1
+    class G2 g2
+    class G3 g3
+    class G4 g4
+```
 
 <!--
 Notes [28s] · 问卷架构与四组路由 (演讲者: 申昊德 · 对齐 Speech1.0 Para 5)
@@ -353,43 +312,35 @@ Notes [28s] · 问卷架构与四组路由 (演讲者: 申昊德 · 对齐 Speec
 ---
 
 <!-- Slide 7: Planned Follow-up Interviews -->
-<div class="deck-title" style="font-size: 1.55rem; margin-top: 1.2rem;">
+<div class="deck-title">
   Planned Follow-up Interviews to Explain Survey Patterns
 </div>
 <hr class="top-divider">
 
 <div class="grid grid-cols-2 gap-8 mt-5">
   <div>
-    <div style="font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase;">
-      01 · Purposive Interview Sampling
-    </div>
-    <div style="font-weight: 700; font-size: 1rem; color: var(--teal); margin-top: 0.3rem;">
+    <div class="kicker">01 · Purposive Interview Sampling</div>
+    <div class="lead-title lead-title--teal">
       4–6 Students with Contrasting Experiences
     </div>
-    <div style="margin-top: 0.8rem; font-size: 0.78rem; color: var(--ink); line-height: 1.6;">
-      <ul style="padding-left: 1.1rem; margin: 0;">
-        <li><b>Timing &amp; status:</b> Planned Phase 2 follow-up; scheduled after initial survey analysis.</li>
-        <li><b>Recruitment:</b> Sampled from respondents opting into follow-up contact via Q20/Q21.</li>
-        <li><b>Quota Priority:</b> Prioritising <b>Both AI (G1)</b> and <b>Other AI Only (G2)</b> to understand why students substitute external tools for campus AI.</li>
-        <li><b>Format &amp; Duration:</b> 15–20 minutes semi-structured interviews.</li>
-      </ul>
-    </div>
+    <ul class="dense-list mt-3">
+      <li><b>Timing &amp; status:</b> Planned Phase 2 follow-up; scheduled after initial survey analysis.</li>
+      <li><b>Recruitment:</b> Sampled from respondents opting into follow-up contact via Q20/Q21.</li>
+      <li><b>Quota Priority:</b> Prioritising <b>Both AI (G1)</b> and <b>Other AI Only (G2)</b> to understand why students substitute external tools for campus AI.</li>
+      <li><b>Format &amp; Duration:</b> 15–20 minutes semi-structured interviews.</li>
+    </ul>
   </div>
 
-  <div style="border-left: 1px solid var(--line); padding-left: 1.2rem;">
-    <div style="font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase;">
-      02 · Qualitative Triangulation
-    </div>
-    <div style="font-weight: 700; font-size: 1rem; color: var(--teal); margin-top: 0.3rem;">
+  <div class="col-rule">
+    <div class="kicker">02 · Qualitative Triangulation</div>
+    <div class="lead-title lead-title--teal">
       Contextual Walkthroughs &amp; Theme Integration
     </div>
-    <div style="margin-top: 0.8rem; font-size: 0.78rem; color: var(--ink); line-height: 1.6;">
-      <ul style="padding-left: 1.1rem; margin: 0;">
-        <li><b>Artifact walkthrough:</b> Grounded in specific coursework experiences, prompt workflows, and perceived obstacles.</li>
-        <li><b>Thematic coding:</b> Code transcripts and develop recurring themes following Braun &amp; Clarke (2006).</li>
-        <li><b>Integration:</b> Connect qualitative themes directly with survey distributions (Fetters et al., 2013) to explain adoption mechanisms.</li>
-      </ul>
-    </div>
+    <ul class="dense-list mt-3">
+      <li><b>Artifact walkthrough:</b> Grounded in specific coursework experiences, prompt workflows, and perceived obstacles.</li>
+      <li><b>Thematic coding:</b> Code transcripts and develop recurring themes following Braun &amp; Clarke (2006).</li>
+      <li><b>Integration:</b> Connect qualitative themes directly with survey distributions (Fetters et al., 2013) to explain adoption mechanisms.</li>
+    </ul>
   </div>
 </div>
 
@@ -408,20 +359,18 @@ Notes [20s] · 追踪访谈与定性整合 (对齐 Speech1.0 Para 6)
 ---
 
 <!-- Slide 8: Limitations, Materials & Next Steps -->
-<div class="deck-title" style="font-size: 1.55rem; margin-top: 1.2rem;">
+<div class="deck-title">
   Pre-Registered Limitations &amp; Implementation Roadmap
 </div>
 <hr class="top-divider">
 
 <div class="grid grid-cols-2 gap-8 mt-4">
   <div>
-    <div style="font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase;">
-      01 · Five Pre-Registered Limitations
-    </div>
-    <div style="font-weight: 700; font-size: 0.95rem; color: var(--teal); margin-top: 0.3rem;">
+    <div class="kicker">01 · Five Pre-Registered Limitations</div>
+    <div class="lead-title lead-title--teal">
       Honest Scope of Claims
     </div>
-    <ul style="padding-left: 1.1rem; margin: 0.6rem 0 0; font-size: 0.74rem; color: var(--ink); line-height: 1.55;">
+    <ul class="dense-list mt-3">
       <li><b>Single-module sample:</b> Focuses on ADS401 students; findings describe participants and do not generalise across XJTLU.</li>
       <li><b>Self-reported data:</b> Relies on subjective student recall, not telemetry system logs.</li>
       <li><b>Interview coverage:</b> Prioritising G1/G2 may under-represent non-user perspectives.</li>
@@ -430,22 +379,20 @@ Notes [20s] · 追踪访谈与定性整合 (对齐 Speech1.0 Para 6)
     </ul>
   </div>
 
-  <div style="border-left: 1px solid var(--line); padding-left: 1.2rem;">
-    <div style="font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase;">
-      02 · Materials &amp; Next Milestones
-    </div>
-    <div style="font-weight: 700; font-size: 0.95rem; color: var(--teal); margin-top: 0.3rem;">
+  <div class="col-rule">
+    <div class="kicker">02 · Materials &amp; Next Milestones</div>
+    <div class="lead-title lead-title--teal">
       Ready for Data Collection
     </div>
-    <div style="margin-top: 0.6rem; font-size: 0.74rem; color: var(--ink); line-height: 1.55;">
+    <div class="body-text">
       <b>Completed Materials (Consolidated in material.md):</b>
-      <p style="margin: 0.2rem 0 0.5rem; color: var(--muted);">
+      <p class="note-text">
         • Survey instrument v1 (pilot) with Participant Information Sheet (PIS) &amp; consent gate (Q1–Q2)<br>
         • Semi-structured interview protocol &amp; recruitment flow (Q20–Q21)<br>
-        • Live web report: <span style="color: var(--accent);">lionchena.github.io/ads401</span>
+        • Live web report: <span class="t-accent">lionchena.github.io/ads401</span>
       </p>
       <b>Next Steps:</b>
-      <p style="margin: 0.2rem 0; color: var(--teal); font-weight: 600;">
+      <p class="next-steps">
         Internal 4-researcher check → Survey fielding (19 Oct – 02 Nov) → Preliminary analysis → Follow-up interviews → Presentation 3 (09 Nov).
       </p>
     </div>
@@ -468,21 +415,21 @@ Notes [22s] · 局限性反思与下一步 (对齐 Speech1.0 Para 7)
 ---
 
 <!-- Slide 9: Q&A / Discussion & Thank You -->
-<div style="margin-top: 3.2rem; text-align: center;">
-  <div style="font-family: Newsreader, Georgia, serif; font-size: 3.8rem; font-weight: 700; color: var(--teal); line-height: 1;">
+<div class="qa-wrap">
+  <div class="qa-title">
     Q &amp; A
   </div>
-  <div style="font-family: Newsreader, Georgia, serif; font-style: italic; font-size: 1.25rem; color: var(--muted); margin-top: 0.8rem;">
+  <div class="qa-sub">
     Thank you for your attention. We welcome your questions and feedback.
   </div>
 
-  <div style="margin: 2rem auto 0; max-width: 28rem; padding: 1.1rem 1.4rem; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); text-align: left;">
-    <div style="font-size: 0.82rem; font-weight: 700; color: var(--teal); margin-bottom: 0.4rem;">
+  <div class="qa-card">
+    <div class="qa-card-title">
       Project Resources &amp; Documentation
     </div>
-    <div style="font-size: 0.78rem; color: var(--ink); line-height: 1.7;">
-      • <b>Live Web Report:</b> <span style="color: var(--accent);">https://lionchena.github.io/ads401/</span><br>
-      • <b>Interactive Web Slides:</b> <span style="color: var(--accent);">https://lionchena.github.io/ads401/slides/</span><br>
+    <div class="qa-links">
+      • <b>Live Web Report:</b> <span class="t-accent">https://lionchena.github.io/ads401/</span><br>
+      • <b>Interactive Web Slides:</b> <span class="t-accent">https://lionchena.github.io/ads401/slides/</span><br>
       • <b>Group A:</b> Hongcheng TANG · Mingjian TAO · Liyuan CHEN · Haode SHEN
     </div>
   </div>
