@@ -298,11 +298,11 @@
   padding-left: 1.5rem;
   font-size: 0.875rem;
   color: var(--ink);
-  line-height: 1.45;
+  line-height: 1.38;
 }
 
 .slidev-layout .ref-list li {
-  margin-bottom: 0.45rem;
+  margin-bottom: 0.3rem;
 }
 
 .slidev-layout .ref-list li a {
@@ -318,11 +318,15 @@
   border: 1px solid var(--line);
   border-radius: 6px;
   background: var(--paper);
-  padding: 0.7rem 1rem;
+  padding: 0.55rem 0.9rem;
   font-size: 0.875rem;
   color: var(--muted);
-  line-height: 1.55;
+  line-height: 1.5;
   text-align: left;
+}
+
+.slidev-layout .disclosure p {
+  margin: 0;
 }
 
 .slidev-layout .disclosure b {

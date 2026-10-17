@@ -490,9 +490,18 @@ title: References & AI Disclosure
   <li>Ivankova, N. V., Creswell, J. W., &amp; Stick, S. L. (2006). Using mixed-methods sequential explanatory design: From theory to practice. <i>Field Methods, 18</i>(1), 3–20. <a href="https://doi.org/10.1177/1525822X05282260">https://doi.org/10.1177/1525822X05282260</a></li>
 </ol>
 
-<div class="disclosure mt-8">
-  <b>AI-Use Disclosure:</b> Generative AI provided non-substantive assistance only — slide layout, language polishing, and reference formatting. All research decisions, instrument content, and analysis plans are the students' own work.
+<div class="disclosure mt-5">
+  <p><b>AI-Use Disclosure (non-substantive use only):</b> [1] GLM-5.3 Flash (Zhipu AI) &amp; Gemini 3.8 Flash (Google), via the omp agent harness — used for slide layout, formatting, language proofreading, and reference formatting.<br>
+  All research questions, methodological decisions, questionnaire items, and analysis plans were developed entirely by the student authors.</p>
 </div>
+
+<style scoped>
+.deck-title { margin-top: 0.7rem; }
+.top-divider { margin-bottom: 0.5rem; }
+.ref-list { margin-top: 0.2rem; line-height: 1.3; }
+.ref-list li:last-child { margin-bottom: 0; }
+.disclosure { margin-top: 0.6rem; }
+</style>
 
 <!--
 Notes · Q&A 收尾停留页 (无需演讲; 若被问及 AI 政策或文献来源, 指向本页)

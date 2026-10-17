@@ -414,5 +414,9 @@ Following an explanatory sequential mixed-methods design (Ivankova et al., 2006;
 
 In accordance with the ADS401 Module Policy on Artificial Intelligence Permissions:
 > For this coursework assignment, students are permitted to make non-substantive use of artificial intelligence tools strictly for minor tasks such as grammatical proofreading, formatting adjustments, and generic structural suggestions.
-> 
-> Anthropic Claude (via the omp open-source coding harness) was employed for drafting assistance, layout formatting, and proofreading of the presentation slides, web report, and this supplementary materials document. All underlying empirical research questions, methodological formulations, sampling frames, variable operationalisations, survey instrument items, interview protocols, and critical evaluations were conceived, drafted, and verified entirely by the student authors.
+
+The following tools were used, strictly for non-substantive tasks:
+
+[1] GLM-5.3 Flash (Zhipu AI) and Gemini 3.8 Flash (Google), operated through the omp open-source coding harness. Used for slide layout and formatting, language proofreading, reference formatting, and build automation for the presentation slides, web report, and this supplementary materials document.
+
+All research questions, methodological decisions, sampling frames, variable operationalisations, questionnaire items, interview protocols, and critical evaluations were conceived, drafted, and verified entirely by the student authors.
