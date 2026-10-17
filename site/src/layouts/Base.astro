@@ -35,14 +35,14 @@ const nav = [
   </head>
   <body>
     <div class="shell">
-      <aside>
+      <aside aria-label="Report navigation and status">
         <div class="brand">ADS401 Students' Perspective on AI Agents at XJTLU</div>
         <div class="course">Evaluation Methods · XJTLU · 2026–27</div>
 
         <div class="h">Report</div>
-        {nav.map(([tl, href, label]) => (
-          <a href={href} style={`view-timeline-name: --${tl};`}>
-            <span class="n" style={`animation-timeline: --${tl};`}>{tl.replace('sec-', '§')}</span>
+        {nav.map(([, href, label]) => (
+          <a href={href}>
+            <span class="n">{href.match(/#(\d)-/)?.[1] ? `§${href.match(/#(\d)-/)[1]}` : '§'}</span>
             {label}
           </a>
         ))}

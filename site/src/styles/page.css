@@ -141,6 +141,12 @@ aside a.ext {
    Unsupported browsers skip this block entirely → hover-only (approved). */
 
 @supports (animation-timeline: --a) {
+  /* Hoist section timelines so sidebar links (outside <main>) can see them */
+  .shell {
+    timeline-scope: --sec-1, --sec-2, --sec-3, --sec-4, --sec-5, --sec-6,
+      --sec-7, --sec-8;
+  }
+
   main h2:nth-of-type(1) { view-timeline-name: --sec-1; }
   main h2:nth-of-type(2) { view-timeline-name: --sec-2; }
   main h2:nth-of-type(3) { view-timeline-name: --sec-3; }
@@ -152,15 +158,30 @@ aside a.ext {
 
   @keyframes sec-active {
     0%,
-    88% {
+    12% {
+      color: var(--muted);
+      font-weight: 500;
+    }
+    42%,
+    62% {
       color: var(--accent);
       font-weight: 600;
     }
+    88%,
     100% {
       color: var(--muted);
       font-weight: 500;
     }
   }
+
+  aside a:nth-of-type(1) .n { animation-timeline: --sec-1; }
+  aside a:nth-of-type(2) .n { animation-timeline: --sec-2; }
+  aside a:nth-of-type(3) .n { animation-timeline: --sec-3; }
+  aside a:nth-of-type(4) .n { animation-timeline: --sec-4; }
+  aside a:nth-of-type(5) .n { animation-timeline: --sec-5; }
+  aside a:nth-of-type(6) .n { animation-timeline: --sec-6; }
+  aside a:nth-of-type(7) .n { animation-timeline: --sec-7; }
+  aside a:nth-of-type(8) .n { animation-timeline: --sec-8; }
 
   aside a .n {
     animation: sec-active linear both;
