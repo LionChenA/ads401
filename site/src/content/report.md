@@ -2,9 +2,6 @@
 title: "ADS401 Students' Perspective on AI Agents at XJTLU"
 ---
 
-<p>
-  <span class="chip stage">Phase 2/6 · Pilot &amp; check</span>
-</p>
 
 *This page reports the evaluation design; findings will be added after
 collection (November 2026).*

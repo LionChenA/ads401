@@ -38,6 +38,9 @@ Orientation: [README.md](README.md).
 
 - `.agents/skills/slides-style/` — load before touching deck layout or style
   (spec lives there; tokens in `slides/styles/index.css`).
+- `.agents/skills/slidev/` — official Slidev agent skill (SKILL.md + 53
+  references); load when working on deck source, mermaid, or exports.
+  Mermaid config lives in `slides/setup/mermaid.ts`.
 - `agent-browser` CLI — rendered-output feedback loop:
   `open` → `eval`/`snapshot`/`read --outline` → `errors`/`console` →
   `screenshot --if-changed`. Usage is **not vendored** — get version-matched

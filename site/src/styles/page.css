@@ -110,6 +110,14 @@ aside a.ext {
 aside a.ext:hover {
   color: var(--accent);
 }
+aside a.ext.slide-link {
+  color: var(--teal);
+  font-weight: 600;
+}
+
+aside a.ext.slide-link:hover {
+  color: var(--accent);
+}
 
 .chips {
   display: flex;
@@ -139,28 +147,6 @@ aside a.ext:hover {
   border: 1px solid var(--amber-line);
 }
 
-/* Phase status line (research pipeline; update text as phases advance —
-   later aligned to teacher's task breakdown, see DECISIONS.md R-14 note). */
-aside .phase {
-  display: flex;
-  gap: 0.45rem;
-  align-items: baseline;
-  font-size: 0.72rem;
-  line-height: 1.4;
-  padding: 0.13rem 0;
-  color: var(--accent);
-  font-weight: 600;
-}
-
-aside .phase .d {
-  flex: none;
-  width: 0.48rem;
-  height: 0.48rem;
-  border-radius: 50%;
-  border: 1px solid var(--accent);
-  background: var(--accent);
-  align-self: center;
-}
 
 /* Reading-progress rail alongside the nav links (pure CSS, scroll(root)).
    Track = hairline; fill = accent, grows with page scroll. Hidden on small
@@ -207,54 +193,19 @@ aside .phase .d {
   }
 }
 
-/* ── Scroll-driven current-section highlight (pure CSS, zero JS) ──
-   Each h2 owns a named view-timeline (--sec-1 .. --sec-8, see nth rules);
-   each sidebar link's § numeral fades to accent while its section is in view.
-   Unsupported browsers skip this block entirely → hover-only (approved). */
+/* ── Active section highlight (driven by lightweight IntersectionObserver) ── */
+.navwrap a.active {
+  color: var(--accent);
+  font-weight: 600;
+  background-color: var(--tint);
+  border-radius: 3px;
+  padding-left: 0.35rem;
+  margin-left: -0.35rem;
+}
 
-@supports (animation-timeline: --a) {
-  /* Hoist section timelines so sidebar links (outside <main>) can see them */
-  .shell {
-    timeline-scope: --sec-1, --sec-2, --sec-3, --sec-4, --sec-5, --sec-6,
-      --sec-7, --sec-8;
-  }
-
-  main h2:nth-of-type(1) { view-timeline-name: --sec-1; }
-  main h2:nth-of-type(2) { view-timeline-name: --sec-2; }
-  main h2:nth-of-type(3) { view-timeline-name: --sec-3; }
-  main h2:nth-of-type(4) { view-timeline-name: --sec-4; }
-  main h2:nth-of-type(5) { view-timeline-name: --sec-5; }
-  main h2:nth-of-type(6) { view-timeline-name: --sec-6; }
-  main h2:nth-of-type(7) { view-timeline-name: --sec-7; }
-  main h2:nth-of-type(8) { view-timeline-name: --sec-8; }
-
-  @keyframes sec-active {
-    /* 0% = unread (ink) → mid = current (accent + tint) → 100% = read (muted) */
-    0%,
-    12% {
-      color: var(--ink);
-      background-color: transparent;
-    }
-    42%,
-    62% {
-      color: var(--accent);
-      background-color: var(--tint);
-    }
-    88%,
-    100% {
-      color: var(--muted);
-      background-color: transparent;
-    }
-  }
-
-  aside a:nth-of-type(1) { animation: sec-active linear both; animation-timeline: --sec-1; border-left: 2px solid transparent; }
-  aside a:nth-of-type(2) { animation: sec-active linear both; animation-timeline: --sec-2; border-left: 2px solid transparent; }
-  aside a:nth-of-type(3) { animation: sec-active linear both; animation-timeline: --sec-3; border-left: 2px solid transparent; }
-  aside a:nth-of-type(4) { animation: sec-active linear both; animation-timeline: --sec-4; border-left: 2px solid transparent; }
-  aside a:nth-of-type(5) { animation: sec-active linear both; animation-timeline: --sec-5; border-left: 2px solid transparent; }
-  aside a:nth-of-type(6) { animation: sec-active linear both; animation-timeline: --sec-6; border-left: 2px solid transparent; }
-  aside a:nth-of-type(7) { animation: sec-active linear both; animation-timeline: --sec-7; border-left: 2px solid transparent; }
-  aside a:nth-of-type(8) { animation: sec-active linear both; animation-timeline: --sec-8; border-left: 2px solid transparent; }
+.navwrap a.active .n {
+  color: var(--accent);
+  font-weight: 700;
 }
 
 /* ── Main column (journal) ───────────────────── */

@@ -8,9 +8,11 @@ node_modules/
 dist/
 .astro/
 .output/
+site/public/slides/
 
 # Exported artifacts (rebuilt from source; LMS submissions)
-slides/*.pdf
+*.pdf
+*.pptx
 slides/supplementary.html
 slides/flow.svg
 
