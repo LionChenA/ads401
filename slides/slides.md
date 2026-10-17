@@ -532,14 +532,14 @@ title: References & AI Disclosure
 </div>
 <hr class="top-divider">
 
-<ul class="ref-list grid grid-cols-2 gap-x-8 gap-y-2 mt-4">
-  <li><b>Braun &amp; Clarke (2006)</b> — Thematic analysis</li>
-  <li><b>Chung et al. (2024)</b> — Student AI survey instrument</li>
-  <li><b>Davis (1989)</b> — Perceived usefulness &amp; ease of use (TAM)</li>
-  <li><b>Farinosi &amp; Melchior (2025)</b> — Student perceptions &amp; use of generative AI</li>
-  <li><b>Fetters et al. (2013)</b> — Mixed-methods integration</li>
-  <li><b>Ivankova et al. (2006)</b> — Sequential explanatory design</li>
-</ul>
+<ol class="ref-list">
+  <li>Braun, V., &amp; Clarke, V. (2006). Using thematic analysis in psychology. <i>Qualitative Research in Psychology, 3</i>(2), 77–101. <a href="https://doi.org/10.1191/1478088706qp063oa">https://doi.org/10.1191/1478088706qp063oa</a></li>
+  <li>Chung, J., Henderson, M., Pepperell, N., Slade, C., &amp; Liang, Y. (2024). <i>Student perspectives on AI in Higher Education: Student Survey</i> [Survey instrument]. Student Perspectives on AI in Higher Education Project. <a href="https://doi.org/10.26180/27915930">https://doi.org/10.26180/27915930</a></li>
+  <li>Davis, F. D. (1989). Perceived usefulness, perceived ease of use, and user acceptance of information technology. <i>MIS Quarterly, 13</i>(3), 319–340. <a href="https://doi.org/10.2307/249008">https://doi.org/10.2307/249008</a></li>
+  <li>Farinosi, M., &amp; Melchior, C. (2025). To adopt or to ban? Student perceptions and use of generative AI in higher education. <i>Humanities and Social Sciences Communications, 12</i>, Article 1684. <a href="https://doi.org/10.1057/s41599-025-05982-7">https://doi.org/10.1057/s41599-025-05982-7</a></li>
+  <li>Fetters, M. D., Curry, L. A., &amp; Creswell, J. W. (2013). Achieving integration in mixed methods designs—Principles and practices. <i>Health Services Research, 48</i>(6 Pt 2), 2134–2156. <a href="https://doi.org/10.1111/1475-6773.12117">https://doi.org/10.1111/1475-6773.12117</a></li>
+  <li>Ivankova, N. V., Creswell, J. W., &amp; Stick, S. L. (2006). Using mixed-methods sequential explanatory design: From theory to practice. <i>Field Methods, 18</i>(1), 3–20. <a href="https://doi.org/10.1177/1525822X05282260">https://doi.org/10.1177/1525822X05282260</a></li>
+</ol>
 
 <div class="disclosure mt-8">
   <b>AI-Use Disclosure:</b> Generative AI provided non-substantive assistance only — slide layout, language polishing, and reference formatting. All research decisions, instrument content, and analysis plans are the students' own work.

@@ -291,17 +291,24 @@
   line-height: 1.7;
 }
 
-/* ---------- Slide 11 · light reference list ---------- */
+/* ---------- Slide 11 · full reference list ---------- */
 
-.slidev-layout .ref-list li {
+.slidev-layout .ref-list {
+  margin: 0.4rem 0 0;
+  padding-left: 1.5rem;
   font-size: 0.875rem;
   color: var(--ink);
-  line-height: 1.5;
-  margin-bottom: 0.55rem;
+  line-height: 1.45;
 }
 
-.slidev-layout .ref-list li b {
-  color: var(--teal);
+.slidev-layout .ref-list li {
+  margin-bottom: 0.45rem;
+}
+
+.slidev-layout .ref-list li a {
+  color: var(--accent);
+  text-decoration: none;
+  word-break: break-all;
 }
 
 /* ---------- AI-use disclosure strip ---------- */
