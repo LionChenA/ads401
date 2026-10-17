@@ -135,6 +135,8 @@ title: Context & Motivation
   </span>
 </div>
 
+<div class="slide-refs"><b>References:</b> Farinosi &amp; Melchior (2025)</div>
+
 <!--
 Notes [18s] · 背景与现实矛盾 (对齐 Speech1.0 Para 2)
 【英文演讲词】:
@@ -190,6 +192,8 @@ title: Research Questions
   </div>
 </div>
 
+<div class="slide-refs"><b>References:</b> Davis (1989) · Farinosi &amp; Melchior (2025)</div>
+
 <!--
 Notes [22s] · 三大核心研究问题 (对齐 Speech1.0 Para 3)
 【英文演讲词】:
@@ -238,6 +242,8 @@ title: Methodology & Sampling
     </ul>
   </div>
 </div>
+
+<div class="slide-refs"><b>References:</b> Ivankova et al. (2006) · Fetters et al. (2013)</div>
 
 <!--
 Notes [22s] · 混合方法与抽样 (对齐 Speech1.0 Para 4)
@@ -310,6 +316,8 @@ Tool Choice Decision Factors → XJTLU AI Improvement Priorities → Follow-up I
     class G4 g4
 ```
 
+<div class="slide-refs"><b>References:</b> Davis (1989) · Chung et al. (2024)</div>
+
 <!--
 Notes [28s] · 问卷架构与四组路由 (演讲者: 申昊德 · 对齐 Speech1.0 Para 5)
 【英文演讲词】:
@@ -337,7 +345,7 @@ title: Planned Interviews
     </div>
     <ul class="dense-list mt-3">
       <li><b>Timing &amp; status:</b> Planned Phase 2 follow-up; scheduled after initial survey analysis.</li>
-      <li><b>Recruitment:</b> Sampled from respondents opting into follow-up contact via Q20/Q21.</li>
+      <li><b>Recruitment:</b> Sampled from survey respondents who voluntarily opt into follow-up contact.</li>
       <li><b>Quota Priority:</b> Prioritising <b>Both AI (G1)</b> and <b>Other AI Only (G2)</b> to understand why students substitute external tools for campus AI.</li>
       <li><b>Format &amp; Duration:</b> 15–20 minutes semi-structured interviews.</li>
     </ul>
@@ -355,6 +363,8 @@ title: Planned Interviews
     </ul>
   </div>
 </div>
+
+<div class="slide-refs"><b>References:</b> Braun &amp; Clarke (2006) · Fetters et al. (2013)</div>
 
 <!--
 Notes [20s] · 追踪访谈与定性整合 (对齐 Speech1.0 Para 6)
@@ -401,8 +411,8 @@ title: Limitations & Next Steps
     <div class="body-text">
       <b>Completed Materials (Consolidated in material.md):</b>
       <p class="note-text">
-        • Survey instrument v1 (pilot) with Participant Information Sheet (PIS) &amp; consent gate (Q1–Q2)<br>
-        • Semi-structured interview protocol &amp; recruitment flow (Q20–Q21)<br>
+        • Survey instrument v1 (pilot) with Participant Information Sheet (PIS) &amp; informed-consent gate<br>
+        • Semi-structured interview protocol &amp; recruitment flow<br>
         • Live web report: <span class="t-accent">lionchena.github.io/ads401</span>
       </p>
       <b>Next Steps:</b>
@@ -412,6 +422,8 @@ title: Limitations & Next Steps
     </div>
   </div>
 </div>
+
+<div class="slide-refs"><b>References:</b> Chung et al. (2024)</div>
 
 <!--
 Notes [22s] · 局限性反思与下一步 (对齐 Speech1.0 Para 7)
@@ -427,10 +439,65 @@ Notes [22s] · 局限性反思与下一步 (对齐 Speech1.0 Para 7)
 -->
 
 ---
+title: Summary
+---
+
+<!-- Slide 9: Summary & AI-Use Disclosure -->
+<div class="deck-title">
+  Summary — What, How &amp; When
+</div>
+<hr class="top-divider">
+
+<div class="grid grid-cols-3 gap-6 mt-6">
+  <div class="card">
+    <div class="kicker">01 · What</div>
+    <div class="lead-title lead-title--teal">
+      Evaluation Design
+    </div>
+    <p class="note-text">
+      An explanatory sequential mixed-methods study of ADS401 students' awareness, adoption, and use of XJTLU AI services.
+    </p>
+  </div>
+
+  <div class="card card--accent">
+    <div class="kicker">02 · How</div>
+    <div class="lead-title lead-title--teal">
+      Census Survey + Interviews
+    </div>
+    <p class="note-text">
+      A 46-invitee cohort census (past-4-week window) with four-group adaptive routing, followed by 4–6 semi-structured interviews.
+    </p>
+  </div>
+
+  <div class="card card--green">
+    <div class="kicker">03 · When</div>
+    <div class="lead-title lead-title--teal">
+      Timeline
+    </div>
+    <p class="note-text">
+      Survey fielding 19 Oct – 02 Nov; preliminary analysis and interview planning leading to Presentation 3 (09 Nov).
+    </p>
+  </div>
+</div>
+
+<div class="disclosure">
+  <b>AI-Use Disclosure:</b> Generative AI provided non-substantive assistance only — slide layout, language polishing, and reference formatting. All research decisions, instrument content, and analysis plans are the students' own work.
+</div>
+
+<!--
+Notes [15s] · 总结与AI使用披露 (新增收尾段)
+【英文演讲词】:
+"To summarize: // a mixed-methods evaluation of XJTLU AI in our cohort, // a census survey followed by interviews, // fielding from October 19th to November 2nd. // Findings will be reported at Presentation 3. // We also disclose that AI assisted only with layout and language polishing — // all research decisions are our own."
+
+【中文要义】:
+总结：我们将在 ADS401 同学中开展混合方法评估——近普查问卷加追踪访谈，10 月 19 日至 11 月 2 日发放问卷，结果在 Pres 3 汇报。同时披露：生成式 AI 仅用于排版与语言润色等非实质性辅助，所有研究决策由组员自主完成。
+-->
+
+---
 title: Q & A
 ---
 
-<!-- Slide 9: Q&A / Discussion & Thank You -->
+<!-- Slide 10: Q&A / Discussion & Thank You -->
 <div class="qa-wrap">
   <div class="qa-title">
     Q &amp; A

@@ -1,7 +1,8 @@
 /* ADS401 Pres2 deck — Academic Teal system (spec: .agents/skills/slides-style R-7,
    unified with web report R-14). slides.md carries CONTENT ONLY; every visual
    decision lives here as a semantic class. Scoped under .slidev-layout so
-   nothing leaks into the Slidev presenter UI. */
+   nothing leaks into the Slidev presenter UI.
+   Legibility floor: no text below 14px (0.875rem) on the 980x540 canvas. */
 
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,500&family=Inter:wght@400;500;600;700&display=swap');
 
@@ -51,7 +52,7 @@
 /* ---------- shared: kicker + column scaffolding ---------- */
 
 .slidev-layout .kicker {
-  font-size: 0.72rem;
+  font-size: 0.875rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   color: var(--muted);
@@ -87,14 +88,14 @@
 
 .slidev-layout .card-title {
   font-weight: 700;
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   color: var(--ink);
   margin-top: 0.15rem;
 }
 
 .slidev-layout .lead-title {
   font-weight: 700;
-  font-size: 0.98rem;
+  font-size: 1.05rem;
   color: var(--ink);
   margin-top: 0.35rem;
   line-height: 1.35;
@@ -105,7 +106,7 @@
 
 .slidev-layout .body-text {
   margin-top: 0.8rem;
-  font-size: 0.78rem;
+  font-size: 0.875rem;
   color: var(--ink);
   line-height: 1.6;
 }
@@ -119,7 +120,7 @@
 }
 
 .slidev-layout .note-text {
-  font-size: 0.78rem;
+  font-size: 0.875rem;
   color: var(--muted);
   line-height: 1.6;
   margin-top: 0.6rem;
@@ -128,7 +129,7 @@
 .slidev-layout .dense-list {
   padding-left: 1.1rem;
   margin: 0;
-  font-size: 0.76rem;
+  font-size: 0.875rem;
   color: var(--ink);
   line-height: 1.55;
 }
@@ -136,7 +137,7 @@
 .slidev-layout .flow-note {
   color: var(--accent);
   font-weight: 700;
-  font-size: 0.76rem;
+  font-size: 0.875rem;
   margin: 0.35rem 0;
 }
 
@@ -155,7 +156,7 @@
 }
 
 .slidev-layout .cover-kicker {
-  font-size: 0.72rem;
+  font-size: 0.875rem;
   font-weight: 600;
   letter-spacing: 0.18em;
   color: var(--accent);
@@ -179,13 +180,13 @@
 
 .slidev-layout .cover-meta {
   margin-top: 2.6rem;
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: var(--ink);
 }
 
 .slidev-layout .cover-date {
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   margin-top: 0.35rem;
   display: inline-block;
 }
@@ -195,11 +196,11 @@
 .slidev-layout .strip-label {
   font-weight: 700;
   color: var(--teal);
-  font-size: 0.85rem;
+  font-size: 0.95rem;
 }
 
 .slidev-layout .strip-text {
-  font-size: 0.82rem;
+  font-size: 0.875rem;
   color: var(--ink);
   margin-left: 0.5rem;
   line-height: 1.5;
@@ -208,29 +209,30 @@
 /* ---------- Slide 4 · RQ rows ---------- */
 
 .slidev-layout .rq-head {
-  display: flex;
-  align-items: baseline;
-  gap: 0.6rem;
+  display: block;
 }
 
 .slidev-layout .rq-name {
+  display: block;
   font-weight: 800;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--teal);
-  white-space: nowrap;
 }
 
 .slidev-layout .card--accent .rq-name { color: var(--accent); }
 .slidev-layout .card--green  .rq-name { color: var(--green); }
 
 .slidev-layout .rq-q {
-  font-size: 0.88rem;
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.95rem;
   font-weight: 600;
   color: var(--ink);
+  text-align: left;
 }
 
 .slidev-layout .rq-desc {
-  font-size: 0.76rem;
+  font-size: 0.875rem;
   color: var(--muted);
   margin: 0.35rem 0 0;
   line-height: 1.5;
@@ -277,16 +279,49 @@
 }
 
 .slidev-layout .qa-card-title {
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   font-weight: 700;
   color: var(--teal);
   margin-bottom: 0.4rem;
 }
 
 .slidev-layout .qa-links {
-  font-size: 0.78rem;
+  font-size: 0.875rem;
   color: var(--ink);
   line-height: 1.7;
+}
+
+/* ---------- per-page references (bottom-left) ---------- */
+
+.slidev-layout .slide-refs {
+  position: absolute;
+  left: 1.1rem;
+  right: 1.1rem;
+  bottom: 0.4rem;
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+.slidev-layout .slide-refs b {
+  font-weight: 600;
+}
+
+/* ---------- AI-use disclosure strip ---------- */
+
+.slidev-layout .disclosure {
+  margin-top: 2.2rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--paper);
+  padding: 0.7rem 1rem;
+  font-size: 0.875rem;
+  color: var(--muted);
+  line-height: 1.55;
+  text-align: left;
+}
+
+.slidev-layout .disclosure b {
+  color: var(--teal);
 }
 
 /* ---------- deck chrome fix ---------- */
