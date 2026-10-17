@@ -2,8 +2,13 @@
 title: "ADS401 Students' Perspective on AI Agents at XJTLU"
 ---
 
-*Design stage — data collection pending. This page reports the evaluation
-design; findings will be added after collection (November 2026).*
+<p>
+  <span class="chip stage">Design stage</span>
+  <span class="chip pending">Findings pending</span>
+</p>
+
+*This page reports the evaluation design; findings will be added after
+collection (November 2026).*
 
 ## 1. Project at a glance
 
@@ -169,13 +174,15 @@ non-identifying otherwise.
   adoption decisions and identify improvement directions — the survey says
   *what*, the interviews explain *why* [5].
 
-Analysis is deliberately descriptive and exploratory: with a single-module
-voluntary sample we report distributions and patterns, and we do not run
-group-inferential tests or claim causal effects.
+> Analysis is deliberately descriptive and exploratory: with a single-module
+> voluntary sample we report distributions and patterns, and we do not run
+> group-inferential tests or claim causal effects.
 
 ## 6. Findings
 
-*Pending — survey not yet fielded.* Data collection starts after Presentation
+<span class="chip pending">Pending — survey not yet fielded</span>
+
+*Data collection starts after Presentation
 2 feedback and the instrument pilot. This section will present, per research
 question: awareness and adoption rates (RQ1), usage-pattern cross-tabulations
 by group (RQ2), and barrier/intention/comparison summaries with interview

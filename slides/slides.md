@@ -14,27 +14,28 @@ mdc: true
 <!-- Title slide -->
 <div class="section-label">RESEARCH BACKGROUND</div>
 
-<div style="margin-top: 3.2rem;">
-  <div class="deck-title" style="font-size: 1.75rem;">ADS401 Students' Perspective on AI Agents at XJTLU</div>
-  <div style="color: var(--teal); font-size: 1.05rem; margin-top: 0.55rem;">
+<div class="cover-frame">
+  <div class="cover-kicker">ADS401 · PRESENTATION 2 · EVALUATION DESIGN</div>
+  <div class="deck-title" style="font-size: 2.35rem; margin-top: 0.7rem;">ADS401 Students' Perspective<br>on AI Agents at XJTLU</div>
+  <div style="color: var(--teal); font-family: Newsreader, Georgia, serif; font-style: italic; font-size: 1.02rem; margin-top: 0.5rem;">
     An empirical HCI evaluation of awareness, adoption and use of XJTLU AI
+  </div>
+  <div style="margin-top: 1rem; display: flex; gap: 0.45rem;">
+    <span class="pill stage">DESIGN STAGE</span>
+    <span class="pill pending">FINDINGS PENDING</span>
   </div>
 </div>
 
-<div style="margin-top: 2.2rem; font-size: 0.95rem; color: var(--ink);">
-  <b>ADS401 Presentation 2 · Evaluation Design</b><br>
+<div style="margin-top: 1.7rem; font-size: 0.9rem; color: var(--ink);">
   Group A · Hongcheng TANG · Mingjian TAO · Liyuan CHEN · Haode SHEN<br>
   <span style="color: var(--muted);">Xi'an Jiaotong-Liverpool University · 2026–27 Sem1 · 19 October 2026</span>
 </div>
 
-<div class="top-divider" style="width: 60%; margin: 1.6rem auto 0;"></div>
-<div style="font-size: 0.75rem; color: var(--muted); margin-top: 0.8rem;">
-  Live report: lionchena.github.io/ads401
-</div>
+<div style="position: absolute; right: 1.6rem; bottom: 2.4rem; font-family: Newsreader, Georgia, serif; font-size: 4.6rem; line-height: 1; color: var(--line);">02</div>
 
 <div class="bottom-divider"></div>
 <div class="takeaway">Institutional AI exists — but do the students it targets know and use it?</div>
-<div class="slide-refs"></div>
+<div class="slide-refs">Live report: lionchena.github.io/ads401</div>
 <div class="page-no">01 / 05</div>
 
 <!--

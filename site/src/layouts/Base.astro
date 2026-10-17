@@ -10,14 +10,14 @@ const {
 } = Astro.props;
 
 const nav = [
-  ['#1-project-at-a-glance', '1 At a glance'],
-  ['#2-problem-motivation-and-research-questions', '2 Problem & RQs'],
-  ['#3-background-and-related-work', '3 Background'],
-  ['#4-system-and-evaluation-design', '4 Evaluation design'],
-  ['#5-data-preparation-and-analysis-plan', '5 Analysis plan'],
-  ['#6-findings', '6 Findings'],
-  ['#7-discussion-limitations-and-recommendations-planned', '7 Discussion'],
-  ['#8-transparency-and-references', '8 Transparency'],
+  ['sec-1', '#1-project-at-a-glance', 'At a glance'],
+  ['sec-2', '#2-problem-motivation-and-research-questions', 'Problem & RQs'],
+  ['sec-3', '#3-background-and-related-work', 'Background'],
+  ['sec-4', '#4-system-and-evaluation-design', 'Evaluation design'],
+  ['sec-5', '#5-data-preparation-and-analysis-plan', 'Analysis plan'],
+  ['sec-6', '#6-findings', 'Findings'],
+  ['sec-7', '#7-discussion-limitations-and-recommendations-planned', 'Discussion'],
+  ['sec-8', '#8-transparency-and-references', 'Transparency'],
 ];
 ---
 
@@ -34,27 +34,46 @@ const nav = [
     />
   </head>
   <body>
-    <header class="site">
-      <h1>ADS401 Students' Perspective on AI Agents at XJTLU</h1>
-      <p class="subtitle">
-        An empirical HCI evaluation of awareness, adoption and use of XJTLU-provided AI agents<br />
-        Group A · Hongcheng TANG · Mingjian TAO · Liyuan CHEN · Haode SHEN<br />
-        ADS401 Evaluation Methods and Statistics · Xi'an Jiaotong-Liverpool University · 2026–27 Sem1
-      </p>
-    </header>
+    <div class="shell">
+      <aside aria-label="Report navigation and status">
+        <div class="brand">ADS401 Students' Perspective on AI Agents at XJTLU</div>
+        <div class="course">Evaluation Methods · XJTLU · 2026–27</div>
 
-    <nav aria-label="Sections">
-      {nav.map(([href, label]) => <a href={href}>{label}</a>)}
-    </nav>
+        <div class="h">Report</div>
+        {nav.map(([, href, label]) => (
+          <a href={href}>
+            <span class="n">{href.match(/#(\d)-/)?.[1] ? `§${href.match(/#(\d)-/)[1]}` : '§'}</span>
+            {label}
+          </a>
+        ))}
 
-    <main>
-      <slot />
-    </main>
+        <div class="h">Status</div>
+        <div class="chips">
+          <span class="chip stage">Design stage</span>
+          <span class="chip pending">Findings pending</span>
+        </div>
 
-    <footer>
-      ADS401 Group A · Evaluating AI Integration at XJTLU · 2026–27 Sem1 ·
-      <a href="https://github.com/LionChenA/ads401">github.com/LionChenA/ads401</a> ·
-      Red line: no raw participant data in this repository or site.
-    </footer>
+        <div class="h">Materials</div>
+        <a class="ext" href="https://github.com/LionChenA/ads401">GitHub repo ↗</a>
+        <a class="ext" href="https://github.com/LionChenA/ads401/tree/main/assets/pre2/materials/survey">survey_v1.md ↗</a>
+      </aside>
+
+      <main>
+        <div class="journal-head">
+          <span>ADS401 · Evaluation Methods and Statistics</span>
+          <span>XJTLU · 2026–27</span>
+        </div>
+        <h1>{title}</h1>
+        <p class="dek">
+          An empirical HCI evaluation of awareness, adoption and use of
+          XJTLU-provided AI agents.
+        </p>
+        <p class="byline">
+          Group A · Hongcheng TANG · Mingjian TAO · Liyuan CHEN · Haode SHEN ·
+          Explanatory sequential mixed methods
+        </p>
+        <slot />
+      </main>
+    </div>
   </body>
 </html>

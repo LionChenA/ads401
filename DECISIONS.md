@@ -151,3 +151,22 @@
   official skill channel that never goes stale, Apache-2.0, Vercel Labs.
   Performance tracing was the only advantage of chrome-devtools-mcp and is
   irrelevant to a zero-JS static site.
+
+## R-14 · Style system: Academic Teal, Direction A (journal serif)
+- **Status**: Accepted (2026-10-17, user-selected via huashu-design
+  three-direction gate; issue #6 open for team objections — 24h window)
+- **Decision**: Web report and deck share one visual system, "Academic Teal":
+  5-token palette (ink/teal/muted/line/accent), white paper, Newsreader serif
+  display + Inter body. Web report = left sidebar layout (§01–08 + status
+  pills + material links) with journal masthead. Deck = same serif family,
+  seven-region structure kept, journal frame cover with status pills.
+  Status pills: `Design stage` (teal) / `Findings pending` (amber);
+  `In pilot` reserved. Current-section nav highlight = pure CSS
+  view-timelines (zero JS; unsupported browsers degrade to hover-only).
+  Poster (30 Nov) deliberately breaks style → Big-Type Editorial direction
+  is reserved for it. Selected via the huashu-design three-direction gate:
+  journal (chosen) / engineering-docs (rejected) / big-type (reserved for
+  poster); harness-only tooling rejected as non-shareable.
+- **Rationale**: slide–page unification principle — same kicker/divider/
+  takeaway/pill vocabulary across surfaces; academic register fits coursework
+  marking; white theme is print/project safe.
