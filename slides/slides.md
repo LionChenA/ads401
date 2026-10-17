@@ -54,7 +54,7 @@ title: Outline
 <div class="grid grid-cols-2 gap-x-8 gap-y-3 mt-6 text-left">
   <div class="card">
     <div class="kicker">01 · CONTEXT &amp; MOTIVATION</div>
-    <div class="card-title">Official AI Deployment vs. External AI Habits</div>
+    <div class="card-title">Awareness, Adoption &amp; Use of XJTLU AI</div>
   </div>
 
   <div class="card card--accent">
@@ -64,7 +64,7 @@ title: Outline
 
   <div class="card card--green">
     <div class="kicker">03 · METHODOLOGY &amp; SAMPLING</div>
-    <div class="card-title">Sequential Mixed Methods &amp; 46-Student Census</div>
+    <div class="card-title">Explanatory Sequential Mixed-Methods Design</div>
   </div>
 
   <div class="card card--slate">
@@ -113,9 +113,9 @@ title: Context & Motivation
 
   <div class="col-rule">
     <div class="kicker">02 · Student Reality</div>
-    <div class="lead-title">Heavy External Commercial AI Use</div>
+    <div class="lead-title">External AI in Daily Coursework</div>
     <p class="note-text">
-      ADS401 students actively rely on external commercial AI (ChatGPT, DeepSeek, Kimi) for daily programming, academic writing, and concept debugging.
+      Many of us reach for external commercial AI (ChatGPT, DeepSeek, Kimi) in daily coursework — for programming, academic writing, and concept debugging. How far this reaches into ADS401 work is exactly what we set out to measure.
     </p>
   </div>
 
@@ -164,9 +164,6 @@ title: Research Questions
       <span class="rq-name">RQ1 · Awareness &amp; Adoption</span>
       <span class="rq-q">To what extent are students in our ADS401 module aware of and adopting XJTLU AI?</span>
     </div>
-    <p class="rq-desc">
-      Investigates baseline familiarity with campus AI services, lifetime ever-use, and actual module-specific adoption in ADS401 learning over the past four weeks.
-    </p>
   </div>
 
   <div class="card card--accent">
@@ -174,9 +171,6 @@ title: Research Questions
       <span class="rq-name">RQ2 · Usage Patterns</span>
       <span class="rq-q">How do students in ADS401 use XJTLU AI for their academic tasks?</span>
     </div>
-    <p class="rq-desc">
-      Examines usage frequency, distribution across coursework task categories (course materials, research planning, data analysis, writing), and verification habits.
-    </p>
   </div>
 
   <div class="card card--green">
@@ -184,9 +178,6 @@ title: Research Questions
       <span class="rq-name">RQ3 · Factors &amp; Comparison</span>
       <span class="rq-q">What perceived benefits, barriers, and tool differences are associated with adoption choices and future intentions?</span>
     </div>
-    <p class="rq-desc">
-      Explores perceived usefulness, ease of use, trust, reported obstacles, perceived trade-offs against external commercial AI, and future continuance intentions.
-    </p>
   </div>
 </div>
 
@@ -399,11 +390,10 @@ title: Limitations & Next Steps
       Ready for Data Collection
     </div>
     <div class="body-text">
-      <b>Completed Materials (Consolidated in material.md):</b>
+      <b>Completed Materials:</b>
       <p class="note-text">
         • Survey instrument v1 (pilot) with Participant Information Sheet (PIS) &amp; informed-consent gate<br>
-        • Semi-structured interview protocol &amp; recruitment flow<br>
-        • Live web report: <span class="t-accent">lionchena.github.io/ads401</span>
+        • Semi-structured interview protocol &amp; recruitment flow
       </p>
       <b>Next Steps:</b>
       <p class="next-steps">
@@ -491,8 +481,7 @@ title: References & AI Disclosure
 </ol>
 
 <div class="disclosure mt-5">
-  <p><b>AI-Use Disclosure (non-substantive use only):</b> [1] GLM-5.3 Flash (Zhipu AI) &amp; Gemini 3.8 Flash (Google), via the omp agent harness — used for slide layout, formatting, language proofreading, and reference formatting.<br>
-  All research questions, methodological decisions, questionnaire items, and analysis plans were developed entirely by the student authors.</p>
+  <p><b>AI-Use Disclosure (non-substantive use only):</b> [1] GLM-5.3 Flash (Zhipu AI) &amp; Gemini 3.8 Flash (Google), via the omp agent harness — used for slide layout, formatting, language proofreading, and reference formatting.</p>
 </div>
 
 <style scoped>
