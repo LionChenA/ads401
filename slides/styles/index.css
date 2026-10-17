@@ -288,3 +288,13 @@
   color: var(--ink);
   line-height: 1.7;
 }
+
+/* ---------- deck chrome fix ---------- */
+
+/* Slidev's goto dialog (G jump) leaks its autocomplete list into the
+   viewport even while parked off-screen, blocking the top-right corner.
+   Arrow keys and the overview (O) cover navigation, so the dialog is
+   removed entirely — state-independent, no class guessing. */
+#slidev-goto-dialog {
+  display: none !important;
+}
