@@ -10,7 +10,7 @@ dist/
 .output/
 
 # Exported artifacts (rebuilt from source; LMS submissions)
-slides/*.pdf
+*.pdf
 slides/supplementary.html
 slides/flow.svg
 
