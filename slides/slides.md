@@ -42,6 +42,8 @@ Notes [15s] · 开场问候与破题 (演讲者: 申昊德)
 -->
 
 ---
+title: Outline
+---
 
 <!-- Slide 2: Outline (Scheme A) -->
 <div class="deck-title deck-title--outline">
@@ -90,6 +92,8 @@ Notes [10s] · 大纲导引
 我们的汇报主要覆盖六个核心部分：背景与动机、三个研究问题、方法与近普查抽样、问卷四组自适应路由，以及最后的后续访谈和诚实局限性。
 -->
 
+---
+title: Context & Motivation
 ---
 
 <!-- Slide 3: Context & Motivation -->
@@ -145,6 +149,8 @@ Notes [18s] · 背景与现实矛盾 (对齐 Speech1.0 Para 2)
 -->
 
 ---
+title: Research Questions
+---
 
 <!-- Slide 4: Research Questions (3 Horizontal Rows) -->
 <div class="deck-title">
@@ -194,6 +200,8 @@ Notes [22s] · 三大核心研究问题 (对齐 Speech1.0 Para 3)
 -->
 
 ---
+title: Methodology & Sampling
+---
 
 <!-- Slide 5: Methodology & Census Sampling -->
 <div class="deck-title">
@@ -240,6 +248,8 @@ Notes [22s] · 混合方法与抽样 (对齐 Speech1.0 Para 4)
 为回答这些问题，我们采用解释性顺序混合方法：先开展横断面在线问卷，再根据问卷结果进行访谈。研究对象是 ADS401 全体学生。目前课程有 50 名学生，排除 4 名研究者后，计划邀请 46 名学生参与。
 -->
 
+---
+title: Survey Routing
 ---
 
 <!-- Slide 6: Survey Routing & Four Usage Groups -->
@@ -310,6 +320,8 @@ Notes [28s] · 问卷架构与四组路由 (演讲者: 申昊德 · 对齐 Speec
 -->
 
 ---
+title: Planned Interviews
+---
 
 <!-- Slide 7: Planned Follow-up Interviews -->
 <div class="deck-title">
@@ -356,6 +368,8 @@ Notes [20s] · 追踪访谈与定性整合 (对齐 Speech1.0 Para 6)
 考官若追问，明确说明：访谈是问卷初步分析后的解释性后续计划（Planned Follow-up），目前尚未开展，我们重点在问卷严密性。
 -->
 
+---
+title: Limitations & Next Steps
 ---
 
 <!-- Slide 8: Limitations, Materials & Next Steps -->
@@ -412,6 +426,8 @@ Notes [22s] · 局限性反思与下一步 (对齐 Speech1.0 Para 7)
 - cross-sectional [krɒs ˈsɛk-ʃə-nəl]
 -->
 
+---
+title: Q & A
 ---
 
 <!-- Slide 9: Q&A / Discussion & Thank You -->
