@@ -40,6 +40,7 @@ mdc: true
 <!--
 Notes [~30s]: XJTLU 提供了君谋 AI 等官方智能体服务，但对 ADS401 学生而言，
 这些服务的认知度、采纳与真实使用情况仍不清楚。我们提出一个解释性顺序混合方法评估。
+超时先砍：副标题行。
 -->
 
 ---
@@ -79,6 +80,7 @@ layout: default
 <!--
 Notes [~35s]: 三个研究问题。RQ1 认知与采纳程度；RQ2 学习任务中的使用模式；
 RQ3 是核心——与外部商业 AI 相比，哪些感知收益、障碍和差异与采纳及继续/尝试/恢复使用意愿相关。
+超时先砍：references 行。
 -->
 
 ---
@@ -122,6 +124,7 @@ layout: default
 Notes [~40s]: 解释性顺序设计。先横断面问卷：向排除 4 名研究者后的 46 名同学全邀，自愿参加；
 按过去四周使用情况分四组并走不同跳题模块。分析全部为描述统计与交叉表，
 有用性/易用性条目定位为情境化探索性测量，不做组间推断。
+超时先砍：探索性测量说明；保留 46 邀请、四组与描述统计。
 -->
 
 ---
@@ -163,6 +166,7 @@ layout: default
 Notes [~35s]: 问卷回收并初步分析后，在勾选愿意参加后续联系的受访者中目的抽样 4–6 人，
 优先 Both AI 与 Other AI only 两组；每人 15–20 分钟半结构化访谈。
 主题分析后与问卷模式相互对照，解释采纳决策并输出改进方向。
+超时先砍：references 行与访谈时长细节。
 -->
 
 ---
@@ -195,7 +199,8 @@ layout: default
   </div>
   <div class="content-h" style="margin-top: 0.7rem;">Materials</div>
   <div class="text-xs" style="color: var(--ink);">
-    Survey instrument <i>questionnaire_v1</i> (pilot) · interview protocol · live page:
+    Survey instrument <i>questionnaire_v1</i> (pilot) with information sheet &amp; consent gate (Q1–Q2) ·
+    interview protocol · supplementary PDF (LMS) · live page:
     <span style="color: var(--accent);">lionchena.github.io/ads401</span>
   </div>
 </div>
@@ -209,5 +214,5 @@ layout: default
 <!--
 Notes [~30s]: 诚实边界先行：单一模块样本、自我报告、访谈覆盖侧重、横断面设计、
 感知性比较。下一步：内部检查 → 发放 → 初步分析 → 访谈 → 整合。
-欢迎各位老师同学的反馈，谢谢！
+欢迎各位老师同学的反馈，谢谢！超时先砍：materials 细目，保留 limitations 与下一步。
 -->
