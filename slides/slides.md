@@ -27,23 +27,23 @@ mdc: true
 </div>
 
 <div style="margin-top: 2.6rem; font-size: 0.95rem; color: var(--ink);">
-  <b>Group A</b> · Hongcheng TANG · Mingjian TAO · Liyuan CHEN · Haode SHEN<br>
+  <b>Group A</b> · Hongcheng TANG · Mingjian TAO · Liyuan CHEN · <b>Haode SHEN</b> <i>(Presenter)</i><br>
   <span style="color: var(--muted); font-size: 0.85rem; margin-top: 0.35rem; display: inline-block;">19 October 2026</span>
 </div>
 
 <!--
-Notes [15s] · 开场问候与破题
+Notes [15s] · 开场问候与破题 (演讲者: 申昊德)
 【英文演讲词】:
-"Hello everyone. // We are the first group to present in ADS401. // Our study explores ADS401 students' awareness and use // of AI services provided by XJTLU."
+"Hello everyone. // We are Group A. My name is Haode SHEN. // Today our study explores ADS401 students' awareness and use // of AI services provided by XJTLU."
 
 【中文要义】:
-大家好，我们是第一组。今天我们汇报的研究关注 ADS401 同学对西浦校内 AI 服务的认知和使用情况。
+大家下午好，我们是第一组，我是主讲人申昊德。今天我们汇报的研究关注 ADS401 同学对西浦校内 AI 服务的认知和使用情况。
 
 【发音指南】:
+- Haode SHEN [haʊ-də ʃɛn]
 - awareness [ə-ˈwɛər-nəs] 认知度
 - provided by XJTLU [prə-ˈvaɪ-dɪd baɪ ...]
 -->
-
 ---
 
 <!-- Slide 2: Outline -->
@@ -278,67 +278,93 @@ Notes [25s] · 混合方法与抽样 (对齐 Speech1.0 Para 4)
 </div>
 <hr class="top-divider">
 
-<!-- Screening Bar -->
-<div style="background: var(--paper); border: 1px solid var(--line); border-radius: 4px; padding: 0.5rem 0.9rem; display: flex; justify-content: space-between; align-items: center; font-size: 0.76rem; margin-top: 0.8rem;">
-  <span><b>Screening &amp; Consent:</b> Q1 Enrollment Check · Q2 Participant Information &amp; Voluntary Consent</span>
-  <span style="color: var(--muted);">Recall window: Past 4 weeks · Duration: ~5–7 min</span>
+<div style="margin-top: 1rem; display: flex; justify-content: center;">
+<svg viewBox="0 0 920 320" style="width: 100%; max-width: 900px; height: auto; font-family: Inter, sans-serif;">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#64748b" />
+    </marker>
+  </defs>
+
+  <!-- Step 1: Entry Gate -->
+  <rect x="180" y="8" width="560" height="48" rx="6" fill="#f8fafc" stroke="#ced5d7" stroke-width="1.5" />
+  <text x="460" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#183F46">Step 1 · Entry Gate: Eligibility Check &amp; Informed Consent (PIS)</text>
+  <text x="460" y="44" text-anchor="middle" font-size="11" fill="#687780">Recall Window: Past 4 Weeks · Estimated Completion: 5–7 min · Non-consent exits study</text>
+
+  <!-- Feeder line from Step 1 down -->
+  <line x1="460" y1="56" x2="460" y2="76" stroke="#64748b" stroke-width="1.5" />
+  <!-- Horizontal splitter bar -->
+  <line x1="120" y1="76" x2="800" y2="76" stroke="#64748b" stroke-width="1.5" />
+  <!-- 4 vertical drop arrows into cards -->
+  <line x1="120" y1="76" x2="120" y2="94" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)" />
+  <line x1="345" y1="76" x2="345" y2="94" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)" />
+  <line x1="575" y1="76" x2="575" y2="94" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)" />
+  <line x1="800" y1="76" x2="800" y2="94" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)" />
+
+  <!-- Step 2: 4 Group Cards -->
+  <!-- G1 -->
+  <rect x="20" y="98" width="200" height="110" rx="5" fill="#ffffff" stroke="#ced5d7" stroke-width="1" />
+  <rect x="20" y="98" width="200" height="4" fill="#183F46" />
+  <text x="32" y="120" font-size="12" font-weight="700" fill="#183F46">G1 · Both AI</text>
+  <text x="32" y="134" font-size="10" fill="#687780">Used Campus &amp; External AI</text>
+  <line x1="32" y1="142" x2="208" y2="142" stroke="#e2e8f0" stroke-width="1" />
+  <text x="32" y="158" font-size="10.5" fill="#172327">• Campus UX &amp; TAM</text>
+  <text x="32" y="174" font-size="10.5" fill="#172327">• External AI Usage</text>
+  <text x="32" y="190" font-size="10.5" fill="#1683A5" font-weight="600">• Paired Tool Comparison</text>
+
+  <!-- G2 -->
+  <rect x="245" y="98" width="200" height="110" rx="5" fill="#ffffff" stroke="#ced5d7" stroke-width="1" />
+  <rect x="245" y="98" width="200" height="4" fill="#1683A5" />
+  <text x="257" y="120" font-size="12" font-weight="700" fill="#1683A5">G2 · Other AI Only</text>
+  <text x="257" y="134" font-size="10" fill="#687780">External AI Only</text>
+  <line x1="257" y1="142" x2="433" y2="142" stroke="#e2e8f0" stroke-width="1" />
+  <text x="257" y="158" font-size="10.5" fill="#172327">• External AI Habits</text>
+  <text x="257" y="174" font-size="10.5" fill="#172327">• Non-Adoption Reasons</text>
+  <text x="257" y="190" font-size="10.5" fill="#172327">• Willingness to Try</text>
+
+  <!-- G3 -->
+  <rect x="475" y="98" width="200" height="110" rx="5" fill="#ffffff" stroke="#ced5d7" stroke-width="1" />
+  <rect x="475" y="98" width="200" height="4" fill="#64748b" />
+  <text x="487" y="120" font-size="12" font-weight="700" fill="#64748b">G3 · Neither / No AI</text>
+  <text x="487" y="134" font-size="10" fill="#687780">No AI Used (Past 4 Weeks)</text>
+  <line x1="487" y1="142" x2="663" y2="142" stroke="#e2e8f0" stroke-width="1" />
+  <text x="487" y="158" font-size="10.5" fill="#172327">• Non-Adoption Reasons</text>
+  <text x="487" y="174" font-size="10.5" fill="#172327">• Willingness to Try</text>
+  <text x="487" y="190" font-size="10" fill="#94a3b8" font-style="italic">(Skips all usage blocks)</text>
+
+  <!-- G4 -->
+  <rect x="700" y="98" width="200" height="110" rx="5" fill="#ffffff" stroke="#ced5d7" stroke-width="1" />
+  <rect x="700" y="98" width="200" height="4" fill="#0d9488" />
+  <text x="712" y="120" font-size="12" font-weight="700" fill="#0d9488">G4 · XJTLU AI Only</text>
+  <text x="712" y="134" font-size="10" fill="#687780">Campus AI Exclusive</text>
+  <line x1="712" y1="142" x2="888" y2="142" stroke="#e2e8f0" stroke-width="1" />
+  <text x="712" y="158" font-size="10.5" fill="#172327">• Campus UX &amp; TAM</text>
+  <text x="712" y="174" font-size="10.5" fill="#172327">• Future Continuance</text>
+  <text x="712" y="190" font-size="10" fill="#94a3b8" font-style="italic">(Skips external AI questions)</text>
+
+  <!-- Convergence lines down to Step 3 -->
+  <line x1="120" y1="208" x2="120" y2="228" stroke="#64748b" stroke-width="1.5" />
+  <line x1="345" y1="208" x2="345" y2="228" stroke="#64748b" stroke-width="1.5" />
+  <line x1="575" y1="208" x2="575" y2="228" stroke="#64748b" stroke-width="1.5" />
+  <line x1="800" y1="208" x2="800" y2="228" stroke="#64748b" stroke-width="1.5" />
+  <line x1="120" y1="228" x2="800" y2="228" stroke="#64748b" stroke-width="1.5" />
+  <line x1="460" y1="228" x2="460" y2="246" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)" />
+
+  <!-- Step 3: Convergence Box -->
+  <rect x="90" y="250" width="740" height="46" rx="6" fill="#f8fafc" stroke="#ced5d7" stroke-width="1.5" />
+  <text x="460" y="269" text-anchor="middle" font-size="12" font-weight="700" fill="#183F46">Step 3 · All Groups Converge (Common Modules)</text>
+  <text x="460" y="284" text-anchor="middle" font-size="10.5" fill="#172327">Tool Choice Decision Factors  ──►  XJTLU AI Improvement Priorities  ──►  Follow-up Interview Opt-in</text>
+</svg>
 </div>
 
-<!-- Four Group Routing Cards (Pure clean HTML, no markdown nesting traps) -->
-<div class="grid grid-cols-4 gap-3 mt-3">
-  <div style="background: #ffffff; border: 1px solid var(--line); border-top: 3px solid var(--teal); border-radius: 4px; padding: 0.65rem 0.6rem; text-align: left;">
-    <div style="font-weight: 700; font-size: 0.8rem; color: var(--teal);">G1 · Both AI</div>
-    <div style="font-size: 0.68rem; color: var(--muted); margin: 0.2rem 0 0.5rem;">Used XJTLU AI + External</div>
-    <div style="font-size: 0.68rem; color: var(--ink); line-height: 1.45;">
-      • Q6–Q11 Campus UX &amp; TAM<br>
-      • Q14 External categories<br>
-      • Q15–Q16 Direct comparison
-    </div>
-  </div>
-
-  <div style="background: #ffffff; border: 1px solid var(--line); border-top: 3px solid var(--accent); border-radius: 4px; padding: 0.65rem 0.6rem; text-align: left;">
-    <div style="font-weight: 700; font-size: 0.8rem; color: var(--accent);">G2 · Other AI Only</div>
-    <div style="font-size: 0.68rem; color: var(--muted); margin: 0.2rem 0 0.5rem;">External AI Only</div>
-    <div style="font-size: 0.68rem; color: var(--ink); line-height: 1.45;">
-      • Q12 Non-adoption reasons<br>
-      • Q13 Willingness to try<br>
-      • Q14 External categories
-    </div>
-  </div>
-
-  <div style="background: #ffffff; border: 1px solid var(--line); border-top: 3px solid #64748b; border-radius: 4px; padding: 0.65rem 0.6rem; text-align: left;">
-    <div style="font-weight: 700; font-size: 0.8rem; color: #64748b;">G3 · Neither / No AI</div>
-    <div style="font-size: 0.68rem; color: var(--muted); margin: 0.2rem 0 0.5rem;">No AI used in past 4 weeks</div>
-    <div style="font-size: 0.68rem; color: var(--ink); line-height: 1.45;">
-      • Q12 Non-adoption reasons<br>
-      • Q13 Willingness to try<br>
-      • <i>(Skips all usage blocks)</i>
-    </div>
-  </div>
-
-  <div style="background: #ffffff; border: 1px solid var(--line); border-top: 3px solid #0d9488; border-radius: 4px; padding: 0.65rem 0.6rem; text-align: left;">
-    <div style="font-weight: 700; font-size: 0.8rem; color: #0d9488;">G4 · XJTLU AI Only</div>
-    <div style="font-size: 0.68rem; color: var(--muted); margin: 0.2rem 0 0.5rem;">Campus AI Only</div>
-    <div style="font-size: 0.68rem; color: var(--ink); line-height: 1.45;">
-      • Q6–Q11 Campus UX &amp; TAM<br>
-      • Future continuance<br>
-      • <i>(Skips external AI)</i>
-    </div>
-  </div>
-</div>
-
-<!-- Convergence Bar -->
-<div style="margin-top: 0.8rem; background: var(--paper); border: 1px solid var(--line); border-radius: 4px; padding: 0.5rem 0.9rem; font-size: 0.72rem; color: var(--ink); text-align: left;">
-  <b>All Groups Converge:</b> Q17 Decision factors · Q18 Priorities for XJTLU AI · Q19 Open suggestions · Q20/Q21 Follow-up interview recruitment
-</div>
 
 <!--
-Notes [30s] · 问卷架构与四组路由 (对齐 Speech1.0 Para 5)
+Notes [30s] · 问卷架构与四组路由 (演讲者: 申昊德 · 对齐 Speech1.0 Para 5)
 【英文演讲词】:
-"The pilot questionnaire takes about five to seven minutes // and asks mainly about learning in the past four weeks. // It covers AI awareness and use, // academic tasks, perceived usefulness, ease of use, trust, barriers, and future intentions. // We will group students by recent AI use // and compare usage patterns using descriptive statistics and cross-tabulations. // Tool comparisons reflect students' perceptions, // not objective differences in system capability."
+"The pilot questionnaire takes about five to seven minutes // and asks mainly about learning in the past four weeks. // As shown in this flowchart, // we screen for eligibility and consent first, // then adaptively route students into four groups based on recent use. // Dual users compare both tools, // while non-users share reasons for non-adoption without rating unexperienced features. // Finally, all groups converge to answer decision factors and improvement priorities."
 
 【中文要义】:
-预测试问卷预计需要 5–7 分钟，主要询问过去四周的学习经历。内容包括 AI 认知和使用、学业任务、有用性、易用性、信任、使用障碍及未来意愿。我们将按近期使用情况分为四组，用描述统计和交叉分析比较使用模式。工具比较反映学生的主观体验，不代表系统客观能力差异。
+预测试问卷预计需要 5–7 分钟，主要询问过去四周的学习经历。正如流程图所示，我们首先进行资格与知情同意门禁，然后根据近四周实际使用情况将学生自适应分流为四组。双工具用户开展配对比较，而未使用者只回答未采纳原因，避免对未体验过的功能虚假打分。最后，全员汇合回答工具选择因素与改进优先级。
 -->
 
 ---
