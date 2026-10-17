@@ -147,28 +147,6 @@ aside a.ext.slide-link:hover {
   border: 1px solid var(--amber-line);
 }
 
-/* Phase status line (research pipeline; update text as phases advance —
-   later aligned to teacher's task breakdown, see DECISIONS.md R-14 note). */
-aside .phase {
-  display: flex;
-  gap: 0.45rem;
-  align-items: baseline;
-  font-size: 0.72rem;
-  line-height: 1.4;
-  padding: 0.13rem 0;
-  color: var(--accent);
-  font-weight: 600;
-}
-
-aside .phase .d {
-  flex: none;
-  width: 0.48rem;
-  height: 0.48rem;
-  border-radius: 50%;
-  border: 1px solid var(--accent);
-  background: var(--accent);
-  align-self: center;
-}
 
 /* Reading-progress rail alongside the nav links (pure CSS, scroll(root)).
    Track = hairline; fill = accent, grows with page scroll. Hidden on small
