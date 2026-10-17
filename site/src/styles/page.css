@@ -139,41 +139,72 @@ aside a.ext:hover {
   border: 1px solid var(--amber-line);
 }
 
-/* Phase tracker (research pipeline; states: done · current · pending).
-   Update rows as the project advances — later aligned to teacher's task
-   breakdown (see DECISIONS.md R-14 note). */
-aside .tr {
+/* Phase status line (research pipeline; update text as phases advance —
+   later aligned to teacher's task breakdown, see DECISIONS.md R-14 note). */
+aside .phase {
   display: flex;
   gap: 0.45rem;
   align-items: baseline;
   font-size: 0.72rem;
   line-height: 1.4;
   padding: 0.13rem 0;
-  color: var(--muted);
-}
-
-aside .tr .d {
-  flex: none;
-  width: 0.48rem;
-  height: 0.48rem;
-  border-radius: 50%;
-  border: 1px solid var(--muted);
-  align-self: center;
-}
-
-aside .tr.done .d {
-  background: var(--teal);
-  border-color: var(--teal);
-}
-
-aside .tr.cur {
   color: var(--accent);
   font-weight: 600;
 }
 
-aside .tr.cur .d {
-  border-color: var(--accent);
+aside .phase .d {
+  flex: none;
+  width: 0.48rem;
+  height: 0.48rem;
+  border-radius: 50%;
+  border: 1px solid var(--accent);
   background: var(--accent);
+  align-self: center;
+}
+
+/* Reading-progress rail alongside the nav links (pure CSS, scroll(root)).
+   Track = hairline; fill = accent, grows with page scroll. Hidden on small
+   screens where the nav turns horizontal. */
+.navwrap {
+  position: relative;
+  padding-left: 0.6rem;
+}
+
+.navwrap::before,
+.navwrap::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.3rem;
+  bottom: 0.3rem;
+  width: 2px;
+  border-radius: 1px;
+}
+
+.navwrap::before {
+  background: var(--line);
+}
+
+.navwrap::after {
+  background: var(--accent);
+  transform-origin: top;
+  transform: scaleY(0);
+}
+
+@supports (animation-timeline: scroll()) {
+  .navwrap::after {
+    animation: rail-fill linear both;
+    animation-timeline: scroll(root);
+  }
+}
+
+@keyframes rail-fill {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
 }
 
 /* ── Scroll-driven current-section highlight (pure CSS, zero JS) ──
@@ -391,9 +422,13 @@ main ol li {
     flex-wrap: wrap;
   }
 
-  aside .tr {
-    display: inline-flex;
-    margin-right: 0.9rem;
+  .navwrap::before,
+  .navwrap::after {
+    display: none;
+  }
+
+  .navwrap {
+    padding-left: 0;
   }
 
   main {

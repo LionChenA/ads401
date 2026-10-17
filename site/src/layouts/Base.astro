@@ -39,21 +39,18 @@ const nav = [
         <div class="brand">ADS401 Students' Perspective on AI Agents at XJTLU</div>
         <div class="course">Evaluation Methods · XJTLU · 2026–27</div>
 
-        <div class="h">Report</div>
-        {nav.map(([, href, label]) => (
-          <a href={href}>
-            <span class="n">{href.match(/#(\d)-/)?.[1] ? `§${href.match(/#(\d)-/)[1]}` : '§'}</span>
-            {label}
-          </a>
-        ))}
+        <div class="h">Contents</div>
+        <div class="navwrap">
+          {nav.map(([, href, label]) => (
+            <a href={href}>
+              <span class="n">{href.match(/#(\d)-/)?.[1] ? `§${href.match(/#(\d)-/)[1]}` : '§'}</span>
+              {label}
+            </a>
+          ))}
+        </div>
 
-        <div class="h">Progress</div>
-        <div class="tr done"><span class="d"></span>Materials</div>
-        <div class="tr cur"><span class="d"></span>Pilot &amp; check</div>
-        <div class="tr"><span class="d"></span>Survey fielding</div>
-        <div class="tr"><span class="d"></span>Analysis</div>
-        <div class="tr"><span class="d"></span>Interviews</div>
-        <div class="tr"><span class="d"></span>Integration &amp; report</div>
+        <div class="h">Phase</div>
+        <div class="phase"><span class="d"></span>Phase 2/6 · Pilot &amp; check</div>
 
         <div class="h">Materials</div>
         <a class="ext" href="https://github.com/LionChenA/ads401">GitHub repo ↗</a>
