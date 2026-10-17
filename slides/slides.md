@@ -12,8 +12,6 @@ mdc: true
 ---
 
 <!-- Slide 1: Cover -->
-<div class="section-label">RESEARCH BACKGROUND</div>
-
 <div class="cover-frame" style="margin-top: 3.5rem; padding: 2.2rem 2.6rem 1.8rem; border: 1px solid var(--line); outline: 1px solid var(--line); outline-offset: 3px; max-width: 90%; background: #ffffff;">
   <div class="cover-kicker" style="font-size: 0.72rem; font-weight: 600; letter-spacing: 0.18em; color: var(--accent);">
     ADS401 · PRESENTATION 2 · EVALUATION DESIGN
@@ -44,64 +42,59 @@ Notes [15s] · 开场问候与破题 (演讲者: 申昊德)
 - awareness [ə-ˈwɛər-nəs] 认知度
 - provided by XJTLU [prə-ˈvaɪ-dɪd baɪ ...]
 -->
+
 ---
 
-<!-- Slide 2: Outline -->
-<div class="section-label">PRESENTATION OUTLINE</div>
-
-<div class="deck-title" style="font-size: 1.55rem; margin-top: 1.2rem;">
-  Evaluation Design Overview
+<!-- Slide 2: Outline (Scheme A) -->
+<div class="deck-title" style="font-size: 1.65rem; margin-top: 1.5rem;">
+  Presentation Outline
 </div>
 <hr class="top-divider">
 
-<div class="grid grid-cols-4 gap-4 mt-8">
-  <div style="border-left: 3px solid var(--teal); padding: 0.7rem 0.85rem; background: var(--paper); border-radius: 0 4px 4px 0;">
-    <div style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.12em; color: var(--muted); text-transform: uppercase;">Part 01</div>
-    <div style="font-weight: 700; font-size: 0.95rem; color: var(--teal); margin-top: 0.3rem;">Context &amp; RQs</div>
-    <p style="font-size: 0.75rem; color: var(--muted); line-height: 1.5; margin-top: 0.4rem;">
-      Campus deployment, commercial AI habits, and 3 research questions.
-    </p>
+<div class="grid grid-cols-2 gap-x-8 gap-y-3 mt-6" style="text-align: left;">
+  <div style="border-left: 3px solid var(--teal); padding: 0.5rem 0.85rem; background: var(--paper); border-radius: 0 4px 4px 0;">
+    <div style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; color: var(--muted);">01 · CONTEXT &amp; MOTIVATION</div>
+    <div style="font-weight: 700; font-size: 0.92rem; color: var(--ink); margin-top: 0.15rem;">Official AI Deployment vs. External AI Habits</div>
   </div>
 
-  <div style="border-left: 3px solid var(--accent); padding: 0.7rem 0.85rem; background: var(--paper); border-radius: 0 4px 4px 0;">
-    <div style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.12em; color: var(--muted); text-transform: uppercase;">Part 02</div>
-    <div style="font-weight: 700; font-size: 0.95rem; color: var(--accent); margin-top: 0.3rem;">Design &amp; Sampling</div>
-    <p style="font-size: 0.75rem; color: var(--muted); line-height: 1.5; margin-top: 0.4rem;">
-      Sequential mixed methods and 46-invitee cohort census.
-    </p>
+  <div style="border-left: 3px solid var(--accent); padding: 0.5rem 0.85rem; background: var(--paper); border-radius: 0 4px 4px 0;">
+    <div style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; color: var(--muted);">02 · RESEARCH QUESTIONS</div>
+    <div style="font-weight: 700; font-size: 0.92rem; color: var(--ink); margin-top: 0.15rem;">Three Core Questions: Awareness, Tasks &amp; Factors</div>
   </div>
 
-  <div style="border-left: 3px solid #0d9488; padding: 0.7rem 0.85rem; background: var(--paper); border-radius: 0 4px 4px 0;">
-    <div style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.12em; color: var(--muted); text-transform: uppercase;">Part 03</div>
-    <div style="font-weight: 700; font-size: 0.95rem; color: #0d9488; margin-top: 0.3rem;">Survey &amp; Routing</div>
-    <p style="font-size: 0.75rem; color: var(--muted); line-height: 1.5; margin-top: 0.4rem;">
-      21-item questionnaire, 4 usage groups, and exploratory measures.
-    </p>
+  <div style="border-left: 3px solid #0d9488; padding: 0.5rem 0.85rem; background: var(--paper); border-radius: 0 4px 4px 0;">
+    <div style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; color: var(--muted);">03 · METHODOLOGY &amp; SAMPLING</div>
+    <div style="font-weight: 700; font-size: 0.92rem; color: var(--ink); margin-top: 0.15rem;">Sequential Mixed Methods &amp; 46-Student Census</div>
   </div>
 
-  <div style="border-left: 3px solid #64748b; padding: 0.7rem 0.85rem; background: var(--paper); border-radius: 0 4px 4px 0;">
-    <div style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.12em; color: var(--muted); text-transform: uppercase;">Part 04</div>
-    <div style="font-weight: 700; font-size: 0.95rem; color: #64748b; margin-top: 0.3rem;">Planned Follow-up</div>
-    <p style="font-size: 0.75rem; color: var(--muted); line-height: 1.5; margin-top: 0.4rem;">
-      Proposed interview protocol and pre-registered boundaries.
-    </p>
+  <div style="border-left: 3px solid #64748b; padding: 0.5rem 0.85rem; background: var(--paper); border-radius: 0 4px 4px 0;">
+    <div style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; color: var(--muted);">04 · SURVEY INSTRUMENT</div>
+    <div style="font-weight: 700; font-size: 0.92rem; color: var(--ink); margin-top: 0.15rem;">Adaptive Routing Across Four Observed Groups</div>
+  </div>
+
+  <div style="border-left: 3px solid var(--teal); padding: 0.5rem 0.85rem; background: var(--paper); border-radius: 0 4px 4px 0;">
+    <div style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; color: var(--muted);">05 · PLANNED INTERVIEWS</div>
+    <div style="font-weight: 700; font-size: 0.92rem; color: var(--ink); margin-top: 0.15rem;">Purposive Sampling &amp; Artifact Walkthroughs</div>
+  </div>
+
+  <div style="border-left: 3px solid var(--accent); padding: 0.5rem 0.85rem; background: var(--paper); border-radius: 0 4px 4px 0;">
+    <div style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; color: var(--muted);">06 · STUDY BOUNDARIES</div>
+    <div style="font-weight: 700; font-size: 0.92rem; color: var(--ink); margin-top: 0.15rem;">Pre-Registered Limitations &amp; Milestone Roadmap</div>
   </div>
 </div>
 
 <!--
 Notes [10s] · 大纲导引
 【英文演讲词】:
-"Our presentation covers four main parts: // our research context and questions, // methodology and census sampling, // survey instrument and routing, // and finally our proposed interview protocol and study boundaries."
+"Our presentation covers six core topics: // our research context and motivation, // three focused research questions, // methodology and census sampling, // survey routing across four usage groups, // and finally our planned interviews and pre-registered boundaries."
 
 【中文要义】:
-我们的汇报包含四个部分：研究背景与问题、方法与近普查抽样、问卷工具与路由，以及最后的后续访谈设想和诚实局限性。
+我们的汇报主要覆盖六个核心部分：背景与动机、三个研究问题、方法与近普查抽样、问卷四组自适应路由，以及最后的后续访谈和诚实局限性。
 -->
 
 ---
 
 <!-- Slide 3: Context & Motivation -->
-<div class="section-label">RESEARCH CONTEXT &amp; MOTIVATION</div>
-
 <div class="deck-title" style="font-size: 1.55rem; margin-top: 1.2rem;">
   Institutional AI Exists — But Are Students Actually Using It?
 </div>
@@ -147,7 +140,7 @@ Notes [10s] · 大纲导引
 </div>
 
 <!--
-Notes [20s] · 背景与现实矛盾 (对齐 Speech1.0 Para 2)
+Notes [18s] · 背景与现实矛盾 (对齐 Speech1.0 Para 2)
 【英文演讲词】:
 "To begin, // we will explain why this topic matters. // Although XJTLU provides services such as Junmou AI to support learning, // students' awareness, usage, and reasons for using or not using these tools // remain unclear."
 
@@ -162,15 +155,12 @@ Notes [20s] · 背景与现实矛盾 (对齐 Speech1.0 Para 2)
 ---
 
 <!-- Slide 4: Research Questions (3 Horizontal Rows) -->
-<div class="section-label">RESEARCH QUESTIONS</div>
-
 <div class="deck-title" style="font-size: 1.55rem; margin-top: 1.2rem;">
   Three Core Research Questions
 </div>
 <hr class="top-divider">
 
 <div style="margin-top: 1.2rem; display: flex; flex-direction: column; gap: 0.9rem;">
-  <!-- Row 1: RQ1 -->
   <div style="border-left: 3px solid var(--teal); padding: 0.65rem 1.1rem; background: var(--paper); border-radius: 0 4px 4px 0; text-align: left;">
     <div style="display: flex; align-items: baseline; gap: 0.6rem;">
       <span style="font-weight: 800; font-size: 0.9rem; color: var(--teal);">RQ1 · Awareness &amp; Adoption</span>
@@ -181,7 +171,6 @@ Notes [20s] · 背景与现实矛盾 (对齐 Speech1.0 Para 2)
     </p>
   </div>
 
-  <!-- Row 2: RQ2 -->
   <div style="border-left: 3px solid var(--accent); padding: 0.65rem 1.1rem; background: var(--paper); border-radius: 0 4px 4px 0; text-align: left;">
     <div style="display: flex; align-items: baseline; gap: 0.6rem;">
       <span style="font-weight: 800; font-size: 0.9rem; color: var(--accent);">RQ2 · Usage Patterns</span>
@@ -192,10 +181,9 @@ Notes [20s] · 背景与现实矛盾 (对齐 Speech1.0 Para 2)
     </p>
   </div>
 
-  <!-- Row 3: RQ3 -->
   <div style="border-left: 3px solid #0d9488; padding: 0.65rem 1.1rem; background: var(--paper); border-radius: 0 4px 4px 0; text-align: left;">
     <div style="display: flex; align-items: baseline; gap: 0.6rem;">
-      <span style="font-weight: 800; font-size: 0.9rem; color: #0d9488;">RQ3 · Adoption Factors &amp; Comparison</span>
+      <span style="font-weight: 800; font-size: 0.9rem; color: #0d9488;">RQ3 · Factors &amp; Comparison</span>
       <span style="font-size: 0.88rem; font-weight: 600; color: var(--ink);">What perceived benefits, barriers, and tool differences are associated with adoption choices and future intentions?</span>
     </div>
     <p style="font-size: 0.76rem; color: var(--muted); margin: 0.35rem 0 0; line-height: 1.5;">
@@ -205,7 +193,7 @@ Notes [20s] · 背景与现实矛盾 (对齐 Speech1.0 Para 2)
 </div>
 
 <!--
-Notes [25s] · 三大核心研究问题 (对齐 Speech1.0 Para 3)
+Notes [22s] · 三大核心研究问题 (对齐 Speech1.0 Para 3)
 【英文演讲词】:
 "Based on this background, // we developed three research questions: // How aware of and willing to adopt university-provided AI are students? // How do they use it for ADS401 learning? // And what perceived benefits, barriers, and differences between tools // are associated with their choices and future intentions?"
 
@@ -216,8 +204,6 @@ Notes [25s] · 三大核心研究问题 (对齐 Speech1.0 Para 3)
 ---
 
 <!-- Slide 5: Methodology & Census Sampling -->
-<div class="section-label">METHODOLOGY &amp; SAMPLING</div>
-
 <div class="deck-title" style="font-size: 1.55rem; margin-top: 1.2rem;">
   Explanatory Sequential Design with a 46-Invitee Cohort Census
 </div>
@@ -260,7 +246,7 @@ Notes [25s] · 三大核心研究问题 (对齐 Speech1.0 Para 3)
 </div>
 
 <!--
-Notes [25s] · 混合方法与抽样 (对齐 Speech1.0 Para 4)
+Notes [22s] · 混合方法与抽样 (对齐 Speech1.0 Para 4)
 【英文演讲词】:
 "To answer these questions, // we use an explanatory sequential mixed-methods design: // first a cross-sectional online survey, // followed by interviews informed by the survey findings. // Our target population is all ADS401 students. // There are 50 students in the module; // after excluding four student researchers, // we plan to invite 46 students."
 
@@ -271,8 +257,6 @@ Notes [25s] · 混合方法与抽样 (对齐 Speech1.0 Para 4)
 ---
 
 <!-- Slide 6: Survey Routing & Four Usage Groups -->
-<div class="section-label">SURVEY INSTRUMENT &amp; ROUTING</div>
-
 <div class="deck-title" style="font-size: 1.55rem; margin-top: 1.2rem;">
   21-Item Survey with Four-Group Adaptive Routing
 </div>
@@ -357,11 +341,10 @@ Notes [25s] · 混合方法与抽样 (对齐 Speech1.0 Para 4)
 </svg>
 </div>
 
-
 <!--
-Notes [30s] · 问卷架构与四组路由 (演讲者: 申昊德 · 对齐 Speech1.0 Para 5)
+Notes [28s] · 问卷架构与四组路由 (演讲者: 申昊德 · 对齐 Speech1.0 Para 5)
 【英文演讲词】:
-"The pilot questionnaire takes about five to seven minutes // and asks mainly about learning in the past four weeks. // As shown in this flowchart, // we screen for eligibility and consent first, // then adaptively route students into four groups based on recent use. // Dual users compare both tools, // while non-users share reasons for non-adoption without rating unexperienced features. // Finally, all groups converge to answer decision factors and improvement priorities."
+"The pilot questionnaire takes about five to seven minutes // and asks mainly about learning in the past four weeks. // As shown in this flowchart, // we screen for eligibility and consent first, // then adaptively route students into four groups based on recent use. // Dual users compare both tools directly, // while non-users share reasons for non-adoption without rating unexperienced features. // Finally, all groups converge to answer decision factors and improvement priorities."
 
 【中文要义】:
 预测试问卷预计需要 5–7 分钟，主要询问过去四周的学习经历。正如流程图所示，我们首先进行资格与知情同意门禁，然后根据近四周实际使用情况将学生自适应分流为四组。双工具用户开展配对比较，而未使用者只回答未采纳原因，避免对未体验过的功能虚假打分。最后，全员汇合回答工具选择因素与改进优先级。
@@ -370,8 +353,6 @@ Notes [30s] · 问卷架构与四组路由 (演讲者: 申昊德 · 对齐 Speec
 ---
 
 <!-- Slide 7: Planned Follow-up Interviews -->
-<div class="section-label">PHASE 2 (PLANNED) · SEMI-STRUCTURED INTERVIEWS</div>
-
 <div class="deck-title" style="font-size: 1.55rem; margin-top: 1.2rem;">
   Planned Follow-up Interviews to Explain Survey Patterns
 </div>
@@ -413,7 +394,7 @@ Notes [30s] · 问卷架构与四组路由 (演讲者: 申昊德 · 对齐 Speec
 </div>
 
 <!--
-Notes [25s] · 追踪访谈与定性整合 (对齐 Speech1.0 Para 6)
+Notes [20s] · 追踪访谈与定性整合 (对齐 Speech1.0 Para 6)
 【英文演讲词】:
 "After collecting the survey data, // we will use interviews to explore the reasons behind the patterns. // We plan to select four to six students // with different levels of perceived usefulness. // Starting from specific experiences, // the interviews will explore the reasons behind their ratings and tool choices, // and we will connect these themes with the survey findings."
 
@@ -427,8 +408,6 @@ Notes [25s] · 追踪访谈与定性整合 (对齐 Speech1.0 Para 6)
 ---
 
 <!-- Slide 8: Limitations, Materials & Next Steps -->
-<div class="section-label">STUDY BOUNDARIES &amp; NEXT STEPS</div>
-
 <div class="deck-title" style="font-size: 1.55rem; margin-top: 1.2rem;">
   Pre-Registered Limitations &amp; Implementation Roadmap
 </div>
@@ -474,19 +453,21 @@ Notes [25s] · 追踪访谈与定性整合 (对齐 Speech1.0 Para 6)
 </div>
 
 <!--
-Notes [25s] · 局限性反思与下一步 (对齐 Speech1.0 Para 7)
+Notes [22s] · 局限性反思与下一步 (对齐 Speech1.0 Para 7)
 【英文演讲词】:
 "Finally, // this study focuses on one module and relies on self-reported data, // so the findings may not represent students in other courses. // A cross-sectional survey also cannot establish causality or long-term use. // Even so, // the study can help us understand ADS401 students' AI choices // and identify possible improvements to university AI services."
 
 【中文要义】:
 最后，本研究聚焦单一课程并依赖自我报告数据，因此结果不一定代表其他课程学生的情况。横断面调查也不能证明因果关系或长期使用情况。尽管如此，研究仍能帮助我们理解 ADS401 学生的 AI 使用选择，并为改进校内 AI 服务提供参考。
+
+【发音指南】:
+- causality [kɔː-ˈzæl-ə-ti] 因果性
+- cross-sectional [krɒs ˈsɛk-ʃə-nəl]
 -->
 
 ---
 
 <!-- Slide 9: Q&A / Discussion & Thank You -->
-<div class="section-label">QUESTIONS &amp; ANSWERS</div>
-
 <div style="margin-top: 3.2rem; text-align: center;">
   <div style="font-family: Newsreader, Georgia, serif; font-size: 3.8rem; font-weight: 700; color: var(--teal); line-height: 1;">
     Q &amp; A
@@ -512,7 +493,7 @@ Notes · 现场答辩常驻页面 (3分钟 Q&A 期间全程停留在此页)
 【收尾致谢英文】:
 "Thank you very much. // We now welcome any questions or suggestions from Dr. Li and our fellow classmates."
 
-【中文答辩速记备忘 (高频三大质询理由)】:
+【中文答辩速记备忘 (高频四大质询理由)】:
 1. 问：为什么只选 46 个人？
    -> 答：“我们是全班近普查（N=50，排除我们 4 个研究者后全量邀请 46 人），不是朋友圈便利抽样。”
 2. 问：样本量小为什么不做独立样本 t 检验？
