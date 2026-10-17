@@ -135,8 +135,6 @@ title: Context & Motivation
   </span>
 </div>
 
-<div class="slide-refs"><b>References:</b> Farinosi &amp; Melchior (2025)</div>
-
 <!--
 Notes [18s] · 背景与现实矛盾 (对齐 Speech1.0 Para 2)
 【英文演讲词】:
@@ -192,8 +190,6 @@ title: Research Questions
   </div>
 </div>
 
-<div class="slide-refs"><b>References:</b> Davis (1989) · Farinosi &amp; Melchior (2025)</div>
-
 <!--
 Notes [22s] · 三大核心研究问题 (对齐 Speech1.0 Para 3)
 【英文演讲词】:
@@ -242,8 +238,6 @@ title: Methodology & Sampling
     </ul>
   </div>
 </div>
-
-<div class="slide-refs"><b>References:</b> Ivankova et al. (2006) · Fetters et al. (2013)</div>
 
 <!--
 Notes [22s] · 混合方法与抽样 (对齐 Speech1.0 Para 4)
@@ -316,8 +310,6 @@ Tool Choice Decision Factors → XJTLU AI Improvement Priorities → Follow-up I
     class G4 g4
 ```
 
-<div class="slide-refs"><b>References:</b> Davis (1989) · Chung et al. (2024)</div>
-
 <!--
 Notes [28s] · 问卷架构与四组路由 (演讲者: 申昊德 · 对齐 Speech1.0 Para 5)
 【英文演讲词】:
@@ -363,8 +355,6 @@ title: Planned Interviews
     </ul>
   </div>
 </div>
-
-<div class="slide-refs"><b>References:</b> Braun &amp; Clarke (2006) · Fetters et al. (2013)</div>
 
 <!--
 Notes [20s] · 追踪访谈与定性整合 (对齐 Speech1.0 Para 6)
@@ -423,8 +413,6 @@ title: Limitations & Next Steps
   </div>
 </div>
 
-<div class="slide-refs"><b>References:</b> Chung et al. (2024)</div>
-
 <!--
 Notes [22s] · 局限性反思与下一步 (对齐 Speech1.0 Para 7)
 【英文演讲词】:
@@ -480,10 +468,6 @@ title: Summary
   </div>
 </div>
 
-<div class="disclosure">
-  <b>AI-Use Disclosure:</b> Generative AI provided non-substantive assistance only — slide layout, language polishing, and reference formatting. All research decisions, instrument content, and analysis plans are the students' own work.
-</div>
-
 <!--
 Notes [15s] · 总结与AI使用披露 (新增收尾段)
 【英文演讲词】:
@@ -536,4 +520,31 @@ Notes · 现场答辩常驻页面 (3分钟 Q&A 期间全程停留在此页)
    -> 答：“在同一活动类别下对双用户的配对评分，计划跑非参数的 Wilcoxon 符号秩检验（Wilcoxon signed-rank test），非常适合小样本有序变量的配对比较。”
 6. 问：为什么你们反复强调非态度偏差（Non-attitude Bias）？
    -> 答：“这是 W4 讲义原则：从未使用过校内 AI 的人缺乏真实体验，强行打分只会产生伪数据噪音，因此我们在 Q5 设立强制跳题将其分流。”
+-->
+
+---
+title: References & AI Disclosure
+---
+
+<!-- Slide 11: References & AI-Use Disclosure (Q&A 收尾停留页) -->
+<div class="deck-title">
+  References &amp; AI-Use Disclosure
+</div>
+<hr class="top-divider">
+
+<ul class="ref-list grid grid-cols-2 gap-x-8 gap-y-2 mt-4">
+  <li><b>Braun &amp; Clarke (2006)</b> — Thematic analysis</li>
+  <li><b>Chung et al. (2024)</b> — Student AI survey instrument</li>
+  <li><b>Davis (1989)</b> — Perceived usefulness &amp; ease of use (TAM)</li>
+  <li><b>Farinosi &amp; Melchior (2025)</b> — Student perceptions &amp; use of generative AI</li>
+  <li><b>Fetters et al. (2013)</b> — Mixed-methods integration</li>
+  <li><b>Ivankova et al. (2006)</b> — Sequential explanatory design</li>
+</ul>
+
+<div class="disclosure mt-8">
+  <b>AI-Use Disclosure:</b> Generative AI provided non-substantive assistance only — slide layout, language polishing, and reference formatting. All research decisions, instrument content, and analysis plans are the students' own work.
+</div>
+
+<!--
+Notes · Q&A 收尾停留页 (无需演讲; 若被问及 AI 政策或文献来源, 指向本页)
 -->

@@ -291,19 +291,17 @@
   line-height: 1.7;
 }
 
-/* ---------- per-page references (bottom-left) ---------- */
+/* ---------- Slide 11 · light reference list ---------- */
 
-.slidev-layout .slide-refs {
-  position: absolute;
-  left: 1.1rem;
-  right: 1.1rem;
-  bottom: 0.4rem;
+.slidev-layout .ref-list li {
   font-size: 0.875rem;
-  color: var(--muted);
+  color: var(--ink);
+  line-height: 1.5;
+  margin-bottom: 0.55rem;
 }
 
-.slidev-layout .slide-refs b {
-  font-weight: 600;
+.slidev-layout .ref-list li b {
+  color: var(--teal);
 }
 
 /* ---------- AI-use disclosure strip ---------- */
