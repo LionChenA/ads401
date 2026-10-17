@@ -244,7 +244,7 @@ Notes [25s] · 三大核心研究问题 (对齐 Speech1.0 Para 3)
 
   <div style="border-left: 1px solid var(--line); padding-left: 1.2rem;">
     <div style="font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase;">
-      02 · Cohort Census &amp; Within-Subject Logic
+      02 · Cohort Census &amp; Paired Comparison
     </div>
     <div style="font-weight: 700; font-size: 1rem; color: var(--teal); margin-top: 0.3rem;">
       Targeting the Module Population (N=50)
@@ -253,7 +253,7 @@ Notes [25s] · 三大核心研究问题 (对齐 Speech1.0 Para 3)
       <ul style="padding-left: 1.1rem; margin: 0;">
         <li><b>Census-adjacent reach:</b> 50 enrolled students → 4 researchers excluded → <b>46 eligible invitees</b> (voluntary participation).</li>
         <li><b>Descriptive boundaries:</b> Given cohort size (N≈50), analysis relies strictly on <b>descriptive statistics and cross-tabulations</b>; no causal claims.</li>
-        <li><b>Within-subject comparison:</b> Tool comparison is evaluated via <b>paired activity ratings within dual users</b> across identical task categories, controlling for individual differences.</li>
+        <li><b>Paired tool comparison:</b> Evaluated via <b>paired activity ratings among dual users</b> across identical task categories, directly controlling for individual differences.</li>
       </ul>
     </div>
   </div>
@@ -461,7 +461,7 @@ Notes [25s] · 追踪访谈与定性整合 (对齐 Speech1.0 Para 6)
     <div style="margin-top: 0.6rem; font-size: 0.74rem; color: var(--ink); line-height: 1.55;">
       <b>Completed Materials (Consolidated in material.md):</b>
       <p style="margin: 0.2rem 0 0.5rem; color: var(--muted);">
-        • Survey instrument v1 (pilot) with participant consent gate (Q1–Q2)<br>
+        • Survey instrument v1 (pilot) with Participant Information Sheet (PIS) &amp; consent gate (Q1–Q2)<br>
         • Semi-structured interview protocol &amp; recruitment flow (Q20–Q21)<br>
         • Live web report: <span style="color: var(--accent);">lionchena.github.io/ads401</span>
       </p>
@@ -519,4 +519,10 @@ Notes · 现场答辩常驻页面 (3分钟 Q&A 期间全程停留在此页)
    -> 答：“根据横断面调研规范，小样本做组间推断检验极易产生统计假象。为严谨自守，我们恪守描述统计与交叉分析。”
 3. 问：怎么保证没用过校内 AI 的人不在问卷里胡乱打分？
    -> 答：“看我们 Slide 6 的路由设计：Q5 设立了强制自适应跳题，从未使用过的人直接跳过效用打分，直达未采纳原因模块。”
+4. 问：关于试测（Pilot Test），你们到底做了没有？
+   -> 答：“我们已在组内 4 位研究员中完成了内部走查测试（Internal Walkthrough），校准了问卷填答时间约 5–7 分钟，排除了无关的 VPN 题，重构了频次选项与跳题分流。全员正式发卷定于今天启动，完整数据将在 11 月 Pres 3 汇报。”
+5. 问：双用户的配对比较，数据收回来后跑什么具体检验？
+   -> 答：“在同一活动类别下对双用户的配对评分，计划跑非参数的 Wilcoxon 符号秩检验（Wilcoxon signed-rank test），非常适合小样本有序变量的配对比较。”
+6. 问：为什么你们反复强调非态度偏差（Non-attitude Bias）？
+   -> 答：“这是 W4 讲义原则：从未使用过校内 AI 的人缺乏真实体验，强行打分只会产生伪数据噪音，因此我们在 Q5 设立强制跳题将其分流。”
 -->
