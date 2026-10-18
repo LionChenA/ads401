@@ -22,7 +22,7 @@ behind those patterns.
 
 - **Evaluated system:** XJTLU AI Agent Platform (Junmou AI),
   [ai.xjtlu.edu.cn](https://ai.xjtlu.edu.cn)
-- **Target users:** ADS401 2026-cohort postgraduate students (N = 50 enrolled)
+- **Target users:** ADS401 2026-cohort students (N = 50 enrolled)
 - **Methods:** online survey (census-adjacent invitation) → purposive
   follow-up interviews
 - **Presentation deck:** PDF submitted via LMS
@@ -114,8 +114,8 @@ relevant modules:
 
 All paths converge on tool-choice factors and improvement priorities
 (Q17–Q19) and an optional interview opt-in (Q20–Q21; Q21 only if Q20 =
-Yes). Interview contact details are collected separately from survey
-responses; responses stay non-identifying otherwise.
+Yes). Interview contact details are collected in-questionnaire (Q21) only from
+respondents opting in; responses contain no identity fields otherwise.
 
 ### Research materials and status
 
@@ -149,8 +149,7 @@ repository (`assets/pre2/materials/`); the slide-deck inventory matches it:
 
 - Participation is voluntary with an explicit informed-consent gate (Q1–Q2);
   respondents may end the survey at any branching exit.
-- No names or student IDs are collected; interview opt-in details are stored
-  separately from responses.
+- No names are collected; the optional Q21 asks only for an ID + email/telephone, used solely for interview recruitment and scheduling.
 - Skip logic prevents non-users from rating experiences they never had.
 - Usefulness/ease-of-use items are labelled exploratory to avoid over-claiming
   construct validity.
@@ -246,8 +245,8 @@ verified entirely by the student authors.
 
 No raw participant data is stored in this repository or on this site
 (coursework red line). Anonymised, aggregated results and the analysis syntax
-will be linked here after collection. Survey instrument (pilot v1) and
-interview protocol are archived in the group's working repository.
+will be linked here after collection. The survey instrument (pilot v1) is archived in the group's working
+repository; the interview guide will be added once finalised.
 
 ### References (IEEE, order of first citation)
 
