@@ -107,25 +107,40 @@ relevant modules:
 
 | Group | Definition | Modules answered |
 |---|---|---|
-| G1 · Both AI | XJTLU AI + external AI | use experience (Q6–Q11), other-AI use (Q14), comparison (Q15–Q16) |
-| G2 · Other AI only | external AI only | non-adoption barriers & intention (Q12–Q13), other-AI use (Q14) |
+| G1 · Both AI | XJTLU AI + external AI | use experience (Q6–Q11, incl. Q7a), other-AI use (Q14, Q14a, Q14b), comparison (Q15–Q16) |
+| G2 · Other AI only | external AI only | non-adoption barriers & intention (Q12–Q13), other-AI use (Q14, Q14a, Q14b) |
 | G3 · No AI | neither | non-adoption barriers & intention (Q12–Q13) |
-| G4 · XJTLU AI only | XJTLU AI only | use experience (Q6–Q11) |
+| G4 · XJTLU AI only | XJTLU AI only | use experience (Q6–Q11, incl. Q7a) |
 
 All paths converge on tool-choice factors and improvement priorities
-(Q17–Q19) and an optional interview opt-in (Q20–Q21). Interview contact
-details are collected separately from survey responses; responses stay
-non-identifying otherwise.
+(Q17–Q19) and an optional interview opt-in (Q20–Q21; Q21 only if Q20 =
+Yes). Interview contact details are collected separately from survey
+responses; responses stay non-identifying otherwise.
+
+### Research materials and status
+
+The full instrument and supporting documents are consolidated in the
+repository (`assets/pre2/materials/`); the slide-deck inventory matches it:
+
+| Material | Status |
+|---|---|
+| Questionnaire v1 (pilot version) | Available — labelled for pilot testing |
+| Survey routing (flow source + diagram) | Available |
+| Participant information & consent (survey intro + Q1–Q2) | Available — operational details to confirm |
+| Optional interview recruitment (Q20–Q21) | Available |
+| References (six entries) | Available |
+| Interview guide & interview consent | **Pending** — to be supplied and confirmed before interviewing |
+| Internal-check & pilot record | **Pending** — logged after the four-researcher questionnaire check |
 
 ### Variables and measures
 
 | Construct | Operationalisation (survey) |
 |---|---|
 | Awareness | Self-rated familiarity with XJTLU-provided AI services (Q3) |
-| Ever-use / recent use | Any use ever (Q4); frequency in past four weeks (Q5) → group assignment |
-| Recent academic usage | Activity categories: concepts, brainstorming, experiment planning, survey/interview design, summarising, drafting, statistics/coding, task planning, source finding (Q7) |
+| Ever-use / recent use | Any use ever (Q4); past-four-week usage type (Q5, single-select) → group assignment (G1–G4); usage frequency asked only within groups (Q6, Q14a) |
+| Recent academic usage | Five broad activity categories (Q7 / Q14): learning & understanding course materials · research planning & idea development · research design & data analysis · academic writing & content production · coursework planning & collaboration |
 | Verification behaviour | Frequency of checking outputs against course materials or reliable sources (Q8) |
-| Perceived usefulness / ease of use / trust | 5-point Likert items (Q9), treated as *exploratory, context-specific* measures — not the full validated TAM scales [1] |
+| Perceived usefulness / ease of use / trust | Activity-specific usefulness ratings (Q7a, Q14b) and 5-point Likert items (Q9), treated as *exploratory, context-specific* measures — not the full validated TAM scales [1] |
 | Barriers | Experienced problems (Q10, ≤3) and non-adoption reasons (Q12, ≤3) |
 | Future-use intention | Continue (Q11) / try-or-resume (Q13) likelihood |
 | Perceived comparison | Dual users compare XJTLU AI vs external AI per activity category (Q15–Q16) |
@@ -174,6 +189,13 @@ non-identifying otherwise.
 > voluntary sample we report distributions and patterns, and we do not run
 > group-inferential tests or claim causal effects.
 
+### Next steps
+
+Research materials → internal questionnaire check (4 researchers) → survey
+data collection → preliminary survey analysis → follow-up interviews →
+thematic analysis & integration. The achieved sample is reported after
+collection; findings on this page remain pending until then.
+
 ## 6. Findings
 
 *Pending — survey not yet fielded.* Data collection starts after Presentation
@@ -211,11 +233,14 @@ Hongcheng TANG. (Final wording to be confirmed at submission.)
 
 ### AI-use statement
 
-Permitted non-substantive AI use only. Claude (Anthropic), via the omp coding
-agent, was used for drafting-support and formatting of this page and the
-presentation slides; all research questions, design decisions, instruments
-and interpretations are the authors' own. Full disclosure log kept in the
-group's working repository.
+Permitted non-substantive AI use only. GLM-5.3 Flash (Zhipu AI) and Gemini
+3.8 Flash (Google), operated through the omp open-source coding harness, were
+used for slide layout and formatting, language proofreading, reference
+formatting, and build/assembly automation for the presentation slides, web
+report, and supplementary materials. All research questions, methodological
+decisions, sampling frames, variable operationalisations, questionnaire items,
+interview protocols, and critical evaluations were conceived, drafted, and
+verified entirely by the student authors.
 
 ### Data and materials availability
 
