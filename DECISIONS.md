@@ -182,8 +182,11 @@
   Materials inventory (Pending items labelled) + Q&A + the non-substantive
   AI-use disclosure line. The deployed **web deck is retired**: the slidev
   build step was removed from `deploy.yml` and the sidebar entrance deleted —
-  it duplicated the submitted PDF. R-14 continues to govern the web report
-  page; slides-style SKILL.md is the deck spec (updated in the same commit).
+  it duplicated the submitted PDF. Initially R-14 continued to govern the web report
+  page; amended the same day (user-approved): the report page's visual system
+  is also unified onto the flat deck style (Inter only, ink 800 titles,
+  accent h3, hairline dividers), retiring the serif on both surfaces.
+  slides-style SKILL.md is the deck spec (updated in the same commit).
 - **Rationale**: the hand-built master is the group's newest approved visual
   decision; one distribution channel (LMS PDF) avoids dual-source drift
   between the deck PDF and its web copy.
