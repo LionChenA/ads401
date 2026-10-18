@@ -12,8 +12,5 @@
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "playwright-chromium": "^1.49.0"
-  },
-  "devDependencies": {
-    "mermaid": "^12.2.0"
   }
 }

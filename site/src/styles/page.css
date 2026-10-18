@@ -112,34 +112,6 @@ aside a.ext:hover {
   color: var(--accent);
 }
 
-.chips {
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
-  align-items: flex-start;
-}
-
-/* Status pills (dual-color, locked) — light outline treatment */
-.chip {
-  font-size: 0.62rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 0.18rem 0.5rem;
-  border-radius: 3px;
-  background: transparent;
-}
-
-.chip.stage {
-  color: var(--teal);
-  border: 1px solid var(--teal);
-}
-
-.chip.pending {
-  color: var(--amber);
-  border: 1px solid var(--amber-line);
-}
-
 
 /* Reading-progress rail alongside the nav links (pure CSS, scroll(root)).
    Track = hairline; fill = accent, grows with page scroll. Hidden on small
@@ -278,18 +250,6 @@ main li + li {
   margin-top: 0.28rem;
 }
 
-/* Status chips inside markdown body */
-main .chip {
-  display: inline-block;
-  font-size: 0.66rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  padding: 0.2rem 0.55rem;
-  border-radius: 3px;
-  vertical-align: middle;
-  margin-right: 0.35rem;
-}
-
 main table {
   width: 100%;
   border-collapse: collapse;
@@ -357,11 +317,6 @@ main ol li {
   aside a .n {
     min-width: auto;
     margin-right: 0.35rem;
-  }
-
-  .chips {
-    flex-direction: row;
-    flex-wrap: wrap;
   }
 
   .navwrap::before,

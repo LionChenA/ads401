@@ -101,8 +101,6 @@
   color: var(--muted);
 }
 
-.slidev-layout .t-accent { color: var(--accent); }
-
 /* ---------- RQ rows ---------- */
 
 .slidev-layout .rq-list { display: flex; flex-direction: column; }
