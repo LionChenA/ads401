@@ -1,6 +1,6 @@
 ---
 theme: default
-title: ADS401 Students' Perspective on AI Agents at XJTLU
+title: Evaluating AI Integration at XJTLU
 info: |
   ADS401 Presentation 2: Show Your Evaluation Design
   Group A · XJTLU · 2026-27 Sem1
@@ -12,19 +12,14 @@ mdc: true
 ---
 
 <!-- Slide 1: Cover -->
-<div class="cover-frame">
-  <div class="cover-kicker">
-    ADS401 · PRESENTATION 2 · EVALUATION DESIGN
+<div class="cover-wrap">
+  <div class="cover-title">Evaluating AI Integration at XJTLU</div>
+  <div class="cover-sub">ADS401 Students' Perspective<br>on AI Agents at XJTLU</div>
+  <div class="cover-meta">Group A · Hongcheng TANG · Mingjian TAO · Liyuan CHEN · Haode SHEN</div>
+  <div class="cover-res">
+    <b>Project resource</b><br>
+    <a href="https://lionchena.github.io/ads401/">https://lionchena.github.io/ads401/</a>
   </div>
-  <div class="cover-title">ADS401 Students' Perspective<br>on AI Agents at XJTLU</div>
-  <div class="cover-sub">
-    An empirical HCI evaluation of awareness, adoption, and use of campus AI services
-  </div>
-</div>
-
-<div class="cover-meta">
-  <b>Group A</b> · Hongcheng TANG · Mingjian TAO · Liyuan CHEN · <b>Haode SHEN</b> <i>(Presenter)</i><br>
-  <span class="cover-date">19 October 2026</span>
 </div>
 
 <!--
@@ -42,28 +37,25 @@ Notes [15s] · 开场问候与破题 (演讲者: 申昊德)
 -->
 
 ---
-title: Background & Motivation
+title: Background
 ---
 
-<!-- Slide 2: Background & Motivation -->
-<div class="deck-title">
-  Background &amp; Motivation
-</div>
+<div class="run-head">ADS401 Students' Perspective on AI Agents at XJTLU</div>
+<div class="deck-title">Background</div>
 <hr class="top-divider">
 
-<div class="card mt-5">
-  <div class="kicker">01 · Research Background</div>
-  <p class="note-text mt-3">
-    XJTLU provides AI services such as Junmou AI to support learning. However, ADS401 students' awareness, adoption, and use remain unclear.
-  </p>
+<div class="two-col mt-8">
+  <div>
+    <div class="col-h">Research Background</div>
+    <p class="body-text">XJTLU provides AI services such as Junmou AI to support learning. However, ADS401 students' awareness, adoption, and use remain unclear.</p>
+  </div>
+  <div>
+    <div class="col-h">Research Motivation &amp; Aim</div>
+    <p class="body-text">This study explores ADS401 students' use or non-use of XJTLU AI and the reasons behind their choices, to inform future improvements to these tools.</p>
+  </div>
 </div>
 
-<div class="card card--accent mt-5">
-  <div class="kicker kicker--accent">02 · Motivation &amp; Aim</div>
-  <p class="note-text mt-3">
-    This study explores ADS401 students' use or non-use of XJTLU AI and the reasons behind their choices, to inform future improvements to these tools.
-  </p>
-</div>
+<div class="page-no">01 / 09</div>
 
 <!--
 Notes [18s] · 背景与研究动机 (对齐 scripts.md Background 节)
@@ -78,34 +70,30 @@ Notes [18s] · 背景与研究动机 (对齐 scripts.md Background 节)
 title: Research Questions
 ---
 
-<!-- Slide 3: Research Questions -->
-<div class="deck-title">
-  Three Research Questions
-</div>
+<div class="run-head">ADS401 Students' Perspective on AI Agents at XJTLU</div>
+<div class="deck-title">Research Questions</div>
 <hr class="top-divider">
 
-<div class="flex flex-col gap-4 mt-5">
-  <div class="card">
-    <div class="rq-head">
-      <span class="rq-name">RQ1 · Awareness &amp; Adoption</span>
-      <span class="rq-q">To what extent are students in our ADS401 module aware of and adopting XJTLU AI?</span>
-    </div>
+<div class="rq-list mt-6">
+  <div class="rq-row">
+    <span class="rq-name">RQ1&nbsp;&nbsp;Awareness &amp; Adoption</span>
+    <span class="rq-q">To what extent are students in our ADS401 module aware of and adopting XJTLU AI?</span>
   </div>
-
-  <div class="card card--accent">
-    <div class="rq-head">
-      <span class="rq-name">RQ2 · Usage Patterns</span>
-      <span class="rq-q">How do students in ADS401 use XJTLU AI for their academic tasks?</span>
-    </div>
+  <div class="rq-row">
+    <span class="rq-name">RQ2&nbsp;&nbsp;Usage Patterns</span>
+    <span class="rq-q">How do students in ADS401 use XJTLU AI for their academic tasks?</span>
   </div>
-
-  <div class="card card--green">
-    <div class="rq-head">
-      <span class="rq-name">RQ3 · Adoption Factors &amp; Perceived Comparison</span>
-      <span class="rq-q">What perceived benefits, barriers, and differences between XJTLU AI and external AI services are associated with students' adoption and intentions to continue, try, or resume using XJTLU AI?</span>
-    </div>
+  <div class="rq-row">
+    <span class="rq-name">RQ3&nbsp;&nbsp;Adoption Factors &amp; Perceived Comparison</span>
+    <span class="rq-q">What perceived benefits, barriers, and differences between XJTLU AI and external AI services are associated with students' adoption and intentions to continue, try, or resume using XJTLU AI?</span>
   </div>
 </div>
+
+<div class="slide-refs">
+  <div class="ref">Perceived usefulness, perceived ease of use, and user acceptance of information technology<br>Davis, F. D. (1989). <a href="https://doi.org/10.2307/249008">MIS Quarterly</a></div>
+  <div class="ref">To adopt or to ban? Student perceptions and use of generative AI in higher education<br>Farinosi, M., &amp; Melchior, C. (2025). <a href="https://doi.org/10.1057/s41599-025-05982-7">Humanities and Social Sciences Communications</a></div>
+</div>
+<div class="page-no">02 / 09</div>
 
 <!--
 Notes [22s] · 三大核心研究问题 (对齐 scripts.md Research Questions 节)
@@ -120,25 +108,26 @@ Notes [22s] · 三大核心研究问题 (对齐 scripts.md Research Questions �
 title: Research Methodology
 ---
 
-<!-- Slide 4: Research Methodology -->
-<div class="deck-title">
-  Research Methodology
-</div>
+<div class="run-head">ADS401 Students' Perspective on AI Agents at XJTLU</div>
+<div class="deck-title">Research Methodology</div>
 <hr class="top-divider">
 
-<div class="card mt-5">
-  <div class="kicker">01 · Design</div>
-  <div class="lead-title lead-title--teal mt-3">
-    Explanatory Sequential Mixed-Methods Design
-  </div>
-</div>
+<div class="lead-line mt-6">Explanatory Sequential Mixed-Methods Design</div>
 
-<div class="card card--accent mt-5">
-  <div class="kicker">02 · Target Participants</div>
-  <p class="note-text mt-3">
-    50 enrolled → 4 researchers excluded → 46 potentially eligible invitees → voluntary survey participation → achieved sample to be reported after collection.
-  </p>
+<div class="col-h mt-6">Target Participants</div>
+<div class="stat-row mt-4">
+  <div class="stat"><span class="stat-n">50</span><span class="stat-l">enrolled</span></div>
+  <div class="stat"><span class="stat-n">4</span><span class="stat-l">researchers excluded</span></div>
+  <div class="stat"><span class="stat-n">46</span><span class="stat-l">potentially eligible invitees</span></div>
 </div>
+<p class="note-text mt-4">Voluntary survey participation. Achieved sample to be reported after collection.</p>
+
+<p class="body-text mt-5">The survey identifies <b>how</b> students use different AI services, while follow-up interviews explore <b>why</b> they make those choices.</p>
+
+<div class="slide-refs">
+  <div class="ref">Using mixed-methods sequential explanatory design: From theory to practice<br>Ivankova, N. V., Creswell, J. W., &amp; Stick, S. L. (2006). <a href="https://doi.org/10.1177/1525822X05282260">Field Methods</a></div>
+</div>
+<div class="page-no">03 / 09</div>
 
 <!--
 Notes [22s] · 研究方法与对象 (对齐 scripts.md Research Methodology 节)
@@ -153,43 +142,50 @@ Notes [22s] · 研究方法与对象 (对齐 scripts.md Research Methodology 节
 title: Survey Design
 ---
 
-<!-- Slide 5: Survey Design -->
-<div class="deck-title">
-  Survey Design
-</div>
+<div class="run-head">ADS401 Students' Perspective on AI Agents at XJTLU</div>
+<div class="deck-title">Survey Design</div>
 <hr class="top-divider">
 
-<div class="grid grid-cols-2 gap-8 mt-5">
-  <div>
-    <div class="kicker">01 · Instrument &amp; Measures</div>
-    <ul class="dense-list mt-3">
-      <li><b>Cross-sectional online questionnaire</b> targeting ADS401 students.</li>
-      <li><b>Measures:</b> awareness, ever-use, recent academic usage, perceived usefulness, ease of use, trust, barriers, and future-use intentions.</li>
-      <li>Usefulness and ease-of-use items are <b>exploratory, context-specific measures</b> — not the complete validated TAM scales.</li>
-    </ul>
-  </div>
+<div class="lead-line mt-3">Cross-sectional online questionnaire targeting ADS401 students.</div>
 
-  <div class="col-rule">
-    <div class="kicker">02 · Four Groups by Reported Use</div>
-    <div class="grid grid-cols-2 gap-3 mt-3">
-      <div class="card">
-        <div class="card-title">G1 · Both AI</div>
-      </div>
-      <div class="card card--accent">
-        <div class="card-title">G2 · Other AI Only</div>
-      </div>
-      <div class="card card--slate">
-        <div class="card-title">G3 · No AI</div>
-      </div>
-      <div class="card card--green">
-        <div class="card-title">G4 · XJTLU AI Only</div>
-      </div>
+<div class="two-col mt-3">
+  <div>
+    <p class="body-text">Planned grouping by reported AI use for ADS401 in the past four weeks:</p>
+    <div class="g-rows mt-3">
+      <div class="g-row"><span class="g-tag">G1</span><b>Both AI</b></div>
+      <div class="g-row"><span class="g-tag">G2</span><b>Other AI Only</b></div>
+      <div class="g-row"><span class="g-tag">G3</span>No AI</div>
+      <div class="g-row"><span class="g-tag">G4</span>XJTLU AI Only</div>
     </div>
-    <p class="note-text mt-3">
-      Grouped by reported AI use for ADS401 learning in the past four weeks. Various academic activity categories are used for consistent comparison.
-    </p>
+    <p class="body-text mt-3">Various academic activity categories will be used for consistent comparison.</p>
+  </div>
+  <div>
+    <div class="col-h col-h--accent">Measures:</div>
+    <div class="measures mt-3">
+      <ul>
+        <li>Awareness</li>
+        <li>Ever-use</li>
+        <li>Recent Academic Usage</li>
+        <li>Perceived Usefulness</li>
+      </ul>
+      <ul>
+        <li>Ease of Use</li>
+        <li>Trust</li>
+        <li>Barriers</li>
+        <li>Future-use Intentions</li>
+      </ul>
+    </div>
+    <p class="note-text mt-3">Usefulness and ease-of-use items: exploratory, context-specific measures; not complete validated TAM scales.</p>
   </div>
 </div>
+
+<div class="tam-note">TAM (Technology Acceptance Model): validated usefulness and ease-of-use scales (Davis, 1989); these constructs inform XJTLU AI items.</div>
+
+<div class="slide-refs">
+  <div class="ref">Student perspectives on AI in Higher Education: Student Survey<br>Chung, J., et al. (2024). <a href="https://doi.org/10.26180/27915930">Monash University</a></div>
+  <div class="ref">Perceived usefulness, perceived ease of use, and user acceptance of information technology<br>Davis, F. D. (1989). <a href="https://doi.org/10.2307/249008">MIS Quarterly</a></div>
+</div>
+<div class="page-no">04 / 09</div>
 
 <!--
 Notes [20s] · 问卷设计 (对齐 scripts.md Survey Design 节)
@@ -204,18 +200,34 @@ Notes [20s] · 问卷设计 (对齐 scripts.md Survey Design 节)
 title: Data Analysis
 ---
 
-<!-- Slide 6: Data Analysis -->
-<div class="deck-title">
-  Data Analysis
-</div>
+<div class="run-head">ADS401 Students' Perspective on AI Agents at XJTLU</div>
+<div class="deck-title">Data Analysis</div>
 <hr class="top-divider">
 
-<ul class="dense-list mt-5">
-  <li><b>Descriptive statistics:</b> report counts and percentages for awareness, ever-use, and past-four-week usage, with the relevant response denominator for each item.</li>
-  <li><b>Cross-tabulation:</b> compare usage patterns across the four groups.</li>
-  <li><b>Rating analysis:</b> summarise activity-specific usefulness, usefulness / ease-of-use / trust items, and future-use intentions descriptively; exclude N/A from rating summaries.</li>
-  <li><b>Perceived comparison:</b> examine paired activity ratings only where dual users rated both tools for the same category; report direct comparison responses separately, including "Unable to compare".</li>
-</ul>
+<div class="def-list mt-6">
+  <div class="def-row">
+    <span class="def-t">Descriptive Statistics:</span>
+    <span class="def-d">Report counts and percentages for awareness, ever-use, and past-four-week usage, with the relevant response denominator for each item.</span>
+  </div>
+  <div class="def-row">
+    <span class="def-t">Cross-tabulation:</span>
+    <span class="def-d">Compare usage patterns across four groups.</span>
+  </div>
+  <div class="def-row">
+    <span class="def-t">Rating Analysis:</span>
+    <span class="def-d">Summarise activity-specific usefulness, usefulness/ease-of-use/trust items, and future-use intentions descriptively; exclude N/A from rating summaries.</span>
+  </div>
+  <div class="def-row">
+    <span class="def-t">Perceived Comparison:</span>
+    <span class="def-d">Examine paired activity ratings only where dual users rated both tools for the same category; report direct comparison responses separately, including 'Unable to compare'.</span>
+  </div>
+</div>
+
+<div class="slide-refs">
+  <div class="ref">Student perspectives on AI in Higher Education: Student Survey<br>Chung, J., et al. (2024). <a href="https://doi.org/10.26180/27915930">Monash University</a></div>
+  <div class="ref">Perceived usefulness, perceived ease of use, and user acceptance of information technology<br>Davis, F. D. (1989). <a href="https://doi.org/10.2307/249008">MIS Quarterly</a></div>
+</div>
+<div class="page-no">05 / 09</div>
 
 <!--
 Notes [20s] · 数据分析 (对齐 scripts.md Data Analysis 节)
@@ -227,39 +239,38 @@ Notes [20s] · 数据分析 (对齐 scripts.md Data Analysis 节)
 -->
 
 ---
-title: Interviews & Integration
+title: Follow-up Interviews & Integrated Analysis
 ---
 
-<!-- Slide 7: Follow-up Interviews & Integrated Analysis -->
-<div class="deck-title">
-  Follow-up Interviews &amp; Integrated Analysis
-</div>
+<div class="run-head">ADS401 Students' Perspective on AI Agents at XJTLU</div>
+<div class="deck-title">Follow-up Interviews &amp; Integrated Analysis</div>
 <hr class="top-divider">
 
-<div class="grid grid-cols-2 gap-8 mt-5">
+<div class="two-col mt-6">
   <div>
-    <div class="kicker">01 · Semi-Structured Interviews</div>
-    <ul class="dense-list mt-3">
-      <li><b>Sampling:</b> purposive, among survey respondents who opt into follow-up contact, informed by initial survey analysis.</li>
-      <li><b>Participants:</b> about 4–6 students, prioritising Both AI and Other AI Only.</li>
-      <li><b>Duration:</b> 15–20 minutes per interview.</li>
-      <li><b>Focus:</b> tool-choice motivations, adoption barriers, and learning experiences.</li>
-    </ul>
+    <div class="col-h">Semi-structured Interviews</div>
+    <div class="kv mt-3">
+      <div class="kv-row"><span class="kv-k">Sampling:</span> Purposive sampling of opt-in respondents, informed by initial survey analysis.</div>
+      <div class="kv-row"><span class="kv-k">Participants:</span> About 4–6 students; prioritise Both AI / Other AI Only.</div>
+      <div class="kv-row"><span class="kv-k">Duration:</span> 15–20 minutes per interview.</div>
+      <div class="kv-row"><span class="kv-k">Focus:</span> Tool-choice motivations, adoption barriers, and learning experiences.</div>
+    </div>
   </div>
-
-  <div class="col-rule">
-    <div class="kicker">02 · Qualitative &amp; Integrated Analysis</div>
-    <ul class="dense-list mt-3">
-      <li><b>Thematic analysis:</b> code interviews and identify recurring themes.</li>
-      <li><b>Integration:</b> connect interview themes with survey patterns.</li>
-      <li><b>Outcome:</b> explain adoption decisions and identify potential XJTLU AI improvements.</li>
-    </ul>
+  <div>
+    <div class="col-h">Qualitative &amp; Integrated Analysis</div>
+    <div class="kv mt-3">
+      <div class="kv-row"><span class="kv-k">Thematic Analysis:</span> Code interviews and identify recurring themes.</div>
+      <div class="kv-row"><span class="kv-k">Integration:</span> Connect interview themes with survey patterns.</div>
+      <div class="kv-row"><span class="kv-k">Outcome:</span> Explain adoption decisions and identify potential XJTLU AI improvements.</div>
+    </div>
   </div>
 </div>
 
-<p class="note-text mt-4">
-  The survey identifies <b>how</b> students use different AI services, while follow-up interviews explore <b>why</b> they make those choices.
-</p>
+<div class="slide-refs">
+  <div class="ref">Using thematic analysis in psychology<br>Braun, V., &amp; Clarke, V. (2006). <a href="https://doi.org/10.1191/1478088706qp063oa">Qualitative Research in Psychology</a></div>
+  <div class="ref">Achieving integration in mixed methods designs—Principles and practices<br>Fetters, M. D., Curry, L. A., &amp; Creswell, J. W. (2013). <a href="https://doi.org/10.1111/1475-6773.12117">Health Services Research</a></div>
+</div>
+<div class="page-no">06 / 09</div>
 
 <!--
 Notes [20s] · 追踪访谈与整合分析 (对齐 scripts.md Follow-up Interviews 节)
@@ -271,119 +282,139 @@ Notes [20s] · 追踪访谈与整合分析 (对齐 scripts.md Follow-up Intervie
 -->
 
 ---
-title: Materials & Limitations
+title: Next Steps
 ---
 
-<!-- Slide 8: Materials & Limitations -->
-<div class="deck-title">
-  Materials &amp; Limitations
-</div>
+<div class="run-head">ADS401 Students' Perspective on AI Agents at XJTLU</div>
+<div class="deck-title">Next Steps</div>
 <hr class="top-divider">
 
-<div class="card mt-4">
-  <span class="kicker">01 · MATERIALS</span><span class="card-title">&nbsp;&nbsp;Survey material: questionnaire_v1.md (pilot version)</span>
+<div class="steps-grid mt-6">
+  <div class="step"><span class="step-n">01</span><span class="step-t">Research Materials</span></div>
+  <div class="step"><span class="step-n">04</span><span class="step-t">Preliminary Survey Analysis</span></div>
+  <div class="step"><span class="step-n">02</span><span class="step-t">Internal Questionnaire Check<br>(4 researchers)</span></div>
+  <div class="step"><span class="step-n">05</span><span class="step-t">Follow-up Interviews</span></div>
+  <div class="step"><span class="step-n">03</span><span class="step-t">Survey Data Collection</span></div>
+  <div class="step"><span class="step-n">06</span><span class="step-t">Thematic Analysis &amp; Integration</span></div>
 </div>
 
-<style scoped>
-.deck-title { margin-top: 0.7rem; }
-.kicker { display: inline; }
-.card-title { display: inline; }
-.dense-list li { margin-bottom: 0.25rem; }
-</style>
-
-<div class="mt-5">
-  <div class="kicker">02 · Limitations</div>
-  <ul class="dense-list mt-3">
-    <li><b>Single-module sample:</b> findings describe ADS401 participants; not generalisable across XJTLU.</li>
-    <li><b>Self-reported data:</b> relies on reported behaviours and perceptions, not telemetry logs.</li>
-    <li><b>Interview coverage:</b> G1/G2 focus may underrepresent No AI and XJTLU AI Only views.</li>
-    <li><b>Cross-sectional design:</b> captures recent use/intentions; no causal or longitudinal claims.</li>
-    <li><b>Perception-based comparison:</b> reflects student experience, not objective model benchmarks.</li>
-  </ul>
-</div>
+<div class="page-no">07 / 09</div>
 
 <!--
-Notes [22s] · 材料与局限 (对齐 scripts.md Materials / Limitations 节)
+Notes [15s] · 下一步计划 (对齐 scripts.md Next Steps 节)
 【英文演讲词】:
-"Our survey material is questionnaire version one, labelled for pilot testing. // Finally, five limitations: // the findings describe participating ADS401 students and should not be generalised; // the data are self-reported; // interview coverage may under-represent some groups; // the cross-sectional design cannot establish causality; // and comparisons reflect perceived, not objective, differences."
+"Here is our plan: // we have prepared the research materials. // Next, // we run an internal questionnaire check with the four researchers, // then collect survey data, // analyse it, // conduct follow-up interviews, // and finally integrate thematic findings with survey patterns."
 
 【中文要义】:
-问卷材料为 pilot 版 questionnaire_v1。最后是五条局限：单一样本不可外推、自我报告数据、访谈覆盖可能不足、横断面设计无法确立因果、比较基于感知而非客观差异。
+研究材料已备好；接下来是 4 名研究者的问卷内部检查、问卷收集、初步分析、后续访谈，最后进行主题分析与结果整合。
 -->
 
 ---
-title: Q & A
+title: Limitations
 ---
 
-<!-- Slide 9: Q&A / Discussion & Thank You -->
-<div class="qa-wrap">
-  <div class="qa-title">
-    Q &amp; A
-  </div>
-  <div class="qa-sub">
-    Thank you for your attention. We welcome your questions and feedback.
-  </div>
+<div class="run-head">ADS401 Students' Perspective on AI Agents at XJTLU</div>
+<div class="deck-title">Limitations</div>
+<hr class="top-divider">
 
-  <div class="qa-card">
-    <div class="qa-links">
-      <b>Live Web Report:</b> <span class="t-accent">https://lionchena.github.io/ads401/</span><br>
-      <b>Group A:</b> Hongcheng TANG · Mingjian TAO · Liyuan CHEN · Haode SHEN
+<div class="two-col mt-6">
+  <div>
+    <div class="lim">
+      <div class="lim-h">Single-module sample</div>
+      <p class="body-text">Findings describe participating ADS401 students; no generalisation to all XJTLU students. Voluntary participation may limit representativeness even within ADS401.</p>
     </div>
-    <div class="qa-disclosure">
-      <b>AI-Use Disclosure (non-substantive use only):</b> [1] GLM-5.3 Flash (Zhipu AI) &amp; Gemini 3.8 Flash (Google), via the omp agent harness — used for slide layout, formatting, language proofreading, and reference formatting.
+    <div class="lim">
+      <div class="lim-h">Self-reported data</div>
+      <p class="body-text">The study relies mainly on students' reported behaviors and perceptions.</p>
+    </div>
+  </div>
+  <div>
+    <div class="lim">
+      <div class="lim-h">Interview coverage</div>
+      <p class="body-text">Prioritising Both AI and Other AI Only may underrepresent No AI and XJTLU AI Only perspectives.</p>
+    </div>
+    <div class="lim">
+      <div class="lim-h">Cross-sectional design</div>
+      <p class="body-text">The survey captures recent use and future intentions, not causal effects or observed long-term continued use.</p>
+    </div>
+    <div class="lim">
+      <div class="lim-h">Perception-based comparison</div>
+      <p class="body-text">Comparisons with external AI tools do not establish objective differences in system capabilities.</p>
     </div>
   </div>
 </div>
 
-<style scoped>
-.qa-wrap { margin-top: 2rem; }
-.qa-title { font-size: 3.5rem; }
-.qa-sub { font-size: 1.35rem; margin-top: 0.6rem; }
-.qa-card { margin: 2rem auto 0; max-width: 44rem; }
-.qa-disclosure { margin-top: 1rem; padding-top: 0.8rem; border-top: 1px solid var(--line); font-size: 1.05rem; color: var(--muted); line-height: 1.5; }
-</style>
+<div class="slide-refs">
+  <div class="ref">Student perspectives on AI in Higher Education: Student Survey<br>Chung, J., et al. (2024). <a href="https://doi.org/10.26180/27915930">Monash University</a></div>
+  <div class="ref">To adopt or to ban? Student perceptions and use of generative AI in higher education<br>Farinosi, M., &amp; Melchior, C. (2025). <a href="https://doi.org/10.1057/s41599-025-05982-7">Humanities and Social Sciences Communications</a></div>
+</div>
+<div class="page-no">08 / 09</div>
+
+<!--
+Notes [22s] · 研究局限 (对齐 scripts.md Limitations 节)
+【英文演讲词】:
+"Finally, five limitations: // the findings describe participating ADS401 students and should not be generalised; // the data are self-reported; // interview coverage may under-represent some groups; // the cross-sectional design cannot establish causality; // and comparisons reflect perceived, not objective, differences."
+
+【中文要义】:
+五条局限：单一样本不可外推、自我报告数据、访谈覆盖可能不足、横断面设计无法确立因果、比较基于感知而非客观差异。
+-->
+
+---
+title: Materials & Q&A
+---
+
+<div class="run-head">ADS401 Students' Perspective on AI Agents at XJTLU</div>
+<div class="deck-title">Materials</div>
+<hr class="top-divider">
+
+<div class="two-col mt-5">
+  <div>
+    <div class="col-h col-h--accent">Survey material</div>
+    <ul class="mat-list mt-3">
+      <li><a href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v1.md">Questionnaire (pilot version)</a></li>
+      <li><a href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v1_flow.md">Survey routing flow</a> (flow + diagram)</li>
+      <li>Participant information &amp; consent — survey introduction + Q1–Q2</li>
+      <li>Optional interview recruitment — Q20–Q21</li>
+      <li class="mat-refs">References (six): Davis 1989 · Farinosi &amp; Melchior 2025 · Chung et al. 2024 · Ivankova et al. 2006 · Braun &amp; Clarke 2006 · Fetters et al. 2013</li>
+    </ul>
+  </div>
+  <div>
+    <div class="col-h col-h--accent">To finalise before fielding</div>
+    <ul class="mat-list mt-3">
+      <li>Interview guide &amp; interview consent — <span class="pending">Pending</span>: to be supplied and confirmed before interviews.</li>
+      <li>Internal-check &amp; pilot record — <span class="pending">Pending</span>: logged after the four-researcher questionnaire check.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="qa-band">
+  <span class="qa-title">Q&amp;A</span>
+  <span class="qa-thanks">Thank you</span>
+</div>
+
+<div class="disclosure">
+  <b>Live web report:</b> <a href="https://lionchena.github.io/ads401/">https://lionchena.github.io/ads401/</a>
+  &nbsp;·&nbsp; <b>AI-use disclosure (non-substantive):</b> GLM-5.3 Flash (Zhipu AI) &amp; Gemini 3.8 Flash (Google), via the omp agent harness — slide layout, formatting, language proofreading, reference formatting.
+</div>
+
+<div class="page-no">09 / 09</div>
 
 <!--
 Notes · 现场答辩常驻页面 (3分钟 Q&A 期间全程停留在此页)
 【收尾致谢英文】:
 "Thank you very much. // We now welcome any questions or suggestions from Dr. Li and our fellow classmates."
 
+【材料页口径】:
+- 问卷 v1 (pilot)、路由流程、知情同意与招募条目均已备妥，见 GitHub 与补充材料 PDF。
+- 访谈指南与 pilot 记录如实标注 Pending——内部检查完成后补入，不虚报完成。
+
 【中文答辩速记备忘 (高频质询应答)】:
 1. 问：为什么只邀请 46 个人？
-   -> 答：“50 名在读排除我们 4 名研究者后，46 名均为潜在受邀者，属于近全量邀请，不是便利抽样。”
+   -> 答："50 名在读排除我们 4 名研究者后，46 名均为潜在受邀者，属于近全量邀请，不是便利抽样。"
 2. 问：样本量小为什么不做推断检验？
-   -> 答：“描述性统计与交叉分析；不对小组间做推断。”
+   -> 答："描述性统计与交叉分析；不对小组间做推断。"
 3. 问：怎么保证没用过校内 AI 的人不乱打分？
-   -> 答：“未使用者直接跳过使用体验模块，只回答未采纳原因与意愿。”
+   -> 答："未使用者直接跳过使用体验模块，只回答未采纳原因与意愿。"
 4. 问：双用户的配对比较怎么处理？
-   -> 答：“仅在同一活动类别下双工具均有评分时比较；直接比较题单独汇总，保留‘无法比较’。”
--->
-
----
-title: References
----
-
-<!-- Slide 10: References (Q&A 收尾停留页) -->
-<div class="deck-title">
-  References
-</div>
-<hr class="top-divider">
-
-<ol class="ref-list">
-  <li>Braun, V., &amp; Clarke, V. (2006). Using thematic analysis in psychology. <i>Qualitative Research in Psychology, 3</i>(2), 77–101. <a href="https://doi.org/10.1191/1478088706qp063oa">https://doi.org/10.1191/1478088706qp063oa</a></li>
-  <li>Chung, J., Henderson, M., Pepperell, N., Slade, C., &amp; Liang, Y. (2024). <i>Student perspectives on AI in Higher Education: Student Survey</i> [Survey instrument]. Student Perspectives on AI in Higher Education Project. <a href="https://doi.org/10.26180/27915930">https://doi.org/10.26180/27915930</a></li>
-  <li>Davis, F. D. (1989). Perceived usefulness, perceived ease of use, and user acceptance of information technology. <i>MIS Quarterly, 13</i>(3), 319–340. <a href="https://doi.org/10.2307/249008">https://doi.org/10.2307/249008</a></li>
-  <li>Farinosi, M., &amp; Melchior, C. (2025). To adopt or to ban? Student perceptions and use of generative AI in higher education. <i>Humanities and Social Sciences Communications, 12</i>, Article 1684. <a href="https://doi.org/10.1057/s41599-025-05982-7">https://doi.org/10.1057/s41599-025-05982-7</a></li>
-  <li>Fetters, M. D., Curry, L. A., &amp; Creswell, J. W. (2013). Achieving integration in mixed methods designs—Principles and practices. <i>Health Services Research, 48</i>(6 Pt 2), 2134–2156. <a href="https://doi.org/10.1111/1475-6773.12117">https://doi.org/10.1111/1475-6773.12117</a></li>
-  <li>Ivankova, N. V., Creswell, J. W., &amp; Stick, S. L. (2006). Using mixed-methods sequential explanatory design: From theory to practice. <i>Field Methods, 18</i>(1), 3–20. <a href="https://doi.org/10.1177/1525822X05282260">https://doi.org/10.1177/1525822X05282260</a></li>
-</ol>
-
-<style scoped>
-.deck-title { margin-top: 0.7rem; }
-.top-divider { margin-bottom: 0.5rem; }
-.ref-list { margin-top: 0.3rem; font-size: 1rem; line-height: 1.4; }
-.ref-list li { margin-bottom: 0.45rem; }
-</style>
-<!--
-Notes · Q&A 收尾停留页 (无需演讲; 若被问及 AI 政策或文献来源, 指向本页)
+   -> 答："仅在同一活动类别下双工具均有评分时比较；直接比较题单独汇总，保留'无法比较'。"
 -->
