@@ -120,17 +120,25 @@ respondents opting in; responses contain no identity fields otherwise.
 ### Research materials and status
 
 The full instrument and supporting documents are consolidated in the
-repository (`assets/pre2/materials/`); the slide-deck inventory matches it:
+repository (`assets/pre2/materials/`); the slide-deck inventory matches it.
+Source links point to the tracked files on GitHub:
 
-| Material | Status |
-|---|---|
-| Questionnaire v1 (pilot version) | Available — labelled for pilot testing |
-| Survey routing (flow source + diagram) | Available |
-| Participant information & consent (survey intro + Q1–Q2) | Available — operational details to confirm |
-| Optional interview recruitment (Q20–Q21) | Available |
-| References (six entries) | Available |
-| Interview guide & interview consent | **Pending** — to be supplied and confirmed before interviewing |
-| Internal-check & pilot record | **Pending** — logged after the four-researcher questionnaire check |
+| Material | Existing source | Current status |
+|---|---|---|
+| Study scope, RQs, sampling and analysis plan | [scripts.md](https://github.com/LionChenA/ads401/blob/main/assets/pre2/scripts.md) | Written plan available |
+| Full questionnaire | [questionnaire_v1.md](https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v1.md) | Version 1; explicitly labelled for pilot testing |
+| Survey routing source | [questionnaire_v1_flow.md](https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v1_flow.md) | Available; platform implementation still needs checking |
+| Survey routing image | [SVG flowchart](https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v1_flow_fig.svg) | Available |
+| Reference list and source roles | [reference.md](https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/reference.md) | Six references available |
+| Participant information and survey consent | Questionnaire introduction and Q2 | Embedded text available; operational details remain to be confirmed |
+| Optional interview recruitment | Q20–Q21 | Invitation and contact fields available |
+| Complete interview guide and interview consent | No separate file found in current materials directory | To be supplied or confirmed |
+| Internal-check/pilot findings and revision log | No record found in current materials directory | Completion not evidenced by current files |
+
+"Available" means a document exists, not that it has been approved,
+implemented or tested. The current source files remain the editing
+references. If the questionnaire or references change, refresh the
+corresponding consolidated sections to avoid version drift.
 
 ### Variables and measures
 
