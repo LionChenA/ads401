@@ -379,7 +379,7 @@ title: Materials & Q&A
     </ul>
   </div>
   <div>
-    <div class="col-h col-h--accent">To finalise before fielding</div>
+    <div class="col-h col-h--accent">To be confirmed</div>
     <ul class="mat-list mt-3">
       <li>Interview guide &amp; interview consent — <span class="pending">Pending</span>: to be supplied and confirmed before interviews.</li>
       <li>Internal-check &amp; pilot record — <span class="pending">Pending</span>: logged after the four-researcher questionnaire check.</li>
