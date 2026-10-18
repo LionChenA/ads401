@@ -19,9 +19,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Build web slides
-        run: |
-          cd slides && npm install && npx slidev build --base /ads401/slides/ --out ../site/public/slides
       - uses: withastro/action@v3
         with:
           path: site
