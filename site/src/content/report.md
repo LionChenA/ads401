@@ -234,16 +234,11 @@ recorded in the group agreement). Repository/site assembly: Liyuan CHEN.
 Survey scripts and materials integration: Mingjian TAO. Slide narrative:
 Hongcheng TANG. (Final wording to be confirmed at submission.)
 
-### AI-use statement
+### Authorship statement
 
-Permitted non-substantive AI use only. GLM-5.3 Flash (Zhipu AI) and Gemini
-3.8 Flash (Google), operated through the omp open-source coding harness, were
-used for slide layout and formatting, language proofreading, reference
-formatting, and build/assembly automation for the presentation slides, web
-report, and supplementary materials. All research questions, methodological
-decisions, sampling frames, variable operationalisations, questionnaire items,
-interview protocols, and critical evaluations were conceived, drafted, and
-verified entirely by the student authors.
+All research questions, methodological decisions, sampling frames, variable
+operationalisations, questionnaire items, interview protocols, and critical
+evaluations are the student authors' own.
 
 ### Data and materials availability
 
@@ -276,3 +271,7 @@ repository; the interview guide will be added once finalised.
 6. <a id="ref-6"></a>V. Braun and V. Clarke, "Using thematic analysis in psychology,"
    *Qualitative Research in Psychology*, 3(2), pp. 77–101, 2006.
    [doi:10.1191/1478088706qp063oa](https://doi.org/10.1191/1478088706qp063oa)
+7. GLM-5.3 Flash (Zhipu AI) and Gemini 3.8 Flash (Google), operated through
+   the omp open-source coding agent harness. Used for slide layout and
+   formatting, language proofreading, reference formatting, and build/assembly
+   automation — non-substantive use only.
