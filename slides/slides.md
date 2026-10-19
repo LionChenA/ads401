@@ -394,7 +394,7 @@ title: Materials & Q&A
 
 <div class="disclosure">
   <b>Live web report:</b> <a href="https://lionchena.github.io/ads401/">https://lionchena.github.io/ads401/</a>
-  &nbsp;·&nbsp; <b>AI-use disclosure (non-substantive):</b> GLM-5.3 Flash (Zhipu AI) &amp; Gemini 3.8 Flash (Google), via the omp agent harness — slide layout, formatting, language proofreading, reference formatting.
+  &nbsp;·&nbsp; <b>AI-use disclosure:</b> GLM-5.3 Flash (Zhipu AI) &amp; Gemini 3.8 Flash (Google), via the omp agent harness — web-report page implementation (non-assessed technical work); slide-source adaptation of the approved design; proofreading &amp; reference formatting.
 </div>
 
 <div class="page-no">09 / 09</div>
