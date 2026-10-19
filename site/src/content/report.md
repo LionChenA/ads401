@@ -123,7 +123,7 @@ repository (`assets/pre2/materials/`); the slide-deck inventory matches it:
 | Material | Status |
 |---|---|
 | Questionnaire v1 (pilot version) | Available — labelled for pilot testing |
-| Survey routing (flow source + diagram) | Available |
+| [Survey routing (flow source + diagram)](https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v1_flow.md) | Available |
 | Participant information & consent (survey intro + Q1–Q2) | Available — operational details to confirm |
 | Optional interview recruitment (Q20–Q21) | Available |
 | References (six entries) | Available |
