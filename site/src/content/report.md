@@ -145,6 +145,12 @@ repository (`assets/pre2/materials/`); the slide-deck inventory matches it:
 | Future-use intention | Continue (Q11) / try-or-resume (Q13) likelihood |
 | Perceived comparison | Dual users compare XJTLU AI vs external AI per activity category (Q15–Q16) |
 
+The Technology Acceptance Model (TAM) includes validated scales for perceived
+usefulness and perceived ease of use (Davis, 1989) [1]; these constructs inform
+the questionnaire items adapted to the XJTLU AI context. The adapted items
+remain exploratory, context-specific measures — not the complete validated
+scales.
+
 ### Ethics, consent, privacy and bias mitigation
 
 - Participation is voluntary with an explicit informed-consent gate (Q1–Q2);
