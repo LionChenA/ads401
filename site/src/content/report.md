@@ -59,12 +59,12 @@ association claims, not causal effects.
 ## 3. Background and related work
 
 Technology-acceptance research establishes perceived usefulness and perceived
-ease of use as central antecedents of adoption [[1]](#ref-1). Recent work on generative
+ease of use as central antecedents of adoption<sup><a href="#ref-1">1</a></sup>. Recent work on generative
 AI in higher education documents widespread student use alongside sharp
 institutional policy divergence — adopt or ban — and warns that self-reported
-use is shaped by self-selection [[2]](#ref-2). Surveys of student AI use in higher
+use is shaped by self-selection<sup><a href="#ref-2">2</a></sup>. Surveys of student AI use in higher
 education provide validated question stems for experience, usefulness and
-trust items [[3]](#ref-3).
+trust items<sup><a href="#ref-3">3</a></sup>.
 
 **Gap.** These strands have not been brought together for XJTLU's own
 institutional agent platform: we lack evidence on whether official services
@@ -72,8 +72,8 @@ are even known to the students they target, and how perceived differences
 against commercial tools shape adoption intentions. **Evaluation rationale.**
 A census-adjacent survey quantifies the adoption landscape (RQ1–RQ2);
 interviews then explain the perception drivers (RQ3), following the sequential
-explanatory logic of Ivankova et al. [[4]](#ref-4) and the integration principles of
-Fetters et al. [[5]](#ref-5).
+explanatory logic of Ivankova et al.<sup><a href="#ref-4">4</a></sup> and the integration principles of
+Fetters et al.<sup><a href="#ref-5">5</a></sup>.
 
 ## 4. System and evaluation design
 
@@ -138,13 +138,13 @@ repository (`assets/pre2/materials/`); the slide-deck inventory matches it:
 | Ever-use / recent use | Any use ever (Q4); past-four-week usage type (Q5, single-select) → group assignment (G1–G4); usage frequency asked only within groups (Q6, Q14a) |
 | Recent academic usage | Five broad activity categories (Q7 / Q14): learning & understanding course materials · research planning & idea development · research design & data analysis · academic writing & content production · coursework planning & collaboration |
 | Verification behaviour | Frequency of checking outputs against course materials or reliable sources (Q8) |
-| Perceived usefulness / ease of use / trust | Activity-specific usefulness ratings (Q7a, Q14b) and 5-point Likert items (Q9), treated as *exploratory, context-specific* measures — not the full validated TAM scales [[1]](#ref-1) |
+| Perceived usefulness / ease of use / trust | Activity-specific usefulness ratings (Q7a, Q14b) and 5-point Likert items (Q9), treated as *exploratory, context-specific* measures — not the full validated TAM scales<sup><a href="#ref-1">1</a></sup> |
 | Barriers | Experienced problems (Q10, ≤3) and non-adoption reasons (Q12, ≤3) |
 | Future-use intention | Continue (Q11) / try-or-resume (Q13) likelihood |
 | Perceived comparison | Dual users compare XJTLU AI vs external AI per activity category (Q15–Q16) |
 
 The Technology Acceptance Model (TAM) includes validated scales for perceived
-usefulness and perceived ease of use (Davis, 1989) [[1]](#ref-1); these constructs inform
+usefulness and perceived ease of use (Davis, 1989)<sup><a href="#ref-1">1</a></sup>; these constructs inform
 the questionnaire items adapted to the XJTLU AI context. The adapted items
 remain exploratory, context-specific measures — not the complete validated
 scales.
@@ -183,10 +183,10 @@ scales.
 - **Format:** semi-structured, 15–20 minutes; focus on tool-choice
   motivations, adoption barriers and learning experiences.
 - **Thematic analysis:** coding and theme development following Braun &
-  Clarke [[6]](#ref-6).
+  Clarke<sup><a href="#ref-6">6</a></sup>.
 - **Integration:** interview themes are mapped onto survey patterns to explain
   adoption decisions and identify improvement directions — the survey says
-  *what*, the interviews explain *why* [[5]](#ref-5).
+  *what*, the interviews explain *why*<sup><a href="#ref-5">5</a></sup>.
 
 > Analysis is deliberately descriptive and exploratory: with a single-module
 > voluntary sample we report distributions and patterns, and we do not run
