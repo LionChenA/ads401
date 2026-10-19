@@ -20,14 +20,12 @@ cross-sectional online questionnaire first maps awareness, usage patterns and
 perceptions; semi-structured follow-up interviews then explain the choices
 behind those patterns.
 
-- **Evaluated system:** XJTLU AI Agent Platform (Junmou AI),
-  [ai.xjtlu.edu.cn](https://ai.xjtlu.edu.cn)
+- **Evaluated system:** XJTLU AI Agent Platform (Junmou AI)
 - **Target users:** ADS401 2026-cohort students (N = 50 enrolled)
 - **Methods:** online survey (census-adjacent invitation) → purposive
   follow-up interviews
-- **Presentation deck:** PDF submitted via LMS
-  (`ADS401_GroupA_Presentation2Slides.pdf`) ·
-  [repository](https://github.com/LionChenA/ads401)
+- **Presentation deck:** PDF (LMS submission) — source:
+  [slides/slides.md](https://github.com/LionChenA/ads401/blob/main/slides/slides.md)
 
 ## 2. Problem, motivation and research questions
 
@@ -61,12 +59,12 @@ association claims, not causal effects.
 ## 3. Background and related work
 
 Technology-acceptance research establishes perceived usefulness and perceived
-ease of use as central antecedents of adoption [1]. Recent work on generative
+ease of use as central antecedents of adoption [[1]](#ref-1). Recent work on generative
 AI in higher education documents widespread student use alongside sharp
 institutional policy divergence — adopt or ban — and warns that self-reported
-use is shaped by self-selection [2]. Surveys of student AI use in higher
+use is shaped by self-selection [[2]](#ref-2). Surveys of student AI use in higher
 education provide validated question stems for experience, usefulness and
-trust items [3].
+trust items [[3]](#ref-3).
 
 **Gap.** These strands have not been brought together for XJTLU's own
 institutional agent platform: we lack evidence on whether official services
@@ -74,8 +72,8 @@ are even known to the students they target, and how perceived differences
 against commercial tools shape adoption intentions. **Evaluation rationale.**
 A census-adjacent survey quantifies the adoption landscape (RQ1–RQ2);
 interviews then explain the perception drivers (RQ3), following the sequential
-explanatory logic of Ivankova et al. [4] and the integration principles of
-Fetters et al. [5].
+explanatory logic of Ivankova et al. [[4]](#ref-4) and the integration principles of
+Fetters et al. [[5]](#ref-5).
 
 ## 4. System and evaluation design
 
@@ -140,13 +138,13 @@ repository (`assets/pre2/materials/`); the slide-deck inventory matches it:
 | Ever-use / recent use | Any use ever (Q4); past-four-week usage type (Q5, single-select) → group assignment (G1–G4); usage frequency asked only within groups (Q6, Q14a) |
 | Recent academic usage | Five broad activity categories (Q7 / Q14): learning & understanding course materials · research planning & idea development · research design & data analysis · academic writing & content production · coursework planning & collaboration |
 | Verification behaviour | Frequency of checking outputs against course materials or reliable sources (Q8) |
-| Perceived usefulness / ease of use / trust | Activity-specific usefulness ratings (Q7a, Q14b) and 5-point Likert items (Q9), treated as *exploratory, context-specific* measures — not the full validated TAM scales [1] |
+| Perceived usefulness / ease of use / trust | Activity-specific usefulness ratings (Q7a, Q14b) and 5-point Likert items (Q9), treated as *exploratory, context-specific* measures — not the full validated TAM scales [[1]](#ref-1) |
 | Barriers | Experienced problems (Q10, ≤3) and non-adoption reasons (Q12, ≤3) |
 | Future-use intention | Continue (Q11) / try-or-resume (Q13) likelihood |
 | Perceived comparison | Dual users compare XJTLU AI vs external AI per activity category (Q15–Q16) |
 
 The Technology Acceptance Model (TAM) includes validated scales for perceived
-usefulness and perceived ease of use (Davis, 1989) [1]; these constructs inform
+usefulness and perceived ease of use (Davis, 1989) [[1]](#ref-1); these constructs inform
 the questionnaire items adapted to the XJTLU AI context. The adapted items
 remain exploratory, context-specific measures — not the complete validated
 scales.
@@ -185,10 +183,10 @@ scales.
 - **Format:** semi-structured, 15–20 minutes; focus on tool-choice
   motivations, adoption barriers and learning experiences.
 - **Thematic analysis:** coding and theme development following Braun &
-  Clarke [6].
+  Clarke [[6]](#ref-6).
 - **Integration:** interview themes are mapped onto survey patterns to explain
   adoption decisions and identify improvement directions — the survey says
-  *what*, the interviews explain *why* [5].
+  *what*, the interviews explain *why* [[5]](#ref-5).
 
 > Analysis is deliberately descriptive and exploratory: with a single-module
 > voluntary sample we report distributions and patterns, and we do not run
@@ -256,25 +254,25 @@ repository; the interview guide will be added once finalised.
 
 ### References (IEEE, order of first citation)
 
-1. F. D. Davis, "Perceived usefulness, perceived ease of use, and user
+1. <a id="ref-1"></a>F. D. Davis, "Perceived usefulness, perceived ease of use, and user
    acceptance of information technology," *MIS Quarterly*, 13(3), pp. 319–340,
    1989. [doi:10.2307/249008](https://doi.org/10.2307/249008)
-2. M. Farinosi and C. Melchior, "To adopt or to ban? Student perceptions and
+2. <a id="ref-2"></a>M. Farinosi and C. Melchior, "To adopt or to ban? Student perceptions and
    use of generative AI in higher education," *Humanities and Social Sciences
    Communications*, 12, Art. 1684, 2025.
    [doi:10.1057/s41599-025-05982-7](https://doi.org/10.1057/s41599-025-05982-7)
-3. J. Chung, M. Henderson, N. Pepperell, C. Slade, and Y. Liang, "Student
+3. <a id="ref-3"></a>J. Chung, M. Henderson, N. Pepperell, C. Slade, and Y. Liang, "Student
    perspectives on AI in Higher Education: Student Survey," Student
    Perspectives on AI in Higher Education Project, 2024.
    [doi:10.26180/27915930](https://doi.org/10.26180/27915930)
-4. N. V. Ivankova, J. W. Creswell, and S. L. Stick, "Using mixed-methods
+4. <a id="ref-4"></a>N. V. Ivankova, J. W. Creswell, and S. L. Stick, "Using mixed-methods
    sequential explanatory design: From theory to practice," *Field Methods*,
    18(1), pp. 3–20, 2006.
    [doi:10.1177/1525822X05282260](https://doi.org/10.1177/1525822X05282260)
-5. M. D. Fetters, L. A. Curry, and J. W. Creswell, "Achieving integration in
+5. <a id="ref-5"></a>M. D. Fetters, L. A. Curry, and J. W. Creswell, "Achieving integration in
    mixed methods designs—Principles and practices," *Health Services
    Research*, 48(6 Pt 2), pp. 2134–2156, 2013.
    [doi:10.1111/1475-6773.12117](https://doi.org/10.1111/1475-6773.12117)
-6. V. Braun and V. Clarke, "Using thematic analysis in psychology,"
+6. <a id="ref-6"></a>V. Braun and V. Clarke, "Using thematic analysis in psychology,"
    *Qualitative Research in Psychology*, 3(2), pp. 77–101, 2006.
    [doi:10.1191/1478088706qp063oa](https://doi.org/10.1191/1478088706qp063oa)
