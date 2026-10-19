@@ -337,3 +337,15 @@ main ol.refs,
 main section li a {
   font-size: 0.9em;
 }
+
+/* Superscript citation markers (link to §8 references) */
+main sup {
+  font-size: 0.72em;
+  line-height: 0;
+}
+
+main sup a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
