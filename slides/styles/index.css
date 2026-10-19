@@ -1,153 +1,407 @@
-/* Seven-region academic style — spec: .agents/skills/slides-style (R-7).
-   Selectors are scoped under .slidev-layout so global styles do not leak
-   into the Slidev presenter UI. Reskinned to the Academic Teal serif family
-   (Direction A) to stay unified with the web report (R-14). */
+/* ADS401 Pres2 deck — Flat Academic system.
+   Master: teammate's ADS401_Cover_Updated.pptx (2026-10-18), user-approved as deck style.
+   Replaces the serif deck side of R-14; web report keeps R-14 journal style.
+   slides.md carries CONTENT ONLY; every visual decision lives here as a semantic class.
+   Legibility floor: body text ≥ 20px (1.25rem) on the 980x540 canvas. */
 
-@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,500&family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* ---------- palette & canvas ---------- */
 
 .slidev-layout {
   --ink: #172327;
-  --teal: #183f46;
   --muted: #687780;
   --line: #ced5d7;
   --accent: #1683a5;
-  background: #ffffff;
-}
-
-/* Serif display family for titles (Direction A unification) */
-.slidev-layout h1,
-.slidev-layout h2,
-.slidev-layout .deck-title {
-  font-family: Newsreader, Georgia, serif;
-  font-weight: 600;
-  letter-spacing: 0;
-}
-
-.slidev-layout .takeaway {
-  font-family: Newsreader, Georgia, serif;
-}
-
-/* Region 1: section label (top-left) */
-.slidev-layout .section-label {
-  position: absolute;
-  top: 0.35rem;
-  left: 1.1rem;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  color: var(--teal);
-  text-transform: uppercase;
-}
-
-/* Region 2: slide title */
-.slidev-layout .deck-title {
+  position: relative;
+  background: #fff;
   color: var(--ink);
-  font-weight: 700;
+  font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  padding: 1.3rem 1.75rem 2.4rem;
 }
 
-/* Top divider under the title */
-.slidev-layout .top-divider {
-  border: none;
-  border-top: 1.5px solid var(--line);
-  margin: 0.45rem 0 0.9rem;
-}
+/* ---------- deck chrome: running head + page no ---------- */
 
-/* Region 3: content headings */
-.slidev-layout .content-h {
-  font-size: 0.82rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
+.slidev-layout .run-head {
+  position: absolute;
+  top: 0.55rem;
+  left: 1.75rem;
+  font-size: 0.65rem;
   color: var(--muted);
-  text-transform: uppercase;
-  margin-bottom: 0.3rem;
+  letter-spacing: 0.02em;
 }
 
-/* Region 5: key takeaway */
-.slidev-layout .takeaway {
-  position: absolute;
-  left: 1.1rem;
-  right: 1.1rem;
-  bottom: 1.55rem;
-  font-size: 1.12rem;
-  font-weight: 700;
-  color: var(--teal);
-}
-
-/* Bottom divider */
-.slidev-layout .bottom-divider {
-  position: absolute;
-  left: 1.1rem;
-  right: 1.1rem;
-  bottom: 1.35rem;
-  border: none;
-  border-top: 1px solid var(--line);
-}
-
-/* Region 6: references (bottom-left) */
-.slidev-layout .slide-refs {
-  position: absolute;
-  left: 1.1rem;
-  bottom: 0.45rem;
-  right: 4rem;
-  font-size: 0.62rem;
-  color: var(--muted);
-}
-
-/* Region 7: page number (bottom-right) */
 .slidev-layout .page-no {
   position: absolute;
-  right: 1.1rem;
-  bottom: 0.45rem;
+  bottom: 0.55rem;
+  right: 1.75rem;
   font-size: 0.68rem;
   color: var(--muted);
 }
 
-/* RQ / content cards */
-.slidev-layout .rcard {
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: 0.55rem 0.7rem;
-  text-align: left;
+/* ---------- title zone ---------- */
+
+.slidev-layout .deck-title {
+  margin-top: 0.7rem;
+  font-size: 1.95rem;
+  font-weight: 800;
+  color: var(--ink);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
 }
 
-.slidev-layout .rcard b {
+.slidev-layout .top-divider {
+  border: none;
+  border-top: 1px solid var(--line);
+  margin: 0.55rem 0 0;
+}
+
+.slidev-layout .lead-line {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.35;
+}
+
+/* ---------- column scaffolding ---------- */
+
+.slidev-layout .two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 2.6rem;
+}
+
+.slidev-layout .two-col > div + div {
+  border-left: 1px solid var(--line);
+  padding-left: 2.6rem;
+}
+
+.slidev-layout .col-h {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.slidev-layout .col-h--accent {
   color: var(--accent);
 }
 
-/* Cover: journal frame + status pills (Direction A) */
-.slidev-layout .cover-frame {
-  margin-top: 2.2rem;
-  border: 1px solid var(--line);
-  outline: 1px solid var(--line);
-  outline-offset: 3px;
-  padding: 1.6rem 1.9rem 1.4rem;
-  max-width: 88%;
-  background: #fff;
+/* ---------- body text ---------- */
+
+.slidev-layout .body-text {
+  margin-top: 0.7rem;
+  font-size: 1.25rem;
+  line-height: 1.55;
+  color: var(--ink);
 }
 
-.slidev-layout .cover-kicker {
-  font-size: 0.66rem;
-  font-weight: 600;
-  letter-spacing: 0.2em;
+.slidev-layout .note-text {
+  font-size: 1.15rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+/* ---------- RQ rows ---------- */
+
+.slidev-layout .rq-list { display: flex; flex-direction: column; }
+
+.slidev-layout .rq-row {
+  padding: 0.85rem 0 0.9rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.slidev-layout .rq-row:last-child { border-bottom: none; }
+
+.slidev-layout .rq-name {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 700;
   color: var(--accent);
 }
 
-.slidev-layout .pill {
-  font-family: Inter, sans-serif;
-  font-size: 0.62rem;
+.slidev-layout .rq-q {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.45;
+  color: var(--ink);
+}
+
+/* ---------- stats (50 / 4 / 46) ---------- */
+
+.slidev-layout .stat-row {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.slidev-layout .stat { display: flex; flex-direction: column; }
+
+.slidev-layout .stat-n {
+  font-size: 2.3rem;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1.1;
+}
+
+.slidev-layout .stat-l {
+  margin-top: 0.15rem;
+  font-size: 1.05rem;
+  color: var(--muted);
+}
+
+/* ---------- G1-G4 rows ---------- */
+
+.slidev-layout .g-rows { display: flex; flex-direction: column; }
+
+.slidev-layout .g-row {
+  display: flex;
+  align-items: baseline;
+  gap: 1.4rem;
+  padding: 0.3rem 0.2rem;
+  border-bottom: 1px solid var(--line);
+  font-size: 1.25rem;
+}
+
+.slidev-layout .g-tag {
+  font-weight: 800;
+  color: var(--accent);
+}
+
+/* ---------- measures two-column bullets ---------- */
+
+.slidev-layout .measures {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 1.4rem;
+}
+
+.slidev-layout .measures ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 1.18rem;
+  line-height: 1.45;
+}
+
+.slidev-layout .tam-note {
+  margin-top: 0.6rem;
+  font-size: 1.05rem;
+  font-style: italic;
+  text-align: center;
+  color: var(--muted);
+}
+
+/* ---------- definition rows (Data Analysis) ---------- */
+
+.slidev-layout .def-list { display: flex; flex-direction: column; }
+
+.slidev-layout .def-row {
+  display: grid;
+  grid-template-columns: 13rem 1fr;
+  gap: 1.6rem;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.slidev-layout .def-row:last-child { border-bottom: none; }
+
+.slidev-layout .def-t {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.slidev-layout .def-d {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+/* ---------- key-value rows (interviews) ---------- */
+
+.slidev-layout .kv { display: flex; flex-direction: column; gap: 0.55rem; }
+
+.slidev-layout .kv-row {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.slidev-layout .kv-k { font-weight: 700; color: var(--ink); }
+
+/* ---------- next steps grid ---------- */
+
+.slidev-layout .steps-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 3.4rem;
+  align-items: start;
+}
+
+.slidev-layout .step {
+  display: flex;
+  align-items: baseline;
+  gap: 1.5rem;
+  padding: 0.85rem 0 0.9rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.slidev-layout .step:nth-last-child(-n+2) { border-bottom: none; }
+
+.slidev-layout .step-n {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.slidev-layout .step-t {
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+/* ---------- limitations ---------- */
+
+.slidev-layout .lim { margin-bottom: 1.15rem; }
+
+.slidev-layout .lim-h {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.slidev-layout .lim .body-text { margin-top: 0.2rem; }
+
+/* ---------- materials (closing slide) ---------- */
+
+.slidev-layout .mat-list {
+  margin: 0;
+  padding-left: 1.15rem;
+  font-size: 1.15rem;
+  line-height: 1.45;
+}
+
+.slidev-layout .mat-list li { margin-bottom: 0.28rem; }
+
+.slidev-layout .mat-list .mat-refs {
+  font-size: 1.02rem;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.slidev-layout .mat-list a {
+  color: var(--accent);
   font-weight: 600;
-  letter-spacing: 0.05em;
-  padding: 0.2rem 0.55rem;
-  border-radius: 3px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
-.slidev-layout .pill.stage {
-  background: var(--teal);
-  color: #fff;
+.slidev-layout .pending {
+  font-weight: 700;
+  color: var(--accent);
 }
 
-.slidev-layout .pill.pending {
-  background: #fdf6e3;
-  color: #946200;
-  border: 1px solid #ead9a8;
+/* ---------- Q&A band (closing slide) ---------- */
+
+.slidev-layout .qa-band {
+  display: flex;
+  align-items: baseline;
+  gap: 1.6rem;
+  margin-top: 1.1rem;
+}
+
+.slidev-layout .qa-title {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.slidev-layout .qa-thanks {
+  font-size: 1.6rem;
+  color: var(--muted);
+}
+
+.slidev-layout .disclosure {
+  position: absolute;
+  left: 1.75rem;
+  right: 1.75rem;
+  bottom: 1.6rem;
+  padding-top: 0.55rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.slidev-layout .disclosure b { color: var(--ink); font-weight: 700; }
+
+.slidev-layout .disclosure a { color: var(--accent); }
+
+/* ---------- per-slide bottom references ---------- */
+
+.slidev-layout .slide-refs {
+  position: absolute;
+  left: 1.75rem;
+  bottom: 1.1rem;
+  max-width: 60%;
+  font-size: 0.68rem;
+  line-height: 1.4;
+  color: var(--muted);
+}
+
+.slidev-layout .slide-refs .ref { margin-bottom: 0.35rem; }
+
+.slidev-layout .slide-refs a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* ---------- cover ---------- */
+
+.slidev-layout .cover-wrap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.slidev-layout .cover-title {
+  font-size: 2.6rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+.slidev-layout .cover-sub {
+  margin-top: 1.1rem;
+  font-size: 1.6rem;
+  color: var(--muted);
+  line-height: 1.35;
+}
+
+.slidev-layout .cover-meta {
+  margin-top: 2.6rem;
+  font-size: 1.2rem;
+}
+
+.slidev-layout .cover-res {
+  margin-top: 1.6rem;
+  font-size: 1rem;
+  color: var(--muted);
+}
+
+.slidev-layout .cover-res a {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* ---------- deck chrome fix ---------- */
+
+/* Slidev's goto dialog (G jump) leaks its autocomplete list into the
+   viewport even while parked off-screen, blocking the top-right corner.
+   Arrow keys and the overview (O) cover navigation, so the dialog is
+   removed entirely — state-independent, no class guessing. */
+#slidev-goto-dialog {
+  display: none !important;
 }

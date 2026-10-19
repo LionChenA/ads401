@@ -170,3 +170,23 @@
 - **Rationale**: slide–page unification principle — same kicker/divider/
   takeaway/pill vocabulary across surfaces; academic register fits coursework
   marking; white theme is print/project safe.
+
+## R-15 · Deck style handover: flat master; web deck retired
+- **Status**: Accepted (2026-10-18, user-approved)
+- **Decision**: The deck follows the team's hand-built flat master
+  (`ADS401_Cover_Updated.pptx`): single sans family, running head + `NN / 09`
+  page numbers, hairline separators, no cards/frames/takeaways; palette keeps
+  the R-14 tokens. `slides/slides.md` + `styles/index.css` + the
+  slides-style skill were rewritten to this system; per-page bottom
+  references replace the full references slide; the closing slide carries
+  Materials inventory (Pending items labelled) + Q&A + the non-substantive
+  AI-use disclosure line. The deployed **web deck is retired**: the slidev
+  build step was removed from `deploy.yml` and the sidebar entrance deleted —
+  it duplicated the submitted PDF. Initially R-14 continued to govern the web report
+  page; amended the same day (user-approved): the report page's visual system
+  is also unified onto the flat deck style (Inter only, ink 800 titles,
+  accent h3, hairline dividers), retiring the serif on both surfaces.
+  slides-style SKILL.md is the deck spec (updated in the same commit).
+- **Rationale**: the hand-built master is the group's newest approved visual
+  decision; one distribution channel (LMS PDF) avoids dual-source drift
+  between the deck PDF and its web copy.
