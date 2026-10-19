@@ -48,11 +48,16 @@ For Module ADS401:
 > 按过去四周 ADS401 学习中的 AI 使用情况预设四组：Both AI / Other AI Only / No AI / XJTLU AI Only；各组实际人数待收集后确认。
 - Measures: **Awareness, Ever-use, Recent Academic Usage, Perceived Usefulness, Ease of Use, Trust, Barriers, and Future-use Intentions**.
 > 测量认知、是否曾经使用、近期学习用途、感知有用性、易用性、信任、使用障碍及未来使用意愿。
-Usefulness and ease-of-use items are treated as exploratory, context-specific measures rather than the complete validated TAM scales.
-> 有用性与易用性条目作为本研究情境下的探索性测量，不等同于完整、经过验证的 TAM 量表。
 
 - Various academic activity categories will be used for consistent comparison.
 > 不同学术活动类别会用于一致比较。
+
+Usefulness and ease-of-use items are treated as exploratory, context-specific measures rather than the complete validated TAM scales.
+> 有用性与易用性条目作为本研究情境下的探索性测量，不等同于完整、经过验证的 TAM 量表。
+
+*The Technology Acceptance Model (TAM) includes validated scales for perceived usefulness and perceived ease of use (Davis, 1989). These constructs will inform questionnaire items adapted to the XJTLU AI context.*
+
+> *技术接受模型（TAM）包含经过验证的感知有用性与感知易用性量表（Davis, 1989）。本研究将参考这两个构念，设计适用于 XJTLU AI 情境的问卷题项。*
 
 ### Data Analysis
 - Descriptive Statistics: Report counts and percentages for awareness, ever-use, and past-four-week usage, with the relevant response denominator for each item.
