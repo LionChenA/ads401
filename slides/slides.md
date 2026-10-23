@@ -116,9 +116,9 @@ title: Research Methodology
 
 <div class="col-h mt-6">Target Participants</div>
 <div class="stat-row mt-4">
-  <div class="stat"><span class="stat-n">50</span><span class="stat-l">enrolled</span></div>
+  <div class="stat"><span class="stat-n">48</span><span class="stat-l">enrolled</span></div>
   <div class="stat"><span class="stat-n">4</span><span class="stat-l">researchers excluded</span></div>
-  <div class="stat"><span class="stat-n">46</span><span class="stat-l">potentially eligible invitees</span></div>
+  <div class="stat"><span class="stat-n">44</span><span class="stat-l">potentially eligible invitees</span></div>
 </div>
 <p class="note-text mt-4">Voluntary survey participation. Achieved sample to be reported after collection.</p>
 
@@ -132,10 +132,10 @@ title: Research Methodology
 <!--
 Notes [22s] · 研究方法与对象 (对齐 scripts.md Research Methodology 节)
 【英文演讲词】:
-"To answer these questions, // we use an explanatory sequential mixed-methods design. // Our target population is all ADS401 students. // There are 50 students in the module; // after excluding four student researchers, // we have 46 potentially eligible invitees, // and participation is voluntary."
+"To answer these questions, // we use an explanatory sequential mixed-methods design. // Our target population is all ADS401 students. // There are 48 students in the module; // after excluding four student researchers, // we have 44 potentially eligible invitees, // and participation is voluntary."
 
 【中文要义】:
-为回答研究问题，我们采用解释性顺序混合方法设计。研究对象为 ADS401 全体学生：50 名在读，排除 4 名研究者后共 46 名潜在受邀者，参与遵循自愿原则。
+为回答研究问题，我们采用解释性顺序混合方法设计。研究对象为 ADS401 全体学生：48 名在读，排除 4 名研究者后共 44 名潜在受邀者，参与遵循自愿原则。
 -->
 
 ---
@@ -409,8 +409,8 @@ Notes · 现场答辩常驻页面 (3分钟 Q&A 期间全程停留在此页)
 - 访谈指南与 pilot 记录如实标注 Pending——内部检查完成后补入，不虚报完成。
 
 【中文答辩速记备忘 (高频质询应答)】:
-1. 问：为什么只邀请 46 个人？
-   -> 答："50 名在读排除我们 4 名研究者后，46 名均为潜在受邀者，属于近全量邀请，不是便利抽样。"
+1. 问：为什么只邀请 44 个人？
+   -> 答："48 名在读排除我们 4 名研究者后，44 名均为潜在受邀者，属于近全量邀请，不是便利抽样。"
 2. 问：样本量小为什么不做推断检验？
    -> 答："描述性统计与交叉分析；不对小组间做推断。"
 3. 问：怎么保证没用过校内 AI 的人不乱打分？
