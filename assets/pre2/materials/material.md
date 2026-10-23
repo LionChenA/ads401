@@ -38,7 +38,7 @@ The following wording follows `scripts.md` and supersedes earlier working versio
 
 The planned design is explanatory sequential mixed methods: a cross-sectional online questionnaire, preliminary survey analysis, semi-structured follow-up interviews, and integrated interpretation. Ivankova et al. (2006) supports the design rationale; Fetters et al. (2013) supports integration. Full references appear in Section 10.
 
-The current script specifies **50 enrolled students, excluding 4 researchers, leaving 46 potentially eligible invitees**. These are planning figures from the script, not achieved response counts. Participation is voluntary; the achieved sample and response denominator must be reported after collection. The four usage groups are observed categories based on Q5, not randomly assigned experimental groups.
+The current script specifies **48 enrolled students, excluding 4 researchers, leaving 44 potentially eligible invitees** (43 PG1 mainland-China HCI students including the 4 researchers, plus 5 presumed non-mainland-China HCI students). These are planning figures from the script, not achieved response counts. Participation is voluntary; the achieved sample and response denominator must be reported after collection. The four usage groups are observed categories based on Q5, not randomly assigned experimental groups.
 
 ## 2. Materials inventory
 
