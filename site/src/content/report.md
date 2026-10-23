@@ -21,7 +21,8 @@ perceptions; semi-structured follow-up interviews then explain the choices
 behind those patterns.
 
 - **Evaluated system:** XJTLU AI Agent Platform (Junmou AI)
-- **Target users:** ADS401 2026-cohort students (N = 50 enrolled)
+- **Target users:** ADS401 2026-cohort students (N = 48 enrolled; 44
+  eligible invitees)
 - **Methods:** online survey (census-adjacent invitation) → purposive
   follow-up interviews
 - **Presentation deck:** PDF (LMS submission) — source:
@@ -89,8 +90,10 @@ internals or logs.
 
 ### Participants, recruitment and sampling
 
-All 50 ADS401 2026-cohort students form the sampling frame; the 4 group
-researchers are excluded, leaving **46 potentially eligible invitees**. We
+All 48 ADS401 2026-cohort students form the sampling frame; the 4 group
+researchers are excluded, leaving **44 potentially eligible invitees** — per
+class roster, 39 mainland-China and 5 presumed non-mainland-China HCI
+students. We
 invite the full frame (census-adjacent, voluntary participation); the achieved
 sample will be reported after collection. No usability-task sample is
 involved, so the 12-participant usability floor is not triggered; our
