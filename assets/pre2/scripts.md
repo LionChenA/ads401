@@ -35,8 +35,8 @@ Explanatory Sequential Mixed-Methods Design
 
 For Module ADS401:
 
-50 enrolled → 4 researchers excluded → 46 potentially eligible invitees → voluntary survey participation → achieved sample to be reported after collection.
-> 50 名在读学生 → 排除 4 名研究者 → 46 名潜在受邀学生 → 自愿参与问卷 → 收集结束后报告实际样本量。
+48 enrolled → 4 researchers excluded → 44 potentially eligible invitees → voluntary survey participation → achieved sample to be reported after collection. Cohort composition (per class roster): 43 PG1 mainland-China HCI students — including the 4 researchers — and 5 presumed non-mainland-China HCI students; the 44 invitees comprise 39 mainland and 5 non-mainland students.
+> 48 名在读学生 → 排除 4 名研究者 → 44 名潜在受邀学生 → 自愿参与问卷 → 收集结束后报告实际样本量。人群构成（按班级名册）：PG1 中国大陆 HCI 学生 43 人（含 4 名研究者），推测非中国大陆 HCI 学生 5 人；44 名受邀者中大陆 39 人、非大陆 5 人。
 
 
 
