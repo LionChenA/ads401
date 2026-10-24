@@ -33,7 +33,8 @@ Participation is voluntary. This survey does not ask for identity or contact det
 
 - MSc Human-Computer Interaction — Human-centric Computing Pathway
 - MSc Human-Computer Interaction — Human-AI Collaborative Computing Pathway
-- MSc Social Computing
+- MSc Social Computing — Full-Time
+- MSc Social Computing — Part-Time
 - Other (please specify) ______
 
 ### Q3. What was your primary field of study before your current programme?
@@ -136,7 +137,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - Every time
 - Unable to judge
 
-### Q13. Based on your overall experience using XJTLU AI in ADS401, how much do you agree with these statements? (Select N/A if you cannot judge. "Tasks" refers to the ADS401 activity categories in Q11.)
+### Q13. Based on your overall experience using XJTLU AI in ADS401, how much do you agree with these statements? (Select N/A if you cannot judge.)
 
 <!-- Construct mapping (analysis only, not respondent-facing): rows 1–2 = PU, rows 3–4 = PEOU, rows 5–6 = Trust -->
 
@@ -276,15 +277,15 @@ Participation is voluntary. This survey does not ask for identity or contact det
 
 ______
 
-### Q23. Would you be willing to be contacted for an optional follow-up interview? If Yes, Q24 will ask for your ID and email address or telephone number.
+### Q23. Would you be willing to be contacted for an optional follow-up interview? If Yes, Q24 will ask for a preferred name or pseudonym and a phone number or email address.
 
 - Yes *(→ Q24)*
 - No *(→ survey ends)*
 
 ### Q24. Please leave your contact information.
 
-• Student ID or pseudonym: ______
-• Email address or telephone: ______
+• Preferred name or pseudonym: ______
+• Phone number or email: ______
 
 ---
 

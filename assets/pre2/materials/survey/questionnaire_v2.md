@@ -21,7 +21,7 @@ This is a voluntary ADS401 coursework survey exploring students' awareness, adop
 
 Unless otherwise specified, answer about **ADS401 learning in the past four weeks (28 days)**. / 如无特别说明，请就**过去四周（28 天）内 ADS401 学习**作答。
 
-Participation is voluntary. This survey does not ask for identity or contact details unless you choose Yes to the optional follow-up interview invitation (Q23). If you choose Yes, Q24 asks for an ID and an email address or telephone number so the research team can match your answers to a potential interview invitation; your responses will therefore not be anonymous to the research team. Such information will be used only for interview recruitment and scheduling, accessed only by authorised study-team members, excluded from all reports and analysis datasets, and deleted within 30 days after all follow-up interviews are completed. You may decline an interview invitation later. Do not provide other sensitive information. Estimated completion time: 5–7 minutes. / 参与自愿。本问卷不收集身份或联系方式，除非你在 Q23 选择愿意参加可选的后续访谈；届时 Q24 将收集 ID 与邮箱/电话，仅用于访谈邀请与安排，仅研究团队授权成员可访问，不进入任何报告与分析数据集，并将在全部访谈完成后 30 天内删除；你可随时拒绝访谈邀请。请勿提供其他敏感信息。预计用时 5–7 分钟。
+Participation is voluntary. This survey does not ask for identity or contact details unless you choose Yes to the optional follow-up interview invitation (Q23). If you choose Yes, Q24 asks for a preferred name or pseudonym and a phone number or email address so the research team can match your answers to a potential interview invitation; your responses will therefore not be anonymous to the research team. Such information will be used only for interview recruitment and scheduling, accessed only by authorised study-team members, excluded from all reports and analysis datasets, and deleted within 30 days after all follow-up interviews are completed. You may decline an interview invitation later. Do not provide other sensitive information. Estimated completion time: 5–7 minutes. / 参与自愿。本问卷不收集身份或联系方式，除非你在 Q23 选择愿意参加可选的后续访谈；届时 Q24 将收集称呼或化名与手机号或邮箱，仅用于访谈邀请与安排，仅研究团队授权成员可访问，不进入任何报告与分析数据集，并将在全部访谈完成后 30 天内删除；你可随时拒绝访谈邀请。请勿提供其他敏感信息。预计用时 5–7 分钟。
 
 ### Q1. Have you read the information above and do you voluntarily agree to participate? / 你是否已阅读上述说明并自愿参与？
 
@@ -32,9 +32,10 @@ Participation is voluntary. This survey does not ask for identity or contact det
 
 ### Q2. Which programme or pathway are you in? / 你就读哪个专业（方向）？
 
-- MSc Human-Computer Interaction — Human-centric Computing Pathway / HCI 以人为中心计算方向
-- MSc Human-Computer Interaction — Human-AI Collaborative Computing Pathway / HCI 人机协同计算方向
-- MSc Social Computing / MSc 社会计算
+- MSc Human-Computer Interaction — Human-centric Computing Pathway / MSc 人机交互 — 以人为中心计算方向
+- MSc Human-Computer Interaction — Human-AI Collaborative Computing Pathway / MSc 人机交互 — 人机协同计算方向
+- MSc Social Computing — Full-Time / MSc 社会计算 — 全日制
+- MSc Social Computing — Part-Time / MSc 社会计算 — 在职
 - Other (please specify) / 其他（请注明）______
 
 ### Q3. What was your primary field of study before your current programme? / 请选择最能代表你之前（进入现专业前）所修专业的学科领域。
@@ -141,7 +142,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - Every time / 每次都核实
 - Unable to judge / 无法判断
 
-### Q13. Based on your overall experience using XJTLU AI in ADS401, how much do you agree with these statements? (Select N/A if you cannot judge. "Tasks" refers to the ADS401 activity categories in Q11.) / 基于在西浦 AI 上的整体使用体验，你在多大程度上同意以下表述？（无法判断选 N/A；其中 tasks 指 Q11 中的活动类别）
+### Q13. Based on your overall experience using XJTLU AI in ADS401, how much do you agree with these statements? (Select N/A if you cannot judge.) / 基于在西浦 AI 上的整体使用体验，你在多大程度上同意以下表述？（无法判断选 N/A）
 
 <!-- 构念映射（分析用，受访者不可见）：行 1–2 = PU，行 3–4 = PEOU，行 5–6 = Trust -->
 
@@ -285,15 +286,15 @@ Participation is voluntary. This survey does not ask for identity or contact det
 
 ______
 
-### Q23. Would you be willing to be contacted for an optional follow-up interview? If Yes, Q24 will ask for your ID and email address or telephone number. / 是否愿意被联系参加可选的后续访谈？若是，Q24 将收集 ID 与邮箱/电话。
+### Q23. Would you be willing to be contacted for an optional follow-up interview? If Yes, Q24 will ask for a preferred name or pseudonym and a phone number or email address. / 是否愿意被联系参加可选的后续访谈？若是，Q24 将收集称呼或化名与手机号或邮箱。
 
 - Yes / 是 *(→ Q24)*
 - No / 否 *(→ 结束)*
 
 ### Q24. Please leave your contact information. / 请留下你的联系方式。
 
-• Student ID or pseudonym / 学号或化名: ______
-• Email address or telephone / 电子邮箱或电话: ______
+• Preferred name or pseudonym / 称呼或化名: ______
+• Phone number or email / 手机号或邮箱: ______
 
 ---
 
