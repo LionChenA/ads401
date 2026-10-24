@@ -1,0 +1,210 @@
+【ADS401 Students' Awareness, Adoption and Use of XJTLU AI】
+1.Have you read the information above and do you voluntarily agree to participate?
+A.Yes, I agree
+B.No, I do not agree
+
+2.Which programme or pathway are you in?
+A.Human-centric Computing Pathway
+B.Human-AI Collaborative Computing Pathway
+C.MSc Social Computing
+D.Other: please state your programme ______
+
+3.What was your primary field of study before your current programme?
+A.Computer Science & Information Technology
+B.Engineering & Technology
+C.Design, Arts & Media
+D.Social Sciences & Psychology
+E.Business, Management & Economics
+F.Humanities & Languages
+G.Natural Sciences & Mathematics
+H.Health & Life Sciences
+I.Education
+J.Other (please specify) ______
+K.Prefer not to say
+
+4.What is your gender?
+A.Woman
+B.Man
+C.Prefer not to say
+
+5.What is your age?
+A.20 or younger
+B.21–24
+C.25–29
+D.30 or older
+E.Prefer not to say
+
+6.How many years of experience do you have with AI platforms (e.g., Doubao, ChatGPT, Gemini)?
+A.No experience
+B.Less than 1 year
+C.1–2 years
+D.2–3 years
+E.More than 3 years
+
+7.So far, how familiar are you with XJTLU AI?
+A.Heard of them and knew some functions
+B.Heard of them but knew little
+C.Had not heard of them
+D.Unsure whether known services were XJTLU-provided
+
+8.Have you ever used XJTLU AI?
+A.Yes
+B.No
+C.Not sure
+
+9.During the past four weeks, which statement best describes your use of AI for ADS401 learning activities? (Select one.)
+A.Both XJTLU AI and External AI
+B.External AI only (no XJTLU AI)
+C.Neither XJTLU AI nor External AI
+D.XJTLU AI only (no External AI)
+
+10.How many times did you use XJTLU AI for ADS401 learning during the past four weeks?
+A.1–4 times in total (at most once a week on average)
+B.5–8 times in total (about 1–2 times a week on average)
+C.9–12 times in total (about 2–3 times a week on average)
+D.More than 12 times in total (more than 3 times a week on average)
+E.Can't recall
+
+11.For which broad categories of ADS401 learning activities did you use XJTLU AI in the past four weeks? (Select all that apply.) [多选题]
+A.A. Finding and using campus resources (e.g., finding an empirical HCI paper for Pre1 via XJTLU Library / Research Portal, module materials on Learning Mall)
+B.B. Learning within-course content (understanding concepts, finding past exams)
+C.C. Support beyond-course content (e.g., survey tools, scales, research-method references)
+D.D. Understanding ADS401 policies (why learn ADS401, what's taught, grading criteria, tutor information)
+E.E. Coursework production (survey design, literature search, slides)
+F.F. Other
+
+12.For each activity category, rate how useful XJTLU AI was in your actual experience. Select N/A for categories you did not use it for. [矩阵题]
+Not useful, Slightly useful, Moderately useful, Useful, Very useful, N/A
+A. Finding and using campus resources
+B. Within-course content
+C. Beyond-course support
+D. ADS401 policies
+E. Coursework production
+F. Other
+
+13.In the past four weeks, when you used information from XJTLU AI for ADS401 work, how often did you check it against course materials or other reliable sources?
+A.Never
+B.Rarely (about 1–3 times in 10)
+C.Sometimes (about 4–6 times in 10)
+D.Often (about 7–9 times in 10)
+E.Every time
+F.Unable to judge
+
+14.Based on your overall experience using XJTLU AI in ADS401, how much do you agree with these statements? (Select N/A if you cannot judge. "Tasks" refers to the ADS401 activity categories in Q11.) [矩阵题]
+Strongly disagree, Disagree, Neutral, Agree, Strongly agree, N/A
+XJTLU AI helps me complete ADS401 tasks more effectively
+XJTLU AI helps me complete ADS401 tasks more efficiently
+XJTLU AI is easy to learn how to use
+XJTLU AI is easy to use for my ADS401 tasks
+XJTLU AI usually provides information I consider reliable
+I generally trust XJTLU AI's explanations
+
+15.Which problems did you actually experience? (Select up to 3) [多选题]
+A.Unclear which XJTLU AI to use
+B.Hard to formulate prompts
+C.Inaccurate, unclear or vague answers
+D.Answers not relevant to ADS401
+E.Time-consuming to verify or revise
+F.Inconvenient access/login/workflow
+G.Functions insufficient
+H.Uncertain about course permission
+I.Privacy or data concerns
+J.No notable problem (if selected, do not select other options)
+K.Other
+
+16.If you have a suitable ADS401 task in the next four weeks, how likely are you to continue using XJTLU AI?
+A.Very unlikely
+B.Unlikely
+C.Neutral
+D.Likely
+E.Very likely
+
+17.What are your main reasons for NOT using XJTLU AI for ADS401 during the past four weeks? (Select up to 3.) [多选题]
+A.Previously unaware
+B.Unclear what it can do
+C.Unsure how to access
+D.No suitable ADS401 task
+E.Prefer External AI
+F.Prefer non-AI methods
+G.Concerned about inaccurate answers
+H.Unsure if AI use permitted
+I.Privacy/data concerns
+J.Past experience unsatisfactory
+K.Access or operation seemed inconvenient
+L.Other
+
+18.If you have a suitable ADS401 task in the next four weeks, how willing are you to try or resume XJTLU AI?
+A.Very unwilling
+B.Unwilling
+C.Neutral
+D.Willing
+E.Very willing
+
+19.For which broad categories of ADS401 learning activities did you use External AI in the past four weeks? (Select all that apply.) [多选题]
+A.A. Finding and using campus resources (e.g., finding an empirical HCI paper for Pre1 via XJTLU Library / Research Portal, module materials on Learning Mall)
+B.B. Learning within-course content (understanding concepts, finding past exams)
+C.C. Support beyond-course content (e.g., survey tools, scales, research-method references)
+D.D. Understanding ADS401 policies (why learn ADS401, what's taught, grading criteria, tutor information)
+E.E. Coursework production (survey design, literature search, slides)
+F.F. Other
+
+20.How many times did you use External AI for ADS401 learning during the past four weeks?
+A.1–4 times in total (at most once a week on average)
+B.5–8 times in total (about 1–2 times a week on average)
+C.9–12 times in total (about 2–3 times a week on average)
+D.More than 12 times in total (more than 3 times a week on average)
+E.Can't recall
+
+21.For each activity category, rate how useful External AI was in your actual experience. Select N/A for categories you did not use it for. [矩阵题]
+Not useful, Slightly useful, Moderately useful, Useful, Very useful, N/A
+A. Finding and using campus resources
+B. Within-course content
+C. Beyond-course support
+D. ADS401 policies
+E. Coursework production
+F. Other
+
+22.For each activity category where you used both XJTLU AI and External AI in the past four weeks, which worked better in your actual experience? (Choose 'Unable to compare' where appropriate. For the Other row, answer only if you used both types of AI for that activity.) [矩阵题]
+XJTLU AI better, About the same, External AI better, Unable to compare
+A. Finding and using campus resources
+B. Within-course content
+C. Beyond-course support
+D. ADS401 policies
+E. Coursework production
+F. Other
+Overall preference
+
+23.Which factors matter most when choosing an AI tool for ADS401, or if you were to choose one? (Select up to 3.) [多选题]
+A.Task relevance
+B.Accuracy or reliability
+C.Ease of use
+D.Speed
+E.Familiarity
+F.Suitable features
+G.Accessibility
+H.Chinese-language support
+I.Quota or cost
+J.University recommendation
+K.Other
+
+24.In your opinion, which improvements should XJTLU AI prioritise for ADS401? (Select up to 3) [多选题]
+A.More accurate course answers
+B.Research-method support
+C.Survey/interview design support
+D.Document/knowledge-base support
+E.Writing/summaries/planning
+F.Clearer navigation
+G.ADS401-specific examples
+H.Privacy/data transparency
+I.Clear course-use guidance
+J.Other
+
+25.Anything else you'd like to share about XJTLU AI or External AI for ADS401? (Optional; open text; no identifying information)
+
+26.Would you be willing to be contacted for an optional follow-up interview?
+A.Yes
+B.No
+
+27.Please leave your contact information. [多项填空题]
+A.ID: ______
+B.Email or telephone: ______
