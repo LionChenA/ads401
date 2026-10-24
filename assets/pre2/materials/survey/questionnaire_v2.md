@@ -35,7 +35,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - MSc Human-Computer Interaction — Human-centric Computing Pathway / HCI 以人为中心计算方向
 - MSc Human-Computer Interaction — Human-AI Collaborative Computing Pathway / HCI 人机协同计算方向
 - MSc Social Computing / MSc 社会计算
-- Other: please state your programme / 其他：请填写专业名称 ______
+- Other (please specify) / 其他（请注明）______
 
 ### Q3. What was your primary field of study before your current programme? / 请选择最能代表你之前（进入现专业前）所修专业的学科领域。
 
@@ -119,7 +119,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - C. Support beyond-course content (e.g., survey tools, scales, research-method references) / 课程之外：课程材料之外的研究方法支持（比如调研问卷工具、量表、方法参考等）
 - D. Understanding ADS401 policies (why learn ADS401, what's taught, grading criteria, tutor information) / 了解 ADS401 政策（课程意义、教学内容、评分标准、导师信息等）
 - Coursework production (survey design, literature search, slides) / 课程作业制作（问卷设计、文献查找、PPT制作 等）
-- Other activity / 其他
+- Other (please specify) / 其他（请注明）______
 
 ### Q11a. For each activity category, rate how useful XJTLU AI was in your actual experience. Select N/A for categories you did not use it for. / 对每类活动，评价西浦 AI 在你实际使用中的有用程度；未使用选 N/A。
 
@@ -166,7 +166,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - Uncertain about course permission / 不确定课程是否允许
 - Privacy or data concerns / 隐私或数据顾虑
 - No notable problem / 无明显问题（选此项则不选其他项）
-- Other / 其他
+- Other (please specify) / 其他（请注明）______
 
 ### Q15. If you have a suitable ADS401 task in the next four weeks, how likely are you to continue using XJTLU AI? / 若未来四周有合适的 ADS401 任务，你继续使用西浦 AI 的可能性？
 
@@ -192,7 +192,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - Privacy/data concerns / 隐私或数据顾虑
 - Past experience unsatisfactory / 过往体验不佳
 - Access or operation seemed inconvenient / 访问或操作似乎不便
-- Other / 其他
+- Other (please specify) / 其他（请注明）______
 
 ### Q17. If you have a suitable ADS401 task in the **next** four weeks, how willing are you to try or **resume** XJTLU AI? / 若未来四周有合适的 ADS401 任务，你尝试或恢复使用西浦 AI 的意愿？
 
@@ -212,7 +212,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - C. Support beyond-course content (e.g., survey tools, scales, research-method references) / 课程之外：课程材料之外的研究方法支持（比如调研问卷工具、量表、方法参考等）
 - D. Understanding ADS401 policies (why learn ADS401, what's taught, grading criteria, tutor information) / 了解 ADS401 政策（课程意义、教学内容、评分标准、导师信息等）
 - Coursework production (survey design, literature search, slides) / 课程作业制作（问卷设计、文献查找、PPT制作 等）
-- Other activity / 其他
+- Other (please specify) / 其他（请注明）______
 
 ### Q18a. How many times did you use External AI for ADS401 learning during the past four weeks? / 过去四周你使用外部 AI 进行 ADS401 学习的次数？
 
@@ -266,7 +266,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - Chinese support / 中文支持
 - Quota or cost / 配额或成本
 - University recommendation / 学校推荐
-- Other / 其他
+- Other (please specify) / 其他（请注明）______
 
 ### Q21. In your opinion, which improvements should XJTLU AI prioritise for ADS401? (Select up to 3) / 你认为西浦 AI 应优先改进哪些方面？（最多选 3 项）
 
@@ -279,7 +279,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - ADS401-specific examples / ADS401 专用示例
 - Privacy/data transparency / 隐私/数据透明
 - Clear course-use guidance / 明确的课程使用指引
-- Other / 其他
+- Other (please specify) / 其他（请注明）______
 
 ### Q22. Anything else you'd like to share about XJTLU AI or External AI for ADS401? (Optional; open text; no identifying information) / 关于西浦 AI 或外部 AI 在 ADS401 中的使用，你还有什么想分享的？（选填；请勿包含身份信息）
 

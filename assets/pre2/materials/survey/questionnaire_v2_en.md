@@ -34,7 +34,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - MSc Human-Computer Interaction — Human-centric Computing Pathway
 - MSc Human-Computer Interaction — Human-AI Collaborative Computing Pathway
 - MSc Social Computing
-- Other: please state your programme ______
+- Other (please specify) ______
 
 ### Q3. What was your primary field of study before your current programme?
 
@@ -125,7 +125,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 | Support beyond-course content |  |  |  |  |  |  |
 | Understanding ADS401 policies |  |  |  |  |  |  |
 | Coursework production |  |  |  |  |  |  |
-| Other activity |  |  |  |  |  |  |
+| Other activity (as specified in Q11) |  |  |  |  |  |  |
 
 ### Q12. In the past four weeks, when you used information from XJTLU AI for ADS401 work, how often did you check it against course materials or other reliable sources?
 
@@ -161,7 +161,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - Uncertain about course permission
 - Privacy or data concerns
 - No notable problem
-- Other
+- Other (please specify) ______
 
 ### Q15. If you have a suitable ADS401 task in the next four weeks, how likely are you to continue using XJTLU AI?
 
@@ -187,7 +187,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - Privacy/data concerns
 - Past experience unsatisfactory
 - Access or operation seemed inconvenient
-- Other
+- Other (please specify) ______
 
 ### Q17. If you have a suitable ADS401 task in the **next** four weeks, how willing are you to try or **resume** XJTLU AI?
 
@@ -226,7 +226,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 | Support beyond-course content |  |  |  |  |  |  |
 | Understanding ADS401 policies |  |  |  |  |  |  |
 | Coursework production |  |  |  |  |  |  |
-| Other activity |  |  |  |  |  |  |
+| Other activity (as specified in Q18) |  |  |  |  |  |  |
 
 ## Tool comparison
 <!-- 分支：Q9 = Both 显示 Q19 -->
@@ -257,7 +257,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - Chinese-language support
 - Quota or cost
 - University recommendation
-- Other
+- Other (please specify) ______
 
 ### Q21. In your opinion, which improvements should XJTLU AI prioritise for ADS401? (Select up to 3)
 
@@ -270,7 +270,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - ADS401-specific examples
 - Privacy/data transparency
 - Clear course-use guidance
-- Other
+- Other (please specify) ______
 
 ### Q22. Anything else you'd like to share about XJTLU AI or External AI for ADS401? (Optional; open text; no identifying information)
 
