@@ -179,7 +179,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - Unclear what it can do
 - Unsure how to access
 - No suitable ADS401 task
-- Prefer other AI tools
+- Prefer External AI
 - Prefer non-AI methods
 - Concerned about inaccurate answers
 - Unsure if AI use permitted
@@ -270,7 +270,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - Clear course-use guidance
 - Other
 
-### Q22. Anything else you'd like to share about XJTLU AI or other AI tools for ADS401? (Optional; open text; no identifying information)
+### Q22. Anything else you'd like to share about XJTLU AI or External AI for ADS401? (Optional; open text; no identifying information)
 
 ______
 

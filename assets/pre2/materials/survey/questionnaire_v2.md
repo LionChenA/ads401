@@ -184,7 +184,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - Unclear what it can do / 不清楚它能做什么
 - Unsure how to access / 不知道如何访问
 - No suitable ADS401 task / 没有合适的 ADS401 任务
-- Prefer other AI tools / 更偏好其他 AI 工具
+- Prefer External AI / 更偏好外部 AI
 - Prefer non-AI methods / 更偏好非 AI 方法
 - Concerned about inaccurate answers / 担心回答不准确
 - Unsure if AI use permitted / 不确定是否允许使用 AI
@@ -279,7 +279,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - Clear course-use guidance / 明确的课程使用指引
 - Other / 其他
 
-### Q22. Anything else you'd like to share about XJTLU AI or other AI tools for ADS401? (Optional; open text; no identifying information) / 关于西浦 AI 或其他 AI 工具在 ADS401 中的使用，你还有什么想分享的？（选填；请勿包含身份信息）
+### Q22. Anything else you'd like to share about XJTLU AI or External AI for ADS401? (Optional; open text; no identifying information) / 关于西浦 AI 或外部 AI 在 ADS401 中的使用，你还有什么想分享的？（选填；请勿包含身份信息）
 
 ______
 
