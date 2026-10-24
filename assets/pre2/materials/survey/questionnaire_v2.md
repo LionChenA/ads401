@@ -237,7 +237,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 ## Tool comparison / 工具比较
 <!-- 分支：Q9 = Both 显示 Q19 -->
 
-### Q19. For each activity category where you used both XJTLU AI and External AI in the past four weeks, which worked better in your actual experience? (Choose 'Unable to compare' where appropriate. For the Other row, answer only if you used both types of AI for that activity.) / 对每类同时用过两种 AI 的活动，实际体验中哪种更好？（不适用选「无法比较」；「其他」行仅当两种 AI 都用于该活动时作答）
+### Q19. For each activity category where you used both XJTLU AI and External AI in the past four weeks, which worked better in your actual experience? (Choose 'Unable to compare' where appropriate.) / 对每类同时用过两种 AI 的活动，实际体验中哪种更好？（不适用选「无法比较」）
 
 <!-- 原 Q15（整体依赖）按决策删除，整体偏好并入本表末行；原维度行按决策替换为任务行 -->
 
