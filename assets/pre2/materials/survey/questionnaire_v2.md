@@ -130,7 +130,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 | Support beyond-course content 课程之外支持 |  |  |  |  |  |  |
 | Understanding ADS401 policies 课程政策 |  |  |  |  |  |  |
 | Coursework production 课程作业制作 |  |  |  |  |  |  |
-| Other activity 其他活动 |  |  |  |  |  |  |
+| Other activity (as specified in Q11) 其他活动（如在 Q11 中注明） |  |  |  |  |  |  |
 
 ### Q12. In the past four weeks, when you used information from XJTLU AI for ADS401 work, how often did you check it against course materials or other reliable sources? / 过去四周，你将西浦 AI 的信息用于 ADS401 学习时，核对课程材料或其他可靠来源的频率是？
 
@@ -231,7 +231,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 | Support beyond-course content 课程之外支持 |  |  |  |  |  |  |
 | Understanding ADS401 policies 课程政策 |  |  |  |  |  |  |
 | Coursework production 课程作业制作 |  |  |  |  |  |  |
-| Other activity 其他活动 |  |  |  |  |  |  |
+| Other activity (as specified in Q18) 其他活动（如在 Q18 中注明） |  |  |  |  |  |  |
 
 ## Tool comparison / 工具比较
 <!-- 分支：Q9 = Both 显示 Q19 -->
