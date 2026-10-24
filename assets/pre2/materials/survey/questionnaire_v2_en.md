@@ -283,8 +283,8 @@ ______
 
 ### Q24. Please leave your contact information.
 
-- ID: ______
-- Email or telephone: ______
+• Student ID or pseudonym: ______
+• Email address or telephone: ______
 
 ---
 

@@ -292,8 +292,8 @@ ______
 
 ### Q24. Please leave your contact information. / 请留下你的联系方式。
 
-- ID: ______
-- Email or telephone / 邮箱或电话: ______
+• Student ID or pseudonym / 学号或化名: ______
+• Email address or telephone / 电子邮箱或电话: ______
 
 ---
 

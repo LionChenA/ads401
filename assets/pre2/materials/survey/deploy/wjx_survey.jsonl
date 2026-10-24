@@ -27,6 +27,6 @@
 {"qtype": "分页栏", "title": ""}
 {"qtype": "多选", "title": "Which factors matter most when choosing an AI tool for ADS401, or if you were to choose one? (Select up to 3.)", "select": ["Task relevance", "Accuracy or reliability", "Ease of use", "Speed", "Familiarity", "Suitable features", "Accessibility", "Chinese-language support", "Quota or cost", "University recommendation", "Other (please specify) ______"]}
 {"qtype": "多选", "title": "In your opinion, which improvements should XJTLU AI prioritise for ADS401? (Select up to 3)", "select": ["More accurate course answers", "Research-method support", "Survey/interview design support", "Document/knowledge-base support", "Writing/summaries/planning", "Clearer navigation", "ADS401-specific examples", "Privacy/data transparency", "Clear course-use guidance", "Other (please specify) ______"]}
-{"qtype": "简答题", "title": "Anything else you'd like to share about XJTLU AI or External AI for ADS401? (Optional; open text; no identifying information)"}
+{"qtype": "简答题", "title": "Anything else you'd like to share about XJTLU AI or External AI for ADS401? (Optional; open text; no identifying information)", "requir": false}
 {"qtype": "单选", "title": "Would you be willing to be contacted for an optional follow-up interview? If Yes, the final question asks for an ID and an email address or telephone number.", "select": ["Yes", "No"]}
-{"qtype": "多项填空", "title": "ID: {_} Email or telephone: {_}"}
+{"qtype": "多项填空", "title": "Please leave your contact information:<br/>• Student ID or pseudonym: {_}<br/>• Email address or telephone: {_}"}
