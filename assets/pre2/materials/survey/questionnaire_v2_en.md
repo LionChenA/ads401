@@ -16,7 +16,7 @@ This is a voluntary ADS401 coursework survey exploring students' awareness, adop
 
 **"External AI"** refers to any AI agent service not officially provided by XJTLU, including but not limited to ChatGPT, DeepSeek, and similar services accessed independently.
 
-**ADS401 Evaluation Methods and Statistics** is an XJTLU module for students on the **MSc Human-Computer Interaction and MSc Social Computing programmes, including part-time Social Computing students**. It teaches you to evaluate computer systems through experiments, surveys, interviews, and data analysis, and to communicate your findings using evidence.
+**ADS401 Evaluation Methods and Statistics** is an XJTLU module for students on the **MSc Human-Computer Interaction and MSc Social Computing programmes**. It teaches you to evaluate computer systems through experiments, surveys, interviews, and data analysis, and to communicate your findings using evidence.
 
 Unless otherwise specified, answer about **ADS401 learning in the past four weeks (28 days)**.
 
@@ -31,8 +31,8 @@ Participation is voluntary. This survey does not ask for identity or contact det
 
 ### Q2. Which programme or pathway are you in?
 
-- Human-centric Computing Pathway
-- Human-AI Collaborative Computing Pathway
+- MSc Human-Computer Interaction — Human-centric Computing Pathway
+- MSc Human-Computer Interaction — Human-AI Collaborative Computing Pathway
 - MSc Social Computing
 - Other: please state your programme ______
 
@@ -92,9 +92,9 @@ Participation is voluntary. This survey does not ask for identity or contact det
 ### Q9. During the past four weeks, which statement best describes your use of AI for ADS401 learning activities? (Select one.)
 
 - Both XJTLU AI and External AI
+- XJTLU AI only (no External AI)
 - External AI only (no XJTLU AI)
 - Neither XJTLU AI nor External AI
-- XJTLU AI only (no External AI)
 
 ## XJTLU AI usage & experience
 <!-- 分支：Q9 = Both / XJTLU AI only 显示 Q10–Q15 -->
@@ -114,18 +114,18 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - C. Support beyond-course content (e.g., survey tools, scales, research-method references)
 - D. Understanding ADS401 policies (why learn ADS401, what's taught, grading criteria, tutor information)
 - E. Coursework production (survey design, literature search, slides)
-- F. Other
+- Other (please specify) ______
 
 ### Q11a. For each activity category, rate how useful XJTLU AI was in your actual experience. Select N/A for categories you did not use it for.
 
 |  | Not useful | Slightly useful | Moderately useful | Useful | Very useful | N/A |
 | --- | --- | --- | --- | --- | --- | --- |
-| A. Finding and using campus resources |  |  |  |  |  |  |
-| B. Within-course content |  |  |  |  |  |  |
-| C. Beyond-course support |  |  |  |  |  |  |
-| D. ADS401 policies |  |  |  |  |  |  |
-| E. Coursework production |  |  |  |  |  |  |
-| F. Other |  |  |  |  |  |  |
+| Finding and using campus resources |  |  |  |  |  |  |
+| Learning within-course content |  |  |  |  |  |  |
+| Support beyond-course content |  |  |  |  |  |  |
+| Understanding ADS401 policies |  |  |  |  |  |  |
+| Coursework production |  |  |  |  |  |  |
+| Other activity |  |  |  |  |  |  |
 
 ### Q12. In the past four weeks, when you used information from XJTLU AI for ADS401 work, how often did you check it against course materials or other reliable sources?
 
@@ -160,7 +160,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - Functions insufficient
 - Uncertain about course permission
 - Privacy or data concerns
-- No notable problem (if selected, do not select other options)
+- No notable problem
 - Other
 
 ### Q15. If you have a suitable ADS401 task in the next four weeks, how likely are you to continue using XJTLU AI?
@@ -200,14 +200,14 @@ Participation is voluntary. This survey does not ask for identity or contact det
 ## External AI
 <!-- 分支：Q9 = Both / External AI only 显示 Q18–Q18b -->
 
-### Q18. For which broad categories of ADS401 learning activities did you use **External AI** in the past four weeks? (Select all that apply.)
+### Q18. For which broad categories of ADS401 learning activities did you use External AI in the past four weeks? (Select all that apply.)
 
 - A. Finding and using campus resources (e.g., finding an empirical HCI paper for Pre1 via XJTLU Library / Research Portal, module materials on Learning Mall)
 - B. Learning within-course content (understanding concepts, finding past exams)
 - C. Support beyond-course content (e.g., survey tools, scales, research-method references)
 - D. Understanding ADS401 policies (why learn ADS401, what's taught, grading criteria, tutor information)
 - E. Coursework production (survey design, literature search, slides)
-- F. Other
+- Other (please specify; if same as Q11, state 'Same as Q11') ______
 
 ### Q18a. How many times did you use External AI for ADS401 learning during the past four weeks?
 
@@ -221,12 +221,12 @@ Participation is voluntary. This survey does not ask for identity or contact det
 
 |  | Not useful | Slightly useful | Moderately useful | Useful | Very useful | N/A |
 | --- | --- | --- | --- | --- | --- | --- |
-| A. Finding and using campus resources |  |  |  |  |  |  |
-| B. Within-course content |  |  |  |  |  |  |
-| C. Beyond-course support |  |  |  |  |  |  |
-| D. ADS401 policies |  |  |  |  |  |  |
-| E. Coursework production |  |  |  |  |  |  |
-| F. Other |  |  |  |  |  |  |
+| Finding and using campus resources |  |  |  |  |  |  |
+| Learning within-course content |  |  |  |  |  |  |
+| Support beyond-course content |  |  |  |  |  |  |
+| Understanding ADS401 policies |  |  |  |  |  |  |
+| Coursework production |  |  |  |  |  |  |
+| Other activity |  |  |  |  |  |  |
 
 ## Tool comparison
 <!-- 分支：Q9 = Both 显示 Q19 -->
@@ -235,12 +235,12 @@ Participation is voluntary. This survey does not ask for identity or contact det
 
 |  | XJTLU AI better | About the same | External AI better | Unable to compare |
 | --- | --- | --- | --- | --- |
-| A. Finding and using campus resources |  |  |  |  |
-| B. Within-course content |  |  |  |  |
-| C. Beyond-course support |  |  |  |  |
-| D. ADS401 policies |  |  |  |  |
-| E. Coursework production |  |  |  |  |
-| F. Other |  |  |  |  |
+| Finding and using campus resources |  |  |  |  |
+| Learning within-course content |  |  |  |  |
+| Support beyond-course content |  |  |  |  |
+| Understanding ADS401 policies |  |  |  |  |
+| Coursework production |  |  |  |  |
+| Other activity |  |  |  |  |
 | **Overall preference** |  |  |  |  |
 
 ## Choice, improvements & follow-up

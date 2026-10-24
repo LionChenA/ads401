@@ -17,7 +17,7 @@ This is a voluntary ADS401 coursework survey exploring students' awareness, adop
 
 **"External AI"** refers to any AI agent service not officially provided by XJTLU, including but not limited to ChatGPT, DeepSeek, and similar services accessed independently. / **「External AI（外部 AI）」**指非西浦官方提供的 AI Agent 服务，包括但不限于独立使用的 ChatGPT、DeepSeek 等。
 
-**ADS401 Evaluation Methods and Statistics** is an XJTLU module for students on the **MSc Human-Computer Interaction and MSc Social Computing programmes, including part-time Social Computing students**. It teaches you to evaluate computer systems through experiments, surveys, interviews, and data analysis, and to communicate your findings using evidence. / **ADS401（评估方法与统计）**是西浦面向 **MSc 人机交互与 MSc 社会计算专业（含在职 Social Computing 学生）** 的模块，教你通过实验、问卷、访谈与数据分析评估计算机系统，并用证据表达结论。
+**ADS401 Evaluation Methods and Statistics** is an XJTLU module for students on the **MSc Human-Computer Interaction and MSc Social Computing programmes**. It teaches you to evaluate computer systems through experiments, surveys, interviews, and data analysis, and to communicate your findings using evidence. / **ADS401（评估方法与统计）**是西浦面向 **MSc 人机交互与 MSc 社会计算专业** 的模块，教你通过实验、问卷、访谈与数据分析评估计算机系统，并用证据表达结论。
 
 Unless otherwise specified, answer about **ADS401 learning in the past four weeks (28 days)**. / 如无特别说明，请就**过去四周（28 天）内 ADS401 学习**作答。
 
@@ -32,8 +32,8 @@ Participation is voluntary. This survey does not ask for identity or contact det
 
 ### Q2. Which programme or pathway are you in? / 你就读哪个专业（方向）？
 
-- Human-centric Computing Pathway / HCI 以人为中心计算方向
-- Human-AI Collaborative Computing Pathway / HCI 人机协同计算方向
+- MSc Human-Computer Interaction — Human-centric Computing Pathway / HCI 以人为中心计算方向
+- MSc Human-Computer Interaction — Human-AI Collaborative Computing Pathway / HCI 人机协同计算方向
 - MSc Social Computing / MSc 社会计算
 - Other: please state your programme / 其他：请填写专业名称 ______
 
@@ -95,9 +95,9 @@ Participation is voluntary. This survey does not ask for identity or contact det
 ### Q9. During the past four weeks, which statement best describes your use of AI for ADS401 learning activities? (Select one.) / 过去四周，哪一项符合你在 ADS401 学习活动中使用 AI 的情况？（单选）
 
 - Both XJTLU AI and External AI / 两者都用
+- XJTLU AI only (no External AI) / 仅西浦 AI
 - External AI only (no XJTLU AI) / 仅外部 AI
 - Neither XJTLU AI nor External AI / 两者都没用
-- XJTLU AI only (no External AI) / 仅西浦 AI
 
 ## XJTLU AI usage & experience / 西浦 AI 使用与体验
 <!-- 分支：Q9 = Both / XJTLU AI only 显示 Q10–Q15 -->
@@ -114,23 +114,23 @@ Participation is voluntary. This survey does not ask for identity or contact det
 
 <!-- 选项 B/C 按「课程之内/课程之外」表述，语义已经组内确认（2026-10-23） -->
 
-- A. Finding and using campus resources (e.g., finding an empirical HCI paper for Pre1 via XJTLU Library / Research Portal, module materials on Learning Mall) / 查找与使用校内资源（如为 Pre1 通过西浦图书馆 / Research Portal 查找实证 HCI 论文、Learning Mall 上的课程资料等）
+- Finding and using campus resources (e.g., finding an empirical HCI paper for Pre1 via XJTLU Library / Research Portal, module materials on Learning Mall) / 查找与使用校内资源（如为 Pre1 通过西浦图书馆 / Research Portal 查找实证 HCI 论文、Learning Mall 上的课程资料等）
 - B. Learning within-course content (understanding concepts, finding past exams) / 课程之内：学习课程内容（理解概念、找往年试题等）
 - C. Support beyond-course content (e.g., survey tools, scales, research-method references) / 课程之外：课程材料之外的研究方法支持（比如调研问卷工具、量表、方法参考等）
 - D. Understanding ADS401 policies (why learn ADS401, what's taught, grading criteria, tutor information) / 了解 ADS401 政策（课程意义、教学内容、评分标准、导师信息等）
-- E. Coursework production (survey design, literature search, slides) / 课程作业制作（问卷设计、文献查找、PPT制作 等）
-- F. Other / 其他
+- Coursework production (survey design, literature search, slides) / 课程作业制作（问卷设计、文献查找、PPT制作 等）
+- Other activity / 其他
 
 ### Q11a. For each activity category, rate how useful XJTLU AI was in your actual experience. Select N/A for categories you did not use it for. / 对每类活动，评价西浦 AI 在你实际使用中的有用程度；未使用选 N/A。
 
 |  | Not useful 没有用处 | Slightly useful 有点用处 | Moderately useful 一般有用 | Useful 有用 | Very useful 非常有用 | N/A 未使用 |
 | --- | --- | --- | --- | --- | --- | --- |
-| A. Finding and using campus resources 查找与使用校内资源 |  |  |  |  |  |  |
-| B. Within-course content 课程之内内容 |  |  |  |  |  |  |
-| C. Beyond-course support 课程之外支持 |  |  |  |  |  |  |
-| D. ADS401 policies 课程政策 |  |  |  |  |  |  |
-| E. Coursework production 课程作业制作 |  |  |  |  |  |  |
-| F. Other 其他 |  |  |  |  |  |  |
+| Finding and using campus resources 查找与使用校内资源 |  |  |  |  |  |  |
+| Learning within-course content 课程之内内容 |  |  |  |  |  |  |
+| Support beyond-course content 课程之外支持 |  |  |  |  |  |  |
+| Understanding ADS401 policies 课程政策 |  |  |  |  |  |  |
+| Coursework production 课程作业制作 |  |  |  |  |  |  |
+| Other activity 其他活动 |  |  |  |  |  |  |
 
 ### Q12. In the past four weeks, when you used information from XJTLU AI for ADS401 work, how often did you check it against course materials or other reliable sources? / 过去四周，你将西浦 AI 的信息用于 ADS401 学习时，核对课程材料或其他可靠来源的频率是？
 
@@ -165,7 +165,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - Functions insufficient / 功能不足
 - Uncertain about course permission / 不确定课程是否允许
 - Privacy or data concerns / 隐私或数据顾虑
-- No notable problem (if selected, do not select other options) / 无明显问题（选此项则不选其他项）
+- No notable problem / 无明显问题（选此项则不选其他项）
 - Other / 其他
 
 ### Q15. If you have a suitable ADS401 task in the next four weeks, how likely are you to continue using XJTLU AI? / 若未来四周有合适的 ADS401 任务，你继续使用西浦 AI 的可能性？
@@ -207,12 +207,12 @@ Participation is voluntary. This survey does not ask for identity or contact det
 
 ### Q18. For which broad categories of ADS401 learning activities did you use **External AI** in the past four weeks? (Select all that apply.) / 过去四周你将外部 AI 用于哪些 ADS401 学习活动类别？（多选；选项与 Q11 逐字一致）
 
-- A. Finding and using campus resources (e.g., finding an empirical HCI paper for Pre1 via XJTLU Library / Research Portal, module materials on Learning Mall) / 查找与使用校内资源（如为 Pre1 通过西浦图书馆 / Research Portal 查找实证 HCI 论文、Learning Mall 上的课程资料等）
+- Finding and using campus resources (e.g., finding an empirical HCI paper for Pre1 via XJTLU Library / Research Portal, module materials on Learning Mall) / 查找与使用校内资源（如为 Pre1 通过西浦图书馆 / Research Portal 查找实证 HCI 论文、Learning Mall 上的课程资料等）
 - B. Learning within-course content (understanding concepts, finding past exams) / 课程之内：学习课程内容（理解概念、找往年试题等）
 - C. Support beyond-course content (e.g., survey tools, scales, research-method references) / 课程之外：课程材料之外的研究方法支持（比如调研问卷工具、量表、方法参考等）
 - D. Understanding ADS401 policies (why learn ADS401, what's taught, grading criteria, tutor information) / 了解 ADS401 政策（课程意义、教学内容、评分标准、导师信息等）
-- E. Coursework production (survey design, literature search, slides) / 课程作业制作（问卷设计、文献查找、PPT制作 等）
-- F. Other / 其他
+- Coursework production (survey design, literature search, slides) / 课程作业制作（问卷设计、文献查找、PPT制作 等）
+- Other activity / 其他
 
 ### Q18a. How many times did you use External AI for ADS401 learning during the past four weeks? / 过去四周你使用外部 AI 进行 ADS401 学习的次数？
 
@@ -226,12 +226,12 @@ Participation is voluntary. This survey does not ask for identity or contact det
 
 |  | Not useful 没有用处 | Slightly useful 有点用处 | Moderately useful 一般有用 | Useful 有用 | Very useful 非常有用 | N/A 未使用 |
 | --- | --- | --- | --- | --- | --- | --- |
-| A. Finding and using campus resources 查找与使用校内资源 |  |  |  |  |  |  |
-| B. Within-course content 课程之内内容 |  |  |  |  |  |  |
-| C. Beyond-course support 课程之外支持 |  |  |  |  |  |  |
-| D. ADS401 policies 课程政策 |  |  |  |  |  |  |
-| E. Coursework production 课程作业制作 |  |  |  |  |  |  |
-| F. Other 其他 |  |  |  |  |  |  |
+| Finding and using campus resources 查找与使用校内资源 |  |  |  |  |  |  |
+| Learning within-course content 课程之内内容 |  |  |  |  |  |  |
+| Support beyond-course content 课程之外支持 |  |  |  |  |  |  |
+| Understanding ADS401 policies 课程政策 |  |  |  |  |  |  |
+| Coursework production 课程作业制作 |  |  |  |  |  |  |
+| Other activity 其他活动 |  |  |  |  |  |  |
 
 ## Tool comparison / 工具比较
 <!-- 分支：Q9 = Both 显示 Q19 -->
@@ -242,12 +242,12 @@ Participation is voluntary. This survey does not ask for identity or contact det
 
 |  | XJTLU AI better 西浦 AI 更好 | About the same 差不多 | External AI better 外部 AI 更好 | Unable to compare 无法比较 |
 | --- | --- | --- | --- | --- |
-| A. Finding and using campus resources 查找与使用校内资源 |  |  |  |  |
-| B. Within-course content 课程之内内容 |  |  |  |  |
-| C. Beyond-course support 课程之外支持 |  |  |  |  |
-| D. ADS401 policies 课程政策 |  |  |  |  |
-| E. Coursework production 课程作业制作 |  |  |  |  |
-| F. Other 其他 |  |  |  |  |
+| Finding and using campus resources 查找与使用校内资源 |  |  |  |  |
+| Learning within-course content 课程之内内容 |  |  |  |  |
+| Support beyond-course content 课程之外支持 |  |  |  |  |
+| Understanding ADS401 policies 课程政策 |  |  |  |  |
+| Coursework production 课程作业制作 |  |  |  |  |
+| Other activity 其他活动 |  |  |  |  |
 | **Overall preference 总体偏好** |  |  |  |  |
 
 ## Choice, improvements & follow-up / 选择、改进与后续
