@@ -104,9 +104,10 @@ Participation is voluntary. This survey does not ask for identity or contact det
 
 ### Q10. How many times did you use XJTLU AI for ADS401 learning during the past four weeks? / 过去四周你使用西浦 AI 进行 ADS401 学习的次数？
 
-- 1–3 times in total (less than once a week on average) / 共 1–3 次（约每周不足 1 次）
-- 4–7 times in total (about 1–2 times a week on average) / 共 4–7 次（约每周 1–2 次）
-- 8 or more times in total (about twice a week or more on average) / 共 8 次及以上（约每周 2 次以上）
+- 1–4 times in total (at most once a week on average) / 共 1–4 次（约每周不超过 1 次）
+- 5–8 times in total (about 1–2 times a week on average) / 共 5–8 次（约每周 1–2 次）
+- 9–12 times in total (about 2–3 times a week on average) / 共 9–12 次（约每周 2–3 次）
+- More than 12 times in total (more than 3 times a week on average) / 超过 12 次（约每周 3 次以上）
 - Can't recall / 不记得了
 
 ### Q11. For which broad categories of ADS401 learning activities did you use XJTLU AI in the past four weeks? (Select all that apply.) / 过去四周你将西浦 AI 用于哪些 ADS401 学习活动类别？（多选）
@@ -118,7 +119,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - C. Support beyond-course content (e.g., survey tools, scales, research-method references) / 课程之外：课程材料之外的研究方法支持（比如调研问卷工具、量表、方法参考等）
 - D. Understanding ADS401 policies (why learn ADS401, what's taught, grading criteria, tutor information) / 了解 ADS401 政策（课程意义、教学内容、评分标准、导师信息等）
 - E. Coursework production (survey design, literature search, slides) / 课程作业制作（问卷设计、文献查找、PPT制作 等）
-- Other / 其他
+- F. Other / 其他
 
 ### Q11a. For each activity category, rate how useful XJTLU AI was in your actual experience. Select N/A for categories you did not use it for. / 对每类活动，评价西浦 AI 在你实际使用中的有用程度；未使用选 N/A。
 
@@ -129,7 +130,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 | C. Beyond-course support 课程之外支持 |  |  |  |  |  |  |
 | D. ADS401 policies 课程政策 |  |  |  |  |  |  |
 | E. Coursework production 课程作业制作 |  |  |  |  |  |  |
-| Other 其他 |  |  |  |  |  |  |
+| F. Other 其他 |  |  |  |  |  |  |
 
 ### Q12. In the past four weeks, when you used information from XJTLU AI for ADS401 work, how often did you check it against course materials or other reliable sources? / 过去四周，你将西浦 AI 的信息用于 ADS401 学习时，核对课程材料或其他可靠来源的频率是？
 
@@ -211,13 +212,14 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - C. Support beyond-course content (e.g., survey tools, scales, research-method references) / 课程之外：课程材料之外的研究方法支持（比如调研问卷工具、量表、方法参考等）
 - D. Understanding ADS401 policies (why learn ADS401, what's taught, grading criteria, tutor information) / 了解 ADS401 政策（课程意义、教学内容、评分标准、导师信息等）
 - E. Coursework production (survey design, literature search, slides) / 课程作业制作（问卷设计、文献查找、PPT制作 等）
-- Other / 其他
+- F. Other / 其他
 
 ### Q18a. How many times did you use External AI for ADS401 learning during the past four weeks? / 过去四周你使用外部 AI 进行 ADS401 学习的次数？
 
-- 1–3 times in total (less than once a week on average) / 共 1–3 次（约每周不足 1 次）
-- 4–7 times in total (about 1–2 times a week on average) / 共 4–7 次（约每周 1–2 次）
-- 8 or more times in total (about twice a week or more on average) / 共 8 次及以上（约每周 2 次以上）
+- 1–4 times in total (at most once a week on average) / 共 1–4 次（约每周不超过 1 次）
+- 5–8 times in total (about 1–2 times a week on average) / 共 5–8 次（约每周 1–2 次）
+- 9–12 times in total (about 2–3 times a week on average) / 共 9–12 次（约每周 2–3 次）
+- More than 12 times in total (more than 3 times a week on average) / 超过 12 次（约每周 3 次以上）
 - Can't recall / 不记得了
 
 ### Q18b. For each activity category, rate how useful External AI was in your actual experience. Select N/A for categories you did not use it for. / 对每类活动，评价外部 AI 的实际有用程度；未使用选 N/A。
@@ -229,7 +231,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 | C. Beyond-course support 课程之外支持 |  |  |  |  |  |  |
 | D. ADS401 policies 课程政策 |  |  |  |  |  |  |
 | E. Coursework production 课程作业制作 |  |  |  |  |  |  |
-| Other 其他 |  |  |  |  |  |  |
+| F. Other 其他 |  |  |  |  |  |  |
 
 ## Tool comparison / 工具比较
 <!-- 分支：Q9 = Both 显示 Q19 -->
@@ -245,7 +247,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 | C. Beyond-course support 课程之外支持 |  |  |  |  |
 | D. ADS401 policies 课程政策 |  |  |  |  |
 | E. Coursework production 课程作业制作 |  |  |  |  |
-| Other 其他 |  |  |  |  |
+| F. Other 其他 |  |  |  |  |
 | **Overall preference 总体偏好** |  |  |  |  |
 
 ## Choice, improvements & follow-up / 选择、改进与后续

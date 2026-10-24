@@ -101,9 +101,10 @@ Participation is voluntary. This survey does not ask for identity or contact det
 
 ### Q10. How many times did you use XJTLU AI for ADS401 learning during the past four weeks?
 
-- 1–3 times in total (less than once a week on average)
-- 4–7 times in total (about 1–2 times a week on average)
-- 8 or more times in total (about twice a week or more on average)
+- 1–4 times in total (at most once a week on average)
+- 5–8 times in total (about 1–2 times a week on average)
+- 9–12 times in total (about 2–3 times a week on average)
+- More than 12 times in total (more than 3 times a week on average)
 - Can't recall
 
 ### Q11. For which broad categories of ADS401 learning activities did you use XJTLU AI in the past four weeks? (Select all that apply.)
@@ -113,7 +114,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - C. Support beyond-course content (e.g., survey tools, scales, research-method references)
 - D. Understanding ADS401 policies (why learn ADS401, what's taught, grading criteria, tutor information)
 - E. Coursework production (survey design, literature search, slides)
-- Other
+- F. Other
 
 ### Q11a. For each activity category, rate how useful XJTLU AI was in your actual experience. Select N/A for categories you did not use it for.
 
@@ -124,7 +125,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 | C. Beyond-course support |  |  |  |  |  |  |
 | D. ADS401 policies |  |  |  |  |  |  |
 | E. Coursework production |  |  |  |  |  |  |
-| Other |  |  |  |  |  |  |
+| F. Other |  |  |  |  |  |  |
 
 ### Q12. In the past four weeks, when you used information from XJTLU AI for ADS401 work, how often did you check it against course materials or other reliable sources?
 
@@ -206,13 +207,14 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - C. Support beyond-course content (e.g., survey tools, scales, research-method references)
 - D. Understanding ADS401 policies (why learn ADS401, what's taught, grading criteria, tutor information)
 - E. Coursework production (survey design, literature search, slides)
-- Other
+- F. Other
 
 ### Q18a. How many times did you use External AI for ADS401 learning during the past four weeks?
 
-- 1–3 times in total (less than once a week on average)
-- 4–7 times in total (about 1–2 times a week on average)
-- 8 or more times in total (about twice a week or more on average)
+- 1–4 times in total (at most once a week on average)
+- 5–8 times in total (about 1–2 times a week on average)
+- 9–12 times in total (about 2–3 times a week on average)
+- More than 12 times in total (more than 3 times a week on average)
 - Can't recall
 
 ### Q18b. For each activity category, rate how useful External AI was in your actual experience. Select N/A for categories you did not use it for.
@@ -224,7 +226,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 | C. Beyond-course support |  |  |  |  |  |  |
 | D. ADS401 policies |  |  |  |  |  |  |
 | E. Coursework production |  |  |  |  |  |  |
-| Other |  |  |  |  |  |  |
+| F. Other |  |  |  |  |  |  |
 
 ## Tool comparison
 <!-- 分支：Q9 = Both 显示 Q19 -->
@@ -238,7 +240,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 | C. Beyond-course support |  |  |  |  |
 | D. ADS401 policies |  |  |  |  |
 | E. Coursework production |  |  |  |  |
-| Other |  |  |  |  |
+| F. Other |  |  |  |  |
 | **Overall preference** |  |  |  |  |
 
 ## Choice, improvements & follow-up
