@@ -1,16 +1,16 @@
 # Questionnaire v2 — English version (derived)
 
-> **本文由 `questionnaire_v2.md`（中英对照母本）同步生成（2026-10-23）。修改请先改母本，再同步本文件。**
+> **本文由 `questionnaire_v2.md`（中英对照母本）同步生成（2026-10-24）。修改请先改母本，再同步本文件。**
 > 题号 Q1–Q24 与母本一一对应。
 > `<!-- -->` 为工作组注释，导入问卷星前删除。
 
 ---
 
-# ADS401 Students' Awareness, Adoption and Use of XJTLU AI Agents
+# ADS401 Students' Awareness, Adoption and Use of XJTLU AI
 
 ## Introduction
 
-This is a voluntary ADS401 coursework survey exploring students' awareness, adoption, and use of university-provided AI agents.
+This is a voluntary ADS401 coursework survey exploring students' awareness, adoption, and use of XJTLU AI.
 
 **"XJTLU AI"** refers to any student-accessible AI agent service officially provided by XJTLU, including but not limited to Junmou AI and the XJTLU Library AI Portal.
 
@@ -20,7 +20,7 @@ This is a voluntary ADS401 coursework survey exploring students' awareness, adop
 
 Unless otherwise specified, answer about **ADS401 learning in the past four weeks (28 days)**.
 
-Participation is voluntary. This survey does not ask for identity or contact details unless you choose Yes to the optional follow-up interview invitation (Q23). If you choose Yes, Q24 asks for an ID and an email address or telephone number so the research team can match your answers to a potential interview invitation; your responses will therefore not be anonymous to the research team. Such information will be used only for interview recruitment and scheduling, accessed only by authorised study-team members, and excluded from reports. You may decline an interview invitation later. Do not provide other sensitive information. Estimated completion time: 5–7 minutes.
+Participation is voluntary. This survey does not ask for identity or contact details unless you choose Yes to the optional follow-up interview invitation (Q23). If you choose Yes, Q24 asks for an ID and an email address or telephone number so the research team can match your answers to a potential interview invitation; your responses will therefore not be anonymous to the research team. Such information will be used only for interview recruitment and scheduling, accessed only by authorised study-team members, excluded from all reports and analysis datasets, and deleted within 30 days after all follow-up interviews are completed. You may decline an interview invitation later. Do not provide other sensitive information. Estimated completion time: 5–7 minutes.
 
 ### Q1. Have you read the information above and do you voluntarily agree to participate?
 
@@ -29,11 +29,12 @@ Participation is voluntary. This survey does not ask for identity or contact det
 
 ## Eligibility & background
 
-### Q2. Which MSc HCI pathway are you in?
+### Q2. Which programme or pathway are you in?
 
 - Human-centric Computing Pathway
 - Human-AI Collaborative Computing Pathway
-- No: please state your programme ______
+- MSc Social Computing
+- Other: please state your programme ______
 
 ### Q3. What was your primary field of study before your current programme?
 
@@ -49,13 +50,13 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - Other (please specify) ______
 - Prefer not to say
 
-### Q4. Your gender
+### Q4. What is your gender?
 
 - Woman
 - Man
 - Prefer not to say
 
-### Q5. Your age
+### Q5. What is your age?
 
 - 20 or younger
 - 21–24
@@ -63,7 +64,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - 30 or older
 - Prefer not to say
 
-### Q6. Years of experience with AI platforms (e.g., Doubao, ChatGPT, Gemini)
+### Q6. How many years of experience do you have with AI platforms (e.g., Doubao, ChatGPT, Gemini)?
 
 - No experience
 - Less than 1 year
@@ -73,14 +74,14 @@ Participation is voluntary. This survey does not ask for identity or contact det
 
 ## Awareness & adoption
 
-### Q7. Before seeing this survey, how familiar were you with XJTLU-provided AI agent services?
+### Q7. So far, how familiar are you with XJTLU AI?
 
 - Heard of them and knew some functions
 - Heard of them but knew little
 - Had not heard of them
 - Unsure whether known services were XJTLU-provided
 
-### Q8. Have you ever used any XJTLU-provided AI agent service?
+### Q8. Have you ever used XJTLU AI?
 
 - Yes
 - No
@@ -88,7 +89,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 
 ## Recent use
 
-### Q9. During the past four weeks, which types of AI did you actually use for ADS401 learning activities? (Select one.)
+### Q9. During the past four weeks, which statement best describes your use of AI for ADS401 learning activities? (Select one.)
 
 - Both XJTLU AI and External AI
 - External AI only (no XJTLU AI)
@@ -100,9 +101,10 @@ Participation is voluntary. This survey does not ask for identity or contact det
 
 ### Q10. How many times did you use XJTLU AI for ADS401 learning during the past four weeks?
 
-- 1–3 times in total
-- 4–7 times in total
-- 8 or more times (roughly twice a week or more)
+- 1–3 times in total (less than once a week on average)
+- 4–7 times in total (about 1–2 times a week on average)
+- 8 or more times in total (about twice a week or more on average)
+- Can't recall
 
 ### Q11. For which broad categories of ADS401 learning activities did you use XJTLU AI in the past four weeks? (Select all that apply.)
 
@@ -115,34 +117,36 @@ Participation is voluntary. This survey does not ask for identity or contact det
 
 ### Q11a. For each activity category, rate how useful XJTLU AI was in your actual experience. Select N/A for categories you did not use it for.
 
-|  | 1 Not useful | 2 Slightly useful | 3 Moderately useful | 4 Useful | 5 Very useful | N/A |
+|  | Not useful | Slightly useful | Moderately useful | Useful | Very useful | N/A |
 | --- | --- | --- | --- | --- | --- | --- |
 | A. Finding and using campus resources |  |  |  |  |  |  |
 | B. Within-course content |  |  |  |  |  |  |
 | C. Beyond-course support |  |  |  |  |  |  |
 | D. ADS401 policies |  |  |  |  |  |  |
 | E. Coursework production |  |  |  |  |  |  |
+| Other |  |  |  |  |  |  |
 
-### Q12. How often did you check XJTLU AI information against course materials or reliable sources before using it?
+### Q12. In the past four weeks, when you used information from XJTLU AI for ADS401 work, how often did you check it against course materials or other reliable sources?
 
 - Never
-- Rarely
-- Sometimes
-- Often
+- Rarely (about 1–3 times in 10)
+- Sometimes (about 4–6 times in 10)
+- Often (about 7–9 times in 10)
 - Every time
-- I did not use its information in ADS401 work
 - Unable to judge
 
 ### Q13. Based on your overall experience using XJTLU AI in ADS401, how much do you agree with these statements? (Select N/A if you cannot judge. "Tasks" refers to the ADS401 activity categories in Q11.)
 
-|  | 1 Strongly disagree | 2 Disagree | 3 Neutral | 4 Agree | 5 Strongly agree | N/A |
+<!-- Construct mapping (analysis only, not respondent-facing): rows 1–2 = PU, rows 3–4 = PEOU, rows 5–6 = Trust -->
+
+|  | Strongly disagree | Disagree | Neutral | Agree | Strongly agree | N/A |
 | --- | --- | --- | --- | --- | --- | --- |
-| PU1. XJTLU AI helps me complete ADS401 tasks more effectively |  |  |  |  |  |  |
-| PU2. XJTLU AI helps me complete ADS401 tasks more efficiently |  |  |  |  |  |  |
-| PEOU1. XJTLU AI is easy to learn how to use |  |  |  |  |  |  |
-| PEOU2. XJTLU AI is easy to use for my ADS401 tasks |  |  |  |  |  |  |
-| T1. XJTLU AI usually provides information I consider reliable |  |  |  |  |  |  |
-| T2. I generally trust XJTLU AI's explanations |  |  |  |  |  |  |
+| XJTLU AI helps me complete ADS401 tasks more effectively |  |  |  |  |  |  |
+| XJTLU AI helps me complete ADS401 tasks more efficiently |  |  |  |  |  |  |
+| XJTLU AI is easy to learn how to use |  |  |  |  |  |  |
+| XJTLU AI is easy to use for my ADS401 tasks |  |  |  |  |  |  |
+| XJTLU AI usually provides information I consider reliable |  |  |  |  |  |  |
+| I generally trust XJTLU AI's explanations |  |  |  |  |  |  |
 
 ### Q14. Which problems did you actually experience? (Select up to 3)
 
@@ -155,7 +159,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - Functions insufficient
 - Uncertain about course permission
 - Privacy or data concerns
-- No notable problem
+- No notable problem (if selected, do not select other options)
 - Other
 
 ### Q15. If you have a suitable ADS401 task in the next four weeks, how likely are you to continue using XJTLU AI?
@@ -206,24 +210,26 @@ Participation is voluntary. This survey does not ask for identity or contact det
 
 ### Q18a. How many times did you use External AI for ADS401 learning during the past four weeks?
 
-- 1–3 times in total
-- 4–7 times in total
-- 8 or more times (roughly twice a week or more)
+- 1–3 times in total (less than once a week on average)
+- 4–7 times in total (about 1–2 times a week on average)
+- 8 or more times in total (about twice a week or more on average)
+- Can't recall
 
 ### Q18b. For each activity category, rate how useful External AI was in your actual experience. Select N/A for categories you did not use it for.
 
-|  | 1 Not useful | 2 Slightly useful | 3 Moderately useful | 4 Useful | 5 Very useful | N/A |
+|  | Not useful | Slightly useful | Moderately useful | Useful | Very useful | N/A |
 | --- | --- | --- | --- | --- | --- | --- |
 | A. Finding and using campus resources |  |  |  |  |  |  |
 | B. Within-course content |  |  |  |  |  |  |
 | C. Beyond-course support |  |  |  |  |  |  |
 | D. ADS401 policies |  |  |  |  |  |  |
 | E. Coursework production |  |  |  |  |  |  |
+| Other |  |  |  |  |  |  |
 
 ## Tool comparison
 <!-- 分支：Q9 = Both 显示 Q19 -->
 
-### Q19. For each activity category where you used both XJTLU AI and External AI in the past four weeks, which worked better in your actual experience? (Choose 'Unable to compare' where appropriate.)
+### Q19. For each activity category where you used both XJTLU AI and External AI in the past four weeks, which worked better in your actual experience? (Choose 'Unable to compare' where appropriate. For the Other row, answer only if you used both types of AI for that activity.)
 
 |  | XJTLU AI better | About the same | External AI better | Unable to compare |
 | --- | --- | --- | --- | --- |
@@ -232,6 +238,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 | C. Beyond-course support |  |  |  |  |
 | D. ADS401 policies |  |  |  |  |
 | E. Coursework production |  |  |  |  |
+| Other |  |  |  |  |
 | **Overall preference** |  |  |  |  |
 
 ## Choice, improvements & follow-up
@@ -250,7 +257,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - University recommendation
 - Other
 
-### Q21. Which improvements should XJTLU AI prioritise for ADS401? (Select up to 3)
+### Q21. In your opinion, which improvements should XJTLU AI prioritise for ADS401? (Select up to 3)
 
 - More accurate course answers
 - Research-method support
@@ -263,7 +270,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 - Clear course-use guidance
 - Other
 
-### Q22. Anything else about XJTLU AI or other AI tools for ADS401? (Optional; open text; no identifying information)
+### Q22. Anything else you'd like to share about XJTLU AI or other AI tools for ADS401? (Optional; open text; no identifying information)
 
 ______
 
