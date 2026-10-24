@@ -50,6 +50,30 @@ multi-select limits are not exposed either. Configure in the web editor
 - CN variant: create from a CN JSONL (translate `wjx_survey.jsonl`) when the
   CN link is needed; structure must stay identical for column-aligned merge.
 
+## End-to-end workflow (pilot)
+
+1. **Build** — `wjx survey create --file wjx_survey.jsonl` (done: vid
+   390541662, draft). CN variant: translate JSONL → same command → second
+   link; keep structure identical.
+2. **Web-editor pass (human, ~10 min)** — configure display logic (table in
+   `questionnaire_v2_flow.md`), multi-select limits (WJX15/17/23/24 = max 3),
+   WJX2 Other-fill box, and replace the survey description with
+   `wjx_description_en.txt` (paragraph breaks; JSONL intro renders as one
+   block). Delete broken drafts 390520971 / 390534909 (API delete needs
+   account-manager permission).
+3. **Verify** — full preview walk of all 27 items and both end paths; spot-
+   check branch display per Q9 group (G1–G4) and Q23→Q24.
+4. **Publish** — explicit sign-off, then `wjx survey status --vid 390541662
+   --status 1` (or editor 发布). Record fill URL + start date.
+5. **Distribute** — per-person links (EN first; CN link if created),
+   invitation message states voluntary participation and retention promise.
+6. **Collect & export** — monitor `wjx response count`; export with
+   `wjx response download` (or web export) after close; merge EN/CN by
+   column alignment; delete contact column per retention promise after
+   interviews.
+7. **Archive** — record final n, fieldwork dates, and any deviation in
+   scripts.md (same-PR rule).
+
 ## Old drafts
 
 390520971 / 390534909 (broken text-import attempts) — API delete requires
