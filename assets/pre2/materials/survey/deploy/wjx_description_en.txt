@@ -1,0 +1,13 @@
+ADS401 Students' Awareness, Adoption and Use of XJTLU AI
+
+This is a voluntary ADS401 coursework survey exploring students' awareness, adoption, and use of XJTLU AI.
+
+"XJTLU AI" refers to any student-accessible AI agent service officially provided by XJTLU, including but not limited to Junmou AI and the XJTLU Library AI Portal.
+
+"External AI" refers to any AI agent service not officially provided by XJTLU, including but not limited to ChatGPT, DeepSeek, and similar services accessed independently.
+
+ADS401 Evaluation Methods and Statistics is an XJTLU module for students on the MSc Human-Computer Interaction and MSc Social Computing programmes, including part-time Social Computing students. Unless otherwise specified, answer about ADS401 learning in the past four weeks (28 days).
+
+Participation is voluntary. This survey does not ask for identity or contact details unless you choose Yes to the optional follow-up interview invitation. If you choose Yes, the final question asks for an ID and an email address or telephone number so the research team can match your answers to a potential interview invitation; your responses will therefore not be anonymous to the research team.
+
+Such information will be used only for interview recruitment and scheduling, accessed only by authorised study-team members, excluded from all reports and analysis datasets, and deleted within 30 days after all follow-up interviews are completed. You may decline an interview invitation later. Do not provide other sensitive information. Estimated completion time: 5–7 minutes.

@@ -64,10 +64,12 @@ Usefulness and ease-of-use items are treated as exploratory, context-specific me
 > 描述性统计：分别报告认知、是否曾经使用及过去四周使用情况的人数与比例，注明各题有效回答人数。
 - Cross-tabulation: Compare usage patterns across four groups.
 > 交叉分析：比较四组学生的使用模式。
-- Rating Analysis: Summarise activity-specific usefulness, usefulness/ease-of-use/trust items, and future-use intentions descriptively; exclude N/A from rating summaries.
-> 评分分析：描述各活动的有用性、有用性／易用性／信任条目及未来使用意愿；N/A 不计入评分汇总。
+- Rating Analysis: Summarise activity-specific usefulness, usefulness/ease-of-use/trust items, and future-use intentions descriptively; exclude N/A from rating summaries. Activity-category matrices cover categories A–E plus an Other row; Other-row responses are summarised separately (counts and ratings) and excluded from A–E paired comparisons.
+> 评分分析：描述各活动的有用性、有用性／易用性／信任条目及未来使用意愿；N/A 不计入评分汇总。活动矩阵覆盖 A–E 五类及“其他”行；“其他”行单独汇总（计数与评分），不计入 A–E 配对比较。
 - Perceived Comparison: Examine paired activity ratings only where dual users rated both tools for the same category; report direct comparison responses separately, including 'Unable to compare'.
 > 感知比较：仅在双工具用户对同一活动类别均有有效评分时进行配对比较；直接比较题单独汇总，并报告“无法比较”。
+- Frequency & verification items: “Can't recall” responses on the usage-frequency items (Q10/Q18a) are reported separately and excluded from band percentages; verification frequency (Q12) uses quantified anchors (never to every time, scaled per 10 uses), with “Unable to judge” reported separately.
+> 频次与核实条目：使用频次题（Q10/Q18a）的“不记得了”单独报告，不计入档位百分比；核实频率（Q12）使用量化锚点（从不到每次，按每 10 次换算），“无法判断”单独报告。
 
 *References — Explanatory sequential design: Ivankova et al. (2006), [Using mixed-methods sequential explanatory design: From theory to practice](https://doi.org/10.1177/1525822X05282260); questionnaire design resource (survey instrument): Chung et al. (2024), [Student perspectives on AI in Higher Education: Student Survey](https://doi.org/10.26180/27915930); conceptual basis for usefulness and ease of use (not validation of the adapted questionnaire): Davis (1989), [Perceived usefulness, perceived ease of use, and user acceptance of information technology](https://doi.org/10.2307/249008).*
 
@@ -101,8 +103,8 @@ Research Materials → Internal Questionnaire Check (4 researchers) → Survey D
 *References — Interview coding and theme development: Braun & Clarke (2006), [Using thematic analysis in psychology](https://doi.org/10.1191/1478088706qp063oa); connecting survey-based sampling, interview design, and interpretation: Fetters et al. (2013), [Achieving integration in mixed methods designs—Principles and practices](https://doi.org/10.1111/1475-6773.12117).*
 
 ## Materials
-Survey material: questionnaire_v1.md (pilot version).
-> 问卷材料：questionnaire_v1.md（预测试版本）。
+Survey material: questionnaire_v2.md with English and Chinese variants under `assets/pre2/materials/survey/` (deployment version, updated per issue #22 review); questionnaire_v1.md retained as the earlier draft.
+> 问卷材料：`assets/pre2/materials/survey/` 下的 questionnaire_v2.md 及英文/中文单语版（部署版本，按 issue #22 评审更新）；questionnaire_v1.md 留作早期草稿。
 
 ### Limitations
 - Single-module sample
