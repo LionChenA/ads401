@@ -1,9 +1,23 @@
-# WJX (问卷星) Deployment — Questionnaire v2.2 (5-Page Modular Flow)
+# Survey Deployment Record — ADS401 Group A
 
-Deployment record for the ADS401 questionnaire. Created 2026-10-24 via official
-`wjx-cli` 0.4.5 (github.com/wjxcom/wjx-ai-kit) and browser automation.
+Deployment records for the ADS401 questionnaire across platforms.
 
-## Deployed Artifacts (Dual Links)
+## Official Primary Deployment (Tally — English)
+
+| Platform | Form ID | Fill URL | Architecture | Status |
+|---|---|---|---|---|
+| **Tally (EN)** | `xVXO6r` | **https://tally.so/r/xVXO6r** | 9-Page Streamlined Flow | **PUBLISHED** |
+
+- Verified 27-question instrument with native inline Other inputs, presence-linked evaluation matrices, and ethics information sheet integration.
+- Full technical specification, validation logs, and audit records: see [`../TALLY_MIGRATION.md`](../TALLY_MIGRATION.md).
+
+---
+
+## Secondary / Prototype Platform (WJX / 问卷星 — 未启用)
+
+> **注**：问卷星方案仅作为早期测试与技术预研，**未启用、未投放**。全量正式调查统一通过上方 Tally 官方英文部署执行。
+
+### 归档测试链接（未启用）
 
 | Version | vid | sid | Fill URL | Preview / Testing URL |
 |---|---|---|---|---|

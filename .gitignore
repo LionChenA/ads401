@@ -12,6 +12,8 @@ site/public/slides/
 
 # Exported artifacts (rebuilt from source; LMS submissions)
 *.pdf
+!assets/pre2/materials/survey/*.pdf
+!site/public/*.pdf
 *.pptx
 slides/supplementary.html
 slides/flow.svg
