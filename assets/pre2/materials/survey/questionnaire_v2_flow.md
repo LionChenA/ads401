@@ -52,6 +52,7 @@ flowchart TD
 | --- | --- |
 | Q1 = No | Next Page → Submit & End Survey (Page 1 pagination isolation) |
 | Q1 = Yes | Proceed to Page 2 (Q2..Q24) |
+| Q7 = 没听说过 (Had not heard of them) | Skip Q8, go to Q9 |
 | Q9 = Both (Opt 1) | Show Q10–Q15, Q18–Q18b, Q19 |
 | Q9 = XJTLU AI only (Opt 2) | Show Q10–Q15; skip Q16–Q17, Q18–Q18b, Q19 |
 | Q9 = External AI only (Opt 3) | Show Q16–Q17, Q18–Q18b; skip Q10–Q15, Q19 |

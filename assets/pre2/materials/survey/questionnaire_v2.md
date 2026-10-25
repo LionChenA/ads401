@@ -124,7 +124,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 
 ### Q11a. For each activity category, rate how useful XJTLU AI was in your actual experience. Select N/A for categories you did not use it for. / 对每类活动，评价西浦 AI 在你实际使用中的有用程度；未使用选 N/A。
 
-|  | Not useful 没有用处 | Slightly useful 有点用处 | Moderately useful 一般有用 | Useful 有用 | Very useful 非常有用 | N/A 未使用 |
+|  | Not useful 没有用处 | Slightly useful 有点用处 | Moderately useful 一般有用 | Useful 有用 | Very useful 非常有用 | N/A |
 | --- | --- | --- | --- | --- | --- | --- |
 | Finding and using campus resources 查找与使用校内资源 |  |  |  |  |  |  |
 | Learning within-course content 课程之内内容 |  |  |  |  |  |  |
@@ -225,7 +225,7 @@ Participation is voluntary. This survey does not ask for identity or contact det
 
 ### Q18b. For each activity category, rate how useful External AI was in your actual experience. Select N/A for categories you did not use it for. / 对每类活动，评价外部 AI 的实际有用程度；未使用选 N/A。
 
-|  | Not useful 没有用处 | Slightly useful 有点用处 | Moderately useful 一般有用 | Useful 有用 | Very useful 非常有用 | N/A 未使用 |
+|  | Not useful 没有用处 | Slightly useful 有点用处 | Moderately useful 一般有用 | Useful 有用 | Very useful 非常有用 | N/A |
 | --- | --- | --- | --- | --- | --- | --- |
 | Finding and using campus resources 查找与使用校内资源 |  |  |  |  |  |  |
 | Learning within-course content 课程之内内容 |  |  |  |  |  |  |
