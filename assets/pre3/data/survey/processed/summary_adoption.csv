@@ -1,0 +1,13 @@
+﻿metric,category,count,pct,n
+adoption_status,Unaware,1,3.7,27
+adoption_status,Uncertain (awareness),2,7.4,27
+adoption_status,Aware non-user,9,33.3,27
+adoption_status,Uncertain (ever-used),1,3.7,27
+adoption_status,Ex-user (not current),7,25.9,27
+adoption_status,Occasional user,5,18.5,27
+adoption_status,Frequent user,2,7.4,27
+funnel,All participants (consented),27,100.0,27
+funnel,Heard of XJTLU AI,24,88.9,27
+funnel,Ever used XJTLU AI,15,55.6,27
+funnel,Used XJTLU AI in past 4 weeks,8,29.6,27
+funnel,Frequent use (5+ times),2,7.4,27

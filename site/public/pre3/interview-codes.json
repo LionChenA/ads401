@@ -1,0 +1,273 @@
+{
+  "source": "coded participant summaries, not transcripts",
+  "codes": [
+    {
+      "id": "AWARENESS_GAP",
+      "en": "Awareness gap"
+    },
+    {
+      "id": "TRIAL_ABANDON",
+      "en": "Trial-then-abandon"
+    },
+    {
+      "id": "AWARE_CHANNEL",
+      "en": "Awareness channel"
+    },
+    {
+      "id": "TRANSACTION_DIV",
+      "en": "Transaction/learning split"
+    },
+    {
+      "id": "USAGE_TRANSLATE",
+      "en": "Translate/interpret"
+    },
+    {
+      "id": "USAGE_SUMMARIZE",
+      "en": "Summarize/organize"
+    },
+    {
+      "id": "USAGE_DESIGN",
+      "en": "Design generation"
+    },
+    {
+      "id": "USAGE_QA",
+      "en": "Q&A / concept help"
+    },
+    {
+      "id": "USAGE_PREDICT",
+      "en": "Predict questions"
+    },
+    {
+      "id": "VERIFY_SHALLOW",
+      "en": "Shallow verification"
+    },
+    {
+      "id": "VERIFY_CROSS_AI",
+      "en": "Cross-AI verification"
+    },
+    {
+      "id": "VERIFY_NONE_TRUST",
+      "en": "Trust→no verification"
+    },
+    {
+      "id": "BARRIER_UI",
+      "en": "UI/login friction"
+    },
+    {
+      "id": "BARRIER_SPEED",
+      "en": "Slow response"
+    },
+    {
+      "id": "BARRIER_ACCURACY",
+      "en": "Inaccurate info"
+    },
+    {
+      "id": "BARRIER_NO_CHAIN",
+      "en": "No reasoning chain"
+    },
+    {
+      "id": "BARRIER_HABIT",
+      "en": "Habit lock-in"
+    },
+    {
+      "id": "BARRIER_NO_NEED",
+      "en": "No perceived need"
+    },
+    {
+      "id": "COMPARE_EXT_BETTER",
+      "en": "External better"
+    },
+    {
+      "id": "TRUST_EXT_PAID",
+      "en": "Paid-tool trust"
+    },
+    {
+      "id": "PRIVACY_CONCERN",
+      "en": "Privacy concern"
+    },
+    {
+      "id": "WANT_COURSE_AWARE",
+      "en": "Course-awareness demand"
+    },
+    {
+      "id": "WANT_STATS_SPSS",
+      "en": "Stats/SPSS help"
+    },
+    {
+      "id": "WANT_INTERNAL_DATA",
+      "en": "Internal-data demand"
+    },
+    {
+      "id": "WANT_ACCURACY_SPEED",
+      "en": "Accuracy+speed demand"
+    }
+  ],
+  "participants": [
+    {
+      "id": "P001",
+      "codes": [
+        "TRIAL_ABANDON",
+        "AWARE_CHANNEL",
+        "USAGE_DESIGN",
+        "USAGE_SUMMARIZE",
+        "USAGE_PREDICT",
+        "VERIFY_SHALLOW",
+        "BARRIER_ACCURACY",
+        "BARRIER_SPEED",
+        "BARRIER_HABIT",
+        "COMPARE_EXT_BETTER",
+        "WANT_STATS_SPSS"
+      ],
+      "excerpt": {
+        "text": "you enter some information and what it returns is completely wrong.",
+        "code": "BARRIER_ACCURACY",
+        "location": "Opening section",
+        "language": "English translation"
+      },
+      "group": {
+        "label": "G2-like",
+        "basis": "At interview, described current use as external only; earlier trial and survey linkage are not the same thing."
+      }
+    },
+    {
+      "id": "P002",
+      "codes": [
+        "TRANSACTION_DIV",
+        "AWARE_CHANNEL",
+        "USAGE_DESIGN",
+        "USAGE_QA",
+        "VERIFY_SHALLOW",
+        "VERIFY_CROSS_AI",
+        "COMPARE_EXT_BETTER",
+        "WANT_STATS_SPSS"
+      ],
+      "excerpt": {
+        "text": "Each on its own. The highest frequency is still external AI.",
+        "code": "TRANSACTION_DIV",
+        "location": "Verification and trust",
+        "language": "English translation"
+      },
+      "group": {
+        "label": "G1-like",
+        "basis": "Reported using both types during the four-week period; this is an interview account, not a verified survey linkage."
+      }
+    },
+    {
+      "id": "P003",
+      "codes": [
+        "AWARENESS_GAP",
+        "AWARE_CHANNEL",
+        "USAGE_DESIGN",
+        "VERIFY_CROSS_AI",
+        "BARRIER_SPEED",
+        "BARRIER_NO_CHAIN",
+        "BARRIER_ACCURACY",
+        "COMPARE_EXT_BETTER",
+        "WANT_INTERNAL_DATA"
+      ],
+      "excerpt": {
+        "text": "Use other AIs.",
+        "code": "VERIFY_CROSS_AI",
+        "location": "05:25",
+        "language": "English translation"
+      },
+      "group": {
+        "label": "G2-like",
+        "basis": "Reported external-only use in the four-week interview question; survey linkage is unconfirmed."
+      }
+    },
+    {
+      "id": "P004",
+      "codes": [
+        "TRIAL_ABANDON",
+        "BARRIER_NO_NEED",
+        "BARRIER_UI",
+        "BARRIER_SPEED",
+        "BARRIER_ACCURACY",
+        "USAGE_DESIGN",
+        "USAGE_TRANSLATE",
+        "VERIFY_NONE_TRUST",
+        "TRUST_EXT_PAID",
+        "WANT_COURSE_AWARE"
+      ],
+      "excerpt": {
+        "text": "The money I spent makes me deeply trust it.",
+        "code": "TRUST_EXT_PAID",
+        "location": "Verification and trust",
+        "language": "English translation"
+      },
+      "group": {
+        "label": "Unclear",
+        "basis": "Reported an eHall trial and no later use; the interviewer-led timeline does not establish a reliable four-week group."
+      }
+    },
+    {
+      "id": "P005",
+      "codes": [
+        "TRIAL_ABANDON",
+        "BARRIER_UI",
+        "BARRIER_HABIT",
+        "USAGE_TRANSLATE",
+        "USAGE_SUMMARIZE",
+        "COMPARE_EXT_BETTER",
+        "WANT_COURSE_AWARE",
+        "PRIVACY_CONCERN"
+      ],
+      "excerpt": {
+        "text": "I don't want the university knowing too much",
+        "code": "PRIVACY_CONCERN",
+        "location": "04:48",
+        "language": "English translation"
+      },
+      "group": {
+        "label": "Unclear",
+        "basis": "Reported an earlier campus trial and no real coursework use recently; “not really” does not establish zero recent campus use."
+      }
+    },
+    {
+      "id": "P006",
+      "codes": [
+        "TRIAL_ABANDON",
+        "BARRIER_ACCURACY",
+        "BARRIER_UI",
+        "USAGE_SUMMARIZE",
+        "VERIFY_CROSS_AI",
+        "WANT_COURSE_AWARE",
+        "WANT_STATS_SPSS"
+      ],
+      "excerpt": {
+        "text": "The information it gives isn't accurate.",
+        "code": "BARRIER_ACCURACY",
+        "location": "Cognition and background",
+        "language": "English translation"
+      },
+      "group": {
+        "label": "G2-like",
+        "basis": "Reported no campus use in the prior four-week survey window and continued external AI use."
+      }
+    },
+    {
+      "id": "P007",
+      "codes": [
+        "AWARENESS_GAP",
+        "BARRIER_NO_NEED",
+        "TRUST_EXT_PAID",
+        "USAGE_TRANSLATE",
+        "USAGE_QA",
+        "COMPARE_EXT_BETTER",
+        "WANT_ACCURACY_SPEED",
+        "WANT_COURSE_AWARE"
+      ],
+      "excerpt": {
+        "text": "First, the answers must be accurate.",
+        "code": "WANT_ACCURACY_SPEED",
+        "location": "04:05",
+        "language": "English translation"
+      },
+      "group": {
+        "label": "G2-like",
+        "basis": "Reported never using campus AI and continuing to use external AI; exact linkage to a survey record is unconfirmed."
+      }
+    }
+  ]
+}

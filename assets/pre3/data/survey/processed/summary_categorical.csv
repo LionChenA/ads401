@@ -1,0 +1,81 @@
+﻿question_id,item_id,item_text_en,category,code,count,pct,n
+Q1,,,"Yes, I agree",,27,100.0,27
+Q2,,,MSc Human-Computer Interaction — Human-centric Computing Pathway,,13,48.1,27
+Q2,,,MSc Human-Computer Interaction — Human-AI Collaborative Computing Pathway,,13,48.1,27
+Q2,,,MSc Social Computing — Full-Time,,1,3.7,27
+Q3,,,Computer Science & Information Technology,,19,70.4,27
+Q3,,,Engineering & Technology,,5,18.5,27
+Q3,,,"Design, Arts & Media",,2,7.4,27
+Q3,,,software engineering,,1,3.7,27
+Q4,,,Man,,12,44.4,27
+Q4,,,Woman,,11,40.7,27
+Q4,,,Prefer not to say,,4,14.8,27
+Q7,,,Heard of them but knew little,,13,48.1,27
+Q7,,,Heard of them and knew some functions,,11,40.7,27
+Q7,,,Unsure whether known services were XJTLU-provided,,2,7.4,27
+Q7,,,Had not heard of them,,1,3.7,27
+Q8,,,Yes,,15,57.7,26
+Q8,,,No,,10,38.5,26
+Q8,,,Not sure,,1,3.8,26
+Q9,,,External AI only (no XJTLU AI),,15,55.6,27
+Q9,,,Both XJTLU AI and External AI,,7,25.9,27
+Q9,,,Neither XJTLU AI nor External AI,,4,14.8,27
+Q9,,,XJTLU AI only (no External AI),,1,3.7,27
+Q23,,,Yes,,18,66.7,27
+Q23,,,No,,9,33.3,27
+Q11,campus,Campus resources,selected,,8,100.0,8
+Q11,within,In-course content,selected,,2,25.0,8
+Q11,beyond,Beyond-course support,selected,,1,12.5,8
+Q11,prod,Coursework production,selected,,1,12.5,8
+Q11,policy,ADS401 policy,selected,,0,0.0,8
+Q11,other,Other activity,selected,,0,0.0,8
+Q14,inaccurate,"Inaccurate, unclear or vague answers",selected,,3,37.5,8
+Q14,no_problem,No notable problem,selected,,3,37.5,8
+Q14,not_relevant,Answers not relevant to ADS401,selected,,2,25.0,8
+Q14,unclear_which,Unclear which XJTLU AI to use,selected,,1,12.5,8
+Q14,functions_insufficient,Functions insufficient,selected,,1,12.5,8
+Q14,uncertain_permission,Uncertain about course permission,selected,,1,12.5,8
+Q14,privacy,Privacy or data concerns,selected,,1,12.5,8
+Q14,hard_prompts,Hard to formulate prompts,selected,,0,0.0,8
+Q14,time_consuming,Time-consuming to verify or revise,selected,,0,0.0,8
+Q14,inconvenient,Inconvenient access/login/workflow,selected,,0,0.0,8
+Q14,other,Other activity,selected,,0,0.0,8
+Q16,prefer_external,Prefer External AI,selected,,10,52.6,19
+Q16,unclear_what,Unclear what it can do,selected,,8,42.1,19
+Q16,previously_unaware,Previously unaware,selected,,5,26.3,19
+Q16,no_suitable_task,No suitable ADS401 task,selected,,5,26.3,19
+Q16,unsure_access,Unsure how to access,selected,,4,21.1,19
+Q16,concerned_inaccurate,Concerned about inaccurate answers,selected,,4,21.1,19
+Q16,prefer_nonai,Prefer non-AI methods,selected,,3,15.8,19
+Q16,unsure_permitted,Unsure if AI use permitted,selected,,2,10.5,19
+Q16,privacy,Privacy/data concerns,selected,,2,10.5,19
+Q16,other,Other activity,selected,,1,5.3,19
+Q16,past_unsatisfactory,Past experience unsatisfactory,selected,,0,0.0,19
+Q16,access_inconvenient,Access or operation seemed inconvenient,selected,,0,0.0,19
+Q18,within,In-course content,selected,,13,59.1,22
+Q18,campus,Campus resources,selected,,10,45.5,22
+Q18,beyond,Beyond-course support,selected,,8,36.4,22
+Q18,prod,Coursework production,selected,,8,36.4,22
+Q18,policy,ADS401 policy,selected,,5,22.7,22
+Q18,other,Other activity,selected,,0,0.0,22
+Q20,accuracy,Accuracy or reliability,selected,,17,63.0,27
+Q20,speed,Speed,selected,,12,44.4,27
+Q20,task_relevance,Task relevance,selected,,10,37.0,27
+Q20,ease,Ease of use,selected,,8,29.6,27
+Q20,chinese,Chinese-language support,selected,,4,14.8,27
+Q20,familiarity,Familiarity,selected,,3,11.1,27
+Q20,suitable_features,Suitable features,selected,,3,11.1,27
+Q20,university_rec,University recommendation,selected,,2,7.4,27
+Q20,accessibility,Accessibility,selected,,1,3.7,27
+Q20,quota,Quota or cost,selected,,1,3.7,27
+Q20,other,Other activity,selected,,0,0.0,27
+Q21,accurate_answers,More accurate course answers,selected,,15,55.6,27
+Q21,research_method,Research-method support,selected,,8,29.6,27
+Q21,doc_kb,Document/knowledge-base support,selected,,7,25.9,27
+Q21,writing,Writing/summaries/planning,selected,,7,25.9,27
+Q21,ads401_examples,ADS401-specific examples,selected,,5,18.5,27
+Q21,survey_design,Survey/interview design support,selected,,4,14.8,27
+Q21,navigation,Clearer navigation,selected,,3,11.1,27
+Q21,guidance,Clear course-use guidance,selected,,2,7.4,27
+Q21,privacy_transparency,Privacy/data transparency,selected,,1,3.7,27
+Q21,other,Other activity,selected,,0,0.0,27

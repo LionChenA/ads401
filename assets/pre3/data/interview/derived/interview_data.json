@@ -1,0 +1,498 @@
+{
+  "meta": {
+    "n_interviews": 7,
+    "n_codes": 25,
+    "period": "2026-11-06 ~ 2026-11-07"
+  },
+  "codes": [
+    {
+      "id": "AWARENESS_GAP",
+      "zh": "认知盲区",
+      "en": "Awareness gap",
+      "rq": "RQ1"
+    },
+    {
+      "id": "TRIAL_ABANDON",
+      "zh": "试用即弃",
+      "en": "Trial-then-abandon",
+      "rq": "RQ1"
+    },
+    {
+      "id": "AWARE_CHANNEL",
+      "zh": "知晓渠道",
+      "en": "Awareness channel",
+      "rq": "RQ1"
+    },
+    {
+      "id": "TRANSACTION_DIV",
+      "zh": "事务-学习分工",
+      "en": "Transaction/learning split",
+      "rq": "RQ1/RQ2"
+    },
+    {
+      "id": "USAGE_TRANSLATE",
+      "zh": "翻译/解读",
+      "en": "Translate/interpret",
+      "rq": "RQ2"
+    },
+    {
+      "id": "USAGE_SUMMARIZE",
+      "zh": "总结/整理",
+      "en": "Summarize/organize",
+      "rq": "RQ2"
+    },
+    {
+      "id": "USAGE_DESIGN",
+      "zh": "方案生成",
+      "en": "Design generation",
+      "rq": "RQ2"
+    },
+    {
+      "id": "USAGE_QA",
+      "zh": "概念答疑",
+      "en": "Q&A / concept help",
+      "rq": "RQ2"
+    },
+    {
+      "id": "USAGE_PREDICT",
+      "zh": "预测提问",
+      "en": "Predict questions",
+      "rq": "RQ2"
+    },
+    {
+      "id": "VERIFY_SHALLOW",
+      "zh": "浅核查",
+      "en": "Shallow verification",
+      "rq": "RQ3"
+    },
+    {
+      "id": "VERIFY_CROSS_AI",
+      "zh": "跨AI交叉验证",
+      "en": "Cross-AI verification",
+      "rq": "RQ3"
+    },
+    {
+      "id": "VERIFY_NONE_TRUST",
+      "zh": "信任不核查",
+      "en": "Trust→no verification",
+      "rq": "RQ3"
+    },
+    {
+      "id": "BARRIER_UI",
+      "zh": "界面/登录障碍",
+      "en": "UI/login friction",
+      "rq": "RQ3"
+    },
+    {
+      "id": "BARRIER_SPEED",
+      "zh": "响应慢",
+      "en": "Slow response",
+      "rq": "RQ3"
+    },
+    {
+      "id": "BARRIER_ACCURACY",
+      "zh": "信息不准",
+      "en": "Inaccurate info",
+      "rq": "RQ3"
+    },
+    {
+      "id": "BARRIER_NO_CHAIN",
+      "zh": "无思维链/只给链接",
+      "en": "No reasoning chain",
+      "rq": "RQ3"
+    },
+    {
+      "id": "BARRIER_HABIT",
+      "zh": "外部习惯",
+      "en": "Habit lock-in",
+      "rq": "RQ3"
+    },
+    {
+      "id": "BARRIER_NO_NEED",
+      "zh": "无需求",
+      "en": "No perceived need",
+      "rq": "RQ3"
+    },
+    {
+      "id": "COMPARE_EXT_BETTER",
+      "zh": "外部更优",
+      "en": "External better",
+      "rq": "RQ3"
+    },
+    {
+      "id": "TRUST_EXT_PAID",
+      "zh": "付费信任",
+      "en": "Paid-tool trust",
+      "rq": "RQ3"
+    },
+    {
+      "id": "PRIVACY_CONCERN",
+      "zh": "隐私顾虑",
+      "en": "Privacy concern",
+      "rq": "RQ3"
+    },
+    {
+      "id": "WANT_COURSE_AWARE",
+      "zh": "课程针对性诉求",
+      "en": "Course-awareness demand",
+      "rq": "RQ3"
+    },
+    {
+      "id": "WANT_STATS_SPSS",
+      "zh": "统计/SPSS辅导",
+      "en": "Stats/SPSS help",
+      "rq": "RQ3"
+    },
+    {
+      "id": "WANT_INTERNAL_DATA",
+      "zh": "内部资料诉求",
+      "en": "Internal-data demand",
+      "rq": "RQ3"
+    },
+    {
+      "id": "WANT_ACCURACY_SPEED",
+      "zh": "准确+快诉求",
+      "en": "Accuracy+speed demand",
+      "rq": "RQ3"
+    }
+  ],
+  "freq": [
+    {
+      "id": "AWARENESS_GAP",
+      "zh": "认知盲区",
+      "en": "Awareness gap",
+      "count": 2
+    },
+    {
+      "id": "TRIAL_ABANDON",
+      "zh": "试用即弃",
+      "en": "Trial-then-abandon",
+      "count": 4
+    },
+    {
+      "id": "AWARE_CHANNEL",
+      "zh": "知晓渠道",
+      "en": "Awareness channel",
+      "count": 3
+    },
+    {
+      "id": "TRANSACTION_DIV",
+      "zh": "事务-学习分工",
+      "en": "Transaction/learning split",
+      "count": 1
+    },
+    {
+      "id": "USAGE_TRANSLATE",
+      "zh": "翻译/解读",
+      "en": "Translate/interpret",
+      "count": 3
+    },
+    {
+      "id": "USAGE_SUMMARIZE",
+      "zh": "总结/整理",
+      "en": "Summarize/organize",
+      "count": 3
+    },
+    {
+      "id": "USAGE_DESIGN",
+      "zh": "方案生成",
+      "en": "Design generation",
+      "count": 4
+    },
+    {
+      "id": "USAGE_QA",
+      "zh": "概念答疑",
+      "en": "Q&A / concept help",
+      "count": 2
+    },
+    {
+      "id": "USAGE_PREDICT",
+      "zh": "预测提问",
+      "en": "Predict questions",
+      "count": 1
+    },
+    {
+      "id": "VERIFY_SHALLOW",
+      "zh": "浅核查",
+      "en": "Shallow verification",
+      "count": 2
+    },
+    {
+      "id": "VERIFY_CROSS_AI",
+      "zh": "跨AI交叉验证",
+      "en": "Cross-AI verification",
+      "count": 3
+    },
+    {
+      "id": "VERIFY_NONE_TRUST",
+      "zh": "信任不核查",
+      "en": "Trust→no verification",
+      "count": 1
+    },
+    {
+      "id": "BARRIER_UI",
+      "zh": "界面/登录障碍",
+      "en": "UI/login friction",
+      "count": 3
+    },
+    {
+      "id": "BARRIER_SPEED",
+      "zh": "响应慢",
+      "en": "Slow response",
+      "count": 3
+    },
+    {
+      "id": "BARRIER_ACCURACY",
+      "zh": "信息不准",
+      "en": "Inaccurate info",
+      "count": 3
+    },
+    {
+      "id": "BARRIER_NO_CHAIN",
+      "zh": "无思维链/只给链接",
+      "en": "No reasoning chain",
+      "count": 1
+    },
+    {
+      "id": "BARRIER_HABIT",
+      "zh": "外部习惯",
+      "en": "Habit lock-in",
+      "count": 2
+    },
+    {
+      "id": "BARRIER_NO_NEED",
+      "zh": "无需求",
+      "en": "No perceived need",
+      "count": 2
+    },
+    {
+      "id": "COMPARE_EXT_BETTER",
+      "zh": "外部更优",
+      "en": "External better",
+      "count": 6
+    },
+    {
+      "id": "TRUST_EXT_PAID",
+      "zh": "付费信任",
+      "en": "Paid-tool trust",
+      "count": 2
+    },
+    {
+      "id": "PRIVACY_CONCERN",
+      "zh": "隐私顾虑",
+      "en": "Privacy concern",
+      "count": 1
+    },
+    {
+      "id": "WANT_COURSE_AWARE",
+      "zh": "课程针对性诉求",
+      "en": "Course-awareness demand",
+      "count": 4
+    },
+    {
+      "id": "WANT_STATS_SPSS",
+      "zh": "统计/SPSS辅导",
+      "en": "Stats/SPSS help",
+      "count": 3
+    },
+    {
+      "id": "WANT_INTERNAL_DATA",
+      "zh": "内部资料诉求",
+      "en": "Internal-data demand",
+      "count": 1
+    },
+    {
+      "id": "WANT_ACCURACY_SPEED",
+      "zh": "准确+快诉求",
+      "en": "Accuracy+speed demand",
+      "count": 1
+    }
+  ],
+  "participants": [
+    {
+      "id": "P001",
+      "group": "A 双持→弃用",
+      "groupKey": "trial",
+      "color": "#22d3ee",
+      "adoption": "试用即弃（主用外部）",
+      "quote_cn": "我花这些时间，我为什么不直接用外部的？就是来得更快速……更符合我的预期。",
+      "quote_en": "Why spend this time? I'd just use the external one—faster, more detailed, more in line with what I expect.",
+      "codes": [
+        "TRIAL_ABANDON",
+        "USAGE_DESIGN",
+        "USAGE_SUMMARIZE",
+        "USAGE_PREDICT",
+        "VERIFY_SHALLOW",
+        "BARRIER_ACCURACY",
+        "BARRIER_SPEED",
+        "BARRIER_HABIT",
+        "COMPARE_EXT_BETTER",
+        "WANT_STATS_SPSS"
+      ]
+    },
+    {
+      "id": "P002",
+      "group": "A 双持（事务/学习分工）",
+      "groupKey": "split",
+      "color": "#5dade2",
+      "adoption": "双持·事务用校内",
+      "quote_cn": "校内 AI 的结果我会再投给豆包（交叉验证）……觉得它不太聪明。",
+      "quote_en": "I'd feed the campus AI's answer back into Doubao to cross-check… it's not that smart.",
+      "codes": [
+        "TRANSACTION_DIV",
+        "USAGE_DESIGN",
+        "USAGE_QA",
+        "VERIFY_SHALLOW",
+        "VERIFY_CROSS_AI",
+        "COMPARE_EXT_BETTER",
+        "WANT_STATS_SPSS"
+      ]
+    },
+    {
+      "id": "P003",
+      "group": "B 仅外部",
+      "groupKey": "external",
+      "color": "#f472b6",
+      "adoption": "仅外部·从未考虑校内",
+      "quote_cn": "在进入西浦之前，我都不知道它有 AI。",
+      "quote_en": "Before entering XJTLU, I didn't even know it had AI.",
+      "codes": [
+        "AWARENESS_GAP",
+        "USAGE_DESIGN",
+        "VERIFY_CROSS_AI",
+        "BARRIER_SPEED",
+        "BARRIER_NO_CHAIN",
+        "BARRIER_ACCURACY",
+        "COMPARE_EXT_BETTER",
+        "WANT_INTERNAL_DATA"
+      ]
+    },
+    {
+      "id": "P004",
+      "group": "A 试用后流失",
+      "groupKey": "trial",
+      "color": "#22d3ee",
+      "adoption": "试用一次后流失（付费 ChatGPT）",
+      "quote_cn": "我感觉 AI 比我聪明……我花的钱让我非常相信他。",
+      "quote_en": "I feel AI is smarter than me… the money I paid makes me trust it deeply.",
+      "codes": [
+        "TRIAL_ABANDON",
+        "BARRIER_UI",
+        "BARRIER_SPEED",
+        "BARRIER_ACCURACY",
+        "USAGE_DESIGN",
+        "USAGE_TRANSLATE",
+        "VERIFY_NONE_TRUST",
+        "TRUST_EXT_PAID",
+        "WANT_COURSE_AWARE"
+      ]
+    },
+    {
+      "id": "P005",
+      "group": "试用君谋后停用",
+      "groupKey": "trial",
+      "color": "#fbbf24",
+      "adoption": "试用后停用（主用外部）",
+      "quote_cn": "我不希望学校知道太多（隐私/审查顾虑）。",
+      "quote_en": "I don't want the university knowing too much (privacy/surveillance concerns).",
+      "codes": [
+        "TRIAL_ABANDON",
+        "BARRIER_UI",
+        "BARRIER_HABIT",
+        "USAGE_TRANSLATE",
+        "USAGE_SUMMARIZE",
+        "COMPARE_EXT_BETTER",
+        "WANT_COURSE_AWARE",
+        "PRIVACY_CONCERN"
+      ]
+    },
+    {
+      "id": "P006",
+      "group": "试用后停用",
+      "groupKey": "trial",
+      "color": "#fbbf24",
+      "adoption": "试用后停用（主用外部）",
+      "quote_cn": "它给出的信息并不准确……参考网页也不一定相关，或者干脆打不开。",
+      "quote_en": "The info it gives isn't accurate… the reference pages aren't even relevant, or just won't open.",
+      "codes": [
+        "TRIAL_ABANDON",
+        "BARRIER_ACCURACY",
+        "BARRIER_UI",
+        "USAGE_SUMMARIZE",
+        "VERIFY_CROSS_AI",
+        "WANT_COURSE_AWARE",
+        "WANT_STATS_SPSS"
+      ]
+    },
+    {
+      "id": "P007",
+      "group": "B 仅外部",
+      "groupKey": "external",
+      "color": "#f472b6",
+      "adoption": "仅外部·未用过校内",
+      "quote_cn": "外部的 AI 经过大量用户的验证是可靠的。",
+      "quote_en": "External AI is reliable—it's been validated by a huge number of users.",
+      "codes": [
+        "AWARENESS_GAP",
+        "BARRIER_NO_NEED",
+        "TRUST_EXT_PAID",
+        "USAGE_TRANSLATE",
+        "USAGE_QA",
+        "COMPARE_EXT_BETTER",
+        "WANT_ACCURACY_SPEED",
+        "WANT_COURSE_AWARE"
+      ]
+    }
+  ],
+  "conclusions": [
+    {
+      "n": 1,
+      "title": "高知晓、低持续使用",
+      "en": "High awareness, low sustained use",
+      "quan": "问卷：听说过 89% → 近四周用过 30% → 频繁 7%",
+      "qual": "试用即弃（P001/P004/P005/P006）+ 认知盲区（P003/P007）两条流失路径"
+    },
+    {
+      "n": 2,
+      "title": "事务用校内、学习用外部",
+      "en": "Official tasks → campus AI; learning → external",
+      "quan": "问卷：校内 AI 唯一领先的任务 = 校内资源检索",
+      "qual": "P002：图书馆查试卷 / e-Bridge 查 Ethics 表；学习全用豆包"
+    },
+    {
+      "n": 3,
+      "title": "用 AI 核验 AI，而非查教材",
+      "en": "Verify with AI, not with textbooks",
+      "quan": "问卷 Q12 核查频率低 + Q13 信任中性",
+      "qual": "P002/P003/P006 跨 AI 交叉验证；P004 付费→信任→不核查"
+    },
+    {
+      "n": 4,
+      "title": "外部 AI 的不可替代性",
+      "en": "External AI's irreplaceability",
+      "quan": "问卷 Q11/Q18：翻译/总结/方案/答疑是高频用途",
+      "qual": "翻译英文课件(P004/P005/P007)、生成方案(P001-P004)、总结(P001/P005/P006)"
+    },
+    {
+      "n": 5,
+      "title": "感知是「打包」的",
+      "en": "Perception is bundled, not atomic",
+      "quan": "问卷显著：PU×PEOU ρ=.936、PU×Trust ρ=.860、PEOU×Trust ρ=.889",
+      "qual": "访谈中「快/准/习惯/信任」总是捆绑出现"
+    },
+    {
+      "n": 6,
+      "title": "隐私顾虑（新浮现）",
+      "en": "Privacy concern (new)",
+      "quan": "问卷 Q22 之外的质性新发现",
+      "qual": "P005：既想要课程针对性助教，又不想学校知道太多"
+    },
+    {
+      "n": 7,
+      "title": "外部更优，但有一块空白",
+      "en": "External wins, but a gap remains",
+      "quan": "问卷 Q19：总体偏好外部 4 vs 1（方向性）",
+      "qual": "6/7 认为外部更优；但都指不出谁能拿到校内课程资料——校内 AI 的差异化定位"
+    }
+  ]
+}

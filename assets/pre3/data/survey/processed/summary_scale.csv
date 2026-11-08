@@ -1,0 +1,113 @@
+﻿question_id,item_id,item_text_en,level,label_en,count,pct,n
+Q5,,,2,21–24,19,70.4,27
+Q5,,,3,25–29,5,18.5,27
+Q5,,,1,20 or younger,2,7.4,27
+Q5,,,4,30 or older,1,3.7,27
+Q6,,,5,More than 3 years,10,37.0,27
+Q6,,,3,1–2 years,6,22.2,27
+Q6,,,2,Less than 1 year,5,18.5,27
+Q6,,,4,2–3 years,5,18.5,27
+Q6,,,1,No experience,1,3.7,27
+Q10,,,1,1–4 times in total (at most once a week on average),6,75.0,8
+Q10,,,3,9–12 times in total (about 2–3 times a week on average),1,12.5,8
+Q10,,,4,More than 12 times in total (more than 3 times a week on average),1,12.5,8
+Q12,,,2,Rarely (about 1–3 times in 10),3,37.5,8
+Q12,,,3,Sometimes (about 4–6 times in 10),2,25.0,8
+Q12,,,1,Never,1,12.5,8
+Q12,,,5,Every time,1,12.5,8
+Q12,,,,Unable to judge,1,12.5,8
+Q15,,,2,Unlikely,3,37.5,8
+Q15,,,3,Neutral,2,25.0,8
+Q15,,,1,Very unlikely,2,25.0,8
+Q15,,,4,Likely,1,12.5,8
+Q17,,,3,Neutral,7,36.8,19
+Q17,,,2,Unwilling,4,21.1,19
+Q17,,,4,Willing,4,21.1,19
+Q17,,,5,Very willing,3,15.8,19
+Q17,,,1,Very unwilling,1,5.3,19
+Q18a,,,1,1–4 times in total (at most once a week on average),8,36.4,22
+Q18a,,,4,More than 12 times in total (more than 3 times a week on average),5,22.7,22
+Q18a,,,2,5–8 times in total (about 1–2 times a week on average),5,22.7,22
+Q18a,,,3,9–12 times in total (about 2–3 times a week on average),3,13.6,22
+Q18a,,,,Can't recall,1,4.5,22
+Q11a,beyond,Beyond-course support,4,Useful,1,100.0,1
+Q11a,campus,Campus resources,2,Slightly useful,2,25.0,8
+Q11a,campus,Campus resources,1,Not useful,2,25.0,8
+Q11a,campus,Campus resources,4,Useful,2,25.0,8
+Q11a,campus,Campus resources,5,Very useful,1,12.5,8
+Q11a,campus,Campus resources,3,Moderately useful,1,12.5,8
+Q11a,prod,Coursework production,4,Useful,1,100.0,1
+Q11a,within,In-course content,1,Not useful,1,50.0,2
+Q11a,within,In-course content,2,Slightly useful,1,50.0,2
+Q13,peou1,Easy to learn how to use,3,Neutral,3,37.5,8
+Q13,peou1,Easy to learn how to use,2,Disagree,2,25.0,8
+Q13,peou1,Easy to learn how to use,4,Agree,2,25.0,8
+Q13,peou1,Easy to learn how to use,,N/A,1,12.5,8
+Q13,peou2,Easy to use for ADS401 tasks,2,Disagree,3,37.5,8
+Q13,peou2,Easy to use for ADS401 tasks,3,Neutral,1,12.5,8
+Q13,peou2,Easy to use for ADS401 tasks,,N/A,1,12.5,8
+Q13,peou2,Easy to use for ADS401 tasks,1,Strongly disagree,1,12.5,8
+Q13,peou2,Easy to use for ADS401 tasks,4,Agree,1,12.5,8
+Q13,peou2,Easy to use for ADS401 tasks,5,Strongly agree,1,12.5,8
+Q13,pu1,Helps complete tasks more effectively,3,Neutral,4,50.0,8
+Q13,pu1,Helps complete tasks more effectively,2,Disagree,2,25.0,8
+Q13,pu1,Helps complete tasks more effectively,,N/A,1,12.5,8
+Q13,pu1,Helps complete tasks more effectively,4,Agree,1,12.5,8
+Q13,pu2,Helps complete tasks more efficiently,2,Disagree,3,37.5,8
+Q13,pu2,Helps complete tasks more efficiently,3,Neutral,2,25.0,8
+Q13,pu2,Helps complete tasks more efficiently,,N/A,1,12.5,8
+Q13,pu2,Helps complete tasks more efficiently,1,Strongly disagree,1,12.5,8
+Q13,pu2,Helps complete tasks more efficiently,4,Agree,1,12.5,8
+Q13,trust1,Usually provides reliable information,3,Neutral,3,37.5,8
+Q13,trust1,Usually provides reliable information,2,Disagree,2,25.0,8
+Q13,trust1,Usually provides reliable information,,N/A,1,12.5,8
+Q13,trust1,Usually provides reliable information,4,Agree,1,12.5,8
+Q13,trust1,Usually provides reliable information,5,Strongly agree,1,12.5,8
+Q13,trust2,I generally trust its explanations,3,Neutral,4,50.0,8
+Q13,trust2,I generally trust its explanations,2,Disagree,2,25.0,8
+Q13,trust2,I generally trust its explanations,,N/A,1,12.5,8
+Q13,trust2,I generally trust its explanations,4,Agree,1,12.5,8
+Q18b,beyond,Beyond-course support,1,Not useful,2,25.0,8
+Q18b,beyond,Beyond-course support,2,Slightly useful,2,25.0,8
+Q18b,beyond,Beyond-course support,3,Moderately useful,2,25.0,8
+Q18b,beyond,Beyond-course support,4,Useful,1,12.5,8
+Q18b,beyond,Beyond-course support,5,Very useful,1,12.5,8
+Q18b,campus,Campus resources,2,Slightly useful,5,50.0,10
+Q18b,campus,Campus resources,5,Very useful,2,20.0,10
+Q18b,campus,Campus resources,4,Useful,2,20.0,10
+Q18b,campus,Campus resources,3,Moderately useful,1,10.0,10
+Q18b,policy,ADS401 policy,3,Moderately useful,2,40.0,5
+Q18b,policy,ADS401 policy,5,Very useful,1,20.0,5
+Q18b,policy,ADS401 policy,4,Useful,1,20.0,5
+Q18b,policy,ADS401 policy,2,Slightly useful,1,20.0,5
+Q18b,prod,Coursework production,4,Useful,4,50.0,8
+Q18b,prod,Coursework production,2,Slightly useful,2,25.0,8
+Q18b,prod,Coursework production,5,Very useful,1,12.5,8
+Q18b,prod,Coursework production,3,Moderately useful,1,12.5,8
+Q18b,within,In-course content,4,Useful,6,46.2,13
+Q18b,within,In-course content,3,Moderately useful,4,30.8,13
+Q18b,within,In-course content,2,Slightly useful,2,15.4,13
+Q18b,within,In-course content,5,Very useful,1,7.7,13
+Q19,beyond,Beyond-course support,3,External AI better,4,57.1,7
+Q19,beyond,Beyond-course support,2,About the same,1,14.3,7
+Q19,beyond,Beyond-course support,,Unable to compare,1,14.3,7
+Q19,beyond,Beyond-course support,1,XJTLU AI better,1,14.3,7
+Q19,campus,Campus resources,3,External AI better,4,57.1,7
+Q19,campus,Campus resources,2,About the same,1,14.3,7
+Q19,campus,Campus resources,,Unable to compare,1,14.3,7
+Q19,campus,Campus resources,1,XJTLU AI better,1,14.3,7
+Q19,overall,Overall preference,3,External AI better,4,57.1,7
+Q19,overall,Overall preference,2,About the same,1,14.3,7
+Q19,overall,Overall preference,,Unable to compare,1,14.3,7
+Q19,overall,Overall preference,1,XJTLU AI better,1,14.3,7
+Q19,policy,ADS401 policy,2,About the same,3,42.9,7
+Q19,policy,ADS401 policy,,Unable to compare,2,28.6,7
+Q19,policy,ADS401 policy,3,External AI better,2,28.6,7
+Q19,prod,Coursework production,3,External AI better,4,57.1,7
+Q19,prod,Coursework production,2,About the same,1,14.3,7
+Q19,prod,Coursework production,,Unable to compare,1,14.3,7
+Q19,prod,Coursework production,1,XJTLU AI better,1,14.3,7
+Q19,within,In-course content,3,External AI better,3,42.9,7
+Q19,within,In-course content,2,About the same,2,28.6,7
+Q19,within,In-course content,,Unable to compare,1,14.3,7
+Q19,within,In-course content,1,XJTLU AI better,1,14.3,7

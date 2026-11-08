@@ -1,0 +1,1351 @@
+{
+  "meta": {
+    "n_total": 27,
+    "n_en": 23,
+    "n_zh": 4
+  },
+  "q9": {
+    "categories": [
+      {
+        "label": "External AI only (no XJTLU AI)",
+        "count": 15,
+        "pct": 55.6,
+        "ci_lo": 37.3,
+        "ci_hi": 72.4
+      },
+      {
+        "label": "Both XJTLU AI and External AI",
+        "count": 7,
+        "pct": 25.9,
+        "ci_lo": 13.2,
+        "ci_hi": 44.7
+      },
+      {
+        "label": "Neither XJTLU AI nor External AI",
+        "count": 4,
+        "pct": 14.8,
+        "ci_lo": 5.9,
+        "ci_hi": 32.5
+      },
+      {
+        "label": "XJTLU AI only (no External AI)",
+        "count": 1,
+        "pct": 3.7,
+        "ci_lo": 0.7,
+        "ci_hi": 18.3
+      }
+    ],
+    "n": 27
+  },
+  "q7": {
+    "categories": [
+      {
+        "label": "Heard of them but knew little",
+        "count": 13,
+        "pct": 48.1
+      },
+      {
+        "label": "Heard of them and knew some functions",
+        "count": 11,
+        "pct": 40.7
+      },
+      {
+        "label": "Unsure whether known services were XJTLU-provided",
+        "count": 2,
+        "pct": 7.4
+      },
+      {
+        "label": "Had not heard of them",
+        "count": 1,
+        "pct": 3.7
+      }
+    ],
+    "n": 27
+  },
+  "q8": {
+    "categories": [
+      {
+        "label": "Yes",
+        "count": 15,
+        "pct": 57.7
+      },
+      {
+        "label": "No",
+        "count": 10,
+        "pct": 38.5
+      },
+      {
+        "label": "Not sure",
+        "count": 1,
+        "pct": 3.8
+      }
+    ],
+    "n": 26
+  },
+  "adoption": [
+    {
+      "state": "Unaware",
+      "count": 1,
+      "pct": 3.7,
+      "ci_lo": 0.7,
+      "ci_hi": 18.3
+    },
+    {
+      "state": "Uncertain (awareness)",
+      "count": 2,
+      "pct": 7.4,
+      "ci_lo": 2.1,
+      "ci_hi": 23.4
+    },
+    {
+      "state": "Aware non-user",
+      "count": 9,
+      "pct": 33.3,
+      "ci_lo": 18.6,
+      "ci_hi": 52.2
+    },
+    {
+      "state": "Uncertain (ever-used)",
+      "count": 1,
+      "pct": 3.7,
+      "ci_lo": 0.7,
+      "ci_hi": 18.3
+    },
+    {
+      "state": "Ex-user (not current)",
+      "count": 7,
+      "pct": 25.9,
+      "ci_lo": 13.2,
+      "ci_hi": 44.7
+    },
+    {
+      "state": "Occasional user",
+      "count": 5,
+      "pct": 18.5,
+      "ci_lo": 8.2,
+      "ci_hi": 36.7
+    },
+    {
+      "state": "Frequent user",
+      "count": 2,
+      "pct": 7.4,
+      "ci_lo": 2.1,
+      "ci_hi": 23.4
+    }
+  ],
+  "funnel": [
+    {
+      "stage": "All participants (consented)",
+      "count": 27,
+      "pct_total": 100.0,
+      "pct_prev": 100.0,
+      "ci_lo": 87.5,
+      "ci_hi": 100.0
+    },
+    {
+      "stage": "Heard of XJTLU AI",
+      "count": 24,
+      "pct_total": 88.9,
+      "pct_prev": 88.9,
+      "ci_lo": 71.9,
+      "ci_hi": 96.1
+    },
+    {
+      "stage": "Ever used XJTLU AI",
+      "count": 15,
+      "pct_total": 55.6,
+      "pct_prev": 62.5,
+      "ci_lo": 37.3,
+      "ci_hi": 72.4
+    },
+    {
+      "stage": "Used XJTLU AI in past 4 weeks",
+      "count": 8,
+      "pct_total": 29.6,
+      "pct_prev": 53.3,
+      "ci_lo": 15.9,
+      "ci_hi": 48.5
+    },
+    {
+      "stage": "Frequent use (5+ times)",
+      "count": 2,
+      "pct_total": 7.4,
+      "pct_prev": 25.0,
+      "ci_lo": 2.1,
+      "ci_hi": 23.4
+    }
+  ],
+  "q11": {
+    "labels": [
+      "Campus resources",
+      "In-course content",
+      "Beyond-course support",
+      "ADS401 policy",
+      "Coursework production"
+    ],
+    "n": 8,
+    "xjtu": [
+      {
+        "count": 8,
+        "pct": 100.0,
+        "ci_lo": 67.6,
+        "ci_hi": 100.0
+      },
+      {
+        "count": 2,
+        "pct": 25.0,
+        "ci_lo": 7.1,
+        "ci_hi": 59.1
+      },
+      {
+        "count": 1,
+        "pct": 12.5,
+        "ci_lo": 2.2,
+        "ci_hi": 47.1
+      },
+      {
+        "count": 0,
+        "pct": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 32.4
+      },
+      {
+        "count": 1,
+        "pct": 12.5,
+        "ci_lo": 2.2,
+        "ci_hi": 47.1
+      }
+    ]
+  },
+  "q18": {
+    "labels": [
+      "Campus resources",
+      "In-course content",
+      "Beyond-course support",
+      "ADS401 policy",
+      "Coursework production"
+    ],
+    "n": 22,
+    "external": [
+      {
+        "count": 10,
+        "pct": 45.5,
+        "ci_lo": 26.9,
+        "ci_hi": 65.3
+      },
+      {
+        "count": 13,
+        "pct": 59.1,
+        "ci_lo": 38.7,
+        "ci_hi": 76.7
+      },
+      {
+        "count": 8,
+        "pct": 36.4,
+        "ci_lo": 19.7,
+        "ci_hi": 57.0
+      },
+      {
+        "count": 5,
+        "pct": 22.7,
+        "ci_lo": 10.1,
+        "ci_hi": 43.4
+      },
+      {
+        "count": 8,
+        "pct": 36.4,
+        "ci_lo": 19.7,
+        "ci_hi": 57.0
+      }
+    ]
+  },
+  "q13": [
+    {
+      "item": "pu1",
+      "label": "Helps complete tasks more effectively",
+      "levels": {
+        "1": 0,
+        "2": 2,
+        "3": 4,
+        "4": 1,
+        "5": 0,
+        "na": 1
+      },
+      "mean": 2.86,
+      "n_valid": 7
+    },
+    {
+      "item": "pu2",
+      "label": "Helps complete tasks more efficiently",
+      "levels": {
+        "1": 1,
+        "2": 3,
+        "3": 2,
+        "4": 1,
+        "5": 0,
+        "na": 1
+      },
+      "mean": 2.43,
+      "n_valid": 7
+    },
+    {
+      "item": "peou1",
+      "label": "Easy to learn how to use",
+      "levels": {
+        "1": 0,
+        "2": 2,
+        "3": 3,
+        "4": 2,
+        "5": 0,
+        "na": 1
+      },
+      "mean": 3.0,
+      "n_valid": 7
+    },
+    {
+      "item": "peou2",
+      "label": "Easy to use for ADS401 tasks",
+      "levels": {
+        "1": 1,
+        "2": 3,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "na": 1
+      },
+      "mean": 2.71,
+      "n_valid": 7
+    },
+    {
+      "item": "trust1",
+      "label": "Usually provides reliable information",
+      "levels": {
+        "1": 0,
+        "2": 2,
+        "3": 3,
+        "4": 1,
+        "5": 1,
+        "na": 1
+      },
+      "mean": 3.14,
+      "n_valid": 7
+    },
+    {
+      "item": "trust2",
+      "label": "I generally trust its explanations",
+      "levels": {
+        "1": 0,
+        "2": 2,
+        "3": 4,
+        "4": 1,
+        "5": 0,
+        "na": 1
+      },
+      "mean": 2.86,
+      "n_valid": 7
+    }
+  ],
+  "q19": [
+    {
+      "item": "campus",
+      "label": "Campus resources",
+      "levels": {
+        "1": 1,
+        "2": 1,
+        "3": 4,
+        "unable": 1
+      },
+      "mean": 2.5,
+      "n_valid": 6
+    },
+    {
+      "item": "within",
+      "label": "In-course content",
+      "levels": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "unable": 1
+      },
+      "mean": 2.33,
+      "n_valid": 6
+    },
+    {
+      "item": "beyond",
+      "label": "Beyond-course support",
+      "levels": {
+        "1": 1,
+        "2": 1,
+        "3": 4,
+        "unable": 1
+      },
+      "mean": 2.5,
+      "n_valid": 6
+    },
+    {
+      "item": "policy",
+      "label": "ADS401 policy",
+      "levels": {
+        "1": 0,
+        "2": 3,
+        "3": 2,
+        "unable": 2
+      },
+      "mean": 2.4,
+      "n_valid": 5
+    },
+    {
+      "item": "prod",
+      "label": "Coursework production",
+      "levels": {
+        "1": 1,
+        "2": 1,
+        "3": 4,
+        "unable": 1
+      },
+      "mean": 2.5,
+      "n_valid": 6
+    },
+    {
+      "item": "other",
+      "label": "Other activity",
+      "levels": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "unable": 0
+      },
+      "mean": null,
+      "n_valid": 0
+    },
+    {
+      "item": "overall",
+      "label": "Overall preference",
+      "levels": {
+        "1": 1,
+        "2": 1,
+        "3": 4,
+        "unable": 1
+      },
+      "mean": 2.5,
+      "n_valid": 6
+    }
+  ],
+  "constructs": [
+    {
+      "name": "PU",
+      "mean": 2.64,
+      "n": 7
+    },
+    {
+      "name": "PEOU",
+      "mean": 2.86,
+      "n": 7
+    },
+    {
+      "name": "Trust",
+      "mean": 3.0,
+      "n": 7
+    }
+  ],
+  "q14": {
+    "items": [
+      {
+        "item": "inaccurate",
+        "label": "Inaccurate, unclear or vague answers",
+        "count": 3,
+        "pct": 37.5
+      },
+      {
+        "item": "no_problem",
+        "label": "No notable problem",
+        "count": 3,
+        "pct": 37.5
+      },
+      {
+        "item": "not_relevant",
+        "label": "Answers not relevant to ADS401",
+        "count": 2,
+        "pct": 25.0
+      },
+      {
+        "item": "unclear_which",
+        "label": "Unclear which XJTLU AI to use",
+        "count": 1,
+        "pct": 12.5
+      },
+      {
+        "item": "functions_insufficient",
+        "label": "Functions insufficient",
+        "count": 1,
+        "pct": 12.5
+      },
+      {
+        "item": "uncertain_permission",
+        "label": "Uncertain about course permission",
+        "count": 1,
+        "pct": 12.5
+      },
+      {
+        "item": "privacy",
+        "label": "Privacy or data concerns",
+        "count": 1,
+        "pct": 12.5
+      },
+      {
+        "item": "hard_prompts",
+        "label": "Hard to formulate prompts",
+        "count": 0,
+        "pct": 0.0
+      },
+      {
+        "item": "time_consuming",
+        "label": "Time-consuming to verify or revise",
+        "count": 0,
+        "pct": 0.0
+      },
+      {
+        "item": "inconvenient",
+        "label": "Inconvenient access/login/workflow",
+        "count": 0,
+        "pct": 0.0
+      },
+      {
+        "item": "other",
+        "label": "Other activity",
+        "count": 0,
+        "pct": 0.0
+      }
+    ],
+    "n": 8
+  },
+  "q16": {
+    "items": [
+      {
+        "item": "prefer_external",
+        "label": "Prefer External AI",
+        "count": 10,
+        "pct": 52.6
+      },
+      {
+        "item": "unclear_what",
+        "label": "Unclear what it can do",
+        "count": 8,
+        "pct": 42.1
+      },
+      {
+        "item": "previously_unaware",
+        "label": "Previously unaware",
+        "count": 5,
+        "pct": 26.3
+      },
+      {
+        "item": "no_suitable_task",
+        "label": "No suitable ADS401 task",
+        "count": 5,
+        "pct": 26.3
+      },
+      {
+        "item": "unsure_access",
+        "label": "Unsure how to access",
+        "count": 4,
+        "pct": 21.1
+      },
+      {
+        "item": "concerned_inaccurate",
+        "label": "Concerned about inaccurate answers",
+        "count": 4,
+        "pct": 21.1
+      },
+      {
+        "item": "prefer_nonai",
+        "label": "Prefer non-AI methods",
+        "count": 3,
+        "pct": 15.8
+      },
+      {
+        "item": "unsure_permitted",
+        "label": "Unsure if AI use permitted",
+        "count": 2,
+        "pct": 10.5
+      },
+      {
+        "item": "privacy",
+        "label": "Privacy/data concerns",
+        "count": 2,
+        "pct": 10.5
+      },
+      {
+        "item": "other",
+        "label": "Other activity",
+        "count": 1,
+        "pct": 5.3
+      },
+      {
+        "item": "past_unsatisfactory",
+        "label": "Past experience unsatisfactory",
+        "count": 0,
+        "pct": 0.0
+      },
+      {
+        "item": "access_inconvenient",
+        "label": "Access or operation seemed inconvenient",
+        "count": 0,
+        "pct": 0.0
+      }
+    ],
+    "n": 19
+  },
+  "q20": {
+    "items": [
+      {
+        "item": "accuracy",
+        "label": "Accuracy or reliability",
+        "count": 17,
+        "pct": 63.0
+      },
+      {
+        "item": "speed",
+        "label": "Speed",
+        "count": 12,
+        "pct": 44.4
+      },
+      {
+        "item": "task_relevance",
+        "label": "Task relevance",
+        "count": 10,
+        "pct": 37.0
+      },
+      {
+        "item": "ease",
+        "label": "Ease of use",
+        "count": 8,
+        "pct": 29.6
+      },
+      {
+        "item": "chinese",
+        "label": "Chinese-language support",
+        "count": 4,
+        "pct": 14.8
+      },
+      {
+        "item": "familiarity",
+        "label": "Familiarity",
+        "count": 3,
+        "pct": 11.1
+      },
+      {
+        "item": "suitable_features",
+        "label": "Suitable features",
+        "count": 3,
+        "pct": 11.1
+      },
+      {
+        "item": "university_rec",
+        "label": "University recommendation",
+        "count": 2,
+        "pct": 7.4
+      },
+      {
+        "item": "accessibility",
+        "label": "Accessibility",
+        "count": 1,
+        "pct": 3.7
+      },
+      {
+        "item": "quota",
+        "label": "Quota or cost",
+        "count": 1,
+        "pct": 3.7
+      },
+      {
+        "item": "other",
+        "label": "Other activity",
+        "count": 0,
+        "pct": 0.0
+      }
+    ],
+    "n": 27
+  },
+  "q21": {
+    "items": [
+      {
+        "item": "accurate_answers",
+        "label": "More accurate course answers",
+        "count": 15,
+        "pct": 55.6
+      },
+      {
+        "item": "research_method",
+        "label": "Research-method support",
+        "count": 8,
+        "pct": 29.6
+      },
+      {
+        "item": "doc_kb",
+        "label": "Document/knowledge-base support",
+        "count": 7,
+        "pct": 25.9
+      },
+      {
+        "item": "writing",
+        "label": "Writing/summaries/planning",
+        "count": 7,
+        "pct": 25.9
+      },
+      {
+        "item": "ads401_examples",
+        "label": "ADS401-specific examples",
+        "count": 5,
+        "pct": 18.5
+      },
+      {
+        "item": "survey_design",
+        "label": "Survey/interview design support",
+        "count": 4,
+        "pct": 14.8
+      },
+      {
+        "item": "navigation",
+        "label": "Clearer navigation",
+        "count": 3,
+        "pct": 11.1
+      },
+      {
+        "item": "guidance",
+        "label": "Clear course-use guidance",
+        "count": 2,
+        "pct": 7.4
+      },
+      {
+        "item": "privacy_transparency",
+        "label": "Privacy/data transparency",
+        "count": 1,
+        "pct": 3.7
+      },
+      {
+        "item": "other",
+        "label": "Other activity",
+        "count": 0,
+        "pct": 0.0
+      }
+    ],
+    "n": 27
+  },
+  "paired": [
+    {
+      "category": "campus",
+      "label": "Campus resources",
+      "n_pairs": 5,
+      "mean_xjtu": 3.0,
+      "mean_ext": 2.6,
+      "median_diff": 0,
+      "n": 3,
+      "W+": 4.5,
+      "W-": 1.5,
+      "W": 1.5,
+      "z": -0.816,
+      "p": 0.4142,
+      "r": -0.471,
+      "sig": false
+    },
+    {
+      "category": "within",
+      "label": "In-course content",
+      "n_pairs": 1,
+      "mean_xjtu": 2.0,
+      "mean_ext": 3.0,
+      "median_diff": -1,
+      "n": 1,
+      "W+": 0,
+      "W-": 1.0,
+      "W": 0,
+      "z": -1.0,
+      "p": 0.3173,
+      "r": -1.0,
+      "sig": false
+    },
+    {
+      "category": "beyond",
+      "label": "Beyond-course support",
+      "n_pairs": 0,
+      "mean_xjtu": null,
+      "mean_ext": null,
+      "median_diff": null
+    },
+    {
+      "category": "policy",
+      "label": "ADS401 policy",
+      "n_pairs": 0,
+      "mean_xjtu": null,
+      "mean_ext": null,
+      "median_diff": null
+    },
+    {
+      "category": "prod",
+      "label": "Coursework production",
+      "n_pairs": 1,
+      "mean_xjtu": 4.0,
+      "mean_ext": 4.0,
+      "median_diff": 0
+    }
+  ],
+  "sign_q19": [
+    {
+      "dimension": "campus",
+      "label": "Campus resources",
+      "xjtu": 1,
+      "same": 1,
+      "ext": 4,
+      "unable": 1,
+      "p": 0.375,
+      "n": 5,
+      "sig": false
+    },
+    {
+      "dimension": "within",
+      "label": "In-course content",
+      "xjtu": 1,
+      "same": 2,
+      "ext": 3,
+      "unable": 1,
+      "p": 0.625,
+      "n": 4,
+      "sig": false
+    },
+    {
+      "dimension": "beyond",
+      "label": "Beyond-course support",
+      "xjtu": 1,
+      "same": 1,
+      "ext": 4,
+      "unable": 1,
+      "p": 0.375,
+      "n": 5,
+      "sig": false
+    },
+    {
+      "dimension": "policy",
+      "label": "ADS401 policy",
+      "xjtu": 0,
+      "same": 3,
+      "ext": 2,
+      "unable": 2,
+      "p": 0.5,
+      "n": 2,
+      "sig": false
+    },
+    {
+      "dimension": "prod",
+      "label": "Coursework production",
+      "xjtu": 1,
+      "same": 1,
+      "ext": 4,
+      "unable": 1,
+      "p": 0.375,
+      "n": 5,
+      "sig": false
+    },
+    {
+      "dimension": "other",
+      "label": "Other activity",
+      "xjtu": 0,
+      "same": 0,
+      "ext": 0,
+      "unable": 0,
+      "p": null,
+      "n": 0,
+      "sig": false
+    },
+    {
+      "dimension": "overall",
+      "label": "Overall preference",
+      "xjtu": 1,
+      "same": 1,
+      "ext": 4,
+      "unable": 1,
+      "p": 0.375,
+      "n": 5,
+      "sig": false
+    }
+  ],
+  "corr": {
+    "labels": [
+      "PU",
+      "PEOU",
+      "Trust",
+      "Verif(Q12)",
+      "Continue(Q15)"
+    ],
+    "r": [
+      [
+        1.0,
+        0.936,
+        0.86,
+        -0.626,
+        0.591
+      ],
+      [
+        0.936,
+        1.0,
+        0.889,
+        -0.626,
+        0.387
+      ],
+      [
+        0.86,
+        0.889,
+        1.0,
+        -0.254,
+        0.596
+      ],
+      [
+        -0.626,
+        -0.626,
+        -0.254,
+        1.0,
+        0.019
+      ],
+      [
+        0.591,
+        0.387,
+        0.596,
+        0.019,
+        1.0
+      ]
+    ],
+    "p": [
+      [
+        null,
+        0.0019,
+        0.0131,
+        0.1835,
+        0.1626
+      ],
+      [
+        0.0019,
+        null,
+        0.0074,
+        0.1835,
+        0.391
+      ],
+      [
+        0.0131,
+        0.0074,
+        null,
+        0.6268,
+        0.1576
+      ],
+      [
+        0.1835,
+        0.1835,
+        0.6268,
+        null,
+        0.9674
+      ],
+      [
+        0.1626,
+        0.391,
+        0.1576,
+        0.9674,
+        null
+      ]
+    ],
+    "n": [
+      [
+        null,
+        7,
+        7,
+        6,
+        7
+      ],
+      [
+        7,
+        null,
+        7,
+        6,
+        7
+      ],
+      [
+        7,
+        7,
+        null,
+        6,
+        7
+      ],
+      [
+        6,
+        6,
+        6,
+        null,
+        7
+      ],
+      [
+        7,
+        7,
+        7,
+        7,
+        null
+      ]
+    ]
+  },
+  "q6_adr": {
+    "r": -0.17,
+    "p": 0.3978,
+    "n": 27,
+    "t": -0.86
+  },
+  "q6_adr_scatter": [
+    {
+      "q6": 2,
+      "adr": 3
+    },
+    {
+      "q6": 4,
+      "adr": 0
+    },
+    {
+      "q6": 1,
+      "adr": 3
+    },
+    {
+      "q6": 4,
+      "adr": 2
+    },
+    {
+      "q6": 4,
+      "adr": 1
+    },
+    {
+      "q6": 3,
+      "adr": 4
+    },
+    {
+      "q6": 3,
+      "adr": 2
+    },
+    {
+      "q6": 5,
+      "adr": 1
+    },
+    {
+      "q6": 2,
+      "adr": 3
+    },
+    {
+      "q6": 5,
+      "adr": 1
+    },
+    {
+      "q6": 5,
+      "adr": 4
+    },
+    {
+      "q6": 5,
+      "adr": 1
+    },
+    {
+      "q6": 5,
+      "adr": 3
+    },
+    {
+      "q6": 2,
+      "adr": 1
+    },
+    {
+      "q6": 3,
+      "adr": 1
+    },
+    {
+      "q6": 5,
+      "adr": 1
+    },
+    {
+      "q6": 5,
+      "adr": 1
+    },
+    {
+      "q6": 4,
+      "adr": 2
+    },
+    {
+      "q6": 4,
+      "adr": 3
+    },
+    {
+      "q6": 3,
+      "adr": 1
+    },
+    {
+      "q6": 2,
+      "adr": 2
+    },
+    {
+      "q6": 2,
+      "adr": 2
+    },
+    {
+      "q6": 5,
+      "adr": 3
+    },
+    {
+      "q6": 5,
+      "adr": 2
+    },
+    {
+      "q6": 3,
+      "adr": 2
+    },
+    {
+      "q6": 5,
+      "adr": 2
+    },
+    {
+      "q6": 3,
+      "adr": 1
+    }
+  ],
+  "tests": [
+    {
+      "id": "corr_0_1",
+      "test": "Spearman ρ",
+      "comparison": "PU × PEOU",
+      "n": 7,
+      "statistic": "ρ=0.936",
+      "p": 0.0019,
+      "effect": "rho",
+      "effect_size": 0.936,
+      "sig": true,
+      "note": "当前用户（n 见左）"
+    },
+    {
+      "id": "corr_0_2",
+      "test": "Spearman ρ",
+      "comparison": "PU × Trust",
+      "n": 7,
+      "statistic": "ρ=0.860",
+      "p": 0.0131,
+      "effect": "rho",
+      "effect_size": 0.86,
+      "sig": true,
+      "note": "当前用户（n 见左）"
+    },
+    {
+      "id": "corr_0_3",
+      "test": "Spearman ρ",
+      "comparison": "PU × Verif(Q12)",
+      "n": 6,
+      "statistic": "ρ=-0.626",
+      "p": 0.1835,
+      "effect": "rho",
+      "effect_size": -0.626,
+      "sig": false,
+      "note": "当前用户（n 见左）"
+    },
+    {
+      "id": "corr_0_4",
+      "test": "Spearman ρ",
+      "comparison": "PU × Continue(Q15)",
+      "n": 7,
+      "statistic": "ρ=0.591",
+      "p": 0.1626,
+      "effect": "rho",
+      "effect_size": 0.591,
+      "sig": false,
+      "note": "当前用户（n 见左）"
+    },
+    {
+      "id": "corr_1_2",
+      "test": "Spearman ρ",
+      "comparison": "PEOU × Trust",
+      "n": 7,
+      "statistic": "ρ=0.889",
+      "p": 0.0074,
+      "effect": "rho",
+      "effect_size": 0.889,
+      "sig": true,
+      "note": "当前用户（n 见左）"
+    },
+    {
+      "id": "corr_1_3",
+      "test": "Spearman ρ",
+      "comparison": "PEOU × Verif(Q12)",
+      "n": 6,
+      "statistic": "ρ=-0.626",
+      "p": 0.1835,
+      "effect": "rho",
+      "effect_size": -0.626,
+      "sig": false,
+      "note": "当前用户（n 见左）"
+    },
+    {
+      "id": "corr_1_4",
+      "test": "Spearman ρ",
+      "comparison": "PEOU × Continue(Q15)",
+      "n": 7,
+      "statistic": "ρ=0.387",
+      "p": 0.391,
+      "effect": "rho",
+      "effect_size": 0.387,
+      "sig": false,
+      "note": "当前用户（n 见左）"
+    },
+    {
+      "id": "corr_2_3",
+      "test": "Spearman ρ",
+      "comparison": "Trust × Verif(Q12)",
+      "n": 6,
+      "statistic": "ρ=-0.254",
+      "p": 0.6268,
+      "effect": "rho",
+      "effect_size": -0.254,
+      "sig": false,
+      "note": "当前用户（n 见左）"
+    },
+    {
+      "id": "corr_2_4",
+      "test": "Spearman ρ",
+      "comparison": "Trust × Continue(Q15)",
+      "n": 7,
+      "statistic": "ρ=0.596",
+      "p": 0.1576,
+      "effect": "rho",
+      "effect_size": 0.596,
+      "sig": false,
+      "note": "当前用户（n 见左）"
+    },
+    {
+      "id": "corr_3_4",
+      "test": "Spearman ρ",
+      "comparison": "Verif(Q12) × Continue(Q15)",
+      "n": 7,
+      "statistic": "ρ=0.019",
+      "p": 0.9674,
+      "effect": "rho",
+      "effect_size": 0.019,
+      "sig": false,
+      "note": "当前用户（n 见左）"
+    },
+    {
+      "id": "q6_adr",
+      "test": "Spearman ρ",
+      "comparison": "AI 经验(Q6) × 采纳等级",
+      "n": 27,
+      "statistic": "ρ=-0.170",
+      "p": 0.3978,
+      "effect": "rho",
+      "effect_size": -0.17,
+      "sig": false,
+      "note": "全体受访者"
+    },
+    {
+      "id": "pair_campus",
+      "test": "Wilcoxon 配对",
+      "comparison": "Q11a vs Q18b · Campus resources",
+      "n": 3,
+      "statistic": "W=1.5, z=-0.816",
+      "p": 0.4142,
+      "effect": "r",
+      "effect_size": -0.471,
+      "sig": false,
+      "note": "仅「两者都用」者"
+    },
+    {
+      "id": "pair_within",
+      "test": "Wilcoxon 配对",
+      "comparison": "Q11a vs Q18b · In-course content",
+      "n": 1,
+      "statistic": "W=0, z=-1.0",
+      "p": 0.3173,
+      "effect": "r",
+      "effect_size": -1.0,
+      "sig": false,
+      "note": "仅「两者都用」者"
+    },
+    {
+      "id": "sign_campus",
+      "test": "符号检验（二项）",
+      "comparison": "Q19 · Campus resources",
+      "n": 5,
+      "statistic": "西浦=1 vs 外部=4",
+      "p": 0.375,
+      "effect": "方向",
+      "effect_size": -3,
+      "sig": false,
+      "note": "忽略「差不多/无法比较」"
+    },
+    {
+      "id": "sign_within",
+      "test": "符号检验（二项）",
+      "comparison": "Q19 · In-course content",
+      "n": 4,
+      "statistic": "西浦=1 vs 外部=3",
+      "p": 0.625,
+      "effect": "方向",
+      "effect_size": -2,
+      "sig": false,
+      "note": "忽略「差不多/无法比较」"
+    },
+    {
+      "id": "sign_beyond",
+      "test": "符号检验（二项）",
+      "comparison": "Q19 · Beyond-course support",
+      "n": 5,
+      "statistic": "西浦=1 vs 外部=4",
+      "p": 0.375,
+      "effect": "方向",
+      "effect_size": -3,
+      "sig": false,
+      "note": "忽略「差不多/无法比较」"
+    },
+    {
+      "id": "sign_policy",
+      "test": "符号检验（二项）",
+      "comparison": "Q19 · ADS401 policy",
+      "n": 2,
+      "statistic": "西浦=0 vs 外部=2",
+      "p": 0.5,
+      "effect": "方向",
+      "effect_size": -2,
+      "sig": false,
+      "note": "忽略「差不多/无法比较」"
+    },
+    {
+      "id": "sign_prod",
+      "test": "符号检验（二项）",
+      "comparison": "Q19 · Coursework production",
+      "n": 5,
+      "statistic": "西浦=1 vs 外部=4",
+      "p": 0.375,
+      "effect": "方向",
+      "effect_size": -3,
+      "sig": false,
+      "note": "忽略「差不多/无法比较」"
+    },
+    {
+      "id": "sign_overall",
+      "test": "符号检验（二项）",
+      "comparison": "Q19 · Overall preference",
+      "n": 5,
+      "statistic": "西浦=1 vs 外部=4",
+      "p": 0.375,
+      "effect": "方向",
+      "effect_size": -3,
+      "sig": false,
+      "note": "忽略「差不多/无法比较」"
+    },
+    {
+      "id": "mw_q6",
+      "test": "Mann-Whitney U",
+      "comparison": "AI 经验(Q6) · 当前用户 vs 其他",
+      "n": "8+19",
+      "statistic": "U=65.0, z=-0.584",
+      "p": 0.5592,
+      "effect": "r",
+      "effect_size": -0.112,
+      "sig": false,
+      "note": "秩和检验"
+    }
+  ],
+  "n_sig": 3
+}
