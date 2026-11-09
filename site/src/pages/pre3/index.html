@@ -183,6 +183,13 @@ svg a .trace-ref { cursor:pointer; }
 .prior-field-values { display:flex; flex-wrap:wrap; gap:.35rem 1.2rem; align-items:baseline; color:var(--ink); font-size:.85rem; line-height:1.5; }
 .prior-field-values strong { color:var(--accent-deep); font-variant-numeric:tabular-nums; }
 
+
+/* Keep the matched comparison compact; individual rows are highlighted by D3. */
+[data-viz="s-07-paired"] svg { max-height: min(39vh, 430px); width: auto; max-width: 100%; margin: 0 auto; }
+.rating-row-background { transition: fill .12s ease; }
+.pair-row .pair-background { transition: fill .12s ease; }
+@media print { [data-viz="s-07-paired"] svg { max-height: 3.5in !important; } }
+
 /* ---- bottombar ---- */
 .bottombar { height: 52px; flex-shrink: 0; display: flex; align-items: center; justify-content: space-between; gap: 14px; }
 .progress { display: flex; align-items: center; gap: 10px; flex: 1; }
@@ -483,13 +490,13 @@ svg a .trace-ref { cursor:pointer; }
                data-note="This is an observational, explanatory sequential mixed-methods study: a cross-sectional survey followed by seven purposive interviews. Q9 identifies seven both-users, fifteen external-only, four neither, and one XJTLU-only record. These are not experimental conditions.">
         <span class="kicker">Study Design &amp; Data Collection</span>
         <h2 class="section-title">How we collected the evidence</h2>
-        <p class="lead">A non-experimental, cross-sectional online survey followed by purposive interviews. Analysis labels use Q1–Q24; questionnaire v2 contains 27 numbered items. No conditions were assigned.</p>
+        <p class="lead">A non-experimental, cross-sectional online survey followed by purposive interviews. Question references use the 27 numbered items in questionnaire v2. No conditions were assigned.</p>
         <hr class="hairline">
         <div class="slide-body">
 
           <!-- Design pipeline -->
           <div class="pipeline">
-            <div class="pipe-step"><b>Online survey</b><small>Analysis Q1–Q24 · 27 submissions</small></div>
+            <div class="pipe-step"><b>Online survey</b><small>Questionnaire v2 · 27 submissions</small></div>
             <div class="pipe-arrow">→</div>
             <div class="pipe-step"><b>Four groups</b><small>Q9 · usage split</small></div>
             <div class="pipe-arrow">→</div>
@@ -505,11 +512,11 @@ svg a .trace-ref { cursor:pointer; }
             <div>
               <h3 class="block-head">Branching logic (Q9)</h3>
               <div class="branch">
-                <code>Both</code> → Q10–Q15 + Q18–Q18b + Q19<br>
-                <code>XJTLU only</code> → Q10–Q15<br>
-                <code>External only</code> → Q16–Q17 + Q18–Q18b<br>
-                <code>Neither</code> → Q16–Q17<br>
-                <span style="color:var(--muted)">Q1 consent · Q23 → Q24 interview opt-in</span>
+                <code>Both</code> → Q10–Q16 + Q19–Q21 + Q22<br>
+                <code>XJTLU only</code> → Q10–Q16<br>
+                <code>External only</code> → Q17–Q18 + Q19–Q21<br>
+                <code>Neither</code> → Q17–Q18<br>
+                <span style="color:var(--muted)">Q1 consent · Q26 → Q27 interview opt-in</span>
               </div>
             </div>
           </div>
@@ -527,7 +534,7 @@ svg a .trace-ref { cursor:pointer; }
         <hr class="hairline">
         <div class="slide-body">
           <div class="viz" data-viz="s-03-funnel"></div>
-          <p class="footnote"><a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#so-far-how-familiar-are-you-with-xjtlu-ai">Q7</a> · <a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#have-you-ever-used-xjtlu-ai">Q8</a> · <a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#during-the-past-four-weeks-which-statement-best-describes-your-use-of-ai-for-ads401-learning-activities-select-one">Q9</a> · <a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#how-many-times-did-you-use-xjtlu-ai-for-ads401-learning-during-the-past-four-weeks">Q10</a> — percentages use all 27 submissions. Q8 has one missing answer; a missing answer is not a “No”. Cross-sectional; states are not necessarily nested.</p>
+          <p class="footnote"><a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#7-so-far-how-familiar-are-you-with-xjtlu-ai">Q7</a> · <a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#8-have-you-ever-used-xjtlu-ai">Q8</a> · <a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#9-during-the-past-four-weeks-which-statement-best-describes-your-use-of-ai-for-ads401-learning-activities-select-one">Q9</a> · <a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#10-how-many-times-did-you-use-xjtlu-ai-for-ads401-learning-during-the-past-four-weeks">Q10</a> — percentages use all 27 submissions. Q8 has one missing answer; a missing answer is not a “No”. Cross-sectional; states are not necessarily nested.</p>
         </div>
         <p class="takeaway">Students broadly know XJTLU AI, but only 8 report using it in the past four weeks.</p>
       </section>
@@ -541,7 +548,7 @@ svg a .trace-ref { cursor:pointer; }
         <hr class="hairline">
         <div class="slide-body">
           <div class="viz" data-viz="s-04-activity"></div>
-          <p class="footnote"><a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#for-which-broad-categories-of-ads401-learning-activities-did-you-use-xjtlu-ai-in-the-past-four-weeks-select-all-that-apply">Q11</a> (n=8) · <a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#for-which-broad-categories-of-ads401-learning-activities-did-you-use-external-ai-in-the-past-four-weeks-select-all-that-apply">Q18</a> (n=22) — multi-select. Q11 “campus resources” = 8/8, pending form audit. Hover bars for count &amp; share.</p>
+          <p class="footnote"><a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#11-for-which-broad-categories-of-ads401-learning-activities-did-you-use-xjtlu-ai-in-the-past-four-weeks-select-all-that-apply">Q11</a> (n=8) · <a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#20-for-which-broad-categories-of-ads401-learning-activities-did-you-use-external-ai-in-the-past-four-weeks-select-all-that-apply">Q20</a> (n=22) — multi-select. Q11 “campus resources” = 8/8, pending form audit. Hover bars for count &amp; share.</p>
         </div>
         <p class="takeaway">XJTLU AI is reported mainly for campus resources; external AI is used across learning tasks.</p>
       </section>
@@ -550,9 +557,9 @@ svg a .trace-ref { cursor:pointer; }
       <section class="slide" data-label="RQ3 · Perceived Experience" data-note="Each of six perception items has seven valid ratings and one N/A. At least five ratings per item are neutral or negative. Median efficiency and task-specific ease are two; all others are three. Questionnaire v2 Q14 maps by item wording to analysis Q13. This does not validate TAM.">
 <span class="kicker">RQ3 · Perceived Experience</span>
 <h2 class="section-title">At least 5 of 7 ratings are neutral or negative on every item</h2>
-<p class="lead">Recent XJTLU AI users (G1 + G4, n=8). Each dot is one valid answer; repeated ratings are stacked, not smoothed. Each item has 7 valid answers + 1 N/A.</p>
+<p class="lead">Eight recent XJTLU AI users (G1 + G4) answered; each statement has seven ratings and one N/A.</p>
 <hr class="hairline"><div class="slide-body"><div class="viz" data-viz="s-05-observed"><svg viewBox="0 0 1080 390" role="img" aria-labelledby="perception-title perception-desc"><g aria-hidden="true"><rect x="0" y="51" width="1080" height="53" fill="#f4f7f7"/><rect x="0" y="157" width="1080" height="53" fill="#f4f7f7"/><rect x="0" y="263" width="1080" height="53" fill="#f4f7f7"/></g><title id="perception-title">Six perception items: seven observed ratings and one N/A each</title><desc id="perception-desc">One dot per valid answer, stacked vertically at its integer rating. Medians are 3, 2, 3, 2, 3, 3. At least five of seven ratings per item are at or below neutral.</desc><line x1="555" x2="555" y1="49" y2="368" stroke="#e4e9ea"/><text x="555" y="20" text-anchor="middle" font-size="14" fill="#172327">1</text><line x1="635" x2="635" y1="49" y2="368" stroke="#e4e9ea"/><text x="635" y="20" text-anchor="middle" font-size="14" fill="#172327">2</text><line x1="715" x2="715" y1="49" y2="368" stroke="#e4e9ea"/><text x="715" y="20" text-anchor="middle" font-size="14" fill="#172327">3</text><line x1="795" x2="795" y1="49" y2="368" stroke="#e4e9ea"/><text x="795" y="20" text-anchor="middle" font-size="14" fill="#172327">4</text><line x1="875" x2="875" y1="49" y2="368" stroke="#e4e9ea"/><text x="875" y="20" text-anchor="middle" font-size="14" fill="#172327">5</text><text x="530" y="40" font-size="12" fill="#687780">Disagree</text><text x="715" y="40" text-anchor="middle" font-size="12" fill="#687780">Neutral</text><text x="900" y="40" text-anchor="end" font-size="12" fill="#687780">Agree</text><text x="955" y="25" text-anchor="middle" font-size="13" fill="#687780">Median</text><text x="1035" y="25" text-anchor="middle" font-size="13" fill="#687780">N/A</text><text x="0" y="72" font-size="17" fill="#172327">Helps complete ADS401 tasks</text><text x="0" y="90" font-size="17" fill="#172327">more effectively</text><circle cx="635" cy="71.5" r="4.5" fill="#d98c86"><title>Helps complete ADS401 tasks more effectively: rating 2, 2/7 responses at this rating</title></circle><circle cx="635" cy="82.5" r="4.5" fill="#d98c86"><title>Helps complete ADS401 tasks more effectively: rating 2, 2/7 responses at this rating</title></circle><circle cx="715" cy="60.5" r="4.5" fill="#aca2a9"><title>Helps complete ADS401 tasks more effectively: rating 3, 4/7 responses at this rating</title></circle><circle cx="715" cy="71.5" r="4.5" fill="#aca2a9"><title>Helps complete ADS401 tasks more effectively: rating 3, 4/7 responses at this rating</title></circle><circle cx="715" cy="82.5" r="4.5" fill="#aca2a9"><title>Helps complete ADS401 tasks more effectively: rating 3, 4/7 responses at this rating</title></circle><circle cx="715" cy="93.5" r="4.5" fill="#aca2a9"><title>Helps complete ADS401 tasks more effectively: rating 3, 4/7 responses at this rating</title></circle><circle cx="795" cy="77.0" r="4.5" fill="#7fb8cc"><title>Helps complete ADS401 tasks more effectively: rating 4, 1/7 responses at this rating</title></circle><text x="955" y="82" text-anchor="middle" font-size="17" font-weight="700" fill="#1683a5">3</text><text x="1035" y="82" text-anchor="middle" font-size="16" fill="#687780">1</text><text x="0" y="125" font-size="17" fill="#172327">Helps complete ADS401 tasks</text><text x="0" y="143" font-size="17" fill="#172327">more efficiently</text><circle cx="555" cy="130.0" r="4.5" fill="#b3403a"><title>Helps complete ADS401 tasks more efficiently: rating 1, 1/7 responses at this rating</title></circle><circle cx="635" cy="119.0" r="4.5" fill="#d98c86"><title>Helps complete ADS401 tasks more efficiently: rating 2, 3/7 responses at this rating</title></circle><circle cx="635" cy="130.0" r="4.5" fill="#d98c86"><title>Helps complete ADS401 tasks more efficiently: rating 2, 3/7 responses at this rating</title></circle><circle cx="635" cy="141.0" r="4.5" fill="#d98c86"><title>Helps complete ADS401 tasks more efficiently: rating 2, 3/7 responses at this rating</title></circle><circle cx="715" cy="124.5" r="4.5" fill="#aca2a9"><title>Helps complete ADS401 tasks more efficiently: rating 3, 2/7 responses at this rating</title></circle><circle cx="715" cy="135.5" r="4.5" fill="#aca2a9"><title>Helps complete ADS401 tasks more efficiently: rating 3, 2/7 responses at this rating</title></circle><circle cx="795" cy="130.0" r="4.5" fill="#7fb8cc"><title>Helps complete ADS401 tasks more efficiently: rating 4, 1/7 responses at this rating</title></circle><text x="955" y="135" text-anchor="middle" font-size="17" font-weight="700" fill="#1683a5">2</text><text x="1035" y="135" text-anchor="middle" font-size="16" fill="#687780">1</text><text x="0" y="188" font-size="17" fill="#172327">Easy to learn how to use</text><circle cx="635" cy="177.5" r="4.5" fill="#d98c86"><title>Easy to learn how to use: rating 2, 2/7 responses at this rating</title></circle><circle cx="635" cy="188.5" r="4.5" fill="#d98c86"><title>Easy to learn how to use: rating 2, 2/7 responses at this rating</title></circle><circle cx="715" cy="172.0" r="4.5" fill="#aca2a9"><title>Easy to learn how to use: rating 3, 3/7 responses at this rating</title></circle><circle cx="715" cy="183.0" r="4.5" fill="#aca2a9"><title>Easy to learn how to use: rating 3, 3/7 responses at this rating</title></circle><circle cx="715" cy="194.0" r="4.5" fill="#aca2a9"><title>Easy to learn how to use: rating 3, 3/7 responses at this rating</title></circle><circle cx="795" cy="177.5" r="4.5" fill="#7fb8cc"><title>Easy to learn how to use: rating 4, 2/7 responses at this rating</title></circle><circle cx="795" cy="188.5" r="4.5" fill="#7fb8cc"><title>Easy to learn how to use: rating 4, 2/7 responses at this rating</title></circle><text x="955" y="188" text-anchor="middle" font-size="17" font-weight="700" fill="#1683a5">3</text><text x="1035" y="188" text-anchor="middle" font-size="16" fill="#687780">1</text><text x="0" y="241" font-size="17" fill="#172327">Easy to use for my ADS401 tasks</text><circle cx="555" cy="236.0" r="4.5" fill="#b3403a"><title>Easy to use for my ADS401 tasks: rating 1, 1/7 responses at this rating</title></circle><circle cx="635" cy="225.0" r="4.5" fill="#d98c86"><title>Easy to use for my ADS401 tasks: rating 2, 3/7 responses at this rating</title></circle><circle cx="635" cy="236.0" r="4.5" fill="#d98c86"><title>Easy to use for my ADS401 tasks: rating 2, 3/7 responses at this rating</title></circle><circle cx="635" cy="247.0" r="4.5" fill="#d98c86"><title>Easy to use for my ADS401 tasks: rating 2, 3/7 responses at this rating</title></circle><circle cx="715" cy="236.0" r="4.5" fill="#aca2a9"><title>Easy to use for my ADS401 tasks: rating 3, 1/7 responses at this rating</title></circle><circle cx="795" cy="236.0" r="4.5" fill="#7fb8cc"><title>Easy to use for my ADS401 tasks: rating 4, 1/7 responses at this rating</title></circle><circle cx="875" cy="236.0" r="4.5" fill="#1683a5"><title>Easy to use for my ADS401 tasks: rating 5, 1/7 responses at this rating</title></circle><text x="955" y="241" text-anchor="middle" font-size="17" font-weight="700" fill="#1683a5">2</text><text x="1035" y="241" text-anchor="middle" font-size="16" fill="#687780">1</text><text x="0" y="284" font-size="17" fill="#172327">Usually provides information</text><text x="0" y="302" font-size="17" fill="#172327">I consider reliable</text><circle cx="635" cy="283.5" r="4.5" fill="#d98c86"><title>Usually provides information I consider reliable: rating 2, 2/7 responses at this rating</title></circle><circle cx="635" cy="294.5" r="4.5" fill="#d98c86"><title>Usually provides information I consider reliable: rating 2, 2/7 responses at this rating</title></circle><circle cx="715" cy="278.0" r="4.5" fill="#aca2a9"><title>Usually provides information I consider reliable: rating 3, 3/7 responses at this rating</title></circle><circle cx="715" cy="289.0" r="4.5" fill="#aca2a9"><title>Usually provides information I consider reliable: rating 3, 3/7 responses at this rating</title></circle><circle cx="715" cy="300.0" r="4.5" fill="#aca2a9"><title>Usually provides information I consider reliable: rating 3, 3/7 responses at this rating</title></circle><circle cx="795" cy="289.0" r="4.5" fill="#7fb8cc"><title>Usually provides information I consider reliable: rating 4, 1/7 responses at this rating</title></circle><circle cx="875" cy="289.0" r="4.5" fill="#1683a5"><title>Usually provides information I consider reliable: rating 5, 1/7 responses at this rating</title></circle><text x="955" y="294" text-anchor="middle" font-size="17" font-weight="700" fill="#1683a5">3</text><text x="1035" y="294" text-anchor="middle" font-size="16" fill="#687780">1</text><text x="0" y="347" font-size="17" fill="#172327">I generally trust XJTLU AI’s explanations</text><circle cx="635" cy="336.5" r="4.5" fill="#d98c86"><title>I generally trust XJTLU AI’s explanations: rating 2, 2/7 responses at this rating</title></circle><circle cx="635" cy="347.5" r="4.5" fill="#d98c86"><title>I generally trust XJTLU AI’s explanations: rating 2, 2/7 responses at this rating</title></circle><circle cx="715" cy="325.5" r="4.5" fill="#aca2a9"><title>I generally trust XJTLU AI’s explanations: rating 3, 4/7 responses at this rating</title></circle><circle cx="715" cy="336.5" r="4.5" fill="#aca2a9"><title>I generally trust XJTLU AI’s explanations: rating 3, 4/7 responses at this rating</title></circle><circle cx="715" cy="347.5" r="4.5" fill="#aca2a9"><title>I generally trust XJTLU AI’s explanations: rating 3, 4/7 responses at this rating</title></circle><circle cx="715" cy="358.5" r="4.5" fill="#aca2a9"><title>I generally trust XJTLU AI’s explanations: rating 3, 4/7 responses at this rating</title></circle><circle cx="795" cy="342.0" r="4.5" fill="#7fb8cc"><title>I generally trust XJTLU AI’s explanations: rating 4, 1/7 responses at this rating</title></circle><text x="955" y="347" text-anchor="middle" font-size="17" font-weight="700" fill="#1683a5">3</text><text x="1035" y="347" text-anchor="middle" font-size="16" fill="#687780">1</text></svg></div>
-<p class="footnote">Questionnaire v2: <a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#14-based-on-your-overall-experience-using-xjtlu-ai-in-ads401-how-much-do-you-agree-with-these-statements-select-na-if-you-cannot-judge" target="_blank" rel="noopener noreferrer">Q14</a> · Analysis/codebook: Q13 (q13_*); matched by the six item wordings. Scale: 1 strongly disagree → 5 strongly agree; N/A excluded from medians. Source: <a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md" target="_blank" rel="noopener noreferrer">questionnaire</a> + survey_wide.csv (research dataset). Item wording omits the repeated subject “XJTLU AI”.</p>
+<p class="footnote">Each dot is one answer. 1 means strongly disagree; 3 is neutral; 5 means strongly agree. Median is the middle rating; N/A means no rating. <a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#14-based-on-your-overall-experience-using-xjtlu-ai-in-ads401-how-much-do-you-agree-with-these-statements-select-na-if-you-cannot-judge" target="_blank" rel="noopener noreferrer">Q14</a>.</p>
 </div><p class="takeaway">Efficiency and ease of use for ADS401 tasks have median 2; the other items have median 3. Small-sample descriptions, not TAM validation.</p></section>
 
       <!-- ─────────────── SLIDE 6 · RQ3 Barriers & Comparison ─────────────── -->
@@ -573,7 +580,7 @@ svg a .trace-ref { cursor:pointer; }
               <div class="viz" data-viz="s-06-pref"></div>
             </div>
           </div>
-          <p class="footnote"><a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#what-are-your-main-reasons-for-not-using-xjtlu-ai-for-ads401-during-the-past-four-weeks-select-up-to-3">Q16</a> (G2) · <a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#for-each-activity-category-where-you-used-both-xjtlu-ai-and-external-ai-in-the-past-four-weeks-which-worked-better-in-your-actual-experience-choose-unable-to-compare-where-appropriate">Q19</a> (G1). “Unable to compare” is a real response, not missing data.</p>
+          <p class="footnote"><a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#17-what-are-your-main-reasons-for-not-using-xjtlu-ai-for-ads401-during-the-past-four-weeks-select-up-to-3">Q17</a> (G2) · <a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#22-for-each-activity-category-where-you-used-both-xjtlu-ai-and-external-ai-in-the-past-four-weeks-which-worked-better-in-your-actual-experience-choose-unable-to-compare-where-appropriate">Q22</a> (G1). “Unable to compare” is a real response, not missing data.</p>
         </div>
         <p class="takeaway">Preference and unclear capabilities are the most selected reasons among G2; preferences are self-reported.</p>
       </section>
@@ -582,14 +589,14 @@ svg a .trace-ref { cursor:pointer; }
       <section class="slide" data-label="Matched Comparison"
                data-note="For the same campus-resource activity, only five valid paired ratings are available: two favour XJTLU, two tie, and one favours external. Median difference is zero. Other activities have zero or one pair; this establishes neither equivalence nor superiority.">
         <span class="kicker">Matched Comparison</span>
-        <h2 class="section-title">No consistent edge where both tools were used</h2>
-        <p class="lead">Paired usefulness ratings (Q11a × Q18b) for the same activity among both-users (<span class="g-tag g1">G1</span>, n=7). Campus resources provides the largest available set of valid pairs (5).</p>
+        <h2 class="section-title">Ratings vary across five matched pairs</h2>
+        <p class="lead">Each row compares the two original usefulness ratings for finding campus resources. Higher scores mean more useful.</p>
         <hr class="hairline">
         <div class="slide-body">
           <div class="viz" data-viz="s-07-paired"></div>
-          <p class="footnote"><a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#for-each-activity-category-rate-how-useful-xjtlu-ai-was-in-your-actual-experience-select-na-for-categories-you-did-not-use-it-for">Q11a</a> × <a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#for-each-activity-category-rate-how-useful-external-ai-was-in-your-actual-experience-select-na-for-categories-you-did-not-use-it-for">Q18b</a> · valid pairs: campus 5, within 1, production 1 (0 elsewhere). Median difference = 0.</p>
+          <p class="footnote">Each highlighted circle marks the selected score on the 1–5 scale. The last column shows which rating is higher and by how many points. <a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#12-for-each-activity-category-rate-how-useful-xjtlu-ai-was-in-your-actual-experience-select-na-for-categories-you-did-not-use-it-for">Q12</a> · <a class="q-link" href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#21-for-each-activity-category-rate-how-useful-external-ai-was-in-your-actual-experience-select-na-for-categories-you-did-not-use-it-for">Q21</a></p>
         </div>
-        <p class="takeaway">A median difference of 0 shows no consistent advantage — not equivalence, not a quality verdict.</p>
+        <p class="takeaway">Two pairs are tied, two rate XJTLU higher, and one rates external AI higher. Five pairs cannot establish overall superiority or equivalence.</p>
       </section>
 
       <!-- ─────────────── SLIDE 9 · Interviews: coding & themes ─────────────── -->
@@ -611,7 +618,7 @@ svg a .trace-ref { cursor:pointer; }
             <div>
               <div class="participant-section">
                 <h3 class="block-head">Participants · 7</h3>
-                <p class="explorer-intro">Group labels describe interview-reported use; they are not verified survey matches. Open a participant to see an excerpt and codes.</p>
+                <p class="explorer-intro">Open a participant to read an excerpt and explore the related codes.</p>
                 <p class="status" id="interview-status" role="status">Loading interview coding…</p>
                 <div id="interview-explorer" aria-label="Interview participants and themes"></div>
               </div>
@@ -775,10 +782,17 @@ svg a .trace-ref { cursor:pointer; }
       }
       return;
     }
-    // Preserve native keyboard activation and navigation on interactive controls.
+    // Arrow keys turn slides even after a button or link receives focus.
+    // Widgets that use horizontal arrows for their own navigation keep them.
+    if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+      if (target && target.closest('[role="slider"], [role="tablist"], [role="radiogroup"], [role="menu"], [role="listbox"], [role="combobox"]')) return;
+      e.preventDefault();
+      go(active + (e.key === 'ArrowRight' ? 1 : -1));
+      return;
+    }
+    // Space and Enter still activate the focused button, link, or disclosure.
     if (target && target.closest('a, button, summary, [role="button"], [role="slider"]')) return;
-    if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); go(active + 1); }
-    else if (e.key === 'ArrowLeft') { e.preventDefault(); go(active - 1); }
+    if (e.key === ' ') { e.preventDefault(); go(active + 1); }
     else if (e.key === 'Home') { e.preventDefault(); go(0); }
     else if (e.key === 'End') { e.preventDefault(); go(nSlides - 1); }
     else if (/^[1-9]$/.test(e.key)) { go(Number(e.key) - 1); }
@@ -1017,54 +1031,53 @@ svg a .trace-ref { cursor:pointer; }
 
   /* ---- matched pairs (Slide 7) ---- */
   App.mount('s-07-paired', function (el) {
-    var css = getComputedStyle(document.documentElement);
-    var cX = css.getPropertyValue('--c-xjtu').trim() || '#1683a5';
-    var cE = css.getPropertyValue('--c-ext').trim() || '#c25e4c';
-    var ink = css.getPropertyValue('--ink-strong').trim() || '#0d1a1e';
-    var muted = css.getPropertyValue('--muted').trim() || '#687780';
-
-    var pairs = [[2, 2], [5, 5], [1, 2], [3, 2], [4, 2]]; // [XJTLU, External]
-    var W = 780, left = 64, plotW = 640, pad = 66, rowH = 62, top = 46;
-    var H = top + pairs.length * rowH + 74;
-    function xs(v) { return left + pad + (v - 1) / 4 * (plotW - 2 * pad); }
-
-    var svg = d3.select(el).append('svg')
-      .attr('viewBox', '0 0 ' + W + ' ' + H)
-      .attr('role', 'img')
-      .attr('aria-label', 'Matched usefulness: five campus-resource pairs, median difference 0');
-
-    // legend
-    var lg = svg.append('g').attr('transform', 'translate(' + left + ',20)');
-    lg.append('circle').attr('cx', 0).attr('cy', 0).attr('r', 6).attr('fill', cX);
-    lg.append('text').attr('x', 11).attr('y', 5).attr('font-size', 12.5).attr('fill', ink).text('XJTLU AI');
-    lg.append('circle').attr('cx', 116).attr('cy', 0).attr('r', 6).attr('fill', cE);
-    lg.append('text').attr('x', 127).attr('y', 5).attr('font-size', 12.5).attr('fill', ink).text('External AI');
-
-    var pTop = top, pBot = top + pairs.length * rowH;
-
-    // gridlines + 1..5 ticks
-    for (var v = 1; v <= 5; v++) {
-      svg.append('line').attr('x1', xs(v)).attr('x2', xs(v)).attr('y1', pTop).attr('y2', pBot)
-        .attr('stroke', '#d6dbdd').attr('stroke-width', 1);
-      svg.append('text').attr('x', xs(v)).attr('y', pBot + 18).attr('text-anchor', 'middle').attr('font-size', 13).attr('fill', muted).text(v);
+    var cX = '#1683a5', cE = '#c25e4c', ink = '#172327', muted = '#687780';
+    var pairs = [[2, 2], [5, 5], [1, 2], [3, 2], [4, 2]]; // [XJTLU AI, External AI]
+    var W = 1050, top = 52, rowH = 54, H = top + pairs.length * rowH + 12;
+    var svg = d3.select(el).append('svg').attr('viewBox', '0 0 ' + W + ' ' + H)
+      .attr('role', 'img').attr('aria-label', 'Five paired campus-resource usefulness ratings. Two ties, two higher XJTLU ratings and one higher external rating.');
+    function header(x, label, color) {
+      svg.append('text').attr('x',x).attr('y',25).attr('fill',color).attr('font-size',16)
+        .attr('font-weight',700).text(label);
     }
-    svg.append('text').attr('x', xs(1)).attr('y', pBot + 36).attr('font-size', 11.5).attr('fill', muted).text('← Less useful');
-    svg.append('text').attr('x', xs(5)).attr('y', pBot + 36).attr('font-size', 11.5).attr('text-anchor', 'end').attr('fill', muted).text('More useful →');
-
-    pairs.forEach(function (p, i) {
-      var y = pTop + i * rowH + rowH / 2;
-      var diff = p[0] - p[1];
-      svg.append('text').attr('x', 0).attr('y', y + 5).attr('font-size', 12).attr('fill', ink).text('Pair ' + (i + 1));
-      svg.append('line').attr('x1', xs(p[0])).attr('x2', xs(p[1])).attr('y1', y).attr('y2', y).attr('stroke', '#7b8c92').attr('stroke-width', 4);
-      svg.append('circle').attr('cx', xs(p[0])).attr('cy', y - (diff === 0 ? 5 : 0)).attr('r', 8.5).attr('fill', cX).attr('stroke', '#fff').attr('stroke-width', 1.6);
-      svg.append('circle').attr('cx', xs(p[1])).attr('cy', y + (diff === 0 ? 5 : 0)).attr('r', 8.5).attr('fill', cE).attr('stroke', '#fff').attr('stroke-width', 1.6);
-      var mid = (xs(p[0]) + xs(p[1])) / 2;
-      svg.append('text').attr('x', mid).attr('y', y - 12).attr('text-anchor', 'middle').attr('font-size', 11)
-        .attr('font-weight', 700).attr('fill', diff === 0 ? muted : (diff > 0 ? cX : cE)).text(diff > 0 ? '+' + diff : diff);
+    header(14,'Pair',ink); header(165,'XJTLU AI',cX); header(455,'External AI',cE); header(750,'Comparison',ink);
+    svg.append('text').attr('x',165).attr('y',44).attr('fill',muted).attr('font-size',12).text('Original rating · 1–5');
+    svg.append('text').attr('x',455).attr('y',44).attr('fill',muted).attr('font-size',12).text('Original rating · 1–5');
+    function rating(row, x, y, value, color, className) {
+      row.append('text').attr('class',className).attr('x',x).attr('y',y+6).attr('font-size',21)
+        .attr('font-weight',700).attr('fill',color).text(value + ' / 5');
+      for (var score=1; score<=5; score++) {
+        row.append('circle').attr('cx',x+92+(score-1)*22).attr('cy',y).attr('r',7)
+          .attr('fill',score===value ? color : '#fff').attr('stroke',score===value ? color : '#aebdc1').attr('stroke-width',1.5);
+      }
+    }
+    pairs.forEach(function(p,i) {
+      var y=top+i*rowH+rowH/2, diff=p[0]-p[1];
+      var result=diff===0 ? 'Same rating' : (diff>0 ? 'XJTLU higher' : 'External higher');
+      var amount=diff===0 ? '' : ' · ' + Math.abs(diff) + (Math.abs(diff)===1 ? ' point' : ' points');
+      var color=diff===0 ? ink : (diff>0 ? cX : cE);
+      var row=svg.append('g').attr('class','pair-row').attr('tabindex',0).attr('role','img')
+        .attr('aria-label','Pair '+(i+1)+': XJTLU '+p[0]+' out of 5, external '+p[1]+' out of 5. '+result+amount);
+      var base=i%2===0?'#f3f6f6':'#fff';
+      var bg=row.append('rect').attr('class','pair-background').attr('x',0).attr('y',top+i*rowH).attr('width',W).attr('height',rowH).attr('fill',base);
+      row.on('mouseenter focusin',function(){bg.attr('fill','#dceef3');}).on('mouseleave focusout',function(){bg.attr('fill',base);});
+      row.append('text').attr('x',14).attr('y',y+6).attr('font-size',16).attr('fill',ink).text('Pair '+(i+1));
+      rating(row,165,y,p[0],cX,'raw-rating raw-xjtl');
+      rating(row,455,y,p[1],cE,'raw-rating raw-external');
+      row.append('text').attr('x',750).attr('y',y+6).attr('font-size',16).attr('font-weight',700).attr('fill',color).text(result+amount);
     });
+  });
 
-    svg.append('text').attr('x', W / 2).attr('y', pBot + 58).attr('text-anchor', 'middle').attr('font-size', 12.5).attr('fill', ink)
-      .text('Median difference = 0 — no consistent edge (n = 5 matched pairs)');
+  /* Highlight one rating row without obscuring dot tooltips. */
+  App.mount('s-05-observed', function(el) {
+    var svg=d3.select(el).select('svg'), bg=svg.select('g[aria-hidden="true"]');
+    var rows=bg.selectAll('rect').data(d3.range(6)).join('rect').attr('class','rating-row-background')
+      .attr('x',0).attr('y',function(i){return 51+i*53;}).attr('width',1080).attr('height',53)
+      .attr('fill',function(i){return i%2===0?'#f4f7f7':'#fff';});
+    svg.on('pointermove',function(event){
+      var y=d3.pointer(event,this)[1], row=Math.floor((y-51)/53);
+      rows.attr('fill',function(i){return i===row?'#dceef3':(i%2===0?'#f4f7f7':'#fff');});
+    }).on('pointerleave',function(){rows.attr('fill',function(i){return i%2===0?'#f4f7f7':'#fff';});});
   });
 
   /* ---- agreement distribution: violin plot (Slide 6 · new) ---- */
@@ -1129,8 +1142,7 @@ svg a .trace-ref { cursor:pointer; }
         var personSummary=ds.append('summary');
         personSummary.append('span').each(function(p){
           var item=d3.select(this); item.append('span').text(p.id+' · ');
-          item.append('span').attr('class','participant-group').attr('title',p.group && p.group.basis ? p.group.basis : 'Interview group not recorded.').text(p.group && p.group.label ? p.group.label : 'Unclear');
-          item.append('span').text(' · '+p.codes.length+' codes');
+          item.append('span').text(p.codes.length+' codes');
         });
         var bodies=ds.append('div').attr('class','detail-body');
         bodies.each(function(p){
@@ -1165,7 +1177,7 @@ svg a .trace-ref { cursor:pointer; }
   /* Trace question labels to the matching v2 question and explain sample denominators. */
   (function addEvidenceReferences() {
     var anchors = {"1": "1-have-you-read-the-information-above-and-do-you-voluntarily-agree-to-participate", "2": "2-which-programme-or-pathway-are-you-in", "3": "3-what-was-your-primary-field-of-study-before-your-current-programme", "4": "4-what-is-your-gender", "5": "5-what-is-your-age", "6": "6-how-many-years-of-experience-do-you-have-with-ai-platforms-eg-doubao-chatgpt-gemini", "7": "7-so-far-how-familiar-are-you-with-xjtlu-ai", "8": "8-have-you-ever-used-xjtlu-ai", "9": "9-during-the-past-four-weeks-which-statement-best-describes-your-use-of-ai-for-ads401-learning-activities-select-one", "10": "10-how-many-times-did-you-use-xjtlu-ai-for-ads401-learning-during-the-past-four-weeks", "11": "11-for-which-broad-categories-of-ads401-learning-activities-did-you-use-xjtlu-ai-in-the-past-four-weeks-select-all-that-apply", "12": "12-for-each-activity-category-rate-how-useful-xjtlu-ai-was-in-your-actual-experience-select-na-for-categories-you-did-not-use-it-for", "13": "13-in-the-past-four-weeks-when-you-used-information-from-xjtlu-ai-for-ads401-work-how-often-did-you-check-it-against-course-materials-or-other-reliable-sources", "14": "14-based-on-your-overall-experience-using-xjtlu-ai-in-ads401-how-much-do-you-agree-with-these-statements-select-na-if-you-cannot-judge", "15": "15-in-the-past-four-weeks-which-problems-did-you-experience-when-using-xjtlu-ai-for-ads401-learning-select-up-to-3", "16": "16-if-you-have-a-suitable-ads401-task-in-the-next-four-weeks-how-likely-are-you-to-continue-using-xjtlu-ai", "17": "17-what-are-your-main-reasons-for-not-using-xjtlu-ai-for-ads401-during-the-past-four-weeks-select-up-to-3", "18": "18-if-you-have-a-suitable-ads401-task-in-the-next-four-weeks-how-willing-are-you-to-try-or-resume-xjtlu-ai", "19": "19-how-many-times-did-you-use-external-ai-for-ads401-learning-during-the-past-four-weeks", "20": "20-for-which-broad-categories-of-ads401-learning-activities-did-you-use-external-ai-in-the-past-four-weeks-select-all-that-apply", "21": "21-for-each-activity-category-rate-how-useful-external-ai-was-in-your-actual-experience-select-na-for-categories-you-did-not-use-it-for", "22": "22-for-each-activity-category-where-you-used-both-xjtlu-ai-and-external-ai-in-the-past-four-weeks-which-worked-better-in-your-actual-experience-choose-unable-to-compare-where-appropriate", "23": "23-which-factors-matter-most-when-choosing-an-ai-tool-for-ads401-or-if-you-were-to-choose-one-select-up-to-3", "24": "24-in-your-opinion-which-improvements-should-xjtlu-ai-prioritise-for-ads401-select-up-to-3", "25": "25-anything-else-youd-like-to-share-about-xjtlu-ai-or-external-ai-for-ads401-optional-open-text-no-identifying-information", "26": "26-would-you-be-willing-to-be-contacted-for-an-optional-follow-up-interview-if-yes-the-final-question-will-ask-for-a-preferred-name-or-pseudonym-and-a-phone-number-or-email-address", "27": "27-please-leave-your-contact-information"};
-    var map = {"1": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6, "7": 7, "8": 8, "9": 9, "10": 10, "11": 11, "11a": 12, "12": 13, "13": 14, "14": 15, "15": 16, "16": 17, "17": 18, "18": 20, "18a": 19, "18b": 21, "19": 22, "20": 23, "21": 24, "22": 25, "23": 26, "24": 27};
+    var map = {}; for (var q = 1; q <= 27; q++) map[String(q)] = q;
     var root = 'https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/questionnaire_v2_en.md#';
     var ginfo = {
       G1: 'G1: used both XJTLU AI and external AI in the past four weeks; 7 of 27 submission records.',
@@ -1176,14 +1188,14 @@ svg a .trace-ref { cursor:pointer; }
     function questionInfo(label, currentV2) {
       var key=label.slice(1).toLowerCase(), num=currentV2 ? Number(key) : map[key];
       if(!num || !anchors[String(num)]) return null;
-      var desc=(currentV2?'Questionnaire v2 ':'Analysis/codebook ')+label+' → questionnaire v2 Q'+num;
+      var desc='Questionnaire v2 Q'+num;
       return {href:root+anchors[String(num)], text:desc};
     }
     function setReference(el,desc) { var label=el.textContent; el.setAttribute('title',desc); el.setAttribute('aria-label',label+': '+desc); el.setAttribute('tabindex','0'); if(el.namespaceURI==='http://www.w3.org/2000/svg'){var tip=document.createElementNS(el.namespaceURI,'title');tip.textContent=desc;el.appendChild(tip);} }
-    // Repair existing analysis-number links, retaining the explicit questionnaire-v2 Q14 link.
+    // Keep all visible links aligned with questionnaire v2 numbering.
     document.querySelectorAll('section.slide a.q-link').forEach(function(a){
       var label=a.textContent.trim(); if(!/^Q\d+[ab]?$/i.test(label)) return;
-      var currentV2 = label==='Q14' && a.closest('.footnote') && a.closest('.footnote').textContent.indexOf('Questionnaire v2:')!==-1;
+      var currentV2 = true;
       var info=questionInfo(label,currentV2); if(info){a.href=info.href; a.title=info.text; a.setAttribute('aria-label',info.text); a.target='_blank'; a.rel='noopener noreferrer';}
     });
     document.querySelectorAll('.g-tag').forEach(function(g){ var key=g.textContent.trim().match(/G[1-4]/); if(key) setReference(g,ginfo[key[0]]); });
