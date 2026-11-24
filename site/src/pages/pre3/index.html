@@ -174,7 +174,7 @@ kbd { display: inline-block; min-width: 1.45em; padding: 0 .35em; border: 1px so
   text-transform: uppercase; color: var(--accent-deep); margin: 0 0 .45rem; }
 .slide .section-title { margin: 0; font-size: var(--fs-h2); font-weight: 800; letter-spacing: -.01em;
   line-height: 1.2; color: var(--ink-strong); }
-.slide .lead { margin: .55rem 0 0; font-size: var(--fs-lead); color: var(--muted); max-width: 78ch; line-height: 1.55; }
+.slide .lead { margin: .55rem 0 0; font-size: var(--fs-lead); color: var(--muted); line-height: 1.55; }
 .slide .hairline { border: none; border-top: var(--hairline); margin: 1rem 0 1.3rem; }
 .slide .slide-body { position: relative; flex: 1 0 auto; }
 .slide .takeaway { margin: 1.4rem 0 0; padding-top: .95rem; border-top: var(--hairline);
@@ -947,7 +947,8 @@ svg a .trace-ref { cursor:pointer; }
     var ext = [10, 13, 8, 8, 5], nE = 22;
     var mode = 'count';
 
-    var W = 920, H = 425, centerX = 460, halfLabel = 130, barLen = 290;
+    /* 40px side margins keep the 100% tick and the bar-end value labels inside the viewBox. */
+    var W = 1000, H = 425, centerX = 500, halfLabel = 130, barLen = 290;
     var plotTop = 56, rowH = 68, barH = 26;
 
     el.innerHTML = '';
@@ -1060,7 +1061,7 @@ svg a .trace-ref { cursor:pointer; }
       svg.append('text').attr('x',x).attr('y',25).attr('fill',color).attr('font-size', 'var(--chart-emphasis)')
         .attr('font-weight',700).text(label);
     }
-    header(14,'#',ink); header(165,'XJTLU AI',cX); header(455,'External AI',cE); header(750,'Difference',ink);
+    header(14,'Participant',ink); header(165,'XJTLU AI',cX); header(455,'External AI',cE); header(750,'Difference',ink);
     svg.append('text').attr('x',165).attr('y',44).attr('fill',muted).attr('font-size', 'var(--chart-label)').text('Original rating · 1–5');
     svg.append('text').attr('x',455).attr('y',44).attr('fill',muted).attr('font-size', 'var(--chart-label)').text('Original rating · 1–5');
     svg.append('text').attr('x',750).attr('y',44).attr('fill',muted).attr('font-size', 'var(--chart-label)').text('XJTLU AI − External AI');
@@ -1077,11 +1078,11 @@ svg a .trace-ref { cursor:pointer; }
       var result=diff===0 ? '0 · Same' : (diff>0 ? '+'+diff+' · XJTLU AI higher' : '−'+Math.abs(diff)+' · External AI higher');
       var color=diff===0 ? ink : (diff>0 ? cX : cE);
       var row=svg.append('g').attr('class','pair-row').attr('tabindex',0).attr('role','img')
-        .attr('aria-label','Pair '+(i+1)+': XJTLU AI '+p[0]+' out of 5, External AI '+p[1]+' out of 5. Difference: '+result);
+        .attr('aria-label','Participant '+(i+1)+': XJTLU AI '+p[0]+' out of 5, External AI '+p[1]+' out of 5. Difference: '+result);
       var base=i%2===0?'#f3f6f6':'#fff';
       var bg=row.append('rect').attr('class','pair-background').attr('x',0).attr('y',top+i*rowH).attr('width',W).attr('height',rowH).attr('fill',base);
       row.on('mouseenter focusin',function(){bg.attr('fill','#dceef3');}).on('mouseleave focusout',function(){bg.attr('fill',base);});
-      row.append('text').attr('x',14).attr('y',y+6).attr('font-size', 'var(--chart-label)').attr('fill',ink).text(i+1);
+      row.append('text').attr('x',14).attr('y',y+6).attr('font-size', 'var(--chart-label)').attr('fill',ink).text('Participant ' + (i+1));
       rating(row,165,y,p[0],cX,'raw-rating raw-xjtl');
       rating(row,455,y,p[1],cE,'raw-rating raw-external');
       row.append('text').attr('x',750).attr('y',y+6).attr('font-size', 'var(--chart-label)').attr('font-weight',700).attr('fill',color).text(result);
