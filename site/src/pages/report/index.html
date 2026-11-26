@@ -39,7 +39,8 @@ a:focus-visible, .scroll:focus-visible, summary:focus-visible { outline:2px soli
 .eyebrow, .number { font-size:.73rem; font-weight:750; letter-spacing:.13em; text-transform:uppercase; color:var(--teal) }
 .hero h1 { margin:1.05rem 0 .65rem; font-size:clamp(2.35rem,5vw,4.6rem); max-width:24ch; line-height:1.04; letter-spacing:-.045em }
 .subtitle { color:var(--teal); font-size:clamp(1.05rem,2vw,1.3rem); margin:0 }
-.author-contacts { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); list-style:none; gap:.7rem 1.5rem; margin:1.25rem 0 0; padding:0 }
+.author-label { margin:1.25rem 0 .45rem; font-size:.82rem; font-weight:750; color:var(--teal) }
+.author-contacts { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); list-style:none; gap:.7rem 1.5rem; margin:0; padding:0 }
 .author-contacts li { min-width:0; line-height:1.4 }
 .author-contacts strong { display:block; font-size:.91rem }
 .author-contacts a { font-size:.8rem; overflow-wrap:anywhere }
@@ -85,10 +86,31 @@ p { margin:.5rem 0 1rem }
   .ai-services li { display:grid; grid-template-columns:minmax(76px,30%) minmax(0,1fr); gap:.85rem; align-items:start }
   .ai-services h4 { margin-top:0 }
 }
+.rq-keyword { color:var(--teal); background:var(--tint); padding:.08em .2em; border-radius:.2em }
 .rq { list-style:none; padding:0; display:grid; gap:.65rem; margin:1.2rem 0 }
 .rq li { padding:.72rem .85rem; background:var(--tint); border-radius:.35rem; font-size:.94rem; break-inside:avoid }
 .rq strong { display:block; color:var(--teal); margin-bottom:.22rem }
 figure { margin:1rem 0 1.3rem }
+.sample-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,13.5rem),1fr)); gap:.65rem; margin:.85rem 0 }
+.sample-card { min-width:0; padding:.7rem .85rem; background:var(--surface); border-radius:.45rem; break-inside:avoid }
+.sample-card h4, .sample-card h5 { margin:0 0 .35rem; color:var(--teal); font-size:.92rem; line-height:1.35 }
+.sample-card dl { margin:0; font-size:.83rem; line-height:1.35 }
+.sample-card dl > div { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:.5rem; padding:.23rem 0 }
+.sample-card dl > div + div { border-top:1px solid var(--line) }
+.sample-card dd { margin:0; font-weight:700; font-variant-numeric:tabular-nums }
+.sample-metric { background:var(--tint) }
+.sample-metric > strong { display:block; margin-bottom:.18rem; color:var(--teal); font-size:1.68rem; line-height:1.12; font-variant-numeric:tabular-nums }
+.sample-metric p { margin:0; color:var(--muted); font-size:.83rem; line-height:1.45 }
+#sample-profile { margin:1.05rem 0 0 }
+.sample-profile-grid { grid-template-columns:repeat(3,minmax(0,1fr)) }
+.sample-programme { grid-column:span 2 }
+@media(max-width:680px) {
+  .sample-profile-grid { grid-template-columns:repeat(2,minmax(0,1fr)) }
+}
+@media(max-width:470px) {
+  .sample-profile-grid { grid-template-columns:1fr }
+  .sample-programme { grid-column:auto }
+}
 .chart-panel { background:var(--surface); border-radius:.45rem; padding:1rem 1.1rem .85rem }
 .chart-panel figcaption { margin:.7rem 0 0 }
 .chart-title { color:var(--teal) }
@@ -262,9 +284,9 @@ sup { font-size:.72em; line-height:0; vertical-align:super }
 }
 nav .back { display:block; margin-top:.6rem; padding:.55rem .4rem .2rem; color:var(--link); text-decoration:underline }
 nav .back::before { content:none }
-.contents-more { display:flex; flex-wrap:wrap; gap:.2rem .65rem; margin:.22rem .4rem .55rem 2rem }
-nav .contents-more a { display:inline; padding:0; min-height:0; font-size:.75rem; color:var(--link) }
-nav .contents-more a::before { content:none }
+.toc-subsections { list-style:none; padding:0; margin:0 0 .35rem 1.2rem; border-inline-start:1px solid var(--line) }
+nav .toc-subsections a { display:block; padding:.22rem .35rem .22rem .7rem; min-height:0; font-size:.75rem; color:var(--link) }
+nav .toc-subsections a::before { content:none }
 .observation-photos { display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin:1.1rem 0 }
 .observation-photos figure { margin:0 }
 .observation-photos img { width:100%; height:auto; display:block; border:1px solid var(--line) }
@@ -317,7 +339,6 @@ nav .contents-more a::before { content:none }
   .exp-mobile { display:grid; gap:.55rem }
   .pairs-mobile { display:grid }
   .observation-codes { grid-template-columns:1fr }
-  .contents-more { margin-left:.4rem }
 }
 
 @media(max-width:360px) {
@@ -336,7 +357,8 @@ nav .contents-more a::before { content:none }
   .hero h1 { font-size:27pt; margin:.68rem 0 .33rem }
   .subtitle { font-size:12pt }
   .print-affiliation { display:block; border-bottom:1px solid var(--line); padding:0 0 .55rem; margin:0 }
-  .author-contacts { gap:.48rem .85rem; margin:.8rem 0 0 }
+  .author-label { margin:.8rem 0 .35rem }
+  .author-contacts { gap:.48rem .85rem }
   section { padding:1.2rem 0 .9rem }
   h2 { font-size:17pt; margin:.15rem 0 .65rem }
   h3 { font-size:12.5pt; margin:.95rem 0 .3rem }
@@ -402,9 +424,18 @@ nav .contents-more a::before { content:none }
 <a href="/ads401/pre3/" target="_blank" rel="noopener" aria-label="Pre3 data story (opens in a new tab)">Pre3 <span aria-hidden="true">↗</span></a>
 </nav>
 <nav aria-label="Report contents"><strong>Contents</strong><ol>
-<li><a href="#overview">Introduction</a></li><li><a href="#questions">Research questions</a></li><li><a href="#background">Related work and rationale</a></li><li><a href="#design">System and evaluation design</a></li><li><a href="#analysis">Data preparation and analysis</a></li><li><a href="#findings">Findings</a></li><li><a href="#discussion">Discussion and recommendations</a></li><li><a href="#transparency">Transparency</a></li><li><a href="#references">References</a></li><li><a href="#materials">Materials</a></li>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#overview">Introduction</a>
+<ul class="toc-subsections"><li><a href="#questions">Research questions</a></li></ul>
+</li>
+<li><a href="#background">Related work and rationale</a></li><li><a href="#design">System and evaluation design</a></li><li><a href="#analysis">Data preparation and analysis</a></li><li><a href="#findings">Findings</a></li><li><a href="#discussion">Discussion and recommendations</a></li><li><a href="#transparency">Transparency</a></li><li><a href="#references">References</a></li><li><a href="#materials">Materials</a>
+<ul class="toc-subsections">
+<li><a href="#team-contributions">Team contributions</a></li>
+<li><a href="#appendix-questionnaire">Questionnaire</a></li>
+<li><a href="#appendix-observation">Observation</a></li>
+</ul>
+</li>
 </ol>
-<div class="contents-more"><a href="#appendix-questionnaire">Questionnaire</a><a href="#appendix-observation">Observation</a><a href="#team-contributions">Team contributions</a></div>
 <a class="back" href="#top">Back to top ↑</a></nav>
 </aside>
 <main id="report">
@@ -412,18 +443,23 @@ nav .contents-more a::before { content:none }
 <p class="eyebrow print-affiliation">Xi’an Jiaotong-Liverpool University · ADS401 · Group A</p>
 <h1>Evaluating AI integration at XJTLU</h1>
 <p class="subtitle">ADS401 Students’ Perspectives on AI at XJTLU</p>
-<ul class="author-contacts" aria-label="Authors and university email addresses">
+<p class="author-label" id="group-members">Group A members</p>
+<ul class="author-contacts" aria-labelledby="group-members">
 <li><strong>Hongcheng TANG</strong><a href="mailto:hongcheng.tang26@student.xjtlu.edu.cn">hongcheng.tang26@student.xjtlu.edu.cn</a></li>
 <li><strong>Mingjian TAO</strong><a href="mailto:mingjian.tao26@student.xjtlu.edu.cn">mingjian.tao26@student.xjtlu.edu.cn</a></li>
 <li><strong>Liyuan CHEN</strong><a href="mailto:liyuan.chen26@student.xjtlu.edu.cn">liyuan.chen26@student.xjtlu.edu.cn</a></li>
 <li><strong>Haode SHEN</strong><a href="mailto:haode.shen26@student.xjtlu.edu.cn">haode.shen26@student.xjtlu.edu.cn</a></li>
 </ul>
 </header>
+<section id="abstract" aria-labelledby="h-abstract">
+<p class="number">01 · Summary</p><h2 id="h-abstract">Abstract</h2>
+<p>We surveyed 27 ADS401 students and interviewed seven to understand how they chose and used university-provided and external AI. Although 24 of 27 had heard of XJTLU AI, only eight had used it for ADS401 in the previous four weeks. External AI users most often selected studying course content, while interviews described using campus AI to find university information. These findings from one module suggest a starting point for XJTLU AI: help students find official course materials and verify answers against them.</p>
+</section>
 <section id="overview" aria-labelledby="h-overview">
-<p class="number">01 · Overview</p><h2 id="h-overview">Introduction</h2>
-<p>XJTLU provides AI services for learning, including Junmou AI<sup><a class="cite" href="#ref-1">1</a></sup>. Students can also use AI tools they access independently. In ADS401 (Evaluation Methods and Statistics, 2026–27), the teaching team needed clearer evidence of which university services students knew about, how they used them for coursework and why they chose particular tools. We studied those choices to inform course support and future improvements to XJTLU AI.</p>
+<p class="number">02 · Overview</p><h2 id="h-overview">Introduction</h2>
+<p>XJTLU supports learning with AI tools such as Junmou AI<sup><a class="cite" href="#ref-1">1</a></sup> and the XIPU AI Tutor. A Learning Mall teaching case reports generally favourable student feedback on a customised version of the tutor in ACC307, an XJTLU module<sup><a class="cite" href="#ref-acc307">2</a></sup>.</p>
+<p>In ADS401 (Evaluation Methods and Statistics, 2026–27), we examined <strong class="rq-keyword">awareness and adoption</strong> of campus AI, <strong class="rq-keyword">usage patterns</strong> across coursework tasks, and the <strong class="rq-keyword">perceived benefits, barriers and differences</strong> students reported when choosing between campus and external AI. This formative study uses students’ accounts to identify which coursework tasks the teaching team could support and which would be useful to test in a follow-up evaluation.</p>
 <p>We used an explanatory sequential mixed-methods design. We first ran a cross-sectional online questionnaire to examine awareness, use and perceptions. We then used semi-structured interviews to explore the reasons behind students’ choices.</p>
-<p>Across 27 cross-sectional survey submissions and 7 semi-structured interviews, 24 of 27 students had heard of XJTLU AI, while 8 used it for ADS401 in the previous four weeks. Students relied more on external AI for coursework (13 of 22 for in-course content), used XJTLU AI mainly to find campus resources (8 of 8, provisional), and gave mixed ratings across the 5 same-task rating pairs. Because these exploratory findings come from self-reported perceptions in a single module, they cannot rank the tools overall.</p>
 <div class="ai-guide" aria-labelledby="ai-services">
 <h3 id="ai-services">What is XJTLU AI?</h3>
 <p>In our questionnaire, <strong>XJTLU AI</strong> means any student-accessible AI agent service officially provided by the university, including Junmou AI and the XJTLU Library AI Portal. <strong>External AI</strong> means independently accessed services outside XJTLU’s official offerings, such as ChatGPT, DeepSeek and Kimi.</p>
@@ -436,33 +472,64 @@ nav .contents-more a::before { content:none }
 <div><h4>Learning Mall AI Tutor</h4><p>A course-page chat for module questions, available where teaching staff enable it.</p><a href="https://core.xjtlu.edu.cn/my/">Learning Mall entry</a></div></li>
 </ul>
 </div>
-</section>
-<section id="questions" aria-labelledby="h-questions">
-<p class="number">02 · Study focus</p><h2 id="h-questions">Research questions</h2>
+<div id="questions">
+<h3 id="h-questions">Research questions</h3>
 <ol class="rq"><li><strong>RQ1 · Awareness and adoption.</strong> To what extent are students in our ADS401 module aware of and adopting XJTLU AI?</li><li><strong>RQ2 · Usage patterns.</strong> How do students in ADS401 use XJTLU AI for their academic tasks?</li><li><strong>RQ3 · Adoption factors and perceived comparison.</strong> What perceived benefits, barriers, and differences between XJTLU AI and external AI services are associated with students’ adoption and intentions to continue, try, or resume using XJTLU AI?</li></ol>
+</div>
 </section>
 <section id="background" aria-labelledby="h-background">
 <p class="number">03 · Rationale</p><h2 id="h-background">Related work and evaluation rationale</h2>
-<p>When we designed the study for Presentation 2, we wanted to understand what made XJTLU AI worth trying or using again. Davis’s Technology Acceptance Model highlighted two factors, perceived usefulness and ease of use. We adapted both into short, exploratory questions about ADS401<sup><a class="cite" href="#ref-2">2</a></sup>. Research on technology adoption and students’ use of ChatGPT also helped us consider whether access and support might affect tool choice<sup><a class="cite" href="#ref-3">3</a>,<a class="cite" href="#ref-4">4</a></sup>.</p>
-<p>Farinosi and Melchior’s study helped us frame questions about when students use AI and how they feel about it. Johnston et al. offer another example of how to survey students about AI use in higher education<sup><a class="cite" href="#ref-5">5</a>,<a class="cite" href="#ref-6">6</a></sup>. For examples of questions about students’ experiences, usefulness and trust, we consulted Chung et al.’s Monash survey instrument<sup><a class="cite" href="#ref-18">18</a></sup>.</p>
-<p>We asked students to rate each tool by activity, since a tool that helps with one task may be less useful for another<sup><a class="cite" href="#ref-7">7</a>,<a class="cite" href="#ref-8">8</a></sup>. We also asked whether students found XJTLU AI reliable and trusted its answers. Research on ChatGPT use for assessments likewise treats trust as a factor in its own right<sup><a class="cite" href="#ref-9">9</a></sup>.</p>
+<p>When we designed the study for Presentation 2, we wanted to understand what made XJTLU AI worth trying or using again. Davis’s Technology Acceptance Model highlighted two factors, perceived usefulness and ease of use. We adapted both into short, exploratory questions about ADS401<sup><a class="cite" href="#ref-2">3</a></sup>. Research on technology adoption and students’ use of ChatGPT also helped us consider whether access and support might affect tool choice<sup><a class="cite" href="#ref-3">4</a>,<a class="cite" href="#ref-4">5</a></sup>.</p>
+<p>Farinosi and Melchior’s study helped us frame questions about when students use AI and how they feel about it. Johnston et al. offer another example of how to survey students about AI use in higher education<sup><a class="cite" href="#ref-5">6</a>,<a class="cite" href="#ref-6">7</a></sup>. For examples of questions about students’ experiences, usefulness and trust, we consulted Chung et al.’s Monash survey instrument<sup><a class="cite" href="#ref-18">8</a></sup>.</p>
+<p>We asked students to rate each tool by activity, since a tool that helps with one task may be less useful for another<sup><a class="cite" href="#ref-7">9</a>,<a class="cite" href="#ref-8">10</a></sup>. We also asked whether students found XJTLU AI reliable and trusted its answers. Research on ChatGPT use for assessments likewise treats trust as a factor in its own right<sup><a class="cite" href="#ref-9">11</a></sup>.</p>
 <h3>Research gap</h3>
-<p>We still needed evidence from our own module. We wanted to know which university AI services ADS401 students knew about, what they used them for and how they chose between campus and external tools for coursework.</p>
+<p>The ACC307 case describes feedback on a tutor configured for a single module. For ADS401, we needed evidence about how students perceived the broader set of XJTLU AI services and chose among campus and external tools for their own coursework.</p>
 <h3>Evaluation rationale</h3>
-<p>The survey mapped students’ reported use and let us compare ratings for the same activity among students who had used both tools. Following Ivankova et al.’s sequential design, we used the survey results to decide what to explore in interviews<sup><a class="cite" href="#ref-10">10</a></sup>. We then read the interview themes alongside the survey patterns to understand the reasons behind students’ choices<sup><a class="cite" href="#ref-11">11</a></sup>.</p>
+<p>The survey mapped students’ reported use and let us compare ratings for the same activity among students who had used both tools. Following Ivankova et al.’s sequential design, we used the survey results to decide what to explore in interviews<sup><a class="cite" href="#ref-10">12</a></sup>. We then read the interview themes alongside the survey patterns to understand the reasons behind students’ choices<sup><a class="cite" href="#ref-11">13</a></sup>.</p>
 </section>
 <section id="design" aria-labelledby="h-design">
 <p class="number">04 · Methods</p><h2 id="h-design">System and evaluation design</h2>
-<h3>From study plan to recruitment</h3>
-<p>We invited 44 of the 48 ADS401 students, excluding the 4 members of the research team. Participation was voluntary. In interviews, we asked students to describe a task, why they chose an AI tool and how they checked the answer.</p>
-<div class="scroll" role="region" aria-label="Study plan and implementation" tabindex="0"><table><caption>Table 1. Study plan and what we did</caption><thead><tr><th scope="col">Item</th><th scope="col">Presentation 2 plan</th><th scope="col">Presentation 3 record</th></tr></thead><tbody>
-<tr><th scope="row">Recruitment</th><td>46 eligible students based on an initial class size of 50.</td><td>44 eligible students. 27 completed the survey.</td></tr>
-<tr><th scope="row">Questionnaire</th><td>Check the first draft internally before launch.</td><td>Published the online questionnaire in English and Chinese.</td></tr>
-<tr><th scope="row">Interviews</th><td>Recruit about 4–6 volunteers, prioritising students who used both XJTLU AI and external AI (<span class="group-label g1" tabindex="0" aria-describedby="group-definition-g1">G1</span>) or only external AI (<span class="group-label g2" tabindex="0" aria-describedby="group-definition-g2">G2</span>) for ADS401 in the previous four weeks.</td><td>Interviewed 7 students from <span class="group-label g1" tabindex="0" aria-describedby="group-definition-g1">G1</span> and <span class="group-label g2" tabindex="0" aria-describedby="group-definition-g2">G2</span>. We revised the interview guide to align with the questionnaire and used it for the final three interviews.</td></tr>
-</tbody></table></div>
-<h3 id="questionnaire-deployment">How the questionnaire changed</h3>
-<p>In Presentation 2, our v1 draft already split students into four groups by their AI use for ADS401. Both usefulness tables listed every activity and asked students to mark unused activities N/A.</p>
-<p>For the <a href="#appendix-questionnaire">online questionnaire v2</a>, we used ChatGPT to help set up separate English and Chinese versions in Tally<sup><a class="cite" href="#ref-12">12</a></sup>. We kept the four groups based on recent ADS401 AI use and added questions about students’ backgrounds and prior AI experience. Tally’s conditional logic let students rate just the activities they had selected. We used those ratings to compare the tools on the same activity in Presentation 3. Students who had used both types of AI also answered which tool worked better for each activity and which they preferred overall.</p>
+<h3>Recruitment and sample</h3>
+<p>Participation was voluntary. In interviews, we asked students to describe a task, why they chose an AI tool and how they checked the answer.</p>
+<div class="sample-grid" aria-label="Recruitment and participation">
+<div class="sample-card sample-metric"><strong>44</strong><h4>Eligible students invited</h4><p>48 enrolled, including 4 research team members.</p></div>
+<div class="sample-card sample-metric"><strong>27</strong><h4>Survey completions</h4><p>61.4% of eligible students. The questionnaire was available in English and Chinese.</p></div>
+<div class="sample-card sample-metric"><strong>7</strong><h4>Students interviewed</h4><p>Participants from <span class="group-label g1" tabindex="0" aria-describedby="group-definition-g1">G1</span> and <span class="group-label g2" tabindex="0" aria-describedby="group-definition-g2">G2</span>.</p></div>
+</div>
+<h4 id="sample-profile">Survey respondent profile (n = 27)</h4>
+<div class="sample-grid sample-profile-grid" aria-labelledby="sample-profile">
+<div class="sample-card sample-programme"><h5>Programme and pathway</h5><dl>
+<div><dt>MSc Human-Computer Interaction — Human-centric Computing Pathway</dt><dd>13</dd></div>
+<div><dt>MSc Human-Computer Interaction — Human-AI Collaborative Computing Pathway</dt><dd>13</dd></div>
+<div><dt>MSc Social Computing — Full-Time</dt><dd>1</dd></div>
+</dl></div>
+<div class="sample-card"><h5>Academic background before the current programme</h5><dl>
+<div><dt>Computer Science &amp; IT</dt><dd>19</dd></div>
+<div><dt>Engineering &amp; Technology</dt><dd>5</dd></div>
+<div><dt>Design, Arts &amp; Media</dt><dd>2</dd></div>
+<div><dt>Other: software engineering</dt><dd>1</dd></div>
+</dl></div>
+<div class="sample-card"><h5>Gender</h5><dl>
+<div><dt>Man</dt><dd>12</dd></div>
+<div><dt>Woman</dt><dd>11</dd></div>
+<div><dt>Prefer not to say</dt><dd>4</dd></div>
+</dl></div>
+<div class="sample-card"><h5>Age</h5><dl>
+<div><dt>21–24</dt><dd>19</dd></div>
+<div><dt>25–29</dt><dd>5</dd></div>
+<div><dt>≤20</dt><dd>2</dd></div>
+<div><dt>≥30</dt><dd>1</dd></div>
+</dl></div>
+<div class="sample-card"><h5>Prior AI experience</h5><dl>
+<div><dt>More than 3 years</dt><dd>10</dd></div>
+<div><dt>1–2 years</dt><dd>6</dd></div>
+<div><dt>Less than 1 year</dt><dd>5</dd></div>
+<div><dt>2–3 years</dt><dd>5</dd></div>
+<div><dt>No experience</dt><dd>1</dd></div>
+</dl></div>
+</div>
+<h3 id="questionnaire-deployment">Questionnaire design and deployment</h3>
+<p>Our team designed the <a href="#appendix-questionnaire">questionnaire</a> together and published it in English and Chinese on Tally<sup><a class="cite" href="#ref-12">14</a></sup>. It asked about students’ backgrounds and recent AI use for ADS401, then used Tally’s conditional logic to show relevant follow-up questions.</p>
 <h3 id="survey-groups">Who answered which questions</h3>
 <p><a class="q-link" href="#appendix-q9" title="Read questionnaire item Q9">Q9</a> placed students in one of four groups based on which types of AI they had used for ADS401 in the previous four weeks. The <a href="#appendix-routing">questionnaire routing map</a> shows which follow-up questions each group answered.</p>
 <figure aria-labelledby="fig-survey-groups">
@@ -490,11 +557,11 @@ nav .contents-more a::before { content:none }
 <p class="number">05 · Analytical approach</p><h2 id="h-analysis">Data preparation and analysis</h2>
 <h3>Preparing the survey and interview data</h3>
 <p>We used ChatGPT and Python to process responses from 27 students (23 in English and 4 in Chinese). We matched the questions and response options across the two forms so we could analyse the responses together.</p>
-<p>We coded interviews with 7 students and grouped 25 codes into seven themes<sup><a class="cite" href="#ref-13">13</a></sup>. We read those themes alongside the survey results to understand why students tried a tool or how they checked its advice. Some interview examples took place before the survey’s four-week window. We also grouped the <a href="#appendix-observation">eight problems from our walkthrough</a> by where each occurred.</p>
+<p>We coded interviews with 7 students and grouped 25 codes into seven themes<sup><a class="cite" href="#ref-13">15</a></sup>. We read those themes alongside the survey results to understand why students tried a tool or how they checked its advice. Some interview examples took place before the survey’s four-week window. We also grouped the <a href="#appendix-observation">eight problems from our walkthrough</a> by where each occurred.</p>
 <h3 id="reading-pre3">How we compared the tools in Presentation 3</h3>
-<p>We counted the activities students chose for each tool (<a class="q-link" href="#appendix-q11" title="Read questionnaire item Q11">Q11</a>, <a class="q-link" href="#appendix-q20" title="Read questionnaire item Q20">Q20</a>), then compared ratings from students who rated both tools for the same activity (<a class="q-link" href="#appendix-q12" title="Read questionnaire item Q12">Q12</a>, <a class="q-link" href="#appendix-q21" title="Read questionnaire item Q21">Q21</a>). For each pair, we subtracted the external AI score from the XJTLU AI score. We report <a href="#fig-preference">overall preference</a> separately.</p>
+<p>We excluded N/A from rating summaries. For each activity, we paired usefulness ratings only when the same student rated both tools (<a href="#appendix-q12">Q12</a> and <a href="#appendix-q21">Q21</a>), then subtracted the external AI rating from the XJTLU AI rating. <a href="#fig-preference">Overall preference</a> was a separate question, and we retained “Unable to compare” as a response option.</p>
 <div class="table-with-notes">
-<div class="scroll" role="region" aria-label="Table 2. Matched usefulness ratings available for each activity" tabindex="0"><table class="numeric" id="pair-coverage" aria-describedby="pair-coverage-note"><caption>Table 2. Matched usefulness ratings available for each activity</caption><thead><tr><th scope="col">Activity</th><th scope="col">Valid pairs</th><th scope="col">Campus AI higher</th><th scope="col">Tie</th><th scope="col">External AI higher</th></tr></thead><tbody>
+<div class="scroll" role="region" aria-label="Table 1. Matched usefulness ratings available for each activity" tabindex="0"><table class="numeric" id="pair-coverage" aria-describedby="pair-coverage-note"><caption>Table 1. Matched usefulness ratings available for each activity</caption><thead><tr><th scope="col">Activity</th><th scope="col">Valid pairs</th><th scope="col">Campus AI higher</th><th scope="col">Tie</th><th scope="col">External AI higher</th></tr></thead><tbody>
 <tr><th scope="row">Campus resources</th><td>5</td><td>2</td><td>2</td><td>1</td></tr>
 <tr><th scope="row">In-course content</th><td>1</td><td>0</td><td>0</td><td>1</td></tr>
 <tr><th scope="row">Beyond-course support</th><td>0</td><td>0</td><td>0</td><td>0</td></tr>
@@ -516,11 +583,11 @@ nav .contents-more a::before { content:none }
 <figure class="chart-panel" aria-labelledby="fig-awareness">
 <div class="bars funnel">
 <div class="bar-row awareness-row"><span>Had heard of XJTLU AI · <a class="q-link" href="#appendix-q7" title="Read questionnaire item Q7">Q7</a><small class="bar-sub"><span class="familiarity-key" aria-hidden="true"></span>13 of those 24 knew little about it</small></span><div class="track" aria-hidden="true"><span class="fill" style="--value:40.74%"></span><span class="fill familiarity-limited" style="--value:48.15%"></span></div><b>24/27 · 89%</b></div>
-<div class="bar-row"><span>Had used XJTLU AI before · <a class="q-link" href="#appendix-q8" title="Read questionnaire item Q8">Q8</a></span><div class="track" aria-hidden="true"><span class="fill" style="--value:57.69%"></span></div><b>15/26 · 58%</b></div>
+<div class="bar-row"><span>Had used XJTLU AI before · <a class="q-link" href="#appendix-q8" title="Read questionnaire item Q8">Q8</a></span><div class="track" aria-hidden="true"><span class="fill" style="--value:55.56%"></span></div><b>15/27 · 56%</b></div>
 <div class="bar-row"><span>Used for ADS401 recently · <a class="q-link" href="#appendix-q9" title="Read questionnaire item Q9">Q9</a><small class="bar-sub">in the past four weeks</small></span><div class="track" aria-hidden="true"><span class="fill" style="--value:29.63%"></span></div><b>8/27 · 30%</b></div>
 <div class="bar-row"><span>Used it five or more times · <a class="q-link" href="#appendix-q10" title="Read questionnaire item Q10">Q10</a><small class="bar-sub">2 of the 8 recent users</small></span><div class="track" aria-hidden="true"><span class="fill" style="--value:7.41%"></span></div><b>2/27 · 7%</b></div>
 </div>
-<figcaption id="fig-awareness"><strong class="chart-title">Figure 3. Awareness and use of XJTLU AI.</strong> The lighter segment of the first bar marks the 13 of 24 aware students who knew little about it. One student left <a class="q-link" href="#appendix-q8" title="Read questionnaire item Q8">Q8</a> blank, so ever-use is based on 26 responses; the other rows use all 27 respondents. The final row counts five-or-more uses among the 8 recent users.</figcaption>
+<figcaption id="fig-awareness"><strong class="chart-title">Figure 3. Awareness and use of XJTLU AI.</strong> The lighter segment of the first bar marks the 13 of 24 aware students who knew little about it. All four percentages use the 27 survey submissions as the denominator. The final row counts five-or-more uses among the 8 recent users.</figcaption>
 </figure>
 <p class="takeaway">Students broadly know XJTLU AI (24 of 27), but only 8 used it for ADS401 in the past four weeks, and only 2 of those 8 used it five or more times.</p>
 </div>
@@ -655,7 +722,7 @@ nav .contents-more a::before { content:none }
 <div class="pairs-mobile-row"><span>Participant 4</span><span><b class="x">3</b> / <b class="e">2</b></span><span>+1 · XJTLU</span></div>
 <div class="pairs-mobile-row"><span>Participant 5</span><span><b class="x">4</b> / <b class="e">2</b></span><span>+2 · XJTLU</span></div>
 </div>
-<figcaption id="fig-pairs"><strong class="chart-title">Figure 7. Matched campus-resource ratings from dual users (<a class="q-link" href="#appendix-q12" title="Read questionnaire item Q12">Q12</a> · <a class="q-link" href="#appendix-q21" title="Read questionnaire item Q21">Q21</a>).</strong> The two ratings are shown for each pair. Difference = XJTLU AI − External AI. <a href="#pair-coverage">Table 2</a> lists the pairs available for every activity.</figcaption>
+<figcaption id="fig-pairs"><strong class="chart-title">Figure 7. Matched campus-resource ratings from dual users (<a class="q-link" href="#appendix-q12" title="Read questionnaire item Q12">Q12</a> · <a class="q-link" href="#appendix-q21" title="Read questionnaire item Q21">Q21</a>).</strong> The two ratings are shown for each pair. Difference = XJTLU AI − External AI. <a href="#pair-coverage">Table 1</a> lists the pairs available for every activity.</figcaption>
 </figure>
 <p class="takeaway">The five matched pairs are mixed (2 ties, 2 higher for XJTLU AI, 1 higher for external AI); the median difference is 0, so they cannot rank the tools.</p>
 
@@ -678,27 +745,28 @@ nav .contents-more a::before { content:none }
 </div>
 
 <h3>6.4 What the interviews add</h3>
-<div class="scroll" role="region" aria-label="Survey and interview evidence" tabindex="0"><table class="interview-table"><caption>Table 3. Survey results and what students told us</caption><thead><tr><th scope="col">Survey result</th><th scope="col">What students described in interviews</th></tr></thead><tbody>
-<tr><td>24 students had heard of XJTLU AI (<a class="q-link" href="#appendix-q7" title="Read questionnaire item Q7">Q7</a>). 8 used it recently for ADS401 (<a class="q-link" href="#appendix-q9" title="Read questionnaire item Q9">Q9</a>).</td><td>Some tried it early on and stopped. Others used it for specific needs, such as finding campus information.</td></tr>
-<tr><td>External-only users cited a preference for external tools and uncertainty about what XJTLU AI could do (<a class="q-link" href="#appendix-q17" title="Read questionnaire item Q17">Q17</a>).</td><td>Students already had routines with other tools and wanted answers they could get quickly and check against course sources.</td></tr>
-<tr><td>15 of 27 students wanted more accurate course answers (<a class="q-link" href="#appendix-q24" title="Read questionnaire item Q24">Q24</a>).</td><td>Students asked for answers tied to course materials and help with specific tasks, including statistics and SPSS.</td></tr>
+<div class="scroll" role="region" aria-label="Survey and interview evidence" tabindex="0"><table class="interview-table"><caption>Table 2. Survey results and what students told us</caption><thead><tr><th scope="col">Survey result</th><th scope="col">What students described in interviews</th></tr></thead><tbody>
+<tr><td>24 students had heard of XJTLU AI (<a class="q-link" href="#appendix-q7" title="Read questionnaire item Q7">Q7</a>). 8 used it recently for ADS401 (<a class="q-link" href="#appendix-q9" title="Read questionnaire item Q9">Q9</a>).</td><td>Some <strong>tried it early on and stopped</strong>. Others used it for specific needs, such as <strong>finding campus information</strong>.</td></tr>
+<tr><td>External-only users cited a preference for external tools and uncertainty about what XJTLU AI could do (<a class="q-link" href="#appendix-q17" title="Read questionnaire item Q17">Q17</a>).</td><td>Students had <strong>established routines with other tools</strong> and wanted answers they could get quickly and <strong>check against course sources</strong>.</td></tr>
+<tr><td>15 of 27 students wanted more accurate course answers (<a class="q-link" href="#appendix-q24" title="Read questionnaire item Q24">Q24</a>).</td><td>Students asked for <strong>answers tied to course materials</strong> and help with <strong>statistical methods and data processing</strong>.</td></tr>
 </tbody></table></div>
 <p class="takeaway">Interviews explain the survey pattern: established external routines and unclear capabilities kept external-only users away, while students who wanted more accurate answers asked for course-linked support.</p>
 
 <h3 id="observation-findings">6.5 What we saw in the walkthrough</h3>
-<p>When the volunteer asked LibAI for past papers, it returned search and sign-in steps. XIPU AI could not confirm the current syllabus. Those examples show where clearer links to university and course materials could help.</p>
+<p>In the walkthrough, the volunteer tried two AI agent services provided by XJTLU. LibAI returned search and sign-in steps for finding past papers, while Junmou AI (XIPU AI) could not confirm the current ADS401 syllabus. Both examples point to the value of clearer links to official university and course materials.</p>
 </section>
 <section id="discussion" aria-labelledby="h-discussion">
 <p class="number">07 · Interpretation</p><h2 id="h-discussion">Discussion, limitations and recommendations</h2>
 <h3 id="conclusions">What the results suggest</h3>
-<p>Finding campus information gave students a reason to try XJTLU AI. In interviews, students also described familiar routines with external AI for coursework. The five <a href="#pair-coverage">same-task rating pairs</a> were mixed, so there is little basis here for ranking the tools overall.</p>
+<p>Among the 22 recent external AI users, 13 selected in-course content. In interviews, students described using familiar external tools to understand concepts and plan assignments, and using XJTLU AI to find university information. Our <a href="#observation-findings">walkthrough</a> showed what that help could look like: LibAI gave the volunteer steps for finding past papers, while Junmou AI (XIPU AI) could not confirm the current syllabus. These examples suggest a practical role for campus AI in directing students to official resources. The five <a href="#pair-coverage">paired ratings</a> for finding campus resources were mixed, leaving relative usefulness uncertain.</p>
+<p>The ACC307 case reported generally favourable feedback on its customised tutor<sup><a class="cite" href="#ref-acc307">2</a></sup>. In ADS401, <a href="#fig-experience">recent users’ ratings</a> of XJTLU AI were mostly neutral or negative. ACC307 asked about a tutor configured specifically for Advanced Taxation, and our survey asked about XJTLU AI services more broadly. The different tools and survey questions limit what we can infer from the two sets of responses.</p>
 <h3 id="limitations">Limitations</h3>
 <ul class="scannable">
 <li><strong>One module.</strong> We heard from volunteers in ADS401. Their experiences may differ from those of other ADS401 students or students in other modules.</li>
-<li><strong>Self-reported use.</strong> We asked students what they remembered doing and what they thought of the tools. AI literacy and reliance would require their own measures<sup><a class="cite" href="#ref-14">14</a>,<a class="cite" href="#ref-15">15</a></sup>.</li>
+<li><strong>Self-reported use.</strong> We asked students what they remembered doing and what they thought of the tools. AI literacy and reliance would require their own measures<sup><a class="cite" href="#ref-14">16</a>,<a class="cite" href="#ref-15">17</a></sup>.</li>
 <li><strong>Interview coverage.</strong> We interviewed volunteers from <span class="group-label g1" tabindex="0" aria-describedby="group-definition-g1">G1</span> and <span class="group-label g2" tabindex="0" aria-describedby="group-definition-g2">G2</span> only. We had no interviews with students who used neither type of AI (<span class="group-label g3" tabindex="0" aria-describedby="group-definition-g3">G3</span>) or only XJTLU AI (<span class="group-label g4" tabindex="0" aria-describedby="group-definition-g4">G4</span>).</li>
 <li><strong>One point in time.</strong> We asked about recent use and future intentions. We would need follow-up data to see whether students kept using the tools.</li>
-<li><strong>Informal comparison.</strong> The survey and interviews capture perceptions, as in Henderson et al.’s comparison of student views on AI and teacher feedback<sup><a class="cite" href="#ref-16">16</a></sup>. The eight logged problems came from a walkthrough with one volunteer and one researcher. A standard comparison would need the same tasks, timing and scoring for each tool.</li>
+<li><strong>Informal comparison.</strong> The survey and interviews capture perceptions, as in Henderson et al.’s comparison of student views on AI and teacher feedback<sup><a class="cite" href="#ref-16">18</a></sup>. The eight logged problems came from a walkthrough with one volunteer and one researcher. A standard comparison would need the same tasks, timing and scoring for each tool.</li>
 </ul>
 <h3 id="recommendations">Recommendations by research question</h3>
 <p>We drew these recommendations from the <a href="#findings">Presentation 3 findings</a>.</p>
@@ -714,13 +782,22 @@ nav .contents-more a::before { content:none }
 </li>
 <li>
 <h4>RQ3 · Make answers easier to check and problems easier to resolve</h4>
-<p><strong>XJTLU AI developers.</strong> Explain what the assistant can do<sup><a class="cite" href="#ref-17">17</a></sup>. Link course answers to the source material and show where to look when the assistant cannot retrieve it.</p>
+<p><strong>XJTLU AI developers.</strong> Explain what the assistant can do<sup><a class="cite" href="#ref-17">19</a></sup>. Link course answers to the source material and show where to look when the assistant cannot retrieve it.</p>
 <p><strong>ADS401 teaching team.</strong> Share course tasks that students found difficult. Test those tasks with developers to see where users get stuck, lose time or receive answers they cannot verify.</p>
 </li>
 </ol>
+<h3 id="follow-up-evaluation">Follow-up evaluation</h3>
+<p>At the outset, we lacked the formative evidence needed to choose representative ADS401 tasks and fair criteria for comparing tools. We therefore used questionnaires, interviews and a walkthrough to establish what students used AI for and where they needed help. A follow-up experiment could ask students to complete two tasks with each tool:</p>
+<ol class="scannable">
+<li>Find the current ADS401 module handbook.</li>
+<li>Check a statistical explanation against official course material.</li>
+</ol>
+<p>Use the same instructions and scoring criteria for both tools. Record whether students find a verifiable source, reach the correct answer and complete the task, and how long they take.</p>
 </section>
 <section id="transparency" aria-labelledby="h-transparency">
 <p class="number">08 · Research record</p><h2 id="h-transparency">Transparency</h2>
+<h3 id="research-materials-availability">Availability of research materials</h3>
+<p>The <a href="#material-links">Materials section</a> links to the questionnaire, interview guide, participant information sheet and walkthrough log. <a href="#appendix-routing">Appendix C</a> lists the survey routes, and <a href="#appendix-coding">Appendix B</a> gives interview code counts and paraphrased examples. We kept contact details separate from survey analysis. Detailed interview records are held in restricted course materials.</p>
 <h3>AI usage</h3>
 <p>[1] <a href="https://www.deepseek.com/">DeepSeek</a> (DeepSeek). Used to organise questionnaire and interview materials, transcribe audio, format data and assist with drafting.</p>
 <p>[2] <a href="https://chatgpt.com/">ChatGPT / Codex</a> (OpenAI). Used to prepare and deploy the questionnaire, assist with Python-based data processing, organise research materials and results, prepare speaker notes, revise visualisations, slides and the report, and maintain the GitHub Pages site.</p>
@@ -730,11 +807,13 @@ nav .contents-more a::before { content:none }
 <p id="service-references" class="number">09 · Sources</p><h2 id="h-references">References</h2>
 <ol class="references" role="list">
 <li id="ref-1">Xi’an Jiaotong-Liverpool University. “XIPU AI.” XJTLU Learning Mall. Accessed: Nov. 23, 2026. [Online]. Available: <a href="https://www.xjtlu.edu.cn/en/learning-mall/technology-enhanced-learning/xipu-ai">https://www.xjtlu.edu.cn/en/learning-mall/technology-enhanced-learning/xipu-ai</a></li>
+<li id="ref-acc307">L. Hou, X. Lu, J. Jiang, E. O’Brien, and L. Xie, “Enhancing student engagement and self-directed learning by customised XIPU AI tutor,” XJTLU Learning Mall, Apr. 24, 2025. Accessed: Nov. 26, 2026. [Online]. Available: <a href="https://www.learningmall.cn/en/ceie/enhancing-student-engagement-and-self-directed-learning-by-customised-xipu-ai-tutor.html">https://www.learningmall.cn/en/ceie/enhancing-student-engagement-and-self-directed-learning-by-customised-xipu-ai-tutor.html</a></li>
 <li id="ref-2">F. D. Davis, “Perceived usefulness, perceived ease of use, and user acceptance of information technology,” <i>MIS Q.</i>, vol. 13, no. 3, pp. 319–340, Sep. 1989, doi: <a href="https://doi.org/10.2307/249008">10.2307/249008</a>.</li>
 <li id="ref-3">V. Venkatesh, M. G. Morris, G. B. Davis, and F. D. Davis, “User acceptance of information technology: Toward a unified view,” <i>MIS Q.</i>, vol. 27, no. 3, pp. 425–478, Sep. 2003, doi: <a href="https://doi.org/10.2307/30036540">10.2307/30036540</a>.</li>
 <li id="ref-4">A. Habibi, Muhaimin, B. K. Danibao, Y. G. Wibowo, S. Wahyuni, and A. Octavia, “ChatGPT in higher education learning: Acceptance and use,” <i>Comput. Educ. Artif. Intell.</i>, vol. 5, 2023, Art. no. 100190, doi: <a href="https://doi.org/10.1016/j.caeai.2023.100190">10.1016/j.caeai.2023.100190</a>.</li>
 <li id="ref-5">M. Farinosi and C. Melchior, “To adopt or to ban? Student perceptions and use of generative AI in higher education,” <i>Humanit. Soc. Sci. Commun.</i>, vol. 12, Nov. 2025, Art. no. 1684, doi: <a href="https://doi.org/10.1057/s41599-025-05982-7">10.1057/s41599-025-05982-7</a>.</li>
 <li id="ref-6">H. Johnston, R. F. Wells, E. M. Shanks, T. Boey, and B. N. Parsons, “Student perspectives on the use of generative artificial intelligence technologies in higher education,” <i>Int. J. Educ. Integr.</i>, vol. 20, no. 1, Feb. 2024, Art. no. 2, doi: <a href="https://doi.org/10.1007/s40979-024-00149-4">10.1007/s40979-024-00149-4</a>.</li>
+<li id="ref-18">J. Chung, M. Henderson, N. Pepperell, C. Slade, and Y. Liang, “Student perspectives on AI in Higher Education: Student Survey,” Student Perspectives on AI in Higher Education Project, 2024, doi: <a href="https://doi.org/10.26180/27915930">10.26180/27915930</a>.</li>
 <li id="ref-7">D. L. Goodhue and R. L. Thompson, “Task-technology fit and individual performance,” <i>MIS Q.</i>, vol. 19, no. 2, pp. 213–236, Jun. 1995, doi: <a href="https://doi.org/10.2307/249689">10.2307/249689</a>.</li>
 <li id="ref-8">A. Almassaad, H. Alajlan, and R. Alebaikan, “Student perceptions of generative artificial intelligence: Investigating utilization, benefits, and challenges in higher education,” <i>Systems</i>, vol. 12, no. 10, Oct. 2024, Art. no. 385, doi: <a href="https://doi.org/10.3390/systems12100385">10.3390/systems12100385</a>.</li>
 <li id="ref-9">C. Y. Lai, K. Y. Cheung, C. S. Chan, and K. K. Law, “Integrating the adapted UTAUT model with moral obligation, trust and perceived risk to predict ChatGPT adoption for assessment support: A survey with students,” <i>Comput. Educ. Artif. Intell.</i>, vol. 6, Jun. 2024, Art. no. 100246, doi: <a href="https://doi.org/10.1016/j.caeai.2024.100246">10.1016/j.caeai.2024.100246</a>.</li>
@@ -746,7 +825,6 @@ nav .contents-more a::before { content:none }
 <li id="ref-15">C. Hou, G. Zhu, V. Sudarshan, F. S. Lim, and Y. S. Ong, “Measuring undergraduate students’ reliance on generative AI during problem-solving: Scale development and validation,” <i>Comput. Educ.</i>, vol. 234, Sep. 2025, Art. no. 105329, doi: <a href="https://doi.org/10.1016/j.compedu.2025.105329">10.1016/j.compedu.2025.105329</a>.</li>
 <li id="ref-16">M. Henderson <i>et al.</i>, “Comparing generative AI and teacher feedback: Student perceptions of usefulness and trustworthiness,” <i>Assess. Eval. Higher Educ.</i>, vol. 51, no. 5, pp. 863–878, Jul. 2026, doi: <a href="https://doi.org/10.1080/02602938.2025.2502582">10.1080/02602938.2025.2502582</a>.</li>
 <li id="ref-17">S. Amershi <i>et al.</i>, “Guidelines for human-AI interaction,” in <i>Proc. CHI Conf. Hum. Factors Comput. Syst. (CHI)</i>, Glasgow, U.K., 2019, pp. 1–13, doi: <a href="https://doi.org/10.1145/3290605.3300233">10.1145/3290605.3300233</a>.</li>
-<li id="ref-18">J. Chung, M. Henderson, N. Pepperell, C. Slade, and Y. Liang, “Student perspectives on AI in Higher Education: Student Survey,” Student Perspectives on AI in Higher Education Project, 2024, doi: <a href="https://doi.org/10.26180/27915930">10.26180/27915930</a>.</li>
 </ol>
 </section>
 <section id="materials" aria-labelledby="h-materials">
@@ -756,7 +834,7 @@ nav .contents-more a::before { content:none }
 <li><strong>Presentation 2 · Research design.</strong> <a href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/pre2_slides.pdf">Slide deck</a> · <a href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/material.md">Materials inventory</a> · <a href="https://github.com/LionChenA/ads401/blob/main/assets/pre2/materials/survey/ADS401.Ethics.ParticipantInformationSheet.pdf">Participant information sheet</a></li>
 <li><strong>Survey and interviews.</strong> <a href="https://github.com/LionChenA/ads401/tree/main/assets/pre2/materials/survey">Questionnaire source files on GitHub</a> · <a href="https://github.com/LionChenA/ads401/blob/main/assets/pre3/data/interview/synthesis/interview_guide_v2.md">Interview guide</a></li>
 <li><strong>Presentation 3 · Processed evidence.</strong> <a href="/ads401/pre3/">Data presentation</a> · <a href="https://github.com/LionChenA/ads401">Project repository</a></li>
-<li><strong>Task observation.</strong> <a href="ADS401_Pilot_Observation.html">Pilot study materials and issue log</a> · <a href="#observation-photos">Observation photographs</a></li>
+<li><strong>Task observation.</strong> <a href="#appendix-observation">Pilot study materials and issue log</a> · <a href="#observation-photos">Observation photographs</a></li>
 </ul>
 
 <h3 id="team-contributions">Team contributions</h3>
@@ -1248,7 +1326,7 @@ nav .contents-more a::before { content:none }
 <caption>Table C1. Research questions, deployed items and eligible students</caption>
 <thead><tr><th scope="col">Research question</th><th scope="col">Respondent route</th><th scope="col">Questionnaire items and design purpose</th></tr></thead>
 <tbody>
-<tr><th scope="row">RQ1 · Awareness and adoption</th><td>All respondents · <strong>n = 27 students</strong></td><td><a href="#appendix-q7" class="q-link" title="Read questionnaire item Q7">Q7</a>, <a href="#appendix-q8" class="q-link" title="Read questionnaire item Q8">Q8</a>, <a href="#appendix-q9" class="q-link" title="Read questionnaire item Q9">Q9</a> · Familiarity, ever-use and four-week course use. <a class="q-link" href="#appendix-q8" title="Read questionnaire item Q8">Q8</a> has 26 valid answers.</td></tr>
+<tr><th scope="row">RQ1 · Awareness and adoption</th><td>All respondents · <strong>n = 27 students</strong></td><td><a href="#appendix-q7" class="q-link" title="Read questionnaire item Q7">Q7</a>, <a href="#appendix-q8" class="q-link" title="Read questionnaire item Q8">Q8</a>, <a href="#appendix-q9" class="q-link" title="Read questionnaire item Q9">Q9</a> · Familiarity, ever-use and four-week course use.</td></tr>
 <tr><th scope="row">RQ2 · Usage patterns</th><td>XJTLU AI (<span class="group-label g1" tabindex="0" aria-describedby="group-definition-g1">G1</span> + <span class="group-label g4" tabindex="0" aria-describedby="group-definition-g4">G4</span>) · <strong>n = 8 students</strong><br>External AI (<span class="group-label g1" tabindex="0" aria-describedby="group-definition-g1">G1</span> + <span class="group-label g2" tabindex="0" aria-describedby="group-definition-g2">G2</span>) · <strong>n = 22 students</strong></td><td><a href="#appendix-q10" class="q-link" title="Read questionnaire item Q10">Q10</a>, <a href="#appendix-q11" class="q-link" title="Read questionnaire item Q11">Q11</a>, <a href="#appendix-q12" class="q-link" title="Read questionnaire item Q12">Q12</a> · XJTLU AI frequency, activities and usefulness. <a href="#appendix-q19" class="q-link" title="Read questionnaire item Q19">Q19</a>, <a href="#appendix-q20" class="q-link" title="Read questionnaire item Q20">Q20</a>, <a href="#appendix-q21" class="q-link" title="Read questionnaire item Q21">Q21</a> · Parallel items for external AI.</td></tr>
 <tr><th scope="row">RQ3 · Experience and continuation</th><td>Recent XJTLU AI use (<span class="group-label g1" tabindex="0" aria-describedby="group-definition-g1">G1</span> + <span class="group-label g4" tabindex="0" aria-describedby="group-definition-g4">G4</span>) · <strong>n = 8 students</strong></td><td><a href="#appendix-q13" class="q-link" title="Read questionnaire item Q13">Q13</a>, <a href="#appendix-q14" class="q-link" title="Read questionnaire item Q14">Q14</a>, <a href="#appendix-q15" class="q-link" title="Read questionnaire item Q15">Q15</a>, <a href="#appendix-q16" class="q-link" title="Read questionnaire item Q16">Q16</a> · Verification, perceptions, problems and intention to continue.</td></tr>
 <tr><th scope="row">RQ3 · Barriers and future trial</th><td>No recent XJTLU AI use (<span class="group-label g2" tabindex="0" aria-describedby="group-definition-g2">G2</span> + <span class="group-label g3" tabindex="0" aria-describedby="group-definition-g3">G3</span>) · <strong>n = 19 students</strong></td><td><a href="#appendix-q17" class="q-link" title="Read questionnaire item Q17">Q17</a>, <a href="#appendix-q18" class="q-link" title="Read questionnaire item Q18">Q18</a> · Reasons for non-use and willingness to try or resume. The <span class="group-label g2" tabindex="0" aria-describedby="group-definition-g2">G2</span>-only barrier analysis covers 15 students.</td></tr>
