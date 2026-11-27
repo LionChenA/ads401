@@ -146,31 +146,41 @@ figure { margin:1rem 0 1.3rem }
 .panel-bars .bar-row > span:first-child { grid-column:1 / -1; font-size:.86rem; line-height:1.35 }
 .panel-bars .bar-row .track { grid-column:1; grid-row:2; height:.6rem }
 .panel-bars .bar-row b { grid-column:2; grid-row:2; font-size:.78rem }
-.intent-chart { display:grid; gap:.9rem; margin:.2rem 0 .3rem }
-.intent-row { display:grid; grid-template-columns:clamp(9rem,24%,12rem) minmax(0,1fr); align-items:center; gap:.9rem }
-.intent-label b { display:block; color:var(--teal); font-size:.92rem }
-.intent-label small { display:block; margin-top:.1rem; color:var(--muted); font-size:.78rem; line-height:1.35 }
-.intent-bar { display:flex; height:1.7rem; overflow:hidden; background:var(--track); border-radius:3px }
-.intent-seg { display:flex; align-items:center; justify-content:center; width:var(--value); min-width:0; color:#fff; font-size:.76rem; font-weight:750; font-variant-numeric:tabular-nums }
-.intent-seg.neg { background:var(--barrier) }
-.intent-seg.neu { background:var(--muted) }
-.intent-seg.pos { background:var(--link) }
+.intent-units {
+  --group-gap:clamp(.3rem,1.4vw,.7rem);
+  display:grid;
+  grid-template-columns:repeat(5,minmax(0,1fr)) var(--group-gap) repeat(2,minmax(0,1fr)) var(--group-gap) minmax(0,1fr);
+  gap:.35rem clamp(.18rem,1vw,.5rem);
+  max-width:31rem;
+  margin:.3rem auto .55rem;
+  color:var(--teal)
+}
+.intent-units::before, .intent-units::after {
+  content:"";
+  grid-row:1 / span 2;
+  justify-self:center;
+  width:1px;
+  background:var(--line)
+}
+.intent-units::before { grid-column:6 }
+.intent-units::after { grid-column:9 }
+.intent-unit { display:grid; place-items:center; aspect-ratio:1; border:1px solid var(--muted); border-radius:.25rem; font-family:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif; font-size:clamp(1rem,3vw,1.5rem); line-height:1 }
+.intent-group-label { grid-row:2; justify-self:center; text-align:center; color:var(--muted); font-size:clamp(.64rem,2vw,.83rem); line-height:1.4 }
+.intent-group-unlikely { grid-column:1 / span 5 }
+.intent-group-neutral { grid-column:7 / span 2 }
+.intent-group-likely { grid-column:10 }
 .chart-scroll { overflow-x:auto }
 .chart-scroll svg { display:block; width:100%; min-width:38rem; height:auto }
 .exp-mobile, .pairs-mobile { display:none }
-.exp-mobile-head, .exp-mobile-scale { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)) 2.2rem 2.2rem; gap:2px; text-align:center }
+.exp-mobile-head, .exp-mobile-scale { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)) 2.2rem; gap:2px; text-align:center }
 .exp-mobile-head { padding-bottom:.15rem; border-bottom:1px solid var(--line); color:var(--muted); font-size:.66rem }
 .exp-mobile-item { padding:.45rem 0; border-bottom:1px solid var(--line) }
 .exp-mobile-item:last-child { border-bottom:0 }
 .exp-mobile-label { margin:0 0 .3rem; font-size:.82rem; line-height:1.35 }
 .exp-mobile-scale { font-size:.7rem }
-.exp-mobile-cell, .exp-mobile-med, .exp-mobile-na { padding:.25rem 0; border-radius:2px; font-variant-numeric:tabular-nums }
+.exp-mobile-cell, .exp-mobile-na { padding:.25rem 0; border-radius:2px; font-variant-numeric:tabular-nums }
 .exp-mobile-cell { background:var(--surface); color:var(--muted) }
-.exp-mobile-cell.has { color:#fff; font-weight:750 }
-.exp-mobile-cell.neg.has { background:var(--barrier) }
-.exp-mobile-cell.mid.has { background:var(--muted) }
-.exp-mobile-cell.pos.has { background:var(--link) }
-.exp-mobile-med { color:var(--link); font-weight:800 }
+.exp-mobile-cell.has { color:#fff; background:var(--link); font-weight:750 }
 .exp-mobile-na { color:var(--muted) }
 .pairs-mobile-head, .pairs-mobile-row { display:grid; grid-template-columns:5.2rem minmax(0,1fr) minmax(0,1.15fr); gap:.5rem; padding:.4rem 0; border-bottom:1px solid var(--line) }
 .pairs-mobile-head { color:var(--muted); font-size:.68rem; letter-spacing:.05em; text-transform:uppercase }
@@ -208,6 +218,7 @@ thead th { background:var(--tint); color:var(--teal) }
 tbody th { font-weight:675 }
 .numeric td:not(:first-child), .numeric thead th:not(:first-child) { text-align:center; font-variant-numeric:tabular-nums }
 .numeric th { vertical-align:middle }
+#pair-coverage tbody th { font-weight:400 }
 
 .table-with-notes .scroll { margin-bottom:0 }
 .table-notes { padding:.5rem .72rem; margin:.4rem 0 1.15rem; background:var(--surface); border-inline-start:2px solid var(--line); color:var(--muted); font-size:.86rem; line-height:1.55 }
@@ -303,6 +314,7 @@ nav .toc-subsections a::before { content:none }
 .question-index a:hover, .question-index a:focus { background:#dbeef5 }
 .scroll .contribution-table { min-width:33rem; table-layout:fixed }
 .contribution-table thead th:first-child { width:19% }
+.contribution-table tbody th[scope="row"] { text-align:right }
 .observation-codes { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.7rem; margin:.9rem 0 1.15rem }
 .observation-codes > div { background:var(--surface); padding:.7rem .9rem; border-radius:.35rem }
 .observation-codes dt { color:var(--teal); font-weight:700; line-height:1.35 }
@@ -332,7 +344,6 @@ nav .toc-subsections a::before { content:none }
   .figure-split { grid-template-columns:1fr }
   .activity-row { grid-template-columns:8.2rem minmax(0,1fr); gap:.15rem .6rem }
   .activity-bar { grid-template-columns:minmax(0,1fr) 5.8rem }
-  .intent-row { grid-template-columns:1fr; gap:.35rem }
   .rq-block h3 { font-size:1.25rem }
   .rq-block h4 { margin-top:1.3rem }
   .exp-desktop, .pairs-desktop { display:none }
@@ -493,8 +504,13 @@ nav .toc-subsections a::before { content:none }
 <p>Participation was voluntary. In interviews, we asked students to describe a task, why they chose an AI tool and how they checked the answer.</p>
 <div class="sample-grid" aria-label="Recruitment and participation">
 <div class="sample-card sample-metric"><strong>44</strong><h4>Eligible students invited</h4><p>48 enrolled, including 4 research team members.</p></div>
-<div class="sample-card sample-metric"><strong>27</strong><h4>Survey completions</h4><p>61.4% of eligible students. The questionnaire was available in English and Chinese.</p></div>
-<div class="sample-card sample-metric"><strong>7</strong><h4>Students interviewed</h4><p>Participants from <span class="group-label g1" tabindex="0" aria-describedby="group-definition-g1">G1</span> and <span class="group-label g2" tabindex="0" aria-describedby="group-definition-g2">G2</span>.</p></div>
+<div class="sample-card sample-metric"><strong>27</strong><h4>Survey completions</h4><p>61.4% of eligible students<br>English and Chinese versions</p></div>
+<div class="sample-card sample-metric">
+<strong>7</strong><h4>Students interviewed</h4>
+<p>Groups identified from interview accounts:<br>
+<span class="group-label g1">G1-like</span> · Both AI types: <b>1</b><br>
+<span class="group-label g2">G2-like</span> · External AI only: <b>4</b></p>
+</div>
 </div>
 <h4 id="sample-profile">Survey respondent profile (n = 27)</h4>
 <div class="sample-grid sample-profile-grid" aria-labelledby="sample-profile">
@@ -562,11 +578,11 @@ nav .toc-subsections a::before { content:none }
 <p>We excluded N/A from rating summaries. For each activity, we paired usefulness ratings only when the same student rated both tools (<a href="#appendix-q12">Q12</a> and <a href="#appendix-q21">Q21</a>), then subtracted the external AI rating from the XJTLU AI rating. <a href="#fig-preference">Overall preference</a> was a separate question, and we retained “Unable to compare” as a response option.</p>
 <div class="table-with-notes">
 <div class="scroll" role="region" aria-label="Table 1. Matched usefulness ratings available for each activity" tabindex="0"><table class="numeric" id="pair-coverage" aria-describedby="pair-coverage-note"><caption>Table 1. Matched usefulness ratings available for each activity</caption><thead><tr><th scope="col">Activity</th><th scope="col">Valid pairs</th><th scope="col">Campus AI higher</th><th scope="col">Tie</th><th scope="col">External AI higher</th></tr></thead><tbody>
-<tr><th scope="row">Campus resources</th><td>5</td><td>2</td><td>2</td><td>1</td></tr>
-<tr><th scope="row">In-course content</th><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><th scope="row">Campus resources</th><td><strong>5</strong></td><td><strong>2</strong></td><td><strong>2</strong></td><td><strong>1</strong></td></tr>
+<tr><th scope="row">In-course content</th><td><strong>1</strong></td><td>0</td><td>0</td><td><strong>1</strong></td></tr>
 <tr><th scope="row">Beyond-course support</th><td>0</td><td>0</td><td>0</td><td>0</td></tr>
 <tr><th scope="row">ADS401 policy</th><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><th scope="row">Coursework production</th><td>1</td><td>0</td><td>1</td><td>0</td></tr>
+<tr><th scope="row">Coursework production</th><td><strong>1</strong></td><td>0</td><td><strong>1</strong></td><td>0</td></tr>
 <tr><th scope="row">Other</th><td>0</td><td>0</td><td>0</td><td>0</td></tr>
 </tbody></table></div>
 <p class="table-notes" id="pair-coverage-note">Ratings for finding campus resources were mixed. Of the 5 students who rated both tools for this activity, 2 rated XJTLU AI higher, 2 rated both tools equally and 1 rated external AI higher. The median difference was 0.</p>
@@ -641,36 +657,36 @@ nav .toc-subsections a::before { content:none }
 <p class="sub-lead">Recent users rated six statements on a 1–5 scale; each item has seven valid ratings and one N/A.</p>
 <figure class="chart-panel" aria-labelledby="fig-experience">
 <div class="chart-scroll exp-desktop">
-<svg viewBox="0 0 1080 456" role="img" aria-labelledby="exp-title exp-desc"><title id="exp-title">Six experience items, each with seven ratings and one N/A</title><desc id="exp-desc">Dots show individual ratings from 1 to 5. Medians are 3, 2, 3, 2, 3 and 3; every item has at least five ratings at or below neutral.</desc><rect x="0" y="51" width="1080" height="64" fill="#f4f7f8"/><rect x="0" y="179" width="1080" height="64" fill="#f4f7f8"/><rect x="0" y="307" width="1080" height="64" fill="#f4f7f8"/><line x1="555" x2="555" y1="49" y2="434" stroke="#dfe6e8"/><line x1="635" x2="635" y1="49" y2="434" stroke="#dfe6e8"/><line x1="715" x2="715" y1="49" y2="434" stroke="#dfe6e8"/><line x1="795" x2="795" y1="49" y2="434" stroke="#dfe6e8"/><line x1="875" x2="875" y1="49" y2="434" stroke="#dfe6e8"/><text x="555" y="20" text-anchor="middle" font-size="14" fill="#172327" font-weight="700">1</text><text x="635" y="20" text-anchor="middle" font-size="14" fill="#172327" font-weight="700">2</text><text x="715" y="20" text-anchor="middle" font-size="14" fill="#172327" font-weight="700">3</text><text x="795" y="20" text-anchor="middle" font-size="14" fill="#172327" font-weight="700">4</text><text x="875" y="20" text-anchor="middle" font-size="14" fill="#172327" font-weight="700">5</text><text x="555" y="40" text-anchor="middle" font-size="14" fill="#52646d">Disagree</text><text x="715" y="40" text-anchor="middle" font-size="14" fill="#52646d">Neutral</text><text x="875" y="40" text-anchor="middle" font-size="14" fill="#52646d">Agree</text><text x="955" y="25" text-anchor="middle" font-size="14" fill="#52646d">Median</text><text x="1035" y="25" text-anchor="middle" font-size="14" fill="#52646d">N/A</text><text x="0" y="89" font-size="17" fill="#172327">Helps complete ADS401 tasks more effectively</text><circle cx="635" cy="76.0" r="6.5" fill="#b3403a"/><circle cx="635" cy="90.0" r="6.5" fill="#b3403a"/><circle cx="715" cy="62.0" r="6.5" fill="#8d9baa"/><circle cx="715" cy="76.0" r="6.5" fill="#8d9baa"/><circle cx="715" cy="90.0" r="6.5" fill="#8d9baa"/><circle cx="715" cy="104.0" r="6.5" fill="#8d9baa"/><circle cx="795" cy="83.0" r="6.5" fill="#1683a5"/><text x="955" y="90" text-anchor="middle" font-size="21" font-weight="800" fill="#1683a5">3</text><text x="1035" y="89" text-anchor="middle" font-size="17" fill="#52646d">1</text><text x="0" y="153" font-size="17" fill="#172327">Helps complete ADS401 tasks more efficiently</text><circle cx="555" cy="147.0" r="6.5" fill="#b3403a"/><circle cx="635" cy="133.0" r="6.5" fill="#b3403a"/><circle cx="635" cy="147.0" r="6.5" fill="#b3403a"/><circle cx="635" cy="161.0" r="6.5" fill="#b3403a"/><circle cx="715" cy="140.0" r="6.5" fill="#8d9baa"/><circle cx="715" cy="154.0" r="6.5" fill="#8d9baa"/><circle cx="795" cy="147.0" r="6.5" fill="#1683a5"/><text x="955" y="154" text-anchor="middle" font-size="21" font-weight="800" fill="#1683a5">2</text><text x="1035" y="153" text-anchor="middle" font-size="17" fill="#52646d">1</text><text x="0" y="217" font-size="17" fill="#172327">Easy to learn how to use</text><circle cx="635" cy="204.0" r="6.5" fill="#b3403a"/><circle cx="635" cy="218.0" r="6.5" fill="#b3403a"/><circle cx="715" cy="197.0" r="6.5" fill="#8d9baa"/><circle cx="715" cy="211.0" r="6.5" fill="#8d9baa"/><circle cx="715" cy="225.0" r="6.5" fill="#8d9baa"/><circle cx="795" cy="204.0" r="6.5" fill="#1683a5"/><circle cx="795" cy="218.0" r="6.5" fill="#1683a5"/><text x="955" y="218" text-anchor="middle" font-size="21" font-weight="800" fill="#1683a5">3</text><text x="1035" y="217" text-anchor="middle" font-size="17" fill="#52646d">1</text><text x="0" y="281" font-size="17" fill="#172327">Easy to use for my ADS401 tasks</text><circle cx="555" cy="275.0" r="6.5" fill="#b3403a"/><circle cx="635" cy="261.0" r="6.5" fill="#b3403a"/><circle cx="635" cy="275.0" r="6.5" fill="#b3403a"/><circle cx="635" cy="289.0" r="6.5" fill="#b3403a"/><circle cx="715" cy="275.0" r="6.5" fill="#8d9baa"/><circle cx="795" cy="275.0" r="6.5" fill="#1683a5"/><circle cx="875" cy="275.0" r="6.5" fill="#1683a5"/><text x="955" y="282" text-anchor="middle" font-size="21" font-weight="800" fill="#1683a5">2</text><text x="1035" y="281" text-anchor="middle" font-size="17" fill="#52646d">1</text><text x="0" y="345" font-size="17" fill="#172327">Usually provides information I consider reliable</text><circle cx="635" cy="332.0" r="6.5" fill="#b3403a"/><circle cx="635" cy="346.0" r="6.5" fill="#b3403a"/><circle cx="715" cy="325.0" r="6.5" fill="#8d9baa"/><circle cx="715" cy="339.0" r="6.5" fill="#8d9baa"/><circle cx="715" cy="353.0" r="6.5" fill="#8d9baa"/><circle cx="795" cy="339.0" r="6.5" fill="#1683a5"/><circle cx="875" cy="339.0" r="6.5" fill="#1683a5"/><text x="955" y="346" text-anchor="middle" font-size="21" font-weight="800" fill="#1683a5">3</text><text x="1035" y="345" text-anchor="middle" font-size="17" fill="#52646d">1</text><text x="0" y="409" font-size="17" fill="#172327">I generally trust XJTLU AI’s explanations</text><circle cx="635" cy="396.0" r="6.5" fill="#b3403a"/><circle cx="635" cy="410.0" r="6.5" fill="#b3403a"/><circle cx="715" cy="382.0" r="6.5" fill="#8d9baa"/><circle cx="715" cy="396.0" r="6.5" fill="#8d9baa"/><circle cx="715" cy="410.0" r="6.5" fill="#8d9baa"/><circle cx="715" cy="424.0" r="6.5" fill="#8d9baa"/><circle cx="795" cy="403.0" r="6.5" fill="#1683a5"/><text x="955" y="410" text-anchor="middle" font-size="21" font-weight="800" fill="#1683a5">3</text><text x="1035" y="409" text-anchor="middle" font-size="17" fill="#52646d">1</text></svg>
+<svg viewBox="0 0 1080 456" role="img" aria-labelledby="exp-title exp-desc"><title id="exp-title">Six experience items, each with seven ratings and one N/A</title><desc id="exp-desc">Each dot represents one answer. Helps complete ADS401 tasks more effectively. rating 1: 0, rating 2: 2, rating 3: 4, rating 4: 1, rating 5: 0; one N/A. Helps complete ADS401 tasks more efficiently. rating 1: 1, rating 2: 3, rating 3: 2, rating 4: 1, rating 5: 0; one N/A. Easy to learn how to use. rating 1: 0, rating 2: 2, rating 3: 3, rating 4: 2, rating 5: 0; one N/A. Easy to use for my ADS401 tasks. rating 1: 1, rating 2: 3, rating 3: 1, rating 4: 1, rating 5: 1; one N/A. Usually provides information I consider reliable. rating 1: 0, rating 2: 2, rating 3: 3, rating 4: 1, rating 5: 1; one N/A. I generally trust XJTLU AI’s explanations. rating 1: 0, rating 2: 2, rating 3: 4, rating 4: 1, rating 5: 0; one N/A.</desc><rect x="0" y="51" width="1080" height="64" fill="#f4f7f8"/><rect x="0" y="179" width="1080" height="64" fill="#f4f7f8"/><rect x="0" y="307" width="1080" height="64" fill="#f4f7f8"/><line x1="545" x2="545" y1="49" y2="434" stroke="#dfe6e8"/><line x1="640" x2="640" y1="49" y2="434" stroke="#dfe6e8"/><line x1="735" x2="735" y1="49" y2="434" stroke="#dfe6e8"/><line x1="830" x2="830" y1="49" y2="434" stroke="#dfe6e8"/><line x1="925" x2="925" y1="49" y2="434" stroke="#dfe6e8"/><text x="545" y="20" text-anchor="middle" font-size="14" fill="#172327" font-weight="700">1</text><text x="640" y="20" text-anchor="middle" font-size="14" fill="#172327" font-weight="700">2</text><text x="735" y="20" text-anchor="middle" font-size="14" fill="#172327" font-weight="700">3</text><text x="830" y="20" text-anchor="middle" font-size="14" fill="#172327" font-weight="700">4</text><text x="925" y="20" text-anchor="middle" font-size="14" fill="#172327" font-weight="700">5</text><text x="545" y="40" text-anchor="middle" font-size="14" fill="#52646d">Disagree</text><text x="735" y="40" text-anchor="middle" font-size="14" fill="#52646d">Neutral</text><text x="925" y="40" text-anchor="middle" font-size="14" fill="#52646d">Agree</text><text x="1030" y="25" text-anchor="middle" font-size="14" fill="#52646d">N/A</text><text x="0" y="89" font-size="17" fill="#172327">Helps complete ADS401 tasks more effectively</text><circle cx="640" cy="76.0" r="6.5" fill="var(--link)"/><circle cx="640" cy="90.0" r="6.5" fill="var(--link)"/><circle cx="735" cy="62.0" r="6.5" fill="var(--link)"/><circle cx="735" cy="76.0" r="6.5" fill="var(--link)"/><circle cx="735" cy="90.0" r="6.5" fill="var(--link)"/><circle cx="735" cy="104.0" r="6.5" fill="var(--link)"/><circle cx="830" cy="83.0" r="6.5" fill="var(--link)"/><text x="1030" y="89" text-anchor="middle" font-size="17" fill="#52646d">1</text><text x="0" y="153" font-size="17" fill="#172327">Helps complete ADS401 tasks more efficiently</text><circle cx="545" cy="147.0" r="6.5" fill="var(--link)"/><circle cx="640" cy="133.0" r="6.5" fill="var(--link)"/><circle cx="640" cy="147.0" r="6.5" fill="var(--link)"/><circle cx="640" cy="161.0" r="6.5" fill="var(--link)"/><circle cx="735" cy="140.0" r="6.5" fill="var(--link)"/><circle cx="735" cy="154.0" r="6.5" fill="var(--link)"/><circle cx="830" cy="147.0" r="6.5" fill="var(--link)"/><text x="1030" y="153" text-anchor="middle" font-size="17" fill="#52646d">1</text><text x="0" y="217" font-size="17" fill="#172327">Easy to learn how to use</text><circle cx="640" cy="204.0" r="6.5" fill="var(--link)"/><circle cx="640" cy="218.0" r="6.5" fill="var(--link)"/><circle cx="735" cy="197.0" r="6.5" fill="var(--link)"/><circle cx="735" cy="211.0" r="6.5" fill="var(--link)"/><circle cx="735" cy="225.0" r="6.5" fill="var(--link)"/><circle cx="830" cy="204.0" r="6.5" fill="var(--link)"/><circle cx="830" cy="218.0" r="6.5" fill="var(--link)"/><text x="1030" y="217" text-anchor="middle" font-size="17" fill="#52646d">1</text><text x="0" y="281" font-size="17" fill="#172327">Easy to use for my ADS401 tasks</text><circle cx="545" cy="275.0" r="6.5" fill="var(--link)"/><circle cx="640" cy="261.0" r="6.5" fill="var(--link)"/><circle cx="640" cy="275.0" r="6.5" fill="var(--link)"/><circle cx="640" cy="289.0" r="6.5" fill="var(--link)"/><circle cx="735" cy="275.0" r="6.5" fill="var(--link)"/><circle cx="830" cy="275.0" r="6.5" fill="var(--link)"/><circle cx="925" cy="275.0" r="6.5" fill="var(--link)"/><text x="1030" y="281" text-anchor="middle" font-size="17" fill="#52646d">1</text><text x="0" y="345" font-size="17" fill="#172327">Usually provides information I consider reliable</text><circle cx="640" cy="332.0" r="6.5" fill="var(--link)"/><circle cx="640" cy="346.0" r="6.5" fill="var(--link)"/><circle cx="735" cy="325.0" r="6.5" fill="var(--link)"/><circle cx="735" cy="339.0" r="6.5" fill="var(--link)"/><circle cx="735" cy="353.0" r="6.5" fill="var(--link)"/><circle cx="830" cy="339.0" r="6.5" fill="var(--link)"/><circle cx="925" cy="339.0" r="6.5" fill="var(--link)"/><text x="1030" y="345" text-anchor="middle" font-size="17" fill="#52646d">1</text><text x="0" y="409" font-size="17" fill="#172327">I generally trust XJTLU AI’s explanations</text><circle cx="640" cy="396.0" r="6.5" fill="var(--link)"/><circle cx="640" cy="410.0" r="6.5" fill="var(--link)"/><circle cx="735" cy="382.0" r="6.5" fill="var(--link)"/><circle cx="735" cy="396.0" r="6.5" fill="var(--link)"/><circle cx="735" cy="410.0" r="6.5" fill="var(--link)"/><circle cx="735" cy="424.0" r="6.5" fill="var(--link)"/><circle cx="830" cy="403.0" r="6.5" fill="var(--link)"/><text x="1030" y="409" text-anchor="middle" font-size="17" fill="#52646d">1</text></svg>
 </div>
-<div class="exp-mobile" role="img" aria-label="Six experience items. Counts at ratings 1 to 5; medians are 3, 2, 3, 2, 3 and 3.">
-<div class="exp-mobile-head" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>Med</span><span>N/A</span></div>
-<div class="exp-mobile-item">
+<div class="exp-mobile" role="group" aria-label="Experience ratings by statement">
+<div class="exp-mobile-head" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>N/A</span></div>
+<div class="exp-mobile-item" role="img" aria-label="Helps complete ADS401 tasks more effectively. rating 1: 0, rating 2: 2, rating 3: 4, rating 4: 1, rating 5: 0; one N/A.">
 <p class="exp-mobile-label">Helps complete ADS401 tasks more effectively</p>
-<div class="exp-mobile-scale"><span class="exp-mobile-cell neg">0</span><span class="exp-mobile-cell neg has">2</span><span class="exp-mobile-cell mid has">4</span><span class="exp-mobile-cell pos has">1</span><span class="exp-mobile-cell pos">0</span><span class="exp-mobile-med">3</span><span class="exp-mobile-na">1</span></div>
+<div class="exp-mobile-scale"><span class="exp-mobile-cell">0</span><span class="exp-mobile-cell has">2</span><span class="exp-mobile-cell has">4</span><span class="exp-mobile-cell has">1</span><span class="exp-mobile-cell">0</span><span class="exp-mobile-na">1</span></div>
 </div>
-<div class="exp-mobile-item">
+<div class="exp-mobile-item" role="img" aria-label="Helps complete ADS401 tasks more efficiently. rating 1: 1, rating 2: 3, rating 3: 2, rating 4: 1, rating 5: 0; one N/A.">
 <p class="exp-mobile-label">Helps complete ADS401 tasks more efficiently</p>
-<div class="exp-mobile-scale"><span class="exp-mobile-cell neg has">1</span><span class="exp-mobile-cell neg has">3</span><span class="exp-mobile-cell mid has">2</span><span class="exp-mobile-cell pos has">1</span><span class="exp-mobile-cell pos">0</span><span class="exp-mobile-med">2</span><span class="exp-mobile-na">1</span></div>
+<div class="exp-mobile-scale"><span class="exp-mobile-cell has">1</span><span class="exp-mobile-cell has">3</span><span class="exp-mobile-cell has">2</span><span class="exp-mobile-cell has">1</span><span class="exp-mobile-cell">0</span><span class="exp-mobile-na">1</span></div>
 </div>
-<div class="exp-mobile-item">
+<div class="exp-mobile-item" role="img" aria-label="Easy to learn how to use. rating 1: 0, rating 2: 2, rating 3: 3, rating 4: 2, rating 5: 0; one N/A.">
 <p class="exp-mobile-label">Easy to learn how to use</p>
-<div class="exp-mobile-scale"><span class="exp-mobile-cell neg">0</span><span class="exp-mobile-cell neg has">2</span><span class="exp-mobile-cell mid has">3</span><span class="exp-mobile-cell pos has">2</span><span class="exp-mobile-cell pos">0</span><span class="exp-mobile-med">3</span><span class="exp-mobile-na">1</span></div>
+<div class="exp-mobile-scale"><span class="exp-mobile-cell">0</span><span class="exp-mobile-cell has">2</span><span class="exp-mobile-cell has">3</span><span class="exp-mobile-cell has">2</span><span class="exp-mobile-cell">0</span><span class="exp-mobile-na">1</span></div>
 </div>
-<div class="exp-mobile-item">
+<div class="exp-mobile-item" role="img" aria-label="Easy to use for my ADS401 tasks. rating 1: 1, rating 2: 3, rating 3: 1, rating 4: 1, rating 5: 1; one N/A.">
 <p class="exp-mobile-label">Easy to use for my ADS401 tasks</p>
-<div class="exp-mobile-scale"><span class="exp-mobile-cell neg has">1</span><span class="exp-mobile-cell neg has">3</span><span class="exp-mobile-cell mid has">1</span><span class="exp-mobile-cell pos has">1</span><span class="exp-mobile-cell pos has">1</span><span class="exp-mobile-med">2</span><span class="exp-mobile-na">1</span></div>
+<div class="exp-mobile-scale"><span class="exp-mobile-cell has">1</span><span class="exp-mobile-cell has">3</span><span class="exp-mobile-cell has">1</span><span class="exp-mobile-cell has">1</span><span class="exp-mobile-cell has">1</span><span class="exp-mobile-na">1</span></div>
 </div>
-<div class="exp-mobile-item">
+<div class="exp-mobile-item" role="img" aria-label="Usually provides information I consider reliable. rating 1: 0, rating 2: 2, rating 3: 3, rating 4: 1, rating 5: 1; one N/A.">
 <p class="exp-mobile-label">Usually provides information I consider reliable</p>
-<div class="exp-mobile-scale"><span class="exp-mobile-cell neg">0</span><span class="exp-mobile-cell neg has">2</span><span class="exp-mobile-cell mid has">3</span><span class="exp-mobile-cell pos has">1</span><span class="exp-mobile-cell pos has">1</span><span class="exp-mobile-med">3</span><span class="exp-mobile-na">1</span></div>
+<div class="exp-mobile-scale"><span class="exp-mobile-cell">0</span><span class="exp-mobile-cell has">2</span><span class="exp-mobile-cell has">3</span><span class="exp-mobile-cell has">1</span><span class="exp-mobile-cell has">1</span><span class="exp-mobile-na">1</span></div>
 </div>
-<div class="exp-mobile-item">
+<div class="exp-mobile-item" role="img" aria-label="I generally trust XJTLU AI’s explanations. rating 1: 0, rating 2: 2, rating 3: 4, rating 4: 1, rating 5: 0; one N/A.">
 <p class="exp-mobile-label">I generally trust XJTLU AI’s explanations</p>
-<div class="exp-mobile-scale"><span class="exp-mobile-cell neg">0</span><span class="exp-mobile-cell neg has">2</span><span class="exp-mobile-cell mid has">4</span><span class="exp-mobile-cell pos has">1</span><span class="exp-mobile-cell pos">0</span><span class="exp-mobile-med">3</span><span class="exp-mobile-na">1</span></div>
+<div class="exp-mobile-scale"><span class="exp-mobile-cell">0</span><span class="exp-mobile-cell has">2</span><span class="exp-mobile-cell has">4</span><span class="exp-mobile-cell has">1</span><span class="exp-mobile-cell">0</span><span class="exp-mobile-na">1</span></div>
 </div>
 </div>
-<figcaption id="fig-experience"><strong class="chart-title">Figure 5. How recent XJTLU AI users rated their experience (<a class="q-link" href="#appendix-q14" title="Read questionnaire item Q14">Q14</a>, n = 8).</strong> Each mark is one answer. 1 = strongly disagree, 3 = neutral, 5 = strongly agree. The median uses the seven valid ratings; each item also received one N/A.</figcaption>
+<figcaption id="fig-experience"><strong class="chart-title">Figure 5. How recent XJTLU AI users rated their experience (<a class="q-link" href="#appendix-q14" title="Read questionnaire item Q14">Q14</a>, n = 8).</strong> Each mark is one answer. 1 = strongly disagree, 3 = neutral, 5 = strongly agree.</figcaption>
 </figure>
 <p class="takeaway">For every item, at least 5 of the 7 valid ratings were neutral or negative; efficiency and ease of use for ADS401 tasks had median 2, and the other four items median 3.</p>
 
@@ -729,18 +745,23 @@ nav .toc-subsections a::before { content:none }
 </div>
 <div class="evidence-block">
 <h4>Intention to continue</h4>
-<p class="sub-lead">Recent users were asked how likely they were to continue using XJTLU AI for a suitable ADS401 task in the next four weeks (Q16, n = 8).</p>
+<p class="sub-lead">When asked about a suitable ADS401 task in the next four weeks (<a class="q-link" href="#appendix-q16" title="Read questionnaire item Q16">Q16</a>), <strong>5 of the 8 recent users were unlikely or very unlikely</strong> to continue using XJTLU AI, <strong>2 were neutral</strong> and <strong>1 was likely</strong>. Each square represents one response.</p>
 <figure class="chart-panel" aria-labelledby="fig-intentions">
-<p class="chart-legend"><span><i style="background:var(--barrier)"></i>Unlikely</span><span><i style="background:var(--muted)"></i>Neutral</span><span><i style="background:var(--link)"></i>Likely</span></p>
-<div class="intent-chart" role="img" aria-label="Continue: 5 of 8 unlikely, 2 neutral, 1 likely.">
-<div class="intent-row">
-<div class="intent-label"><b>Continue using</b><small><a class="q-link" href="#appendix-q16" title="Read questionnaire item Q16">Q16</a> · <span class="group-label g1" tabindex="0" aria-describedby="group-definition-g1">G1</span> + <span class="group-label g4" tabindex="0" aria-describedby="group-definition-g4">G4</span> · n = 8</small></div>
-<div class="intent-bar" aria-hidden="true"><span class="intent-seg neg" style="--value:62.5%">5</span><span class="intent-seg neu" style="--value:25%">2</span><span class="intent-seg pos" style="--value:12.5%">1</span></div>
+<div class="intent-units" aria-hidden="true">
+<span class="intent-unit">☹️</span>
+<span class="intent-unit">☹️</span>
+<span class="intent-unit">☹️</span>
+<span class="intent-unit">☹️</span>
+<span class="intent-unit">☹️</span>
+<span class="intent-unit">😐</span>
+<span class="intent-unit">😐</span>
+<span class="intent-unit">☺️</span>
+<span class="intent-group-label intent-group-unlikely">Unlikely</span>
+<span class="intent-group-label intent-group-neutral">Neutral</span>
+<span class="intent-group-label intent-group-likely">Likely</span>
 </div>
-</div>
-<figcaption id="fig-intentions"><strong class="chart-title">Figure 8. Intention to continue using XJTLU AI for ADS401 in the next four weeks (<a class="q-link" href="#appendix-q16" title="Read questionnaire item Q16">Q16</a>, recent users, n = 8).</strong> Bars are 100% of the group. Five of the eight were unlikely or very unlikely to continue; one was likely.</figcaption>
+<figcaption id="fig-intentions"><strong class="chart-title">Figure 8. Intention to continue using XJTLU AI.</strong></figcaption>
 </figure>
-<p class="takeaway">Only 1 of 8 recent users was likely to continue using XJTLU AI, and 5 of 8 were unlikely or very unlikely.</p>
 </div>
 </div>
 
